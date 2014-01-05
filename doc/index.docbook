@@ -1,0 +1,289 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY kmyapplication "<application>k9copy</application>">
+  <!ENTITY kappname "k9copy;"><!-- replace kmyapplication here
+                                            do *not* replace kappname-->
+  <!ENTITY package "kde-module"><!-- kdebase, kdeadmin, etc.  Leave
+                                     this unchanged if your
+                                     application is not maintained in KDE CVS -->
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % English "INCLUDE"> <!-- ONLY If you are writing non-English
+                                     original documentation, change
+                                     the language here -->
+
+  <!-- Do not define any other entities; instead, use the entities
+       from entities/general.entities and $LANG/user.entities. -->
+]>
+<!-- kdoctemplate v0.9 January 10 2003
+     Changes to comments to clarify entity usage January 10 2003
+     Minor update to "Credits and Licenses" section on August 24, 2000
+     Removed "Revision history" section on 22 January 2001
+     Changed to Installation/Help menu entities 18 October 2001
+     Other minor cleanup and changes 18 October 2001
+     FPI change and minor changes November 2002 -->
+
+<!--
+This template was designed by: David Rugge davidrugge@mindspring.com
+with lots of help from: Eric Bischoff ebisch@cybercable.tm.fr
+and Frederik Fouvry fouvry@sfs.nphil.uni-tuebingen.de
+of the KDE DocBook team.
+
+You may freely use this template for writing any sort of KDE documentation.
+If you have any changes or improvements, please let us know.
+
+Remember:
+- in XML, the case of the <tags> and attributes is relevant ;
+- also, quote all attributes.
+
+Please don't forget to remove all these comments in your final documentation,
+thanks ;-).
+-->
+
+<!-- ................................................................ -->
+
+<!-- The language must NOT be changed here. -->
+<!-- If you are writing original documentation in a language other -->
+<!-- than English, change the language above ONLY, not here -->
+<book lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title>The &kmyapplication; Handbook</title>
+
+<authorgroup>
+<author>
+<personname>
+<firstname>Jean-Michel</firstname>
+<othername></othername>
+<surname>Petit</surname>
+</personname>
+<email>k9copy@free.fr</email>
+</author>
+</authorgroup>
+
+<!-- TRANS:ROLES_OF_TRANSLATORS -->
+
+<copyright>
+<year>2009</year>
+<holder>Jean-Michel Petit</holder>
+</copyright>
+<!-- Translators: put here the copyright notice of the translation -->
+<!-- Put here the FDL notice.  Read the explanation in fdl-notice.docbook
+     and in the FDL itself on how to use it. -->
+<legalnotice>&FDLNotice;</legalnotice>
+
+<!-- Date and version information of the application
+Don't forget to include this last date and this last revision number, we
+need them for translation coordination !
+Please respect the format of the date (YYYY-MM-DD) and of the version
+(V.MM.LL), it could be used by automation scripts.
+Do NOT change these in the translation. -->
+
+<date>2009-02-19</date>
+<releaseinfo>2.2.0</releaseinfo>
+
+<!-- Abstract about this handbook -->
+
+<abstract>
+<para>
+&kmyapplication; is a dvd backup and authoring tool
+</para>
+</abstract>
+
+<!-- This is a set of Keywords for indexing by search engines.
+Please at least include KDE, the KDE package it is in, the name
+ of your application, and a few relevant keywords. -->
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>kdeutils</keyword>
+<keyword>Kapp</keyword>
+<keyword>dvd</keyword>
+<keyword>nothing else</keyword>
+</keywordset>
+
+</bookinfo>
+
+<!-- The contents of the documentation begin here.  Label
+each chapter so with the id attribute. This is necessary for two reasons: it
+allows you to easily reference the chapter from other chapters of your
+document, and if there is no ID, the name of the generated HTML files will vary
+from time to time making it hard to manage for maintainers and for the CVS
+system. Any chapter labelled (OPTIONAL) may be left out at the author's
+discretion. Other chapters should not be left out in order to maintain a
+consistent documentation style across all KDE apps. -->
+
+<chapter id="introduction">
+<title>Introduction</title>
+
+<!-- The introduction chapter contains a brief introduction for the
+application that explains what it does and where to report
+problems. Basically a long version of the abstract.  Don't include a
+revision history. (see installation appendix comment) -->
+
+<para>
+&kmyapplication; is a program that lets you do backup of video DVD. You can 
+select the titles, audio streams and subtitles you want to keep on your backup.
+</para>
+<para>
+&kmyapplication; is also able to preserve the originals menu of the DVD and shrink a 9Gb DVD
+to make it fit on a 4,7Gb DVD.
+</para>
+<para>
+&kmyapplication; can be used to rip you DVD into all formats supported by MEncoder and ffmpeg. 
+It supports the creation of Matroska video files with multiple audio streams, subtitles and chapters.
+</para>
+</chapter>
+
+<chapter id="using-kapp">
+<title>Using &kmyapplication;</title>
+
+<!-- This chapter should tell the user how to use your app. You should use as
+many sections (Chapter, Sect1, Sect3, etc...) as is necessary to fully document
+your application. -->
+
+<para>
+
+<!-- Note that all graphics should be in .png format. Do not use gifs because of
+patent issues. -->
+
+<screenshot>
+<screeninfo>Here's a screenshot of &kmyapplication;</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="screenshot.png" format="PNG"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase>Screenshot</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+</para>
+
+
+<sect1 id="kapp-features">
+<title>More &kmyapplication; features</title>
+
+<para>k9copy includes a wizard which helps making dvd backup easier</para>
+<para>
+The wizard <guiicon><inlinemediaobject>
+	  <imageobject>
+	    <imagedata fileref="assistant.png" format="PNG"/>
+	  </imageobject>
+
+	  <textobject>
+	    <phrase>Assistant</phrase>
+	  </textobject>
+</inlinemediaobject></guiicon>  presents a series of pages that makes it easy to copy dvd:
+<itemizedlist mark='opencircle'>
+<listitem><para>Selection of the source of the backup</para></listitem>
+<listitem><para>Choice of destination and type of backup</para></listitem>
+<listitem><para>Selection of titles</para></listitem>
+<listitem><para>Selection of audio tracks and subtitles</para></listitem>
+<listitem><para>Options related to the type of copy</para></listitem>
+</itemizedlist>
+</para>
+
+</sect1>
+</chapter>
+
+
+
+
+<chapter id="credits">
+
+<!-- Include credits for the programmers, documentation writers, and
+contributors here. The license for your software should then be included below
+the credits with a reference to the appropriate license file included in the KDE
+distribution. -->
+
+<title>Credits and License</title>
+
+<para>
+&kmyapplication;
+</para>
+<para>
+Program copyright 2009 Jean-Michel Petit <email>k9copy@free.fr</email>
+</para>
+
+<!-- TRANS:CREDIT_FOR_TRANSLATORS -->
+
+&underFDL;               <!-- FDL: do not remove -->
+
+<!-- Determine which license your application is licensed under,
+     and delete all the remaining licenses below:
+
+     (NOTE:  All documentation are licensed under the FDL,
+     regardless of what license the application uses) -->
+
+&underGPL;        	 <!-- GPL License -->
+&underBSDLicense;        <!-- BSD License -->
+&underArtisticLicense;   <!-- BSD Artistic License -->
+&underX11License;        <!-- X11 License  -->
+
+</chapter>
+
+<appendix id="installation">
+<title>Installation</title>
+
+<sect1 id="getting-kapp">
+<title>How to obtain &kmyapplication;</title>
+
+<para>
+You can obtain the latest sources of the packages on <ulink url="http://k9copy.sourceforge.net">the &kmyapplication; web site</ulink>
+</para>
+
+</sect1>
+
+<sect1 id="requirements">
+<title>Requirements</title>
+
+<!--
+List any special requirements for your application here. This should include:
+.Libraries or other software that is not included in kdesupport,
+kdelibs, or kdebase.
+.Hardware requirements like amount of RAM, disk space, graphics card
+capabilities, screen resolution, special expansion cards, etc.
+.Operating systems the app will run on. If your app is designed only for a
+specific OS, (you wrote a graphical LILO configurator for example) put this
+information here.
+-->
+
+<para>
+In order to successfully use &kmyapplication;, you need the following programs to be installed:
+
+<itemizedlist>
+<listitem><para>dvd re-authoring : dvdauthor</para>
+</listitem>
+<listitem><para>dvd burning : wodim and genisoimage</para>
+</listitem>
+<listitem><para>mp4, mkv encoding : mencoder and ffmpeg</para>
+</listitem>
+<listitem><para>dvd authoring : dvdauthor, mjpegtools</para>
+</listitem>
+
+</itemizedlist>
+</para>
+</sect1>
+
+</appendix>
+
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

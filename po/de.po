@@ -1,0 +1,2807 @@
+# translation of de.po to deutsch
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jan Berndt <Jan.Berndt@gmx.de>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/tracker/?group_id=50231&atid=459007\n"
+"POT-Creation-Date: 2009-04-03 21:14+0200\n"
+"PO-Revision-Date: 2009-06-12 14:13+0200\n"
+"Last-Translator: Jan Berndt <Jan.Berndt@gmx.de>\n"
+"Language-Team: deutsch <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: build/ui_astdestination.h:181 build/ui_astdvdoption.h:88
+#: build/ui_astmp4.h:76 build/ui_astmpeg.h:76 build/ui_astsource.h:113
+#: build/ui_aststreams.h:53 build/ui_asttitles.h:72
+#: build/ui_ffmpegCmdGen.h:570 build/ui_phonon.h:119
+msgid "Form"
+msgstr "Form"
+
+#: build/ui_astdestination.h:183 src/import/k9importfiles.cpp:162
+#: src/main/k9settings.cpp:36
+msgid "DVD Backup"
+msgstr "DVD Backup"
+
+#: build/ui_astdestination.h:185
+msgid "to Disc"
+msgstr "als Disk"
+
+#: build/ui_astdestination.h:186
+msgid "to Folder"
+msgstr "als Ordner"
+
+#: build/ui_astdestination.h:187
+msgid "to Iso image"
+msgstr "als Iso-Image "
+
+#: build/ui_astdestination.h:188
+msgid "Rip and encode DVD"
+msgstr "DVD rippen und enkodieren"
+
+#: build/ui_astdestination.h:189
+msgid "Rip DVD without encoding"
+msgstr "DVD rippen ohne zu enkodieren"
+
+#: build/ui_astdestination.h:190
+msgid "Extract audio"
+msgstr "Audio extrahieren "
+
+#: build/ui_astdvdoption.h:90
+msgid "Copy original menus"
+msgstr "Orginalmenüs beibehalten"
+
+#: build/ui_astdvdoption.h:91
+msgid "Don't copy menus."
+msgstr "Menüs nicht mitkopieren"
+
+#: build/ui_astdvdoption.h:92
+msgid "Drag items to set title playing sequence"
+msgstr "Verschiebe die Objekte, um die Abspielreihenfolge der Titel festzulegen"
+
+#: build/ui_astmp4.h:77
+msgid "Encoding options for title "
+msgstr "Enkodieroptionen für Titel"
+
+#: build/ui_astmpeg.h:77
+msgid "Select options for title"
+msgstr "Optionen für Titel wählen"
+
+#: build/ui_astsource.h:115
+msgid "DVD Drive"
+msgstr "DVD Laufwerk"
+
+#: build/ui_astsource.h:116 build/ui_k9mainw.h:214 build/ui_k9mainw.h:221
+#: src/import/k9import.cpp:88
+msgid "Folder"
+msgstr "Ordner"
+
+#: build/ui_astsource.h:117 build/ui_k9mainw.h:213 build/ui_k9mainw.h:220
+#: src/import/k9import.cpp:87 src/main/k9main.cpp:434
+msgid "ISO Image"
+msgstr "Iso-Image"
+
+#: build/ui_aststreams.h:54
+msgid "Selected titles"
+msgstr "Ausgewählte Titel"
+
+#: build/ui_aststreams.h:55 build/ui_k9mainw.h:229 build/ui_prefDVD.h:288
+#: src/backup/k9execcopy.cpp:32 src/core/k9burndvd.cpp:180
+#: src/core/k9burndvd.cpp:293 src/import/k9import.cpp:323
+#: src/main/k9main.cpp:1309 src/main/k9playbackoptions.cpp:148
+msgid "default"
+msgstr "default"
+
+#: build/ui_asttitles.h:73 src/assistant/k9assistant.cpp:60
+msgid "titles"
+msgstr "Titel"
+
+#: build/ui_asttitles.h:74
+msgid "Length"
+msgstr "Länge"
+
+#: build/ui_asttitles.h:75
+msgid "size"
+msgstr "Größe"
+
+#: build/ui_backupdlg.h:241 src/backup/k9backupdlg.cpp:40
+#: src/backup/k9dvdauthor.cpp:430
+msgid "Backup progression"
+msgstr "Backupfortschritt"
+
+#: build/ui_backupdlg.h:242
+msgid "<p align=\"left\"><b>DVD Backup</b></p>"
+msgstr "<p align=\"left\"><b>DVD Backup</b></p>"
+
+#: build/ui_backupdlg.h:243
+msgid "Current step"
+msgstr "Aktueller Schritt"
+
+#: build/ui_backupdlg.h:244 build/ui_mp4dlg.h:247 build/ui_progress.h:173
+msgid "Elapsed Time"
+msgstr "Vergangene Zeit"
+
+#: build/ui_backupdlg.h:245 build/ui_chapterEdit.h:220 build/ui_import.h:139
+#: build/ui_newTitle.h:194
+msgid "--:--:--"
+msgstr "--:--:--"
+
+#: build/ui_chapterEdit.h:219 src/import/k9importfiles.cpp:96
+msgid "Chapter properties"
+msgstr "Kapiteleigenschaften"
+
+#: build/ui_chapterEdit.h:221 src/backup/k9mp4enc.cpp:885
+msgid "video"
+msgstr "Video"
+
+#: build/ui_chapterEdit.h:222
+msgid ""
+"*.avi\n"
+"*.mpeg\n"
+"*.mpg\n"
+"*.*"
+msgstr ""
+"*.avi\n"
+"*.mpeg\n"
+"*.mpg\n"
+"*.*"
+
+#: build/ui_chapterEdit.h:226
+msgid "start"
+msgstr "Anfang"
+
+#: build/ui_chapterEdit.h:227 build/ui_chapterEdit.h:231
+#: build/ui_newTitle.h:198
+msgid "HH:mm:ss"
+msgstr "HH:mm:ss"
+
+#: build/ui_chapterEdit.h:228 build/ui_chapterEdit.h:232
+msgid "set Current Frame"
+msgstr "Aktuellen Frame setzen"
+
+#: build/ui_chapterEdit.h:229 build/ui_chapterEdit.h:233
+msgid "break continuity"
+msgstr "Zusammenhang zerstören"
+
+#: build/ui_chapterEdit.h:230
+msgid "end"
+msgstr "Ende"
+
+#: build/ui_chapterEdit.h:234
+msgid "set Title button"
+msgstr "Setzte Titelknopf"
+
+#: build/ui_configDlg.h:123 src/main/k9settings.cpp:30
+#: src/main/kconfigdlg.cpp:35
+msgid "Devices"
+msgstr "Geräte"
+
+#: build/ui_configDlg.h:124
+msgid "device"
+msgstr "Gerät"
+
+#: build/ui_configDlg.h:125 build/ui_prefMencoder.h:504
+#: build/ui_prefMencoder.h:520
+msgid "label"
+msgstr "Label"
+
+#: build/ui_configDlg.h:126 build/ui_k9mainw.h:209
+msgid "Input"
+msgstr "Eingabe"
+
+#: build/ui_configDlg.h:127 build/ui_import.h:131 build/ui_k9mainw.h:216
+#: build/ui_prefDirs.h:297 build/ui_prefDVD.h:264
+msgid "Output"
+msgstr "Ausgabe"
+
+#: build/ui_configDlg.h:128 build/ui_newTitle.h:200
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: build/ui_configDlg.h:130
+msgid "Remove"
+msgstr "Entfernen"
+
+#: build/ui_dvdprogress.h:116 src/core/k9dvdprogress.cpp:29
+msgid "DVD Analyze"
+msgstr "DVD Analyse"
+
+#: build/ui_ffmpegCmdGen.h:573
+msgid "Set the video bitrate in bit/s (default = 200 kb/s)"
+msgstr "Video Bitrate in bit/s festlegen (Standard= 200 kb/s)"
+
+#: build/ui_ffmpegCmdGen.h:576
+msgid "b"
+msgstr "b"
+
+#: build/ui_ffmpegCmdGen.h:577
+msgid "$VIDBRk"
+msgstr "$VIDBRk"
+
+#: build/ui_ffmpegCmdGen.h:578 build/ui_ffmpegCmdGen.h:767
+msgid "k"
+msgstr "k"
+
+#: build/ui_ffmpegCmdGen.h:581
+msgid "Set the number of video frames to record"
+msgstr "Anzahl der aufzunehmenden Frames festlegen"
+
+#: build/ui_ffmpegCmdGen.h:584
+msgid "vframes"
+msgstr "vframes"
+
+#: build/ui_ffmpegCmdGen.h:587
+msgid "Set frame rate (Hz value, fraction or abbreviation), (default = 25)"
+msgstr "Framerate festlegen (Hz Wert, fraction oder abbreviation), (Standard = 25)"
+
+#: build/ui_ffmpegCmdGen.h:590
+msgid "r"
+msgstr "r"
+
+#: build/ui_ffmpegCmdGen.h:593
+msgid ""
+"Set frame size. The format is `wxh' (ffserver default = 160x128, ffmpeg "
+"default = same as source)"
+msgstr "Framegröße festsetzen. Das Format ist 'BxH' (ffserver Standard = 160x128, ffmpeg Standard = wie bei Quelle)"
+
+#: build/ui_ffmpegCmdGen.h:596
+msgid "s"
+msgstr "s"
+
+#: build/ui_ffmpegCmdGen.h:599
+msgid "$WIDTHx$HEIGHT"
+msgstr "$WIDTHx$HEIGHT"
+
+#: build/ui_ffmpegCmdGen.h:600
+msgid "sqcif"
+msgstr "sqcif"
+
+#: build/ui_ffmpegCmdGen.h:601
+msgid "qcif"
+msgstr "qcif"
+
+#: build/ui_ffmpegCmdGen.h:602
+msgid "cif"
+msgstr "cif"
+
+#: build/ui_ffmpegCmdGen.h:603
+msgid "4cif"
+msgstr "4cif"
+
+#: build/ui_ffmpegCmdGen.h:604
+msgid "qqvga"
+msgstr "qqvga"
+
+#: build/ui_ffmpegCmdGen.h:605
+msgid "qvga"
+msgstr "qvga"
+
+#: build/ui_ffmpegCmdGen.h:606
+msgid "vga"
+msgstr "vga"
+
+#: build/ui_ffmpegCmdGen.h:607
+msgid "svga"
+msgstr "svga"
+
+#: build/ui_ffmpegCmdGen.h:608
+msgid "xga"
+msgstr "xga"
+
+#: build/ui_ffmpegCmdGen.h:609
+msgid "uxga"
+msgstr "uxga"
+
+#: build/ui_ffmpegCmdGen.h:610
+msgid "qxga"
+msgstr "qxga"
+
+#: build/ui_ffmpegCmdGen.h:611
+msgid "sxga"
+msgstr "sxga"
+
+#: build/ui_ffmpegCmdGen.h:612
+msgid "qsxga"
+msgstr "qsxga"
+
+#: build/ui_ffmpegCmdGen.h:613
+msgid "hsxga"
+msgstr "hsxga"
+
+#: build/ui_ffmpegCmdGen.h:614
+msgid "wvga"
+msgstr "wvga"
+
+#: build/ui_ffmpegCmdGen.h:615
+msgid "wsxga"
+msgstr "wsxga"
+
+#: build/ui_ffmpegCmdGen.h:616
+msgid "wuxga"
+msgstr "wuxga"
+
+#: build/ui_ffmpegCmdGen.h:617
+msgid "woxga"
+msgstr "woxga"
+
+#: build/ui_ffmpegCmdGen.h:618
+msgid "wqsxga"
+msgstr "wqsxga"
+
+#: build/ui_ffmpegCmdGen.h:619
+msgid "wquxga"
+msgstr "wquxga"
+
+#: build/ui_ffmpegCmdGen.h:620
+msgid "whuxga"
+msgstr "whuxga"
+
+#: build/ui_ffmpegCmdGen.h:621
+msgid "cga"
+msgstr "cga"
+
+#: build/ui_ffmpegCmdGen.h:622
+msgid "ega"
+msgstr "ega"
+
+#: build/ui_ffmpegCmdGen.h:623
+msgid "hd480"
+msgstr "hd480"
+
+#: build/ui_ffmpegCmdGen.h:624
+msgid "hd720"
+msgstr "hd720"
+
+#: build/ui_ffmpegCmdGen.h:625
+msgid "hd1080"
+msgstr "hd1080"
+
+#: build/ui_ffmpegCmdGen.h:629
+msgid "Set aspect ratio (4:3, 16:9 or 1.3333, 1.7777)"
+msgstr "Seitenverhältnis festlegen (4:3, 16:9 oder 1.3333, 1.7777)"
+
+#: build/ui_ffmpegCmdGen.h:632
+msgid "aspect"
+msgstr "Seitenverhältnis"
+
+#: build/ui_ffmpegCmdGen.h:635
+msgid "4:3"
+msgstr "4:3"
+
+#: build/ui_ffmpegCmdGen.h:636
+msgid "16:9"
+msgstr "16:9"
+
+#: build/ui_ffmpegCmdGen.h:640
+msgid "Set top crop band size (in pixels)"
+msgstr "Festlegen des oberen Abschnittes (in Pixel)"
+
+#: build/ui_ffmpegCmdGen.h:643
+msgid "croptop"
+msgstr "croptop"
+
+#: build/ui_ffmpegCmdGen.h:646
+msgid "Set bottom crop band size (in pixels)"
+msgstr "Festlegen des unteren Abschnittes (in Pixel)"
+
+#: build/ui_ffmpegCmdGen.h:649
+msgid "cropbottom"
+msgstr "cropbottom"
+
+#: build/ui_ffmpegCmdGen.h:652
+msgid "Set left crop band size (in pixels)"
+msgstr "Festlegen des linken Abschnittes (in Pixel)"
+
+#: build/ui_ffmpegCmdGen.h:655
+msgid "cropleft"
+msgstr "cropleft"
+
+#: build/ui_ffmpegCmdGen.h:658
+msgid "Set right crop band size (in pixels)."
+msgstr "Festlegen des rechten Abschnittes (in Pixel)"
+
+#: build/ui_ffmpegCmdGen.h:661
+msgid "cropright"
+msgstr "cropright"
+
+#: build/ui_ffmpegCmdGen.h:664 build/ui_ffmpegCmdGen.h:693
+msgid "Set right crop band size (in pixels)"
+msgstr "Festlegen des rechten Abschnittes (in Pixel)"
+
+#: build/ui_ffmpegCmdGen.h:669
+msgid "Set top pad band size (in pixels)"
+msgstr "Festlegen des oberen Abstandes (in Pixel)"
+
+#: build/ui_ffmpegCmdGen.h:672
+msgid "padtop"
+msgstr "padtop"
+
+#: build/ui_ffmpegCmdGen.h:675
+msgid "Set bottom pad band size (in pixels)"
+msgstr "Festlegen des unteren Abstandes (in Pixel)"
+
+#: build/ui_ffmpegCmdGen.h:678
+msgid "padbottom"
+msgstr "padbottom"
+
+#: build/ui_ffmpegCmdGen.h:681
+msgid "Set left pad band size (in pixels)"
+msgstr "Festlegen des linken Abstandes (in Pixel)"
+
+#: build/ui_ffmpegCmdGen.h:684
+msgid "padleft"
+msgstr "padleft"
+
+#: build/ui_ffmpegCmdGen.h:687
+msgid "Set right pad band size (in pixels)."
+msgstr "Festlegen des rechten Abstandes (in Pixel)"
+
+#: build/ui_ffmpegCmdGen.h:690
+msgid "padright"
+msgstr "padright"
+
+#: build/ui_ffmpegCmdGen.h:698
+msgid ""
+"Set color of padded bands. The value for padcolor is expressed as a six "
+"digit hexadecimal number where the first two digits represent red, the "
+"middle two digits green and last two digits blue (default = 000000 (black))"
+msgstr "Festlegen der Randfarbe. Der Wert für die Farbe wird mit einer 6-stelligen Hexadecimalzahl festgelegt, wobei die ersten beiden Rot, die nächsten beiden Grün und die letzten beiden Blau darstellen. (Standard = 000000 (Schwarz))"
+
+#: build/ui_ffmpegCmdGen.h:701
+msgid "padcolor"
+msgstr "padcolor"
+
+#: build/ui_ffmpegCmdGen.h:702
+msgid "HHHHHH; "
+msgstr "HHHHHH; "
+
+#: build/ui_ffmpegCmdGen.h:705
+msgid "Set video bitrate tolerance (in bit/s)"
+msgstr "Video-Bitraten-Toleranz festlegen (in Bit/s)"
+
+#: build/ui_ffmpegCmdGen.h:708
+msgid "bt"
+msgstr "bt"
+
+#: build/ui_ffmpegCmdGen.h:711
+msgid "Set max video bitrate (in bit/s)"
+msgstr "Maximale Video-Bitrate (in Bit/s)"
+
+#: build/ui_ffmpegCmdGen.h:714
+msgid "maxrate"
+msgstr "maxrate"
+
+#: build/ui_ffmpegCmdGen.h:717
+msgid "Set min video bitrate (in bit/s)"
+msgstr "Minimale Video-Bitrate (in Bit/s)"
+
+#: build/ui_ffmpegCmdGen.h:720
+msgid "minrate"
+msgstr "minrate"
+
+#: build/ui_ffmpegCmdGen.h:723
+msgid "Set video buffer verifier buffer size (in bits)"
+msgstr "Video-Buffer-Größe festlegen (in Bits)"
+
+#: build/ui_ffmpegCmdGen.h:726
+msgid "bufsize"
+msgstr "bufsize"
+
+#: build/ui_ffmpegCmdGen.h:729
+msgid ""
+"Force video codec to codec. Use the copy special value to tell that the raw "
+"codec data must be copied as is"
+msgstr ""
+"Erzwinge Video Codec. Benutze die Copy-Funktion um das Original-Format zu behalten"
+
+#: build/ui_ffmpegCmdGen.h:732
+msgid "vcodec"
+msgstr "vcodec"
+
+#: build/ui_ffmpegCmdGen.h:735
+msgid "copy"
+msgstr "copy"
+
+#: build/ui_ffmpegCmdGen.h:739
+msgid "Use same video quality as source (implies VBR)"
+msgstr "Benutze selbe Videoqualität wie die Quelle (aktiviert VBR)"
+
+#: build/ui_ffmpegCmdGen.h:742
+msgid "sameq"
+msgstr "sameq"
+
+#: build/ui_ffmpegCmdGen.h:743
+msgid "pass"
+msgstr "pass"
+
+#: build/ui_ffmpegCmdGen.h:744
+msgid "$PASS"
+msgstr "$PASS"
+
+#: build/ui_ffmpegCmdGen.h:745
+msgid "passlogfile"
+msgstr "passlogfile"
+
+#: build/ui_ffmpegCmdGen.h:746
+msgid "$PASSLOGFILE"
+msgstr "$PASSLOGFILE"
+
+#: build/ui_ffmpegCmdGen.h:747
+msgid "FFMpeg Video options "
+msgstr "FFMpeg Video options "
+
+#: build/ui_ffmpegCmdGen.h:750
+msgid "Set the number of audio frames to record"
+msgstr "Anzahl aufzunehmender Audioframes festlegen"
+
+#: build/ui_ffmpegCmdGen.h:753
+msgid "aframes"
+msgstr "aframes"
+
+#: build/ui_ffmpegCmdGen.h:756
+msgid "Set the audio sampling frequency (default = 44100 Hz)"
+msgstr "Audio-Sampling-Frequenz festlegen (Standard = 44100 Hz)"
+
+#: build/ui_ffmpegCmdGen.h:759
+msgid "ar"
+msgstr "ar"
+
+#: build/ui_ffmpegCmdGen.h:762
+msgid "Set the audio bitrate in bit/s (default = 64k)"
+msgstr "Setzen der Audiobitrate in bit/s (Standard = 64k)"
+
+#: build/ui_ffmpegCmdGen.h:765
+msgid "ab"
+msgstr "ab"
+
+#: build/ui_ffmpegCmdGen.h:766
+msgid "$AUDBRk"
+msgstr "$AUDBRk"
+
+#: build/ui_ffmpegCmdGen.h:770
+msgid "Set the number of audio channels (default = 1)"
+msgstr "Setzen der Audiokanäle (Standard = 1)"
+
+#: build/ui_ffmpegCmdGen.h:773
+msgid "ac"
+msgstr "ac"
+
+#: build/ui_ffmpegCmdGen.h:776
+msgid ""
+"Force audio codec to codec. Use the copy special value to specify that the "
+"raw codec data must be copied as is"
+msgstr ""
+"Erzwinge Audio-Codec. Benutze die Copy-Funktion um das Original-Format zu behalten"
+
+#: build/ui_ffmpegCmdGen.h:779
+msgid "acodec"
+msgstr "acodec"
+
+#: build/ui_ffmpegCmdGen.h:782
+msgid "COPY"
+msgstr "COPY"
+
+#: build/ui_ffmpegCmdGen.h:786
+msgid "Force audio tag/fourcc"
+msgstr "Audio tag/fourcc erzwingen"
+
+#: build/ui_ffmpegCmdGen.h:789
+msgid "atag"
+msgstr "atag"
+
+#: build/ui_ffmpegCmdGen.h:790
+msgid "nnnnn; "
+msgstr "nnnnn; "
+
+#: build/ui_ffmpegCmdGen.h:793
+msgid "Bitstream filters"
+msgstr "Bitstream filters"
+
+#: build/ui_ffmpegCmdGen.h:796
+msgid "absf"
+msgstr "absf"
+
+#: build/ui_ffmpegCmdGen.h:799
+msgid "dump_extra"
+msgstr "dump_extra"
+
+#: build/ui_ffmpegCmdGen.h:800
+msgid "remove_extra"
+msgstr "remove_extra"
+
+#: build/ui_ffmpegCmdGen.h:801
+msgid "noise"
+msgstr "noise"
+
+#: build/ui_ffmpegCmdGen.h:802
+msgid "mp3comp"
+msgstr "mp3comp"
+
+#: build/ui_ffmpegCmdGen.h:803
+msgid "mp3decomp"
+msgstr "mp3decomp"
+
+#: build/ui_ffmpegCmdGen.h:805
+msgid "FFMpeg Audio options"
+msgstr "FFMpeg Audio Optionen"
+
+#: build/ui_import.h:130 src/import/k9import.cpp:36
+msgid "import"
+msgstr "Import"
+
+#: build/ui_import.h:132
+msgid "Video files"
+msgstr "Videodateien"
+
+#: build/ui_import.h:133 build/ui_mp4dlg.h:250 build/ui_phonon.h:120
+#: build/ui_phonon.h:121 build/ui_processList.h:81
+msgid "..."
+msgstr "..."
+
+#: build/ui_import.h:136
+msgid "PAL"
+msgstr "PAL"
+
+#: build/ui_import.h:137
+msgid "NTSC"
+msgstr "NTSC"
+
+#: build/ui_k9mainw.h:208
+msgid "MainDlg"
+msgstr "MainDlg"
+
+#: build/ui_k9mainw.h:212 build/ui_k9mainw.h:219 build/ui_prefDirs.h:298
+#: src/main/k9settings.cpp:35
+msgid "DVD"
+msgstr "DVD"
+
+#: build/ui_k9mainw.h:222
+msgid "MPEG-4 encoding"
+msgstr "MPEG-4 encoding"
+
+#: build/ui_k9mainw.h:223
+msgid "Audio extraction"
+msgstr "Audio-Extrahierung"
+
+#: build/ui_k9mainw.h:224
+msgid "MPEG-2 extraction"
+msgstr "MPEG-2-Extrahierung"
+
+#: build/ui_k9mainw.h:226
+msgid "@"
+msgstr "@"
+
+#: build/ui_k9mainw.h:231 build/ui_prefMPEG4.h:489
+msgid "X"
+msgstr "X"
+
+#: build/ui_k9mainw.h:232
+msgid "Title"
+msgstr "Titel"
+
+#: build/ui_k9mainw.h:233 build/ui_mp4dlg.h:249
+msgid "Size"
+msgstr "Größe"
+
+#: build/ui_k9mainw.h:234
+msgid "Content"
+msgstr "Inhalt"
+
+#: build/ui_k9mainw.h:237
+msgid "dbl-click DVD title to edit"
+msgstr "Doppelklick auf Titel um ihn zu bearbeiten"
+
+#: build/ui_langselectw.h:61 src/main/k9copy.cpp:149
+msgid "Selection"
+msgstr "Auswahl"
+
+#: build/ui_langselectw.h:62
+msgid "Languages"
+msgstr "Sprachen"
+
+#: build/ui_mencoderCmdGen.h:108 src/main/k9mencodercmdgen.cpp:63
+msgid "MEncoder options"
+msgstr "MEncoder Optionen"
+
+#: build/ui_mencoderCmdGen.h:109
+msgid "1"
+msgstr "1"
+
+#: build/ui_menuEdit.h:206
+msgid "Edit Menu"
+msgstr "Bearbeiten Menü"
+
+#: build/ui_menuEdit.h:207
+msgid "Text"
+msgstr "Text"
+
+#: build/ui_menuEdit.h:208
+msgid "Background picture"
+msgstr "Hintergrundbild"
+
+#: build/ui_menuEdit.h:210 build/ui_prefAuthor.h:209
+msgid "Font"
+msgstr "Schriftart"
+
+#: build/ui_menuEdit.h:213 build/ui_prefMPEG4.h:499 build/ui_viewmpeg2.h:233
+msgid "Bottom"
+msgstr "Unten"
+
+#: build/ui_menuEdit.h:214 build/ui_prefMPEG4.h:501 build/ui_viewmpeg2.h:234
+msgid "Right"
+msgstr "Rechts"
+
+#: build/ui_menuEdit.h:218 src/import/k9import.cpp:69
+#: src/import/k9menuedit.cpp:283
+msgid "Root Menu"
+msgstr "Wurzelmenü"
+
+#: build/ui_menuEdit.h:219
+msgid "At start"
+msgstr "Am Anfang"
+
+#: build/ui_menuEdit.h:222
+msgid "Play menu"
+msgstr "Menü abspielen"
+
+#: build/ui_menuEdit.h:223 build/ui_menuEdit.h:230
+msgid "Play title 1"
+msgstr "Titel 1 abspielen"
+
+#: build/ui_menuEdit.h:225
+msgid "At End"
+msgstr "Am Ende"
+
+#: build/ui_menuEdit.h:228
+msgid "Play root menu"
+msgstr "Wurzelmenü abspielen"
+
+#: build/ui_menuEdit.h:229
+msgid "Play title menu"
+msgstr "Titelmenü abspielen"
+
+#: build/ui_mp4dlg.h:240 build/ui_mp4dlg.h:241 src/backup/k9execcopy.cpp:204
+#: src/backup/k9execcopy.cpp:366 src/backup/k9execcopy.cpp:426
+msgid "Encoding"
+msgstr "Enkodiere"
+
+#: build/ui_mp4dlg.h:246 src/import/k9newdvd.cpp:442
+msgid "fps"
+msgstr "fps"
+
+#: build/ui_mp4dlg.h:248 build/ui_prefAuthor.h:205 build/ui_prefMPEG4.h:494
+#: build/ui_prefMPEG4.h:513
+msgid "Bitrate"
+msgstr "Bitrate"
+
+#: build/ui_mplayer.h:239 src/main/k9copy.cpp:167 src/main/k9settings.cpp:51
+#: src/mplayer/k9mplayer.cpp:157 src/mplayer/k9xine.cpp:143
+msgid "Preview"
+msgstr "Vorschau"
+
+#: build/ui_mplayer.h:240 build/ui_phonon.h:122
+#: build/ui_playbackoptionsw.h:241 build/ui_prefAuthor.h:192
+#: build/ui_prefDVD.h:275 build/ui_prefMPEG4.h:516
+#: src/main/k9langselect.cpp:89
+msgid "Audio"
+msgstr "Audio"
+
+#: build/ui_mplayer.h:242
+msgid "Subpicture"
+msgstr "Untertitel"
+
+#: build/ui_mplayer.h:247
+msgid "-"
+msgstr "-"
+
+#: build/ui_mplayer.h:249
+msgid "+"
+msgstr "+"
+
+#: build/ui_newTitle.h:192 src/import/k9newtitle.cpp:89
+msgid "Add title"
+msgstr "Titel hinzufügen"
+
+#: build/ui_newTitle.h:193
+msgid "Video file"
+msgstr "Videodatei"
+
+#: build/ui_newTitle.h:196
+msgid "number of chapters"
+msgstr "Anzahl der Kapitel"
+
+#: build/ui_newTitle.h:197
+msgid "chapter length"
+msgstr "Kapitellänge"
+
+#: build/ui_newTitle.h:199
+msgid "Do not reencode"
+msgstr "Nicht neu enkodieren"
+
+#: build/ui_phonon.h:123 build/ui_prefDVD.h:276 src/main/k9langselect.cpp:100
+msgid "Subtitles"
+msgstr "Untertitel"
+
+#: build/ui_playbackoptionsw.h:233 src/main/k9copy.cpp:140
+msgid "DVD playback options"
+msgstr "DVD-Wiedergabe-Optionen"
+
+#: build/ui_playbackoptionsw.h:234
+msgid "&Keep original menus"
+msgstr "O&riginalmenüs beibehalten"
+
+#: build/ui_playbackoptionsw.h:235 build/ui_prefMPEG4.h:488
+msgid "Alt+K"
+msgstr "Alt+R"
+
+#: build/ui_playbackoptionsw.h:238
+msgid "Selected Titles"
+msgstr "Ausgewählte Titel"
+
+#: build/ui_playbackoptionsw.h:239
+msgid "Default language"
+msgstr "Standardsprache"
+
+#: build/ui_playbackoptionsw.h:240
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: build/ui_prefAuthor.h:191
+msgid "Authoring options"
+msgstr "Authoringoptionen"
+
+#: build/ui_prefAuthor.h:195
+msgid "AC3"
+msgstr "AC3"
+
+#: build/ui_prefAuthor.h:196
+msgid "MP2"
+msgstr "MP2"
+
+#: build/ui_prefAuthor.h:200
+msgid "128"
+msgstr "128"
+
+#: build/ui_prefAuthor.h:201
+msgid "192"
+msgstr "192"
+
+#: build/ui_prefAuthor.h:202
+msgid "320"
+msgstr "320"
+
+#: build/ui_prefAuthor.h:204
+msgid "Format"
+msgstr "Format"
+
+#: build/ui_prefAuthor.h:206
+msgid "Buttons"
+msgstr "Knöpfe"
+
+#: build/ui_prefAuthor.h:207 build/ui_prefMPEG4.h:483
+msgid "Width"
+msgstr "Breite"
+
+#: build/ui_prefAuthor.h:208 build/ui_prefMPEG4.h:484
+msgid "Height"
+msgstr "Höhe"
+
+#: build/ui_prefAuthor.h:210
+msgid "Hilite color"
+msgstr "Hervorgehobene Farbe"
+
+#: build/ui_prefAuthor.h:212
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: build/ui_prefDirs.h:296
+msgid "prefDirs"
+msgstr "prefDirs"
+
+#: build/ui_prefDirs.h:301
+msgid "default output directory for DVD backups"
+msgstr "Standardausgabeverzeichnis für DVD-Backups"
+
+#: build/ui_prefDirs.h:304 src/main/k9settings.cpp:45
+msgid "MPEG-4"
+msgstr "MPEG-4"
+
+#: build/ui_prefDirs.h:307
+msgid "default output directory for MPEG-4 backups"
+msgstr "Standardausgabeverzeichnis für MPEG4-Backups"
+
+#: build/ui_prefDirs.h:310
+msgid "MPEG-2:"
+msgstr "MPEG-2:"
+
+#: build/ui_prefDirs.h:313
+msgid "default output directory for MPEG-1/MPEG-2 backups"
+msgstr "Standardausgabeverzeichnis für MPEG1/MPEG2-Backups"
+
+#: build/ui_prefDirs.h:316
+msgid "ISO Images"
+msgstr "ISO-Abbilder"
+
+#: build/ui_prefDirs.h:319 build/ui_prefDirs.h:325 build/ui_prefDirs.h:332
+#: build/ui_prefDirs.h:338 build/ui_prefDirs.h:344 build/ui_prefDirs.h:350
+#: build/ui_prefDirs.h:356 build/ui_prefDirs.h:362 build/ui_prefDirs.h:368
+msgid "default output directory for ISO image backups"
+msgstr "Standardausgabeverzeichnis für ISO-Backups"
+
+#: build/ui_prefDirs.h:322
+msgid "Audio files"
+msgstr "Audiodateien"
+
+#: build/ui_prefDirs.h:328
+msgid "Programs"
+msgstr "Programme"
+
+#: build/ui_prefDirs.h:329
+msgid "MEncoder"
+msgstr "MEncoder"
+
+#: build/ui_prefDirs.h:335 build/ui_prefpreview.h:281
+msgid "MPlayer"
+msgstr "MPlayer"
+
+#: build/ui_prefDirs.h:341
+msgid "k3b"
+msgstr "k3b"
+
+#: build/ui_prefDirs.h:347
+msgid "dvdauthor"
+msgstr "dvdauthor"
+
+#: build/ui_prefDirs.h:353 build/ui_prefMencoder.h:517
+#: build/ui_prefMencoder.h:527
+msgid "ffmpeg"
+msgstr "ffmpeg"
+
+#: build/ui_prefDirs.h:359
+msgid "wodim"
+msgstr "wodim"
+
+#: build/ui_prefDirs.h:365
+msgid "genisoimage"
+msgstr "genisoimage"
+
+#: build/ui_prefDVD.h:263
+msgid "prefDVD"
+msgstr "prefDVD"
+
+#: build/ui_prefDVD.h:265
+msgid "Output directory"
+msgstr "Ausgabeverzeichnis"
+
+#: build/ui_prefDVD.h:266
+msgid "Clear output directory on exit"
+msgstr "Ausgabeverzeichnis beim Beenden leeren"
+
+#: build/ui_prefDVD.h:267
+msgid "Alt+Y"
+msgstr "Alt+Y"
+
+#: build/ui_prefDVD.h:268
+msgid "DVD size"
+msgstr "DVD-Größe"
+
+#: build/ui_prefDVD.h:269
+msgid "one file/chapter (MPEG extraction)"
+msgstr "Eine Datei pro Kapitel (MPEG Extrahierung)"
+
+#: build/ui_prefDVD.h:270 build/ui_prefDVD.h:272
+msgid "Alt+D"
+msgstr "Alt+D"
+
+#: build/ui_prefDVD.h:271
+msgid "use dvdAuthor for copy without menus"
+msgstr "Benützte dvdAuthor um ohne Menüs zu kopieren"
+
+#: build/ui_prefDVD.h:273
+msgid "Enable prohibited user operations"
+msgstr "Aktiviere verbotene Benutzeroperationen"
+
+#: build/ui_prefDVD.h:274
+msgid "Prefered languages"
+msgstr "Bevorzugte Sprache"
+
+#: build/ui_prefDVD.h:277
+msgid "Burning"
+msgstr "Brennen"
+
+#: build/ui_prefDVD.h:278
+msgid "Burn with k3b"
+msgstr "Mit K3B brennen"
+
+#: build/ui_prefDVD.h:279 build/ui_prefMPEG4.h:495
+msgid "Alt+B"
+msgstr "Alt+B"
+
+#: build/ui_prefDVD.h:280
+msgid "Auto burn"
+msgstr "Automatisch brennen"
+
+#: build/ui_prefDVD.h:281
+msgid "Alt+T"
+msgstr "Alt+T"
+
+#: build/ui_prefDVD.h:282
+msgid "Performances"
+msgstr "Performances"
+
+#: build/ui_prefDVD.h:283
+msgid "Quick scan"
+msgstr "Schneller scan"
+
+#: build/ui_prefDVD.h:284
+msgid "Alt+Q"
+msgstr "Alt+Q"
+
+#: build/ui_prefDVD.h:285
+msgid "DVD read ahead"
+msgstr "DVD read ahead"
+
+#: build/ui_prefDVD.h:289
+msgid "skip bad sectors (slow)"
+msgstr "Fehlerhafte Sektoren überspringen (langsam)"
+
+#: build/ui_prefDVD.h:290
+msgid "skip bad sectors (faster)"
+msgstr "Fehlerhafte Sektoren überspringen (schneller)"
+
+#: build/ui_prefDVD.h:292
+msgid ""
+"this option can improve reading of DVD having bad sectors.\n"
+"It will require root privileges when opening the DVD."
+msgstr "Diese Option kann das Auslesen der DVD bei fehlerhaften Sektoren beschleunigen.<br>Sie benötigt root-Rechte beim öffnen der DVD"
+
+#: build/ui_prefMencoder.h:502 build/ui_prefMPEG4.h:471
+#: build/ui_prefpreview.h:277
+msgid "Form1"
+msgstr "Form1"
+
+#: build/ui_prefMencoder.h:505
+msgid "fourcc"
+msgstr "fourcc"
+
+#: build/ui_prefMencoder.h:506
+msgid "one pass"
+msgstr "ein Durchlauf"
+
+#: build/ui_prefMencoder.h:509
+msgid "first pass"
+msgstr "erster Durchlauf"
+
+#: build/ui_prefMencoder.h:511
+msgid "second pass"
+msgstr "zweiter Durchlauf"
+
+#: build/ui_prefMencoder.h:513 build/ui_prefMencoder.h:523
+msgid "encoder"
+msgstr "encoder"
+
+#: build/ui_prefMencoder.h:516 build/ui_prefMencoder.h:526
+msgid "mencoder"
+msgstr "mencoder"
+
+#: build/ui_prefMencoder.h:519
+msgid "Video codecs"
+msgstr "Video codecs"
+
+#: build/ui_prefMencoder.h:521
+msgid "options"
+msgstr "Optionen"
+
+#: build/ui_prefMencoder.h:529
+msgid "extension"
+msgstr "Erweiterung"
+
+#: build/ui_prefMencoder.h:530
+msgid "Audio codecs"
+msgstr "Audio codecs"
+
+#: build/ui_prefMencoder.h:531
+msgid "Available variables"
+msgstr "Verfügbare Variablen"
+
+#: build/ui_prefMencoder.h:532
+msgid ""
+"$PASS\n"
+"$WIDTH\n"
+"$HEIGHT\n"
+"$VIDBR\n"
+"$AUDBR\n"
+"$ASPECT"
+msgstr ""
+"$PASS\n"
+"$WIDTH\n"
+"$HEIGHT\n"
+"$VIDBR\n"
+"$AUDBR\n"
+"$ASPECT"
+
+#: build/ui_prefMencoder.h:538
+msgid ""
+"pass number\n"
+"video width\n"
+"video height\n"
+"video bitrate\n"
+"audio bitrate\n"
+"aspect ratio"
+msgstr ""
+"pass number\n"
+"video width\n"
+"video height\n"
+"video bitrate\n"
+"audio bitrate\n"
+"aspect ratio"
+
+#: build/ui_prefMencoder.h:544
+msgid ""
+"$CROPLEFT\n"
+"$CROPTOP\n"
+"$CROPRIGHT\n"
+"$CROPBOTTOM\n"
+"$CROPWIDTH\n"
+"$CROPHEIGHT"
+msgstr ""
+"$CROPLEFT\n"
+"$CROPTOP\n"
+"$CROPRIGHT\n"
+"$CROPBOTTOM\n"
+"$CROPWIDTH\n"
+"$CROPHEIGHT"
+
+#: build/ui_prefMencoder.h:550
+msgid ""
+"left crop coord\n"
+"top crop coord\n"
+"size of right crop\n"
+"size of bottom crop\n"
+"crop width\n"
+"crop height"
+msgstr ""
+"left crop coord\n"
+"top crop coord\n"
+"size of right crop\n"
+"size of bottom crop\n"
+"crop width\n"
+"crop height"
+
+#: build/ui_prefMPEG4.h:473
+msgid "Encoder"
+msgstr "Encoder"
+
+#: build/ui_prefMPEG4.h:474
+msgid "2 pass"
+msgstr "zwei Durchläufe"
+
+#: build/ui_prefMPEG4.h:475
+msgid "Alt+2"
+msgstr "Alt+2"
+
+#: build/ui_prefMPEG4.h:476 build/ui_prefMPEG4.h:504
+msgid "Codec"
+msgstr "Codec"
+
+#: build/ui_prefMPEG4.h:479
+msgid "XviD"
+msgstr "XviD"
+
+#: build/ui_prefMPEG4.h:480
+msgid "lavc MPEG4"
+msgstr "lavc MPEG4"
+
+#: build/ui_prefMPEG4.h:481
+msgid "x264"
+msgstr "x264"
+
+#: build/ui_prefMPEG4.h:486
+msgid "720"
+msgstr "720"
+
+#: build/ui_prefMPEG4.h:487
+msgid "&keep aspect ratio"
+msgstr "S&eitenverhältnis beibehalten"
+
+#: build/ui_prefMPEG4.h:491
+msgid "File size"
+msgstr "Dateigröße"
+
+#: build/ui_prefMPEG4.h:492
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#: build/ui_prefMPEG4.h:493
+msgid " MB"
+msgstr " MB"
+
+#: build/ui_prefMPEG4.h:497
+msgid "Cropping"
+msgstr "Cropping"
+
+#: build/ui_prefMPEG4.h:498 build/ui_viewmpeg2.h:231
+msgid "Top"
+msgstr "Oben"
+
+#: build/ui_prefMPEG4.h:500 build/ui_viewmpeg2.h:232
+msgid "Left"
+msgstr "Links"
+
+#: build/ui_prefMPEG4.h:502 build/ui_viewmpeg2.h:235
+msgid "detect"
+msgstr "erkennen"
+
+#: build/ui_prefMPEG4.h:503
+msgid "Video"
+msgstr "Video"
+
+#: build/ui_prefMPEG4.h:507
+msgid "mp3"
+msgstr "mp3"
+
+#: build/ui_prefMPEG4.h:508
+msgid "faac"
+msgstr "faac"
+
+#: build/ui_prefMPEG4.h:509
+msgid "mp2"
+msgstr "mp2"
+
+#: build/ui_prefMPEG4.h:510
+msgid "ac3"
+msgstr "ac3"
+
+#: build/ui_prefMPEG4.h:511
+msgid "adpcm ima"
+msgstr "adpcm ima"
+
+#: build/ui_prefMPEG4.h:515
+msgid "Gain"
+msgstr "Gain"
+
+#: build/ui_prefMPEG4.h:517
+msgid "use cell cache"
+msgstr "use cell cache"
+
+#: build/ui_prefpreview.h:279
+msgid "&Internal Player"
+msgstr "&Interner Player"
+
+#: build/ui_prefpreview.h:280
+msgid "Alt+I"
+msgstr "Alt+I"
+
+#: build/ui_prefpreview.h:282
+msgid "Alt+M"
+msgstr "Alt+M"
+
+#: build/ui_prefpreview.h:283
+msgid "Xine Player"
+msgstr "Xine Player"
+
+#: build/ui_prefpreview.h:284
+msgid "Phonon"
+msgstr "Phonon"
+
+#: build/ui_prefpreview.h:285 build/ui_prefpreview.h:302
+msgid "Video output"
+msgstr "Video Ausgabe"
+
+#: build/ui_prefpreview.h:286 build/ui_prefpreview.h:310
+msgid "Audio output"
+msgstr "Audio Ausgabe"
+
+#: build/ui_prefpreview.h:289 build/ui_prefpreview.h:305
+msgid "X11"
+msgstr "X11"
+
+#: build/ui_prefpreview.h:290 build/ui_prefpreview.h:306
+msgid "Xv"
+msgstr "Xv"
+
+#: build/ui_prefpreview.h:291 build/ui_prefpreview.h:307
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: build/ui_prefpreview.h:292 build/ui_prefpreview.h:298
+#: build/ui_prefpreview.h:308
+msgid "SDL"
+msgstr "SDL"
+
+#: build/ui_prefpreview.h:296 build/ui_prefpreview.h:313
+msgid "ALSA"
+msgstr "ALSA"
+
+#: build/ui_prefpreview.h:297 build/ui_prefpreview.h:314
+msgid "OSS"
+msgstr "OSS"
+
+#: build/ui_prefpreview.h:300
+msgid "MPlayer options"
+msgstr "MPlayer Optionen"
+
+#: build/ui_prefpreview.h:301
+msgid "Xine player options"
+msgstr "Xine Optionen"
+
+#: build/ui_processList.h:77
+msgid "Process List"
+msgstr "Prozessliste"
+
+#: build/ui_processList.h:78
+msgid "Progression"
+msgstr "Fortschritt"
+
+#: build/ui_processList.h:79
+msgid "Processes"
+msgstr "Prozesse"
+
+#: build/ui_processList.h:80
+msgid "Elapsed"
+msgstr "Vergangen"
+
+#: build/ui_processList.h:82
+msgid "&Cancel"
+msgstr "&Abbrechen"
+
+#: build/ui_processList.h:83
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#: build/ui_progress.h:171
+msgid "k9Copy"
+msgstr "k9Copy"
+
+#: build/ui_titlefactor.h:119
+msgid "Shrink Factors"
+msgstr "Verkleinerungsfaktor"
+
+#: build/ui_titlefactor.h:120
+msgid "Shrink Factor for Title %1"
+msgstr "Verkleinerungsfaktor für Titel 1"
+
+#: build/ui_titlefactor.h:121
+msgid "Change Factor"
+msgstr "Change Factor"
+
+#: build/ui_titlefactor.h:122
+msgid "0.00"
+msgstr "0.00"
+
+#: build/ui_titlefactor.h:123 src/main/k9titlefactor.cpp:64
+#: src/main/k9titlefactor.cpp:101 src/main/k9titlefactor.cpp:135
+msgid "size : %1 MB"
+msgstr "Größe: %1 MB"
+
+#: build/ui_viewmpeg2.h:229
+msgid "k9Copy - Title Preview"
+msgstr "k9Copy - Titelvorschau"
+
+#: build/ui_viewmpeg2.h:230
+msgid "Crop"
+msgstr "Crop"
+
+#: lib/player/k9play.cpp:75 src/player/k9play.cpp:78
+msgid "MPEG-4 Encoding cancelled"
+msgstr "MPEG-4-Kodierung abgebrochen."
+
+#: lib/player/k9play.cpp:75 src/backup/k9execcopy.cpp:129
+#: src/backup/k9execcopy.cpp:319 src/main/k9settings.cpp:46
+#: src/player/k9play.cpp:78
+msgid "MPEG-4 Encoding"
+msgstr "MPEG-4-Kodierung"
+
+#: lib/player/main.cpp:36 src/player/main.cpp:35 src/xine/main.cpp:34
+msgid "A KDE 4 Application"
+msgstr "Eine KDE4 Anwendung"
+
+#: lib/player/main.cpp:41 main.cpp:46 src/player/main.cpp:40
+#: src/xine/main.cpp:40
+msgid "k9copy"
+msgstr "k9copy"
+
+#: lib/player/main.cpp:42 src/player/main.cpp:41 src/xine/main.cpp:41
+msgid "(C) 2007 Jean-Michel"
+msgstr "(C) 2007 Jean-Michel"
+
+#: lib/player/main.cpp:43 src/player/main.cpp:42 src/xine/main.cpp:42
+msgid "Jean-Michel"
+msgstr "Jean-Michel"
+
+#: lib/player/main.cpp:44 main.cpp:49 src/player/main.cpp:43
+#: src/xine/main.cpp:43
+msgid "_: NAME OF TRANSLATORS\\nYour names"
+msgstr "Jan Berndt"
+
+#: lib/player/main.cpp:45 main.cpp:50 src/player/main.cpp:44
+#: src/xine/main.cpp:44
+msgid "_: EMAIL OF TRANSLATORS\\nYour emails"
+msgstr "Jan.Berndt@gmx.de"
+
+#: lib/player/main.cpp:49 main.cpp:54 src/player/main.cpp:48
+msgid "input device"
+msgstr "Eingabegerät"
+
+#: lib/player/main.cpp:50 main.cpp:55 src/player/main.cpp:49
+msgid "output device"
+msgstr "Ausgabegerät"
+
+#: lib/player/main.cpp:51 main.cpp:56 src/player/main.cpp:50
+msgid "title to play"
+msgstr "Abzuspielender Titel"
+
+#: lib/player/main.cpp:52 src/player/main.cpp:51
+msgid "play title to stdout"
+msgstr "Titel auf stdout abspielen"
+
+#: lib/player/main.cpp:53 src/player/main.cpp:52
+msgid "start sector"
+msgstr "Anfangssektor"
+
+#: lib/player/main.cpp:54 src/player/main.cpp:53
+msgid "end sector"
+msgstr "Endsektor"
+
+#: lib/player/main.cpp:55 src/player/main.cpp:54
+msgid "list of audio streams"
+msgstr "Liste von Audio-Streams"
+
+#: lib/player/main.cpp:56 src/player/main.cpp:55
+msgid "list of spu streams"
+msgstr "Liste von Untertitel-Streams"
+
+#: lib/player/main.cpp:57 src/player/main.cpp:56
+msgid "shrink factor"
+msgstr "Verkleinerungsfaktor"
+
+#: lib/player/main.cpp:58 src/player/main.cpp:57
+msgid "shrink factor forced"
+msgstr "erzwungener Verkleinerungsfaktor"
+
+#: lib/player/main.cpp:59 src/player/main.cpp:58
+msgid "size of the cell to be copied"
+msgstr "Größe der zu kopierenden Zelle"
+
+#: lib/player/main.cpp:60 src/player/main.cpp:59
+msgid "total size of selected titles"
+msgstr "Gesamtgröße der gewählten Titel"
+
+#: lib/player/main.cpp:61 src/player/main.cpp:60
+msgid "size of the chapters being copied"
+msgstr "Größe der zu kopierenden Kapitel"
+
+#: lib/player/main.cpp:62 src/player/main.cpp:61
+msgid "selected chapters"
+msgstr "ausgewählte Kapitel"
+
+#: lib/player/main.cpp:63 src/player/main.cpp:62
+msgid "new dvd size"
+msgstr "Größe der neuen DVD"
+
+#: lib/player/main.cpp:64 src/player/main.cpp:63
+msgid "selected chapter"
+msgstr "ausgewähltes Kapitel"
+
+#: lib/player/main.cpp:65 src/player/main.cpp:64
+msgid "cell number in selected chapter"
+msgstr "Anzahl von Zellen im ausgewählten Kapitel"
+
+#: lib/player/main.cpp:66 src/player/main.cpp:65
+msgid "status file name"
+msgstr "Statusdateiname"
+
+#: lib/player/main.cpp:67 src/player/main.cpp:66
+msgid "initialize status file"
+msgstr "Statusdatei initialisieren"
+
+#: lib/player/main.cpp:68 src/player/main.cpp:67
+msgid "continue playing from last sector"
+msgstr "Wiedergabe vom letzten Sektor fortsetzen"
+
+#: lib/player/main.cpp:69 src/player/main.cpp:68
+msgid "don't save status at end"
+msgstr "Status am Ende nicht sichern"
+
+#: lib/player/main.cpp:70 src/player/main.cpp:69
+msgid "save cell in a temporary file before encoding"
+msgstr "Zelle vor dem Enkodieren in einer tempörären Datei speichern"
+
+#: main.cpp:41
+msgid "A DVD Backup software for KDE"
+msgstr "Eine DVD-Backup Software für KDE"
+
+#: main.cpp:47
+msgid "(C) 2007 Jean-Michel PETIT"
+msgstr "(C) 2007 Jean-Michel PETIT"
+
+#: main.cpp:48
+msgid "Jean-Michel PETIT"
+msgstr "Jean-Michel PETIT"
+
+#: main.cpp:57
+msgid "use GTK file dialogs"
+msgstr "benutze GTK-Dateidialoge"
+
+#: main.cpp:58
+msgid "the k9copy backup assistant"
+msgstr "der k9copy Backupassistent"
+
+#: po/rc.cpp:1 rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jan Berndt"
+
+#: po/rc.cpp:2 rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Jan.Berndt@gmx.de"
+
+#: src/assistant/k9assistant.cpp:43
+msgid "DVD backup assistant"
+msgstr "DVD backup assistant"
+
+#: src/assistant/k9assistant.cpp:47
+msgid "source"
+msgstr "Quelle"
+
+#: src/assistant/k9assistant.cpp:48
+msgid "Select the source of the backup"
+msgstr "Quelle des Backups auswählen"
+
+#: src/assistant/k9assistant.cpp:54
+msgid "destination"
+msgstr "Ziel"
+
+#: src/assistant/k9assistant.cpp:55
+msgid "Select the destination of the backup"
+msgstr "Ziel des Backups auswählen"
+
+#: src/assistant/k9assistant.cpp:61
+msgid "Select the titles you want to copy"
+msgstr "Wählen sie die Titel, die sie kopieren möchten"
+
+#: src/assistant/k9assistant.cpp:68
+msgid "streams"
+msgstr "streams"
+
+#: src/assistant/k9assistant.cpp:69
+msgid "Select the streams you want to keep"
+msgstr "Wählen sie die Streams, die sie behalten möchten"
+
+#: src/assistant/k9assistant.cpp:75
+msgid "mp4"
+msgstr "mp4"
+
+#: src/assistant/k9assistant.cpp:76
+msgid "Set mp4 options for each title"
+msgstr "MP4-Optionen für jeden Titel setzen"
+
+#: src/assistant/k9assistant.cpp:82
+msgid "DVDOption"
+msgstr "DVDOption"
+
+#: src/assistant/k9assistant.cpp:83
+msgid "Set DVD playback options"
+msgstr "DVD-Wiedergabe-Optionen festlegen"
+
+#: src/assistant/k9assistant.cpp:89
+msgid "mpeg"
+msgstr "mpeg"
+
+#: src/assistant/k9assistant.cpp:90
+msgid "Set mpeg options for each title"
+msgstr "MPEG-Optionen für jeden Titel festlegen"
+
+#: src/assistant/k9assistant.cpp:109 src/assistant/k9assistant.cpp:208
+#: src/import/k9importfiles.cpp:200 src/main/k9copy.cpp:297
+#: src/main/k9settings.cpp:23
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/assistant/k9assistant.cpp:110
+msgid "k9copy settings"
+msgstr "k9copy Einstellungen"
+
+#: src/assistant/k9assistant.cpp:148
+msgid "The destination of the copy isn't valid"
+msgstr "Das Ziel der Kopie ist ungültig"
+
+#: src/assistant/k9assistant.cpp:165
+msgid "You must select at least on title !"
+msgstr "Sie müssen mindestens einen Titel auswählen"
+
+#: src/assistant/k9assistant.cpp:203
+msgid "cannot continue"
+msgstr "Kann nicht fortsetzen"
+
+#: src/assistant/k9astdestination.cpp:60 src/core/k9dvd.cpp:204
+#: src/core/k9dvd.cpp:212 src/core/k9dvd.cpp:220 src/core/k9dvd.cpp:398
+#: src/main/k9main.cpp:505 src/main/k9main.cpp:1453
+msgid "unknown"
+msgstr "Unbekannt"
+
+#: src/assistant/k9aststreams.cpp:53
+msgid "%4 - %1 %2 %3 ch"
+msgstr "%4 - %1 %2 %3 ch"
+
+#: src/assistant/k9aststreams.cpp:64
+msgid "%3 - %1 %2"
+msgstr "%3 - %1 %2"
+
+#: src/assistant/k9asttitles.cpp:259 src/backup/k9mp4enc.cpp:281
+#: src/backup/k9mp4enc.cpp:284 src/backup/k9mp4enc.cpp:342
+#: src/backup/k9mp4enc.cpp:778 src/main/k9main.cpp:528 src/main/k9main.cpp:644
+#: src/main/k9main.cpp:661 src/main/k9mp4title.cpp:98
+#: src/main/k9prefdvd.cpp:39 src/main/k9prefmpeg4.cpp:38
+msgid "MB"
+msgstr "MB"
+
+#: src/assistant/k9asttitles.cpp:280 src/assistant/k9asttitles.cpp:291
+#: src/import/k9import.cpp:179 src/import/k9import.cpp:194
+#: src/import/k9newtitle.cpp:151 src/import/k9newtitle.cpp:173
+#: src/main/k9main.cpp:594 src/main/k9main.cpp:609
+msgid "chapter %1"
+msgstr "Kapitel %1"
+
+#: src/assistant/k9asttitles.cpp:285 src/assistant/k9asttitles.cpp:295
+#: src/main/k9main.cpp:598 src/main/k9main.cpp:615 src/main/k9main.cpp:679
+#: src/main/k9main.cpp:699 src/main/k9main.cpp:1410
+msgid "%1 MB"
+msgstr "%1 MB"
+
+#: src/backup/k9dvdauthor.cpp:147 src/backup/k9dvdauthor.cpp:392
+msgid "'%1' not selected"
+msgstr "'%1' nicht ausgewählt"
+
+#: src/backup/k9dvdauthor.cpp:148 src/backup/k9dvdauthor.cpp:393
+#: src/backup/k9dvdauthor.cpp:416 src/backup/k9dvdauthor.cpp:470
+#: src/backup/k9dvdauthor.cpp:479 src/backup/k9dvdauthor.cpp:482
+#: src/core/k9burndvd.cpp:252 src/core/k9burndvd.cpp:336
+#: src/import/k9newdvd.cpp:129
+msgid "authoring"
+msgstr "Authoring"
+
+#: src/backup/k9dvdauthor.cpp:416 src/backup/k9execcopy.cpp:183
+#: src/backup/k9mp4enc.cpp:137 src/backup/k9mp4enc.cpp:147
+#: src/core/k9burndvd.cpp:237 src/core/k9burndvd.cpp:324
+#: src/mplayer/k9mplayer.cpp:157 src/mplayer/k9xine.cpp:143
+msgid "Unable to run %1"
+msgstr "Kann %1nicht abspielen"
+
+#: src/backup/k9dvdauthor.cpp:429 src/backup/k9dvdauthor.cpp:510
+#: src/backup/k9dvdauthor.cpp:548 src/import/k9newdvd.cpp:150
+#: src/main/k9settings.cpp:57 src/main/k9settings.cpp:58
+msgid "Authoring"
+msgstr "Authoring"
+
+#: src/backup/k9dvdauthor.cpp:470
+msgid "Dvdauthor error :\n"
+msgstr "Dvdauthor error :\n"
+
+#: src/backup/k9dvdauthor.cpp:479
+msgid "Authoring cancelled"
+msgstr "Authoring abgebrochen"
+
+#: src/backup/k9dvdauthor.cpp:482 src/import/k9newdvd.cpp:143
+msgid "An error occured while running DVDAuthor:\n"
+msgstr "Ein Fehler ist beim Ausführen von DVDAuthor aufgetreten:\n"
+
+#: src/backup/k9dvdauthor.cpp:549
+msgid "Fixing VOBUS"
+msgstr "Repariere VOBUS"
+
+#: src/backup/k9dvdbackup.cpp:149 src/backup/k9dvdbackup.cpp:163
+#: src/backup/k9dvdbackup.cpp:525 src/backup/k9dvdbackup.cpp:611
+msgid "DVD backup cancelled"
+msgstr "DVD-Backup abgebrochen"
+
+#: src/backup/k9dvdbackup.cpp:176
+msgid "unable to open VIDEO_TS.IFO"
+msgstr "Kann VIDEO_TS.IFO nicht öffnen"
+
+#: src/backup/k9dvdbackup.cpp:198 src/backup/k9dvdbackup.cpp:379
+#: src/backup/k9dvdbackup.cpp:449
+msgid "Unable to open file "
+msgstr "Kann Datei nicht öffnen"
+
+#: src/backup/k9dvdbackup.cpp:277
+msgid "Unable to open titleset %1"
+msgstr "Kann Titelset %1 nicht öffnen"
+
+#: src/backup/k9dvdbackup.cpp:283 src/backup/k9dvdbackup.cpp:583
+msgid "Extracting titleset %1"
+msgstr "Titelset %1 auslesen"
+
+#: src/backup/k9dvdbackup.cpp:456
+msgid "Unable to open menu for titleset %1"
+msgstr "Kann Menü für Titelset %1 nicht öffnen"
+
+#: src/backup/k9dvdbackup.cpp:482
+msgid "Extracting menu for titleset %1"
+msgstr "Menü für Titelset %1 auslesen"
+
+#: src/backup/k9dvdbackup.cpp:575
+msgid "Unable to open ifo file for titleset %1"
+msgstr "Kann ifo-Datei für Titelset %1 nicht öffnen"
+
+#: src/backup/k9dvdbackup.cpp:587 src/backup/k9dvdbackup.cpp:1719
+msgid "Unable to open DVD"
+msgstr "Kann DVD nicht öffnen"
+
+#: src/backup/k9dvdbackup.cpp:597
+msgid "Unable to open vobs for titleset %1"
+msgstr "Kann VOB's für Titelset %1 nicht öffnen"
+
+#: src/backup/k9dvdbackup.cpp:1406
+msgid "Updating vob %1"
+msgstr "Aktualisiere VOB %1"
+
+#: src/backup/k9dvdbackup.cpp:1423
+msgid "DVD backup canceled"
+msgstr "DVD-Backup abgebrochen"
+
+#: src/backup/k9execcopy.cpp:40 src/backup/k9execcopy.cpp:129
+#: src/backup/k9execcopy.cpp:319 src/backup/k9execcopy.cpp:375
+msgid "DVD is not opened"
+msgstr "DVD nicht geöffnet"
+
+#: src/backup/k9execcopy.cpp:40 src/backup/k9execcopy.cpp:66
+#: src/backup/k9execcopy.cpp:119
+msgid "DVD Copy"
+msgstr "DVD kopieren"
+
+#: src/backup/k9execcopy.cpp:66
+msgid ""
+"Insufficient disk space on %1\n"
+"%2 MB expected."
+msgstr "Nicht genügend Speicherplatz auf %1 vorhanden \n%2 MB benötigt"
+
+#: src/backup/k9execcopy.cpp:73
+msgid ""
+"Directory already exists.\n"
+"Please choose another location or rename the DVD title."
+msgstr "Dieses Verzeichnis existiert bereits \n Bitte wählen sie einen anderen Speicherort oder benennen sie den DVD-Titel um."
+
+#: src/backup/k9execcopy.cpp:73
+msgid "Warning!"
+msgstr "Achtung!"
+
+#: src/backup/k9execcopy.cpp:119 src/backup/k9execcopy.cpp:366
+#: src/backup/k9execcopy.cpp:426
+msgid "Selected titles have been successfully extracted"
+msgstr "Die ausgewählten Titel wurden erfolgreich ausgelesen"
+
+#: src/backup/k9execcopy.cpp:147 src/backup/k9execcopy.cpp:337
+#: src/backup/k9execcopy.cpp:393 src/backup/k9mp4enc.cpp:271
+msgid "Save file to disk"
+msgstr "Datei auf Festplatte speichern"
+
+#: src/backup/k9execcopy.cpp:183 src/backup/k9mp4enc.cpp:123
+#: src/backup/k9mp4enc.cpp:131 src/backup/k9mp4enc.cpp:137
+#: src/backup/k9mp4enc.cpp:147 src/backup/k9mp4enc.cpp:434
+msgid "Encoding error"
+msgstr "Kodierungsfehler"
+
+#: src/backup/k9execcopy.cpp:204
+msgid "Selected titles have been successfully encoded"
+msgstr "Die ausgewählten Titel wurden erfolgreich enkodiert"
+
+#: src/backup/k9execcopy.cpp:298
+msgid "Muxing Matroska file"
+msgstr "Muxing Matroska file"
+
+#: src/backup/k9execcopy.cpp:311
+msgid "An error occured while running mkvmerge"
+msgstr "Bei der Ausführung von mkvmerge ist ein Fehler aufgetreten"
+
+#: src/backup/k9execcopy.cpp:311
+msgid "Muxing Matroska"
+msgstr "Muxing Matroska"
+
+#: src/backup/k9execcopy.cpp:375
+msgid "Audio Extraction"
+msgstr "Audio Extraction"
+
+#: src/backup/k9mp4dlg.cpp:27
+msgid "transcoding"
+msgstr "transcoding"
+
+#: src/backup/k9mp4enc.cpp:123
+msgid "Audio extraction can only be done with ffmpeg"
+msgstr "Audio-Extrahierung nur mit ffmpeg möglich"
+
+#: src/backup/k9mp4enc.cpp:131
+msgid "Matroska encoding can only be done with ffmpeg"
+msgstr "Matroska-Enkodierung ist nur mit ffmpeg möglich"
+
+#: src/backup/k9mp4enc.cpp:485 src/backup/k9mp4enc.cpp:548
+#: src/backup/k9mp4enc.cpp:550 src/backup/k9mp4enc.cpp:665
+#: src/backup/k9mp4enc.cpp:667 src/import/k9newdvd.cpp:274
+msgid "Encoding %1"
+msgstr "Kodiere %1"
+
+#: src/backup/k9mp4enc.cpp:548 src/backup/k9mp4enc.cpp:665
+msgid "pass %1"
+msgstr "Durchgang %1"
+
+#: src/backup/k9mp4enc.cpp:867
+msgid "audio"
+msgstr "Audio"
+
+#: src/backup/k9mp4enc.cpp:867 src/backup/k9mp4enc.cpp:885
+msgid "An error occured while encoding the %1 stream"
+msgstr "Bei der Enkodierung des Streams %1 ist ein Fehler aufgetreten"
+
+#: src/core/k9burndvd.cpp:191 src/core/k9burndvd.cpp:192
+#: src/core/k9burndvd.cpp:270 src/core/k9burndvd.cpp:271
+#: src/core/k9burndvd.cpp:366
+msgid "Burning DVD"
+msgstr "Brenne DVD"
+
+#: src/core/k9burndvd.cpp:203 src/core/k9burndvd.cpp:299
+#: src/import/k9import.cpp:296
+msgid "Save image to disk"
+msgstr "Abbild auf Festplatte speichern"
+
+#: src/core/k9burndvd.cpp:228 src/core/k9burndvd.cpp:317
+msgid "Insert a recordable DVD"
+msgstr "Legen Sie eine beschreibbare DVD ein"
+
+#: src/core/k9burndvd.cpp:228 src/core/k9burndvd.cpp:237
+#: src/core/k9burndvd.cpp:243 src/core/k9burndvd.cpp:318
+#: src/core/k9burndvd.cpp:324 src/core/k9burndvd.cpp:330
+msgid "DVD burning"
+msgstr "DVD Brennen"
+
+#: src/core/k9burndvd.cpp:237 src/core/k9burndvd.cpp:324
+msgid "Error burning DVD :\n"
+msgstr "Beim Brennen der DVD ist ein Fehler aufgetreten:\n"
+
+#: src/core/k9burndvd.cpp:243 src/core/k9burndvd.cpp:330
+msgid "DVD Burning finished"
+msgstr "DVD Brennen beendet"
+
+#: src/core/k9burndvd.cpp:251 src/core/k9burndvd.cpp:335
+msgid "An error occured while Burning DVD"
+msgstr "Beim Brennen der DVD ist ein Fehler aufgetreten"
+
+#: src/core/k9burndvd.cpp:251 src/core/k9burndvd.cpp:335
+msgid "Insert an other DVD"
+msgstr "Bitte legen sie eine andere DVD ein"
+
+#: src/core/k9burndvd.cpp:367
+msgid "Current write speed :%1 x"
+msgstr "Aktuelle Schreibgeschwindigkeit: %1 x"
+
+#: src/core/k9dialogs.cpp:125
+msgid "select a directory"
+msgstr "Wählen Sie ein Verzeichnis aus"
+
+#: src/core/k9dvd.cpp:133
+msgid "for visually impaired"
+msgstr "Für Sehbehinderte"
+
+#: src/core/k9dvd.cpp:134
+msgid "director's comments"
+msgstr "director's comments"
+
+#: src/core/k9dvd.cpp:135
+msgid "alternate director's comments"
+msgstr "alternate director's comments"
+
+#: src/core/k9dvd.cpp:139
+msgid "Large"
+msgstr "Groß"
+
+#: src/core/k9dvd.cpp:140
+msgid "Children"
+msgstr "Kinder"
+
+#: src/core/k9dvd.cpp:141 src/core/k9dvd.cpp:147 src/core/k9dvd.cpp:148
+#: src/core/k9dvd.cpp:149
+msgid "reserved"
+msgstr "reserviert"
+
+#: src/core/k9dvd.cpp:142
+msgid "Normal captions"
+msgstr "Normal captions"
+
+#: src/core/k9dvd.cpp:143
+msgid "Large captions"
+msgstr "Große Caption"
+
+#: src/core/k9dvd.cpp:144
+msgid "Children captions"
+msgstr "Kinder Caption"
+
+#: src/core/k9dvd.cpp:146
+msgid "Forced"
+msgstr "Erzwungen"
+
+#: src/core/k9dvd.cpp:150
+msgid "Director's comments"
+msgstr "Director's comments"
+
+#: src/core/k9dvd.cpp:151
+msgid "Large director's comments"
+msgstr "Large director's comments"
+
+#: src/core/k9dvd.cpp:152
+msgid "Director's comments for children"
+msgstr "Director's comments für Kinder"
+
+#: src/core/k9dvd.cpp:202
+msgid "Couldn't open %1 for title\n"
+msgstr "Kann %1 für den Titel nicht öffnen\n"
+
+#: src/core/k9dvd.cpp:210
+msgid "Couldn't seek in %1 for title\n"
+msgstr "Kann nicht in %1 für den Titel suchen \n"
+
+#: src/core/k9dvd.cpp:239
+msgid "Not Specified"
+msgstr "Nicht spezifiert"
+
+#: src/core/k9dvd.cpp:239
+msgid "Afar"
+msgstr "Afar"
+
+#: src/core/k9dvd.cpp:239
+msgid "Abkhazian"
+msgstr "Abkhazian"
+
+#: src/core/k9dvd.cpp:239
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: src/core/k9dvd.cpp:239
+msgid "Amharic"
+msgstr "Amharic"
+
+#: src/core/k9dvd.cpp:240
+msgid "Arabic"
+msgstr "Arabic"
+
+#: src/core/k9dvd.cpp:240
+msgid "Assamese"
+msgstr "Assamese"
+
+#: src/core/k9dvd.cpp:240
+msgid "Aymara"
+msgstr "Aymara"
+
+#: src/core/k9dvd.cpp:240
+msgid "Azerbaijani"
+msgstr "Azerbaijani"
+
+#: src/core/k9dvd.cpp:240
+msgid "Bashkir"
+msgstr "Bashkir"
+
+#: src/core/k9dvd.cpp:241
+msgid "Byelorussian"
+msgstr "Byelorussian"
+
+#: src/core/k9dvd.cpp:241
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: src/core/k9dvd.cpp:241
+msgid "Bihari"
+msgstr "Bihari"
+
+#: src/core/k9dvd.cpp:241
+msgid "Bislama"
+msgstr "Bislama"
+
+#: src/core/k9dvd.cpp:241
+msgid "Bengali; Bangla"
+msgstr "Bengali; Bangla"
+
+#: src/core/k9dvd.cpp:242
+msgid "Tibetan"
+msgstr "Tibetan"
+
+#: src/core/k9dvd.cpp:242
+msgid "Breton"
+msgstr "Breton"
+
+#: src/core/k9dvd.cpp:242
+msgid "Catalan"
+msgstr "Catalan"
+
+#: src/core/k9dvd.cpp:242
+msgid "Corsican"
+msgstr "Corsican"
+
+#: src/core/k9dvd.cpp:242
+msgid "Czech"
+msgstr "Czech"
+
+#: src/core/k9dvd.cpp:243
+msgid "Welsh"
+msgstr "Welsh"
+
+#: src/core/k9dvd.cpp:243
+msgid "Dansk"
+msgstr "Dansk"
+
+#: src/core/k9dvd.cpp:243
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: src/core/k9dvd.cpp:243
+msgid "Bhutani"
+msgstr "Bhutani"
+
+#: src/core/k9dvd.cpp:243
+msgid "Greek"
+msgstr "Greek"
+
+#: src/core/k9dvd.cpp:243
+msgid "English"
+msgstr "English"
+
+#: src/core/k9dvd.cpp:244
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: src/core/k9dvd.cpp:244
+msgid "Espanol"
+msgstr "Espanol"
+
+#: src/core/k9dvd.cpp:244
+msgid "Estonian"
+msgstr "Estonian"
+
+#: src/core/k9dvd.cpp:244
+msgid "Basque"
+msgstr "Basque"
+
+#: src/core/k9dvd.cpp:244
+msgid "Persian"
+msgstr "Persian"
+
+#: src/core/k9dvd.cpp:245
+msgid "Suomi"
+msgstr "Suomi"
+
+#: src/core/k9dvd.cpp:245
+msgid "Fiji"
+msgstr "Fiji"
+
+#: src/core/k9dvd.cpp:245
+msgid "Faroese"
+msgstr "Faroese"
+
+#: src/core/k9dvd.cpp:245
+msgid "Francais"
+msgstr "Francais"
+
+#: src/core/k9dvd.cpp:245
+msgid "Frisian"
+msgstr "Frisian"
+
+#: src/core/k9dvd.cpp:245
+msgid "Gaelic"
+msgstr "Gaelic"
+
+#: src/core/k9dvd.cpp:246
+msgid "Scots Gaelic"
+msgstr "Scots Gaelic"
+
+#: src/core/k9dvd.cpp:246
+msgid "Galician"
+msgstr "Galician"
+
+#: src/core/k9dvd.cpp:246
+msgid "Guarani"
+msgstr "Guarani"
+
+#: src/core/k9dvd.cpp:246
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: src/core/k9dvd.cpp:246
+msgid "Hausa"
+msgstr "Hausa"
+
+#: src/core/k9dvd.cpp:247 src/core/k9dvd.cpp:249
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: src/core/k9dvd.cpp:247
+msgid "Hindi"
+msgstr "Hindi"
+
+#: src/core/k9dvd.cpp:247
+msgid "Hrvatski"
+msgstr "Hrvatski"
+
+#: src/core/k9dvd.cpp:247
+msgid "Magyar"
+msgstr "Magyar"
+
+#: src/core/k9dvd.cpp:247
+msgid "Armenian"
+msgstr "Armenian"
+
+#: src/core/k9dvd.cpp:248
+msgid "Interlingua"
+msgstr "Interlingua"
+
+#: src/core/k9dvd.cpp:248
+msgid "Indonesian"
+msgstr "Indonesian"
+
+#: src/core/k9dvd.cpp:248
+msgid "Interlingue"
+msgstr "Interlingue"
+
+#: src/core/k9dvd.cpp:248
+msgid "Inupiak"
+msgstr "Inupiak"
+
+#: src/core/k9dvd.cpp:249
+msgid "Islenska"
+msgstr "Islenska"
+
+#: src/core/k9dvd.cpp:249
+msgid "Italiano"
+msgstr "Italiano"
+
+#: src/core/k9dvd.cpp:249
+msgid "Inuktitut"
+msgstr "Inuktitut"
+
+#: src/core/k9dvd.cpp:249
+msgid "Japanese"
+msgstr "Japanese"
+
+#: src/core/k9dvd.cpp:250 src/core/k9dvd.cpp:265
+msgid "Yiddish"
+msgstr "Yiddish"
+
+#: src/core/k9dvd.cpp:250
+msgid "Javanese"
+msgstr "Javanese"
+
+#: src/core/k9dvd.cpp:250
+msgid "Georgian"
+msgstr "Georgian"
+
+#: src/core/k9dvd.cpp:250
+msgid "Kazakh"
+msgstr "Kazakh"
+
+#: src/core/k9dvd.cpp:250
+msgid "Greenlandic"
+msgstr "Greenlandic"
+
+#: src/core/k9dvd.cpp:251
+msgid "Cambodian"
+msgstr "Cambodian"
+
+#: src/core/k9dvd.cpp:251
+msgid "Kannada"
+msgstr "Kannada"
+
+#: src/core/k9dvd.cpp:251
+msgid "Korean"
+msgstr "Korean"
+
+#: src/core/k9dvd.cpp:251
+msgid "Kashmiri"
+msgstr "Kashmiri"
+
+#: src/core/k9dvd.cpp:251
+msgid "Kurdish"
+msgstr "Kurdish"
+
+#: src/core/k9dvd.cpp:252
+msgid "Kirghiz"
+msgstr "Kirghiz"
+
+#: src/core/k9dvd.cpp:252
+msgid "Latin"
+msgstr "Latin"
+
+#: src/core/k9dvd.cpp:252
+msgid "Lingala"
+msgstr "Lingala"
+
+#: src/core/k9dvd.cpp:252
+msgid "Laothian"
+msgstr "Laothian"
+
+#: src/core/k9dvd.cpp:252
+msgid "Lithuanian"
+msgstr "Lithuanian"
+
+#: src/core/k9dvd.cpp:253
+msgid "Latvian, Lettish"
+msgstr "Latvian, Lettish"
+
+#: src/core/k9dvd.cpp:253
+msgid "Malagasy"
+msgstr "Malagasy"
+
+#: src/core/k9dvd.cpp:253
+msgid "Maori"
+msgstr "Maori"
+
+#: src/core/k9dvd.cpp:253
+msgid "Macedonian"
+msgstr "Macedonian"
+
+#: src/core/k9dvd.cpp:253
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: src/core/k9dvd.cpp:254
+msgid "Mongolian"
+msgstr "Mongolian"
+
+#: src/core/k9dvd.cpp:254
+msgid "Moldavian"
+msgstr "Moldavian"
+
+#: src/core/k9dvd.cpp:254
+msgid "Marathi"
+msgstr "Marathi"
+
+#: src/core/k9dvd.cpp:254
+msgid "Malay"
+msgstr "Malay"
+
+#: src/core/k9dvd.cpp:254
+msgid "Maltese"
+msgstr "Maltese"
+
+#: src/core/k9dvd.cpp:255
+msgid "Burmese"
+msgstr "Burmese"
+
+#: src/core/k9dvd.cpp:255
+msgid "Nauru"
+msgstr "Nauru"
+
+#: src/core/k9dvd.cpp:255
+msgid "Nepali"
+msgstr "Nepali"
+
+#: src/core/k9dvd.cpp:255
+msgid "Nederlands"
+msgstr "Nederlands"
+
+#: src/core/k9dvd.cpp:255
+msgid "Norsk"
+msgstr "Norsk"
+
+#: src/core/k9dvd.cpp:255
+msgid "Occitan"
+msgstr "Occitan"
+
+#: src/core/k9dvd.cpp:256
+msgid "Oromo"
+msgstr "Oromo"
+
+#: src/core/k9dvd.cpp:256
+msgid "Oriya"
+msgstr "Oriya"
+
+#: src/core/k9dvd.cpp:256
+msgid "Punjabi"
+msgstr "Punjabi"
+
+#: src/core/k9dvd.cpp:256
+msgid "Polish"
+msgstr "Polish"
+
+#: src/core/k9dvd.cpp:256
+msgid "Pashto, Pushto"
+msgstr "Pashto, Pushto"
+
+#: src/core/k9dvd.cpp:257
+msgid "Portugues"
+msgstr "Portugues"
+
+#: src/core/k9dvd.cpp:257
+msgid "Quechua"
+msgstr "Quechua"
+
+#: src/core/k9dvd.cpp:257
+msgid "Rhaeto-Romance"
+msgstr "Rhaeto-Romance"
+
+#: src/core/k9dvd.cpp:257
+msgid "Kirundi"
+msgstr "Kirundi"
+
+#: src/core/k9dvd.cpp:257
+msgid "Romanian"
+msgstr "Romanian"
+
+#: src/core/k9dvd.cpp:258
+msgid "Russian"
+msgstr "Russian"
+
+#: src/core/k9dvd.cpp:258
+msgid "Kinyarwanda"
+msgstr "Kinyarwanda"
+
+#: src/core/k9dvd.cpp:258
+msgid "Sanskrit"
+msgstr "Sanskrit"
+
+#: src/core/k9dvd.cpp:258
+msgid "Sindhi"
+msgstr "Sindhi"
+
+#: src/core/k9dvd.cpp:258
+msgid "Sangho"
+msgstr "Sangho"
+
+#: src/core/k9dvd.cpp:259
+msgid "Serbo-Croatian"
+msgstr "Serbo-Croatian"
+
+#: src/core/k9dvd.cpp:259
+msgid "Sinhalese"
+msgstr "Sinhalese"
+
+#: src/core/k9dvd.cpp:259
+msgid "Slovak"
+msgstr "Slovak"
+
+#: src/core/k9dvd.cpp:259
+msgid "Slovenian"
+msgstr "Slovenian"
+
+#: src/core/k9dvd.cpp:259
+msgid "Samoan"
+msgstr "Samoan"
+
+#: src/core/k9dvd.cpp:260
+msgid "Shona"
+msgstr "Shona"
+
+#: src/core/k9dvd.cpp:260
+msgid "Somali"
+msgstr "Somali"
+
+#: src/core/k9dvd.cpp:260
+msgid "Albanian"
+msgstr "Albanian"
+
+#: src/core/k9dvd.cpp:260
+msgid "Serbian"
+msgstr "Serbian"
+
+#: src/core/k9dvd.cpp:260
+msgid "Siswati"
+msgstr "Siswati"
+
+#: src/core/k9dvd.cpp:261
+msgid "Sesotho"
+msgstr "Sesotho"
+
+#: src/core/k9dvd.cpp:261
+msgid "Sundanese"
+msgstr "Sundanese"
+
+#: src/core/k9dvd.cpp:261
+msgid "Svenska"
+msgstr "Svenska"
+
+#: src/core/k9dvd.cpp:261
+msgid "Swahili"
+msgstr "Swahili"
+
+#: src/core/k9dvd.cpp:261
+msgid "Tamil"
+msgstr "Tamil"
+
+#: src/core/k9dvd.cpp:262
+msgid "Telugu"
+msgstr "Telugu"
+
+#: src/core/k9dvd.cpp:262
+msgid "Tajik"
+msgstr "Tajik"
+
+#: src/core/k9dvd.cpp:262
+msgid "Thai"
+msgstr "Thai"
+
+#: src/core/k9dvd.cpp:262
+msgid "Tigrinya"
+msgstr "Tigrinya"
+
+#: src/core/k9dvd.cpp:262
+msgid "Turkmen"
+msgstr "Turkmen"
+
+#: src/core/k9dvd.cpp:262
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: src/core/k9dvd.cpp:263
+msgid "Setswana"
+msgstr "Setswana"
+
+#: src/core/k9dvd.cpp:263
+msgid "Tonga"
+msgstr "Tonga"
+
+#: src/core/k9dvd.cpp:263
+msgid "Turkish"
+msgstr "Turkish"
+
+#: src/core/k9dvd.cpp:263
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#: src/core/k9dvd.cpp:263
+msgid "Tatar"
+msgstr "Tatar"
+
+#: src/core/k9dvd.cpp:263
+msgid "Twi"
+msgstr "Twi"
+
+#: src/core/k9dvd.cpp:264
+msgid "Uighur"
+msgstr "Uighur"
+
+#: src/core/k9dvd.cpp:264
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: src/core/k9dvd.cpp:264
+msgid "Urdu"
+msgstr "Urdu"
+
+#: src/core/k9dvd.cpp:264
+msgid "Uzbek"
+msgstr "Uzbek"
+
+#: src/core/k9dvd.cpp:264
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: src/core/k9dvd.cpp:265
+msgid "Volapuk"
+msgstr "Volapuk"
+
+#: src/core/k9dvd.cpp:265
+msgid "Wolof"
+msgstr "Wolof"
+
+#: src/core/k9dvd.cpp:265
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: src/core/k9dvd.cpp:265
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#: src/core/k9dvd.cpp:265
+msgid "Zhuang"
+msgstr "Zhuang"
+
+#: src/core/k9dvd.cpp:266
+msgid "Chinese"
+msgstr "Chinese"
+
+#: src/core/k9dvd.cpp:266
+msgid "Zulu"
+msgstr "Zulu"
+
+#: src/core/k9dvd.cpp:266 src/core/k9dvd.cpp:282 src/core/k9dvd.cpp:504
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: src/core/k9dvd.cpp:372
+msgid "Can't open disc %1!\n"
+msgstr "Kann Disc %1 nicht öffnen!\n"
+
+#: src/core/k9dvd.cpp:384
+msgid "Can't open main ifo!\n"
+msgstr "Kann Haupt-ifo nicht öffnen!\n"
+
+#: src/core/k9dvd.cpp:426 src/core/k9dvd.cpp:716
+msgid "Title %1"
+msgstr "Titel %1"
+
+#: src/core/k9dvd.cpp:769
+msgid "reading title"
+msgstr "Lese Titel"
+
+#: src/core/k9dvd.cpp:886
+msgid "Error opening vobs for title %1\n"
+msgstr "Kann VOB's für Titel %1 nicht öffnen\n"
+
+#: src/core/k9dvd.cpp:897
+msgid "ERROR reading block %1\n"
+msgstr "Fehler beim lesen von Block %1\n"
+
+#: src/core/k9process.cpp:139 src/core/k9tools.cpp:38
+#: src/import/k9menu.cpp:165
+msgid "Error starting program %1"
+msgstr "Fehler beim starten von Prgramm %1"
+
+#: src/core/k9process.cpp:139 src/core/k9tools.cpp:38 src/core/k9tools.cpp:60
+#: src/import/k9menu.cpp:165
+msgid "Running program"
+msgstr "Programm ausführen"
+
+#: src/core/k9tools.cpp:51
+msgid "Enter the root password"
+msgstr "Root Passwort eingeben"
+
+#: src/core/k9tools.cpp:60
+msgid "The root password is not valid"
+msgstr "Das root Passwort ist nicht gültig"
+
+#: src/devices/k9cddrive.cpp:214
+msgid ""
+"The root password is needed to change the read ahead property of the dvd "
+"drive"
+msgstr "Das root Passwort wird benötigt um das read-ahead-property des DVD-Laufwerks zu ändern"
+
+#: src/import/k9avidecode.cpp:39 src/import/k9avidecode.cpp:43
+#: src/import/k9avidecode.cpp:48 src/vamps/k9ffmpeg.cpp:33
+#: src/vamps/k9ffmpeg.cpp:37 src/vamps/k9ffmpeg.cpp:46
+msgid "Cannot open the library %1"
+msgstr "Kann Bibliothek %1 nocht öffnen"
+
+#: src/import/k9avidecode.cpp:112
+msgid "Couldn't open the file %1"
+msgstr "Kann Datei %1 nicht öffnen"
+
+#: src/import/k9avidecode.cpp:117
+msgid "Couldn't find stream information"
+msgstr "Kann keine Streaminformation finden"
+
+#: src/import/k9avidecode.cpp:130
+msgid "The file doesn't contain any video stream"
+msgstr "Die Datei enthält keinen Videostream"
+
+#: src/import/k9avidecode.cpp:141
+msgid "Unsupported codec"
+msgstr "Nicht unterstützter Codec"
+
+#: src/import/k9avidecode.cpp:146
+msgid "Couldn't open the codec"
+msgstr "Kann Codec nicht öffnen"
+
+#: src/import/k9avidecode.cpp:157
+msgid "Unable to allocate memory for frames"
+msgstr "Kann keine Speicher für die Frames reservieren"
+
+#: src/import/k9import.cpp:239 src/import/k9import.cpp:254
+msgid "remove"
+msgstr "entfernen"
+
+#: src/import/k9import.cpp:242
+msgid "add chapter"
+msgstr "Kapitel hinzufügen"
+
+#: src/import/k9importfiles.cpp:88
+msgid "Add Title"
+msgstr "Titel hinzufügen"
+
+#: src/import/k9importfiles.cpp:109
+msgid "Edit menu"
+msgstr "Menü bearbeiten"
+
+#: src/import/k9importfiles.cpp:158
+msgid "Create DVD"
+msgstr "DVD erstellen"
+
+#: src/import/k9menuedit.cpp:242
+msgid "Title %1 Menu"
+msgstr "Titel %1 Menü"
+
+#: src/import/k9menuedit.cpp:251 src/import/k9menuedit.cpp:288
+msgid "Play Menu"
+msgstr "Menü abspielen"
+
+#: src/import/k9menuedit.cpp:253
+msgid "Play Title"
+msgstr "Titel abspielen"
+
+#: src/import/k9menuedit.cpp:259
+msgid "Play Root Menu"
+msgstr "Wurzelmenü abspielen"
+
+#: src/import/k9menuedit.cpp:261
+msgid "Play Title Menu"
+msgstr "Titelmenü abspielen"
+
+#: src/import/k9menuedit.cpp:266 src/import/k9menuedit.cpp:292
+msgid "Play Title %1"
+msgstr "Titel %1 abspielen"
+
+#: src/import/k9newdvd.cpp:96
+msgid "Creating root menu"
+msgstr "Wurzelmenü erstellen"
+
+#: src/import/k9newdvd.cpp:141
+msgid "The dvd authoring was canceled"
+msgstr "DVD-Authoring abgebrochen"
+
+#: src/import/k9newdvd.cpp:167
+msgid "Creating menu for title %1"
+msgstr "Erstelle Menü für Titel %1"
+
+#: src/import/k9newdvd.cpp:479 src/import/k9newtitle.cpp:97
+msgid "title %1"
+msgstr "Titel %1"
+
+#: src/main/k9copy.cpp:56 src/main/k9main.cpp:413 src/main/k9main.cpp:548
+#: src/main/k9main.cpp:1155 src/main/k9main.cpp:1164 src/main/k9main.cpp:1174
+msgid "Ready"
+msgstr "Bereit"
+
+#: src/main/k9copy.cpp:106
+msgid "Shrink Factor"
+msgstr "Verkleinerungsfaktor"
+
+#: src/main/k9copy.cpp:117
+msgid "MPEG4 Encoding Options"
+msgstr "MPEG4 Encoding Options"
+
+#: src/main/k9copy.cpp:226
+msgid "Copy"
+msgstr "Kopieren"
+
+#: src/main/k9copy.cpp:231
+msgid "Eject"
+msgstr "Auswerfen"
+
+#: src/main/k9copy.cpp:237
+msgid "Wizard"
+msgstr "Assistent"
+
+#: src/main/k9copy.cpp:244
+msgid "DVD Author"
+msgstr "DVD Author"
+
+#: src/main/k9cropselect.cpp:46
+msgid "Crop selection"
+msgstr "Auswahl für Zuschnitt"
+
+#: src/main/k9ffmpegcmdgen.cpp:131
+msgid "ffmpeg command generator"
+msgstr "ffmpeg command generator"
+
+#: src/main/k9main.cpp:500
+msgid "Open DVD"
+msgstr "DVD öffnen"
+
+#: src/main/k9main.cpp:522
+msgid "Titleset %1"
+msgstr "Titelset %1"
+
+#: src/main/k9main.cpp:587
+msgid "chapters"
+msgstr "Kapitel"
+
+#: src/main/k9main.cpp:656
+msgid "video %1 "
+msgstr "Video %1"
+
+#: src/main/k9main.cpp:668
+msgid "audio %1 "
+msgstr "Audio %1"
+
+#: src/main/k9main.cpp:690
+msgid "subpicture %1 "
+msgstr "Untertitel %1"
+
+#: src/main/k9main.cpp:1321
+msgid "Open ISO Image"
+msgstr "ISO-Abbild öffnen"
+
+#: src/main/k9mencodercmdgen.cpp:78
+msgid "Audio Codec"
+msgstr "Audiocodec"
+
+#: src/main/k9mencodercmdgen.cpp:94
+msgid "Video Codec"
+msgstr "Videocodec"
+
+#: src/main/k9mencodercmdgen.cpp:113
+msgid "Filters"
+msgstr "Filter"
+
+#: src/main/k9mp4title.cpp:42 src/main/k9mp4title.cpp:177
+#: src/main/k9titlefactor.cpp:111
+msgid "Select a Title in the treeview..."
+msgstr "Wählen sie einen Titel in der Baumansicht"
+
+#: src/main/k9mp4title.cpp:73
+msgid "Crop detection"
+msgstr "Auswahl für Zuschnitt"
+
+#: src/main/k9playbackoptions.cpp:150
+msgid "none"
+msgstr "keine"
+
+#: src/main/k9prefmencoder.cpp:145 src/main/k9prefmencoder.cpp:149
+#: src/main/k9prefmencoder.cpp:160 src/main/k9prefmencoder.cpp:162
+msgid "new profile"
+msgstr "neues Profil"
+
+#: src/main/k9settings.cpp:31
+msgid "Devices not detected by k9copy"
+msgstr "Gerät nicht von k9copy erkannt"
+
+#: src/main/k9settings.cpp:40
+msgid "Encoders"
+msgstr "Encoders"
+
+#: src/main/k9settings.cpp:41
+msgid "MPEG-4 Codecs"
+msgstr "MPEG-4 Codecs"
+
+#: src/main/k9settings.cpp:52
+msgid "Title preview"
+msgstr "Titelvorschau"
+
+#: src/main/k9settings.cpp:62
+msgid "Paths"
+msgstr "Pfade"
+
+#: src/main/k9settings.cpp:63
+msgid "Default paths"
+msgstr "Standardpfade"
+
+#: src/main/k9titlefactor.cpp:122
+msgid "Shrink Factor for %1"
+msgstr "Verkleinerungsfaktor für %1"
+
+#: src/main/kviewmpeg2.cpp:81
+msgid "Title Preview"
+msgstr "Titelvorschau"
+
+#: src/player/k9play.cpp:340
+msgid "Error opening the DVD"
+msgstr "Fehler beim Öffnen der DVD"
+
+#: src/player/k9play.cpp:347
+msgid "Error on dvdnav_set_readahead_flag: %1"
+msgstr "Fehler bei dvdnav_set_readahead_flag: %1"
+
+#: src/player/k9play.cpp:356
+msgid "Error on setting languages: %1"
+msgstr "Fehler beim Setzen der Sprache: %1"
+
+#: src/player/k9play.cpp:364
+msgid "Error on dvdnav_set_PGC_positioning_flag: %1"
+msgstr "Fehler bei dvdnav_set_PGC_positioning_flag: %1"
+
+#: src/player/k9play.cpp:399
+msgid "Error getting next block: %1"
+msgstr "Fehler beim Suchen des nächsten Blocks: %1"
+
+#: src/xine/main.cpp:50
+msgid "wid"
+msgstr "wid"
+
+#: src/xine/main.cpp:51
+msgid "vo"
+msgstr "vo"
+
+#: src/xine/main.cpp:52
+msgid "ao"
+msgstr "ao"
+

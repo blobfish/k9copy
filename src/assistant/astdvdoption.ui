@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>astDVDOption</class>
+ <widget class="QWidget" name="astDVDOption">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>398</width>
+    <height>298</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="rbMenu">
+        <property name="text">
+         <string>Copy original menus</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="rbDvdauthor">
+        <property name="text">
+         <string>Don't copy menus.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QGroupBox" name="gbTitles">
+        <property name="title">
+         <string>Drag items to set title playing sequence</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QListWidget" name="titles">
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="dragDropMode">
+            <enum>QAbstractItemView::InternalMove</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>rbMenu</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>astDVDOption</receiver>
+   <slot>rbMenuToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>93</x>
+     <y>48</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>47</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>rbMenuToggled(bool)</slot>
+ </slots>
+</ui>

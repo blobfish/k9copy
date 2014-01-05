@@ -1,0 +1,45 @@
+<!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
+<kpartgui name="k9copy" version="12">
+	<MenuBar>
+		<Menu noMerge="1" name="file"><text>&amp;File</text>
+			<Action name="file_open"/>
+			
+			<Separator/>
+			<Action name="file_quit"/>
+		</Menu>
+                <Menu noMerge="0" name="settings">
+                        <Action name="settings_preferences"/>
+                        <Action name="gtk-style"/>
+                </Menu>
+		<Menu name="Actions"><text>A&amp;ctions</text>
+			<Action name="backup"/>
+			<Action name="author"/>
+			<Separator/>
+			<Action name="PlayTitle" />
+			<Action name="ExtractMPEG"/>
+			<Action name="MakeMPEG4"/>	    
+			<Action name="Copy" />
+			<Separator/>
+			<Action name="Create"/>
+			<Separator/>
+			<Action name="Wizard"/>			
+			<Separator/>
+			<Action name="Eject"/>
+		</Menu>
+	</MenuBar>
+	<ToolBar name="mainToolBar" noMerge="1">
+		<text>Actions ToolBar</text>
+		<Action name="file_open"/>
+		<Action name="PlayTitle"/>
+		<Action name="ExtractMPEG"/>
+		<Action name="MakeMPEG4"/>	
+		<Action name="Copy"/>
+		<Action name="Create"/>	
+		<Separator/>
+		<Action name="Wizard"/>
+		<Separator />
+		<Action name="options_configure" />	
+		<Action name="Eject"/>	
+		<Action name="file_quit"/>
+	</ToolBar>
+</kpartgui>

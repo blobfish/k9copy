@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>prefAuthor</class>
+ <widget class="QWidget" name="prefAuthor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>598</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Authoring options</string>
+  </property>
+  <layout class="QGridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox1">
+     <property name="title">
+      <string>Audio</string>
+     </property>
+     <layout class="QGridLayout">
+      <item row="0" column="1">
+       <widget class="QComboBox" name="cbAudioFormat">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>AC3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MP2</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="cbAudioBitrate">
+        <item>
+         <property name="text">
+          <string>128</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>160</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>192</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>224</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>256</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>320</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>384</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>448</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="textLabel1">
+        <property name="text">
+         <string>Format</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="textLabel2">
+        <property name="text">
+         <string>Bitrate</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2" rowspan="2">
+       <spacer>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Expanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>151</width>
+          <height>21</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <spacer>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>60</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox2">
+     <property name="title">
+      <string>Buttons</string>
+     </property>
+     <layout class="QGridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="textLabel3">
+        <property name="text">
+         <string>Width</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <spacer>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Expanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>121</width>
+          <height>31</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="textLabel5">
+        <property name="text">
+         <string>Height</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QSpinBox" name="inButtonHeight">
+        <property name="maximum">
+         <number>480</number>
+        </property>
+        <property name="minValue" stdset="0">
+         <number>0</number>
+        </property>
+        <property name="maxValue" stdset="0">
+         <number>480</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSpinBox" name="inButtonWidth">
+        <property name="maximum">
+         <number>700</number>
+        </property>
+        <property name="minValue" stdset="0">
+         <number>0</number>
+        </property>
+        <property name="maxValue" stdset="0">
+         <number>700</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="KPushButton" name="bButtonFont">
+        <property name="text">
+         <string>Font</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="textLabel6">
+        <property name="text">
+         <string>Hilite color</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="KColorButton" name="cbHiliteColor">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="textLabel6_2">
+        <property name="text">
+         <string>Text color</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="KColorButton" name="cbTextColor">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>KPushButton</class>
+   <extends>QPushButton</extends>
+   <header>kpushbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KColorButton</class>
+   <extends>QPushButton</extends>
+   <header>kcolorbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <includes>
+  <include location="local">kpushbutton.h</include>
+  <include location="local">kcolorbutton.h</include>
+  <include location="local">kcolorbutton.h</include>
+ </includes>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>bButtonFont</sender>
+   <signal>clicked()</signal>
+   <receiver>prefAuthor</receiver>
+   <slot>bButtonFontClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,4500 @@
+# translation of cs.po to czech
+# translation of k9copy.po to czech
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2005.
+# Zdeněk Štěpánek <zdenek@gavanet.org>, 2006.
+# Pavel Fric <pavelfric@seznam.cz>, 2009, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: k9copy\n"
+"Report-Msgid-Bugs-To: http://sourceforge."
+"net/tracker/?group_id=50231&atid=459007\n"
+"POT-Creation-Date: 2009-12-23 19:37+0100\n"
+"PO-Revision-Date: 2004-01-01 00:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. i18n: file: src/assistant/astdestination.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astDestination)
+#. i18n: file: src/assistant/astdvdoption.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astDVDOption)
+#. i18n: file: src/assistant/astmp4.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astMp4)
+#. i18n: file: src/assistant/astmpeg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astMpeg)
+#. i18n: file: src/assistant/astsource.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astSource)
+#. i18n: file: src/assistant/aststreams.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astStreams)
+#. i18n: file: src/assistant/asttitles.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astTitles)
+#. i18n: file: src/core/k9logview.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, k9LogView)
+#. i18n: file: src/main/ffmpegCmdGen.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ffmpegCmdGen)
+#. i18n: file: src/mplayer/phonon.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, phonon)
+#. i18n: file: src/assistant/astdestination.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astDestination)
+#. i18n: file: src/assistant/astdvdoption.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astDVDOption)
+#. i18n: file: src/assistant/astmp4.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astMp4)
+#. i18n: file: src/assistant/astmpeg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astMpeg)
+#. i18n: file: src/assistant/astsource.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astSource)
+#. i18n: file: src/assistant/aststreams.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astStreams)
+#. i18n: file: src/assistant/asttitles.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astTitles)
+#. i18n: file: src/core/k9logview.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, k9LogView)
+#. i18n: file: src/main/ffmpegCmdGen.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ffmpegCmdGen)
+#. i18n: file: src/mplayer/phonon.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, phonon)
+#: build/ui_astdestination.h:182 build/ui_astdvdoption.h:89
+#: build/ui_astmp4.h:75 build/ui_astmpeg.h:75 build/ui_astsource.h:114
+#: build/ui_aststreams.h:54 build/ui_asttitles.h:73
+#: build/ui_ffmpegCmdGen.h:582 build/ui_k9logview.h:53 build/ui_phonon.h:120
+#: po/rc.cpp:12 po/rc.cpp:36 po/rc.cpp:48 po/rc.cpp:54 po/rc.cpp:60
+#: po/rc.cpp:72 po/rc.cpp:81 po/rc.cpp:141 po/rc.cpp:345 po/rc.cpp:1295
+#: rc.cpp:12 rc.cpp:36 rc.cpp:48 rc.cpp:54 rc.cpp:60 rc.cpp:72 rc.cpp:81
+#: rc.cpp:141 rc.cpp:345 rc.cpp:1295
+msgid "Form"
+msgstr "Formulář"
+
+#. i18n: file: src/assistant/astdestination.ui:26
+#. i18n: ectx: property (text), widget (QRadioButton, rbDVD)
+#: build/ui_astdestination.h:184 po/rc.cpp:15 src/import/k9importfiles.cpp:162
+#: src/main/k9settings.cpp:42 rc.cpp:15
+msgid "DVD Backup"
+msgstr "DVD Záloha"
+
+#: build/ui_astdestination.h:185
+msgid " QGroupBox { border: none }"
+msgstr " QGroupBox { okraj: žádný }"
+
+#. i18n: file: src/assistant/astdestination.ui:60
+#. i18n: ectx: property (text), widget (QRadioButton, rbDVDDisc)
+#: build/ui_astdestination.h:187 po/rc.cpp:18 rc.cpp:18
+msgid "to Disc"
+msgstr "na disk"
+
+#. i18n: file: src/assistant/astdestination.ui:82
+#. i18n: ectx: property (text), widget (QRadioButton, rbDVDFolder)
+#: build/ui_astdestination.h:188 po/rc.cpp:21 rc.cpp:21
+msgid "to Folder"
+msgstr "do složky"
+
+#. i18n: file: src/assistant/astdestination.ui:98
+#. i18n: ectx: property (text), widget (QRadioButton, rbDVDIso)
+#: build/ui_astdestination.h:189 po/rc.cpp:24 rc.cpp:24
+msgid "to Iso image"
+msgstr "do ISO obrazu"
+
+#. i18n: file: src/assistant/astdestination.ui:117
+#. i18n: ectx: property (text), widget (QRadioButton, rbAvi)
+#: build/ui_astdestination.h:190 po/rc.cpp:27 rc.cpp:27
+msgid "Rip and encode DVD"
+msgstr "Získat a zakódovat DVD"
+
+#. i18n: file: src/assistant/astdestination.ui:136
+#. i18n: ectx: property (text), widget (QRadioButton, rbMpeg)
+#: build/ui_astdestination.h:191 po/rc.cpp:30 rc.cpp:30
+msgid "Rip DVD without encoding"
+msgstr "Získat DVD bez zakódování"
+
+#. i18n: file: src/assistant/astdestination.ui:155
+#. i18n: ectx: property (text), widget (QRadioButton, rbAudio)
+#: build/ui_astdestination.h:192 po/rc.cpp:33 rc.cpp:33
+msgid "Extract audio"
+msgstr "Získat zvuk"
+
+#. i18n: file: src/assistant/astdvdoption.ui:26
+#. i18n: ectx: property (text), widget (QRadioButton, rbMenu)
+#: build/ui_astdvdoption.h:91 po/rc.cpp:39 rc.cpp:39
+msgid "Copy original menus"
+msgstr "Okopírovat původní menu"
+
+#. i18n: file: src/assistant/astdvdoption.ui:33
+#. i18n: ectx: property (text), widget (QRadioButton, rbDvdauthor)
+#: build/ui_astdvdoption.h:92 po/rc.cpp:42 rc.cpp:42
+msgid "Don't copy menus."
+msgstr "Nekopírovat menu."
+
+#. i18n: file: src/assistant/astdvdoption.ui:40
+#. i18n: ectx: property (title), widget (QGroupBox, gbTitles)
+#: build/ui_astdvdoption.h:93 po/rc.cpp:45 rc.cpp:45
+msgid "Drag items to set title playing sequence"
+msgstr "Táhnout položky pro nastavení pořadí přehrávání názvů"
+
+#. i18n: file: src/assistant/astmp4.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: build/ui_astmp4.h:76 po/rc.cpp:51 rc.cpp:51
+msgid "Encoding options for title "
+msgstr "Volby zakódování pro název stopy"
+
+#. i18n: file: src/assistant/astmpeg.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: build/ui_astmpeg.h:76 po/rc.cpp:57 rc.cpp:57
+msgid "Select options for title"
+msgstr "Vybrat volby pro název stopy"
+
+#. i18n: file: src/assistant/astsource.ui:31
+#. i18n: ectx: property (text), widget (QRadioButton, rbDrive)
+#: build/ui_astsource.h:116 po/rc.cpp:63 rc.cpp:63
+msgid "DVD Drive"
+msgstr "Mechanika DVD"
+
+#. i18n: file: src/assistant/astsource.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, rbFolder)
+#. i18n: file: src/main/k9mainw.ui:65
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:126
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#. i18n: file: src/assistant/astsource.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, rbFolder)
+#. i18n: file: src/main/k9mainw.ui:65
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:126
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: build/ui_astsource.h:117 build/ui_k9mainw.h:213 build/ui_k9mainw.h:220
+#: po/rc.cpp:66 po/rc.cpp:690 po/rc.cpp:702 src/import/k9import.cpp:89
+#: rc.cpp:66 rc.cpp:690 rc.cpp:702
+msgid "Folder"
+msgstr "Složka"
+
+#. i18n: file: src/assistant/astsource.ui:66
+#. i18n: ectx: property (text), widget (QRadioButton, rbIso)
+#. i18n: file: src/main/k9mainw.ui:60
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:121
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#. i18n: file: src/assistant/astsource.ui:66
+#. i18n: ectx: property (text), widget (QRadioButton, rbIso)
+#. i18n: file: src/main/k9mainw.ui:60
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:121
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: build/ui_astsource.h:118 build/ui_k9mainw.h:212 build/ui_k9mainw.h:219
+#: po/rc.cpp:69 po/rc.cpp:687 po/rc.cpp:699 src/import/k9import.cpp:88
+#: src/main/k9main.cpp:438 rc.cpp:69 rc.cpp:687 rc.cpp:699
+msgid "ISO Image"
+msgstr "ISO obraz"
+
+#. i18n: file: src/assistant/aststreams.ui:25
+#. i18n: ectx: property (text), widget (QTreeWidget, lstreams)
+#. i18n: file: src/main/k9mainw.ui:205
+#. i18n: ectx: property (text), item, widget (QComboBox, cbBurnSpeed)
+#. i18n: file: src/main/prefDVD.ui:173
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadAhead)
+#. i18n: file: src/assistant/aststreams.ui:25
+#. i18n: ectx: property (text), widget (QTreeWidget, lstreams)
+#. i18n: file: src/main/k9mainw.ui:205
+#. i18n: ectx: property (text), item, widget (QComboBox, cbBurnSpeed)
+#. i18n: file: src/main/prefDVD.ui:173
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadAhead)
+#: build/ui_aststreams.h:56 build/ui_k9mainw.h:228 build/ui_prefDVD.h:279
+#: po/rc.cpp:78 po/rc.cpp:717 po/rc.cpp:936 src/backup/k9execcopy.cpp:36
+#: src/core/k9burndvd.cpp:189 src/core/k9burndvd.cpp:311
+#: src/import/k9import.cpp:324 src/main/k9copy.cpp:276
+#: src/main/k9main.cpp:1345 src/main/k9playbackoptions.cpp:129 rc.cpp:78
+#: rc.cpp:717 rc.cpp:936
+msgid "default"
+msgstr "Výchozí"
+
+#. i18n: file: src/assistant/aststreams.ui:20
+#. i18n: ectx: property (text), widget (QTreeWidget, lstreams)
+#: build/ui_aststreams.h:57 po/rc.cpp:75 rc.cpp:75
+msgid "Selected titles"
+msgstr "Vybrané názvy stop"
+
+#. i18n: file: src/assistant/asttitles.ui:50
+#. i18n: ectx: property (text), widget (QTreeWidget, twSource)
+#: build/ui_asttitles.h:75 po/rc.cpp:90 rc.cpp:90
+msgid "size"
+msgstr "Velikost"
+
+#. i18n: file: src/assistant/asttitles.ui:45
+#. i18n: ectx: property (text), widget (QTreeWidget, twSource)
+#. i18n: file: src/main/k9mainw.ui:269
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#. i18n: file: src/assistant/asttitles.ui:45
+#. i18n: ectx: property (text), widget (QTreeWidget, twSource)
+#. i18n: file: src/main/k9mainw.ui:269
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#: build/ui_asttitles.h:76 build/ui_k9mainw.h:233 po/rc.cpp:87 po/rc.cpp:732
+#: rc.cpp:87 rc.cpp:732
+msgid "Length"
+msgstr "Délka"
+
+#. i18n: file: src/assistant/asttitles.ui:40
+#. i18n: ectx: property (text), widget (QTreeWidget, twSource)
+#: build/ui_asttitles.h:77 po/rc.cpp:84 src/assistant/k9assistant.cpp:60
+#: rc.cpp:84
+msgid "titles"
+msgstr "Názvy stop"
+
+#. i18n: file: src/backup/backupdlg.ui:41
+#. i18n: ectx: property (windowTitle), widget (QWidget, backupDlg)
+#: build/ui_backupdlg.h:219 po/rc.cpp:93 src/backup/k9backupdlg.cpp:43
+#: src/backup/k9dvdauthor.cpp:436 rc.cpp:93
+msgid "Backup progression"
+msgstr "Postup zálohování"
+
+#. i18n: file: src/backup/backupdlg.ui:62
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: build/ui_backupdlg.h:220 po/rc.cpp:96 rc.cpp:96
+msgid "<p align=\"left\"><b>DVD Backup</b></p>"
+msgstr "<p align=\"left\"><b>Zálohování DVD</b></p>"
+
+#. i18n: file: src/backup/backupdlg.ui:96
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: file: src/backup/mp4dlg.ui:274
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. i18n: file: src/core/progress.ui:226
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/backup/backupdlg.ui:96
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: file: src/backup/mp4dlg.ui:274
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. i18n: file: src/core/progress.ui:226
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: build/ui_backupdlg.h:221 build/ui_mp4dlg.h:272 build/ui_progress.h:201
+#: po/rc.cpp:99 po/rc.cpp:129 po/rc.cpp:171 rc.cpp:99 rc.cpp:129 rc.cpp:171
+msgid "Elapsed Time"
+msgstr "Uplynulý čas"
+
+#. i18n: file: src/backup/backupdlg.ui:115
+#. i18n: ectx: property (text), widget (QLabel, lblTime)
+#: build/ui_backupdlg.h:222 po/rc.cpp:102 rc.cpp:102
+msgid "--:--:-- / --:--:--"
+msgstr "--:--:-- / --:--:--"
+
+#. i18n: file: src/backup/backupdlg.ui:128
+#. i18n: ectx: property (text), widget (QLabel, lblFactor)
+#: build/ui_backupdlg.h:223 po/rc.cpp:105 rc.cpp:105
+msgid "0.0"
+msgstr "0.0"
+
+#. i18n: file: src/backup/backupdlg.ui:152
+#. i18n: ectx: property (text), widget (QLabel, lblStep)
+#: build/ui_backupdlg.h:224 po/rc.cpp:108 rc.cpp:108
+msgid "Current step"
+msgstr "Nynější krok"
+
+#. i18n: file: src/backup/backupdlg.ui:242
+#. i18n: ectx: property (title), widget (QGroupBox, gbOutput)
+#. i18n: file: src/core/progress.ui:95
+#. i18n: ectx: property (title), widget (QGroupBox, gbOutput)
+#. i18n: file: src/import/import.ui:26
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/configDlg.ui:113
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/k9mainw.ui:99
+#. i18n: ectx: property (text), widget (QLabel, lblInput_2)
+#. i18n: file: src/main/prefDirs.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: src/main/prefDVD.ui:36
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: src/backup/backupdlg.ui:242
+#. i18n: ectx: property (title), widget (QGroupBox, gbOutput)
+#. i18n: file: src/core/progress.ui:95
+#. i18n: ectx: property (title), widget (QGroupBox, gbOutput)
+#. i18n: file: src/import/import.ui:26
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/configDlg.ui:113
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/k9mainw.ui:99
+#. i18n: ectx: property (text), widget (QLabel, lblInput_2)
+#. i18n: file: src/main/prefDirs.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: src/main/prefDVD.ui:36
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: build/ui_backupdlg.h:225 build/ui_configDlg.h:132 build/ui_import.h:132
+#: build/ui_k9mainw.h:215 build/ui_prefDirs.h:296 build/ui_prefDVD.h:263
+#: build/ui_progress.h:200 po/rc.cpp:111 po/rc.cpp:168 po/rc.cpp:219
+#: po/rc.cpp:336 po/rc.cpp:693 po/rc.cpp:834 po/rc.cpp:894 rc.cpp:111
+#: rc.cpp:168 rc.cpp:219 rc.cpp:336 rc.cpp:693 rc.cpp:834 rc.cpp:894
+msgid "Output"
+msgstr "Výstup"
+
+#. i18n: file: src/import/chapterEdit.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, chapterEdit)
+#: build/ui_chapterEdit.h:220 po/rc.cpp:174 src/import/k9importfiles.cpp:96
+#: rc.cpp:174
+msgid "Chapter properties"
+msgstr "Vlastnosti kapitoly"
+
+#. i18n: file: src/import/chapterEdit.ui:118
+#. i18n: ectx: property (text), widget (QLabel, lPosition)
+#. i18n: file: src/import/import.ui:101
+#. i18n: ectx: property (text), widget (QLabel, lTotal)
+#. i18n: file: src/import/newTitle.ui:47
+#. i18n: ectx: property (text), widget (QLabel, lTotalTime)
+#. i18n: file: src/import/chapterEdit.ui:118
+#. i18n: ectx: property (text), widget (QLabel, lPosition)
+#. i18n: file: src/import/import.ui:101
+#. i18n: ectx: property (text), widget (QLabel, lTotal)
+#. i18n: file: src/import/newTitle.ui:47
+#. i18n: ectx: property (text), widget (QLabel, lTotalTime)
+#: build/ui_chapterEdit.h:221 build/ui_import.h:141 build/ui_newTitle.h:195
+#: po/rc.cpp:177 po/rc.cpp:234 po/rc.cpp:285 rc.cpp:177 rc.cpp:234 rc.cpp:285
+msgid "--:--:--"
+msgstr "--:--:--"
+
+#. i18n: file: src/import/chapterEdit.ui:130
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: build/ui_chapterEdit.h:222 po/rc.cpp:180 src/backup/k9mp4enc.cpp:909
+#: rc.cpp:180
+msgid "video"
+msgstr "Video"
+
+#. i18n: file: src/import/chapterEdit.ui:155
+#. i18n: ectx: property (filter), widget (KUrlRequester, urFile)
+#: build/ui_chapterEdit.h:223 po/rc.cpp:183 rc.cpp:183
+msgid ""
+"*.avi\n"
+"*.mpeg\n"
+"*.mpg\n"
+"*.*"
+msgstr ""
+"*.avi\n"
+"*.mpeg\n"
+"*.mpg\n"
+"*.*"
+
+#. i18n: file: src/import/chapterEdit.ui:162
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: build/ui_chapterEdit.h:227 po/rc.cpp:189 rc.cpp:189
+msgid "start"
+msgstr "Začátek"
+
+#. i18n: file: src/import/chapterEdit.ui:178
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twstart)
+#. i18n: file: src/import/chapterEdit.ui:253
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twend)
+#. i18n: file: src/import/newTitle.ui:113
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twLength)
+#. i18n: file: src/import/chapterEdit.ui:178
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twstart)
+#. i18n: file: src/import/chapterEdit.ui:253
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twend)
+#. i18n: file: src/import/newTitle.ui:113
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twLength)
+#: build/ui_chapterEdit.h:228 build/ui_chapterEdit.h:232
+#: build/ui_newTitle.h:199 po/rc.cpp:192 po/rc.cpp:204 po/rc.cpp:294
+#: rc.cpp:192 rc.cpp:204 rc.cpp:294
+msgid "HH:mm:ss"
+msgstr "hh:mm:ss"
+
+#. i18n: file: src/import/chapterEdit.ui:191
+#. i18n: ectx: property (text), widget (KPushButton, bStart)
+#. i18n: file: src/import/chapterEdit.ui:266
+#. i18n: ectx: property (text), widget (KPushButton, bEnd)
+#. i18n: file: src/import/chapterEdit.ui:191
+#. i18n: ectx: property (text), widget (KPushButton, bStart)
+#. i18n: file: src/import/chapterEdit.ui:266
+#. i18n: ectx: property (text), widget (KPushButton, bEnd)
+#: build/ui_chapterEdit.h:229 build/ui_chapterEdit.h:233 po/rc.cpp:195
+#: po/rc.cpp:207 rc.cpp:195 rc.cpp:207
+msgid "set Current Frame"
+msgstr "Nastavit nynější snímek"
+
+#. i18n: file: src/import/chapterEdit.ui:214
+#. i18n: ectx: property (text), widget (QCheckBox, ckBreakStart)
+#. i18n: file: src/import/chapterEdit.ui:273
+#. i18n: ectx: property (text), widget (QCheckBox, ckBreakEnd)
+#. i18n: file: src/import/chapterEdit.ui:214
+#. i18n: ectx: property (text), widget (QCheckBox, ckBreakStart)
+#. i18n: file: src/import/chapterEdit.ui:273
+#. i18n: ectx: property (text), widget (QCheckBox, ckBreakEnd)
+#: build/ui_chapterEdit.h:230 build/ui_chapterEdit.h:234 po/rc.cpp:198
+#: po/rc.cpp:210 rc.cpp:198 rc.cpp:210
+msgid "break continuity"
+msgstr "Přerušit plynulost"
+
+#. i18n: file: src/import/chapterEdit.ui:237
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: build/ui_chapterEdit.h:231 po/rc.cpp:201 rc.cpp:201
+msgid "end"
+msgstr "Konec"
+
+#. i18n: file: src/import/chapterEdit.ui:302
+#. i18n: ectx: property (text), widget (QPushButton, bTitleButton)
+#: build/ui_chapterEdit.h:235 po/rc.cpp:213 rc.cpp:213
+msgid "set Title button"
+msgstr "Nastavit tlačítko s názvem stopy"
+
+#. i18n: file: src/main/configDlg.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, configDlg)
+#: build/ui_configDlg.h:124 po/rc.cpp:324 src/main/k9settings.cpp:35
+#: src/main/kconfigdlg.cpp:35 rc.cpp:324
+msgid "Devices"
+msgstr "Zařízení"
+
+#. i18n: file: src/main/configDlg.ui:98
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#: build/ui_configDlg.h:126 po/rc.cpp:327 rc.cpp:327
+msgid "device"
+msgstr "Zařízení"
+
+#. i18n: file: src/main/configDlg.ui:103
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/prefMencoder.ui:241
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. i18n: file: src/main/prefMencoder.ui:508
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/configDlg.ui:103
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/prefMencoder.ui:241
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. i18n: file: src/main/prefMencoder.ui:508
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: build/ui_configDlg.h:128 build/ui_prefMencoder.h:521
+#: build/ui_prefMencoder.h:536 po/rc.cpp:330 po/rc.cpp:1020 po/rc.cpp:1044
+#: rc.cpp:330 rc.cpp:1020 rc.cpp:1044
+msgid "label"
+msgstr "Štítek"
+
+#. i18n: file: src/main/configDlg.ui:108
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/k9mainw.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lblInput)
+#. i18n: file: src/main/configDlg.ui:108
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/k9mainw.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lblInput)
+#: build/ui_configDlg.h:130 build/ui_k9mainw.h:208 po/rc.cpp:333 po/rc.cpp:681
+#: rc.cpp:333 rc.cpp:681
+msgid "Input"
+msgstr "Vstup"
+
+#. i18n: file: src/import/newTitle.ui:187
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#. i18n: file: src/main/configDlg.ui:129
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#. i18n: file: src/import/newTitle.ui:187
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#. i18n: file: src/main/configDlg.ui:129
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#: build/ui_configDlg.h:133 build/ui_newTitle.h:201 po/rc.cpp:300
+#: po/rc.cpp:339 rc.cpp:300 rc.cpp:339
+msgid "Add"
+msgstr "Přidat"
+
+#. i18n: file: src/main/configDlg.ui:148
+#. i18n: ectx: property (text), widget (KPushButton, bRemove)
+#: build/ui_configDlg.h:135 po/rc.cpp:342 rc.cpp:342
+msgid "Remove"
+msgstr "Odstranit"
+
+#. i18n: file: src/core/dvdprogress.ui:35
+#. i18n: ectx: property (windowTitle), widget (QDialog, DVDProgress)
+#: build/ui_dvdprogress.h:117 po/rc.cpp:138 src/core/k9dvdprogress.cpp:30
+#: rc.cpp:138
+msgid "DVD Analyze"
+msgstr "Rozbor DVD"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:65
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ckb)
+#: build/ui_ffmpegCmdGen.h:584 po/rc.cpp:348 rc.cpp:348
+msgid "Set the video bitrate in bit/s (default = 200 kb/s)"
+msgstr "Nastavit datový tok v b/s (výchozí = 200 kb/s)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:68
+#. i18n: ectx: property (text), widget (QCheckBox, ckb)
+#: build/ui_ffmpegCmdGen.h:586 po/rc.cpp:351 rc.cpp:351
+msgid "b"
+msgstr "b"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:75
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, b)
+#: build/ui_ffmpegCmdGen.h:587 po/rc.cpp:354 rc.cpp:354
+msgid "$VIDBRk"
+msgstr "$VIDBRk"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:78
+#. i18n: ectx: property (suffix), widget (QSpinBox, b)
+#. i18n: file: src/main/ffmpegCmdGen.ui:810
+#. i18n: ectx: property (suffix), widget (QSpinBox, ab)
+#. i18n: file: src/main/ffmpegCmdGen.ui:78
+#. i18n: ectx: property (suffix), widget (QSpinBox, b)
+#. i18n: file: src/main/ffmpegCmdGen.ui:810
+#. i18n: ectx: property (suffix), widget (QSpinBox, ab)
+#: build/ui_ffmpegCmdGen.h:588 build/ui_ffmpegCmdGen.h:735 po/rc.cpp:357
+#: po/rc.cpp:627 rc.cpp:357 rc.cpp:627
+msgid "k"
+msgstr "k"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:91
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ckvframes)
+#: build/ui_ffmpegCmdGen.h:590 po/rc.cpp:360 rc.cpp:360
+msgid "Set the number of video frames to record"
+msgstr "Nastavit počet videosnímků, které budou nahrány"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:94
+#. i18n: ectx: property (text), widget (QCheckBox, ckvframes)
+#: build/ui_ffmpegCmdGen.h:592 po/rc.cpp:363 rc.cpp:363
+msgid "vframes"
+msgstr "videosnímky"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:111
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_3)
+#: build/ui_ffmpegCmdGen.h:594 po/rc.cpp:366 rc.cpp:366
+msgid "Set frame rate (Hz value, fraction or abbreviation), (default = 25)"
+msgstr ""
+"Nastavit snímkovací rychlost (Hz hodnota, zlomek nebo zkratka), (výchozí = "
+"25)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:114
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_3)
+#: build/ui_ffmpegCmdGen.h:596 po/rc.cpp:369 rc.cpp:369
+msgid "r"
+msgstr "rychlost"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:131
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_4)
+#: build/ui_ffmpegCmdGen.h:598 po/rc.cpp:372 rc.cpp:372
+msgid ""
+"Set frame size. The format is `wxh' (ffserver default = 160x128, ffmpeg "
+"default = same as source)"
+msgstr ""
+"Nastavit velikost snímku. Formát je `wxh' (ffserver výchozí = 160x128, "
+"ffmpeg výchozí = stejné jako u zdroje)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:134
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_4)
+#: build/ui_ffmpegCmdGen.h:600 po/rc.cpp:375 rc.cpp:375
+msgid "s"
+msgstr "velikost"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:145
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:603 po/rc.cpp:378 rc.cpp:378
+msgid "$WIDTHx$HEIGHT"
+msgstr "$WIDTHx$HEIGHT"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:150
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:604 po/rc.cpp:381 rc.cpp:381
+msgid "sqcif"
+msgstr "sqcif"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:155
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:605 po/rc.cpp:384 rc.cpp:384
+msgid "qcif"
+msgstr "qcif"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:160
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:606 po/rc.cpp:387 rc.cpp:387
+msgid "cif"
+msgstr "cif"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:165
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:607 po/rc.cpp:390 rc.cpp:390
+msgid "4cif"
+msgstr "4cif"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:170
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:608 po/rc.cpp:393 rc.cpp:393
+msgid "qqvga"
+msgstr "qqvga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:175
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:609 po/rc.cpp:396 rc.cpp:396
+msgid "qvga"
+msgstr "qvga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:180
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:610 po/rc.cpp:399 rc.cpp:399
+msgid "vga"
+msgstr "vga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:185
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:611 po/rc.cpp:402 rc.cpp:402
+msgid "svga"
+msgstr "svga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:190
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:612 po/rc.cpp:405 rc.cpp:405
+msgid "xga"
+msgstr "xga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:195
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:613 po/rc.cpp:408 rc.cpp:408
+msgid "uxga"
+msgstr "uxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:200
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:614 po/rc.cpp:411 rc.cpp:411
+msgid "qxga"
+msgstr "qxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:205
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:615 po/rc.cpp:414 rc.cpp:414
+msgid "sxga"
+msgstr "sxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:210
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:616 po/rc.cpp:417 rc.cpp:417
+msgid "qsxga"
+msgstr "qsxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:215
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:617 po/rc.cpp:420 rc.cpp:420
+msgid "hsxga"
+msgstr "hsxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:220
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:618 po/rc.cpp:423 rc.cpp:423
+msgid "wvga"
+msgstr "wvga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:225
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:619 po/rc.cpp:426 rc.cpp:426
+msgid "wsxga"
+msgstr "wsxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:230
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:620 po/rc.cpp:429 rc.cpp:429
+msgid "wuxga"
+msgstr "wuxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:235
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:621 po/rc.cpp:432 rc.cpp:432
+msgid "woxga"
+msgstr "woxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:240
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:622 po/rc.cpp:435 rc.cpp:435
+msgid "wqsxga"
+msgstr "wqsxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:245
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:623 po/rc.cpp:438 rc.cpp:438
+msgid "wquxga"
+msgstr "wquxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:250
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:624 po/rc.cpp:441 rc.cpp:441
+msgid "whuxga"
+msgstr "whuxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:255
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:625 po/rc.cpp:444 rc.cpp:444
+msgid "cga"
+msgstr "cga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:260
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:626 po/rc.cpp:447 rc.cpp:447
+msgid "ega"
+msgstr "ega"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:265
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:627 po/rc.cpp:450 rc.cpp:450
+msgid "hd480"
+msgstr "hd480"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:270
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:628 po/rc.cpp:453 rc.cpp:453
+msgid "hd720"
+msgstr "hd720"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:275
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: build/ui_ffmpegCmdGen.h:629 po/rc.cpp:456 rc.cpp:456
+msgid "hd1080"
+msgstr "hd1080"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:283
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_5)
+#: build/ui_ffmpegCmdGen.h:632 po/rc.cpp:459 rc.cpp:459
+msgid "Set aspect ratio (4:3, 16:9 or 1.3333, 1.7777)"
+msgstr "Nastavit poměr stran (4:3, 16:9 nebo 1.3333, 1.7777)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:286
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_5)
+#: build/ui_ffmpegCmdGen.h:634 po/rc.cpp:462 rc.cpp:462
+msgid "aspect"
+msgstr "poměr"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:297
+#. i18n: ectx: property (text), item, widget (QComboBox, aspect)
+#: build/ui_ffmpegCmdGen.h:637 po/rc.cpp:465 rc.cpp:465
+msgid "$ASPECT"
+msgstr "$ASPECT"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:302
+#. i18n: ectx: property (text), item, widget (QComboBox, aspect)
+#: build/ui_ffmpegCmdGen.h:638 po/rc.cpp:468 rc.cpp:468
+msgid "4:3"
+msgstr "4:3"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:307
+#. i18n: ectx: property (text), item, widget (QComboBox, aspect)
+#: build/ui_ffmpegCmdGen.h:639 po/rc.cpp:471 rc.cpp:471
+msgid "16:9"
+msgstr "16:9"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:315
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_6)
+#: build/ui_ffmpegCmdGen.h:642 po/rc.cpp:474 rc.cpp:474
+msgid "Set top crop band size (in pixels)"
+msgstr "Nastavit velikost pruhu k ořezu nahoře (v pixelech)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:318
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_6)
+#: build/ui_ffmpegCmdGen.h:644 po/rc.cpp:477 rc.cpp:477
+msgid "croptop"
+msgstr "horní ořez"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:325
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, croptop)
+#: build/ui_ffmpegCmdGen.h:645 po/rc.cpp:480 rc.cpp:480
+msgid "$CROPTOP"
+msgstr "$CROPTOP"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:338
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_7)
+#: build/ui_ffmpegCmdGen.h:647 po/rc.cpp:483 rc.cpp:483
+msgid "Set bottom crop band size (in pixels)"
+msgstr "Nastavit velikost pruhu k ořezu dole (v pixelech)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:341
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_7)
+#: build/ui_ffmpegCmdGen.h:649 po/rc.cpp:486 rc.cpp:486
+msgid "cropbottom"
+msgstr "dolní ořez"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:348
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, cropbottom)
+#: build/ui_ffmpegCmdGen.h:650 po/rc.cpp:489 rc.cpp:489
+msgid "$CROPBOTTOM"
+msgstr "$CROPBOTTOM"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:361
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_8)
+#: build/ui_ffmpegCmdGen.h:652 po/rc.cpp:492 rc.cpp:492
+msgid "Set left crop band size (in pixels)"
+msgstr "Nastavit velikost pruhu k ořezu vlevo (v pixelech)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:364
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_8)
+#: build/ui_ffmpegCmdGen.h:654 po/rc.cpp:495 rc.cpp:495
+msgid "cropleft"
+msgstr "ořez vlevo"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:371
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, cropleft)
+#: build/ui_ffmpegCmdGen.h:655 po/rc.cpp:498 rc.cpp:498
+msgid "$CROPLEFT"
+msgstr "$CROPLEFT"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:384
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_9)
+#: build/ui_ffmpegCmdGen.h:657 po/rc.cpp:501 rc.cpp:501
+msgid "Set right crop band size (in pixels)."
+msgstr "Nastavit velikost pruhu k ořezu vpravo (v pixelech)."
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:387
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_9)
+#: build/ui_ffmpegCmdGen.h:659 po/rc.cpp:504 rc.cpp:504
+msgid "cropright"
+msgstr "ořez vpravo"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:394
+#. i18n: ectx: property (toolTip), widget (QSpinBox, cropright)
+#. i18n: file: src/main/ffmpegCmdGen.ui:496
+#. i18n: ectx: property (toolTip), widget (QSpinBox, padright)
+#. i18n: file: src/main/ffmpegCmdGen.ui:394
+#. i18n: ectx: property (toolTip), widget (QSpinBox, cropright)
+#. i18n: file: src/main/ffmpegCmdGen.ui:496
+#. i18n: ectx: property (toolTip), widget (QSpinBox, padright)
+#: build/ui_ffmpegCmdGen.h:661 build/ui_ffmpegCmdGen.h:681 po/rc.cpp:507
+#: po/rc.cpp:537 rc.cpp:507 rc.cpp:537
+msgid "Set right crop band size (in pixels)"
+msgstr "Nastavit velikost pruhu k ořezu vpravo (v pixelech)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:397
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, cropright)
+#: build/ui_ffmpegCmdGen.h:663 po/rc.cpp:510 rc.cpp:510
+msgid "$CROPRIGHT"
+msgstr "$CROPRIGHT"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:410
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_12)
+#: build/ui_ffmpegCmdGen.h:665 po/rc.cpp:513 rc.cpp:513
+msgid "Set top pad band size (in pixels)"
+msgstr "Nastavit velikost pruhu vycpávky nahoře (v pixelech)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:413
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_12)
+#: build/ui_ffmpegCmdGen.h:667 po/rc.cpp:516 rc.cpp:516
+msgid "padtop"
+msgstr "vycpávka nahoře"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:430
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_11)
+#: build/ui_ffmpegCmdGen.h:669 po/rc.cpp:519 rc.cpp:519
+msgid "Set bottom pad band size (in pixels)"
+msgstr "Nastavit velikost pruhu vycpávky dole (v pixelech)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:433
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_11)
+#: build/ui_ffmpegCmdGen.h:671 po/rc.cpp:522 rc.cpp:522
+msgid "padbottom"
+msgstr "vycpávka dole"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:466
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_10)
+#: build/ui_ffmpegCmdGen.h:673 po/rc.cpp:525 rc.cpp:525
+msgid "Set left pad band size (in pixels)"
+msgstr "Nastavit velikost pruhu vycpávky vlevo (v pixelech)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:469
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_10)
+#: build/ui_ffmpegCmdGen.h:675 po/rc.cpp:528 rc.cpp:528
+msgid "padleft"
+msgstr "vycpávka vlevo"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:486
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_13)
+#: build/ui_ffmpegCmdGen.h:677 po/rc.cpp:531 rc.cpp:531
+msgid "Set right pad band size (in pixels)."
+msgstr "Nastavit velikost pruhu vycpávky vpravo (v pixelech)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:489
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_13)
+#: build/ui_ffmpegCmdGen.h:679 po/rc.cpp:534 rc.cpp:534
+msgid "padright"
+msgstr "vycpávka vpravo"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:509
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_14)
+#: build/ui_ffmpegCmdGen.h:684 po/rc.cpp:540 rc.cpp:540
+msgid ""
+"Set color of padded bands. The value for padcolor is expressed as a six "
+"digit hexadecimal number where the first two digits represent red, the "
+"middle two digits green and last two digits blue (default = 000000 (black))"
+msgstr ""
+"Nastavit barvu vycpávkových pruhů. Hodnota pro barvu vycpávky je "
+"vyjádřena jako hexadecimální/šestnáctkové číslo složené ze šesti číslic, v "
+"němž první dvě číslice představují červenou, prostřední dvě zelenou a "
+"poslední dvě číslice modrou (výchozí = 000000 (černá))"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:512
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_14)
+#: build/ui_ffmpegCmdGen.h:686 po/rc.cpp:543 rc.cpp:543
+msgid "padcolor"
+msgstr "barva vycpávky"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:519
+#. i18n: ectx: property (inputMask), widget (QLineEdit, padcolor)
+#: build/ui_ffmpegCmdGen.h:687 po/rc.cpp:546 rc.cpp:546
+msgid "HHHHHH; "
+msgstr "HHHHHH; "
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:526
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_15)
+#: build/ui_ffmpegCmdGen.h:689 po/rc.cpp:549 rc.cpp:549
+msgid "Set video bitrate tolerance (in bit/s)"
+msgstr "Nastavit povolenou odchylku datového toku videa (v b/s)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:529
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_15)
+#: build/ui_ffmpegCmdGen.h:691 po/rc.cpp:552 rc.cpp:552
+msgid "bt"
+msgstr "odchylka datového toku"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:546
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_16)
+#: build/ui_ffmpegCmdGen.h:693 po/rc.cpp:555 rc.cpp:555
+msgid "Set max video bitrate (in bit/s)"
+msgstr "Nastavit nejvyšší možný datový tok (v b/s)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:549
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_16)
+#: build/ui_ffmpegCmdGen.h:695 po/rc.cpp:558 rc.cpp:558
+msgid "maxrate"
+msgstr "nejvyšší možný datový tok"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:566
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_17)
+#: build/ui_ffmpegCmdGen.h:697 po/rc.cpp:561 rc.cpp:561
+msgid "Set min video bitrate (in bit/s)"
+msgstr "Nastavit nejnižší možný datový tok (v b/s)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:569
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_17)
+#: build/ui_ffmpegCmdGen.h:699 po/rc.cpp:564 rc.cpp:564
+msgid "minrate"
+msgstr "nejnižší možný datový tok"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:586
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_18)
+#: build/ui_ffmpegCmdGen.h:701 po/rc.cpp:567 rc.cpp:567
+msgid "Set video buffer verifier buffer size (in bits)"
+msgstr ""
+"Nastavit velikost vyrovnávací paměti ověřovatele vyrovnávací paměti videa (v "
+"b/s)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:589
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_18)
+#: build/ui_ffmpegCmdGen.h:703 po/rc.cpp:570 rc.cpp:570
+msgid "bufsize"
+msgstr "velikost vyrovnávací paměti"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:606
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_19)
+#: build/ui_ffmpegCmdGen.h:705 po/rc.cpp:573 rc.cpp:573
+msgid ""
+"Force video codec to codec. Use the copy special value to tell that the raw "
+"codec data must be copied as is"
+msgstr ""
+"Natlačit videokodek na kodek. Použít zvláštní hodnotu při kopírování, čímž "
+"se řekne, že surová data kodeku se musí kopírovat tak, jak jsou"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:609
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_19)
+#: build/ui_ffmpegCmdGen.h:707 po/rc.cpp:576 rc.cpp:576
+msgid "vcodec"
+msgstr "videokodek"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:620
+#. i18n: ectx: property (text), item, widget (QComboBox, vcodec)
+#: build/ui_ffmpegCmdGen.h:710 po/rc.cpp:579 rc.cpp:579
+msgid "copy"
+msgstr "kopírovat"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:628
+#. i18n: ectx: property (toolTip), widget (QCheckBox, sameq)
+#: build/ui_ffmpegCmdGen.h:713 po/rc.cpp:582 rc.cpp:582
+msgid "Use same video quality as source (implies VBR)"
+msgstr ""
+"Použít tu samou kvalitu videa, jakou má zdroj (vyjadřuje datový tok videa "
+"(VBR))"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:631
+#. i18n: ectx: property (text), widget (QCheckBox, sameq)
+#: build/ui_ffmpegCmdGen.h:715 po/rc.cpp:585 rc.cpp:585
+msgid "sameq"
+msgstr "stejná kvalita"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:638
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_21)
+#: build/ui_ffmpegCmdGen.h:716 po/rc.cpp:588 rc.cpp:588
+msgid "pass"
+msgstr "průchod"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:645
+#. i18n: ectx: property (text), widget (QLineEdit, pass)
+#: build/ui_ffmpegCmdGen.h:717 po/rc.cpp:591 rc.cpp:591
+msgid "$PASS"
+msgstr "$PRŮCHOD"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:655
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_22)
+#: build/ui_ffmpegCmdGen.h:718 po/rc.cpp:594 rc.cpp:594
+msgid "passlogfile"
+msgstr "soubor se zápisem o průchodu"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:662
+#. i18n: ectx: property (text), widget (QLineEdit, passlogfile)
+#: build/ui_ffmpegCmdGen.h:719 po/rc.cpp:597 rc.cpp:597
+msgid "$PASSLOGFILE"
+msgstr "$SOUBOR_SE_ZÁPISEM_O_PRŮCHODU"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:672
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: build/ui_ffmpegCmdGen.h:720 po/rc.cpp:600 rc.cpp:600
+msgid "threads"
+msgstr "Vlákna"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:717
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: build/ui_ffmpegCmdGen.h:721 po/rc.cpp:603 rc.cpp:603
+msgid "FFMpeg Video options "
+msgstr "Volby pro ffmpeg video"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:754
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_23)
+#: build/ui_ffmpegCmdGen.h:723 po/rc.cpp:606 rc.cpp:606
+msgid "Set the number of audio frames to record"
+msgstr "Nastavit počet  zvukových snímků, které budou nahrány"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:757
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_23)
+#: build/ui_ffmpegCmdGen.h:725 po/rc.cpp:609 rc.cpp:609
+msgid "aframes"
+msgstr "zvukové snímky"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:774
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_24)
+#: build/ui_ffmpegCmdGen.h:727 po/rc.cpp:612 rc.cpp:612
+msgid "Set the audio sampling frequency (default = 44100 Hz)"
+msgstr "Nastavit zvukový vzorkovací kmitočet (výchozí = 44100 Hz)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:777
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_24)
+#: build/ui_ffmpegCmdGen.h:729 po/rc.cpp:615 rc.cpp:615
+msgid "ar"
+msgstr "zvukový vzorkovací kmitočet"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:797
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_25)
+#: build/ui_ffmpegCmdGen.h:731 po/rc.cpp:618 rc.cpp:618
+msgid "Set the audio bitrate in bit/s (default = 64k)"
+msgstr "Nastavit zvukový datový tok v b/s (výchozí = 64 k/s)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:800
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_25)
+#: build/ui_ffmpegCmdGen.h:733 po/rc.cpp:621 rc.cpp:621
+msgid "ab"
+msgstr "zvukový datový tok"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:807
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, ab)
+#: build/ui_ffmpegCmdGen.h:734 po/rc.cpp:624 rc.cpp:624
+msgid "$AUDBRk"
+msgstr "$ZVUKOVÝ_DATOVÝ_TOK_k"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:823
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_26)
+#: build/ui_ffmpegCmdGen.h:737 po/rc.cpp:630 rc.cpp:630
+msgid "Set the number of audio channels (default = 1)"
+msgstr "Nastavit počet zvukových kanálů (výchozí = 1)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:826
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_26)
+#: build/ui_ffmpegCmdGen.h:739 po/rc.cpp:633 rc.cpp:633
+msgid "ac"
+msgstr "počet zvukových kanálů"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:859
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_27)
+#: build/ui_ffmpegCmdGen.h:741 po/rc.cpp:636 rc.cpp:636
+msgid ""
+"Force audio codec to codec. Use the copy special value to specify that the "
+"raw codec data must be copied as is"
+msgstr ""
+"Natlačit zvukový kodek na kodek. Použít zvláštní hodnotu při kopírování, "
+"čímž se určí, že surová data kodeku se musí kopírovat tak, jak jsou"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:862
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_27)
+#: build/ui_ffmpegCmdGen.h:743 po/rc.cpp:639 rc.cpp:639
+msgid "acodec"
+msgstr "zvukový kodek"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:873
+#. i18n: ectx: property (text), item, widget (QComboBox, acodec)
+#: build/ui_ffmpegCmdGen.h:746 po/rc.cpp:642 rc.cpp:642
+msgid "COPY"
+msgstr "KOPÍROVAT"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:881
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_28)
+#: build/ui_ffmpegCmdGen.h:749 po/rc.cpp:645 rc.cpp:645
+msgid "Force audio tag/fourcc"
+msgstr "Natlačit audio značku/fourcc"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:884
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_28)
+#: build/ui_ffmpegCmdGen.h:751 po/rc.cpp:648 rc.cpp:648
+msgid "atag"
+msgstr "audio značka"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:891
+#. i18n: ectx: property (inputMask), widget (QLineEdit, atag)
+#: build/ui_ffmpegCmdGen.h:752 po/rc.cpp:651 rc.cpp:651
+msgid "nnnnn; "
+msgstr "nnnnn; "
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:898
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_29)
+#: build/ui_ffmpegCmdGen.h:754 po/rc.cpp:654 rc.cpp:654
+msgid "Bitstream filters"
+msgstr "Filtry datového toku"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:901
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_29)
+#: build/ui_ffmpegCmdGen.h:756 po/rc.cpp:657 rc.cpp:657
+msgid "absf"
+msgstr "filtry zvukového datového toku"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:909
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: build/ui_ffmpegCmdGen.h:759 po/rc.cpp:660 rc.cpp:660
+msgid "dump_extra"
+msgstr "vyhodit_extra"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:914
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: build/ui_ffmpegCmdGen.h:760 po/rc.cpp:663 rc.cpp:663
+msgid "remove_extra"
+msgstr "odstranit_extra"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:919
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: build/ui_ffmpegCmdGen.h:761 po/rc.cpp:666 rc.cpp:666
+msgid "noise"
+msgstr "šum"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:924
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: build/ui_ffmpegCmdGen.h:762 po/rc.cpp:669 rc.cpp:669
+msgid "mp3comp"
+msgstr "mp3komprimace"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:929
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: build/ui_ffmpegCmdGen.h:763 po/rc.cpp:672 rc.cpp:672
+msgid "mp3decomp"
+msgstr "mp3dekomprimace"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:968
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: build/ui_ffmpegCmdGen.h:765 po/rc.cpp:675 rc.cpp:675
+msgid "FFMpeg Audio options"
+msgstr "Volby pro ffmpeg audio"
+
+#. i18n: file: src/import/import.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, import)
+#: build/ui_import.h:131 po/rc.cpp:216 src/import/k9import.cpp:37 rc.cpp:216
+msgid "import"
+msgstr "Zavést"
+
+#. i18n: file: src/core/processList.ui:47
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/import.ui:62
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDVD)
+#. i18n: file: src/import/processList.ui:41
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#. i18n: file: src/mplayer/phonon.ui:43
+#. i18n: ectx: property (text), widget (QToolButton, bStop)
+#. i18n: file: src/mplayer/phonon.ui:56
+#. i18n: ectx: property (text), widget (QToolButton, bPlay)
+#. i18n: file: src/core/processList.ui:47
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/import.ui:62
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDVD)
+#. i18n: file: src/import/processList.ui:41
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#. i18n: file: src/mplayer/phonon.ui:43
+#. i18n: ectx: property (text), widget (QToolButton, bStop)
+#. i18n: file: src/mplayer/phonon.ui:56
+#. i18n: ectx: property (text), widget (QToolButton, bPlay)
+#: build/ui_import.h:134 build/ui_phonon.h:121 build/ui_phonon.h:122
+#: build/ui_processList.h:80 po/rc.cpp:153 po/rc.cpp:225 po/rc.cpp:315
+#: po/rc.cpp:1298 po/rc.cpp:1301 rc.cpp:153 rc.cpp:225 rc.cpp:315 rc.cpp:1298
+#: rc.cpp:1301
+msgid "..."
+msgstr "..."
+
+#. i18n: file: src/import/import.ui:57
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDVD)
+#: build/ui_import.h:135 po/rc.cpp:222 rc.cpp:222
+msgid "Video files"
+msgstr "Videosoubory"
+
+#. i18n: file: src/import/import.ui:82
+#. i18n: ectx: property (text), item, widget (QComboBox, cbFormat)
+#: build/ui_import.h:138 po/rc.cpp:228 rc.cpp:228
+msgid "PAL"
+msgstr "PAL"
+
+#. i18n: file: src/import/import.ui:87
+#. i18n: ectx: property (text), item, widget (QComboBox, cbFormat)
+#: build/ui_import.h:139 po/rc.cpp:231 rc.cpp:231
+msgid "NTSC"
+msgstr "NTSC"
+
+#. i18n: file: src/main/k9mainw.ui:26
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainDlg)
+#: build/ui_k9mainw.h:207 po/rc.cpp:678 rc.cpp:678
+msgid "MainDlg"
+msgstr "Hlavní dialog"
+
+#. i18n: file: src/main/k9mainw.ui:55
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:116
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#. i18n: file: src/main/prefDirs.ui:31
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_1)
+#. i18n: file: src/main/k9mainw.ui:55
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:116
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#. i18n: file: src/main/prefDirs.ui:31
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_1)
+#: build/ui_k9mainw.h:211 build/ui_k9mainw.h:218 build/ui_prefDirs.h:297
+#: po/rc.cpp:684 po/rc.cpp:696 po/rc.cpp:837 src/main/k9settings.cpp:41
+#: rc.cpp:684 rc.cpp:696 rc.cpp:837
+msgid "DVD"
+msgstr "DVD"
+
+#. i18n: file: src/main/k9mainw.ui:131
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: build/ui_k9mainw.h:221 po/rc.cpp:705 rc.cpp:705
+msgid "MPEG-4 encoding"
+msgstr "Kódování MPEG-4"
+
+#. i18n: file: src/main/k9mainw.ui:136
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: build/ui_k9mainw.h:222 po/rc.cpp:708 rc.cpp:708
+msgid "Audio extraction"
+msgstr "Získání zvuku"
+
+#. i18n: file: src/main/k9mainw.ui:141
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: build/ui_k9mainw.h:223 po/rc.cpp:711 rc.cpp:711
+msgid "MPEG-2 extraction"
+msgstr "Získání MPEG-2"
+
+#. i18n: file: src/main/k9mainw.ui:185
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: build/ui_k9mainw.h:225 po/rc.cpp:714 rc.cpp:714
+msgid "@"
+msgstr "@"
+
+#. i18n: file: src/main/k9mainw.ui:219
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. i18n: file: src/main/prefMPEG4.ui:407
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/k9mainw.ui:219
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. i18n: file: src/main/prefMPEG4.ui:407
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: build/ui_k9mainw.h:230 build/ui_prefMPEG4.h:574 po/rc.cpp:720
+#: po/rc.cpp:1113 rc.cpp:720 rc.cpp:1113
+msgid "X"
+msgstr "X"
+
+#. i18n: file: src/main/k9mainw.ui:274
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#: build/ui_k9mainw.h:232 po/rc.cpp:735 rc.cpp:735
+msgid "Content"
+msgstr "Obsah"
+
+#. i18n: file: src/backup/mp4dlg.ui:300
+#. i18n: ectx: property (text), widget (QLabel, lbllabelSize)
+#. i18n: file: src/main/k9mainw.ui:264
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#. i18n: file: src/backup/mp4dlg.ui:300
+#. i18n: ectx: property (text), widget (QLabel, lbllabelSize)
+#. i18n: file: src/main/k9mainw.ui:264
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#: build/ui_k9mainw.h:234 build/ui_mp4dlg.h:274 po/rc.cpp:135 po/rc.cpp:729
+#: rc.cpp:135 rc.cpp:729
+msgid "Size"
+msgstr "Velikost"
+
+#. i18n: file: src/main/k9mainw.ui:259
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#: build/ui_k9mainw.h:235 po/rc.cpp:726 rc.cpp:726
+msgid "Title"
+msgstr "Název stopy"
+
+#. i18n: file: src/main/k9mainw.ui:252
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, listView1)
+#: build/ui_k9mainw.h:237 po/rc.cpp:723 rc.cpp:723
+msgid "dbl-click DVD title to edit"
+msgstr "Dvojité klepnutí na název na DVD pro jeho úpravu"
+
+#. i18n: file: src/main/langselectw.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, langSelect)
+#: build/ui_langselectw.h:62 po/rc.cpp:738 src/main/k9copy.cpp:163 rc.cpp:738
+msgid "Selection"
+msgstr "Výběr"
+
+#. i18n: file: src/main/langselectw.ui:47
+#. i18n: ectx: property (text), widget (QTreeWidget, lvLanguages)
+#: build/ui_langselectw.h:64 po/rc.cpp:741 rc.cpp:741
+msgid "Languages"
+msgstr "Jazyky"
+
+#. i18n: file: src/main/mencoderCmdGen.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, mencoderCmdGen)
+#: build/ui_mencoderCmdGen.h:73 po/rc.cpp:744 src/main/k9mencodercmdgen.cpp:60
+#: rc.cpp:744
+msgid "MEncoder options"
+msgstr "Volby MEncoder"
+
+#. i18n: file: src/main/mencoderCmdGen.ui:21
+#. i18n: ectx: property (text), widget (QTreeWidget, listView)
+#: build/ui_mencoderCmdGen.h:75 po/rc.cpp:747 rc.cpp:747
+msgid "1"
+msgstr "1"
+
+#. i18n: file: src/import/menuEdit.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, menuEdit)
+#: build/ui_menuEdit.h:207 po/rc.cpp:237 rc.cpp:237
+msgid "Edit Menu"
+msgstr "Upravit menu"
+
+#. i18n: file: src/import/menuEdit.ui:37
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: build/ui_menuEdit.h:208 po/rc.cpp:240 rc.cpp:240
+msgid "Text"
+msgstr "Text"
+
+#. i18n: file: src/import/menuEdit.ui:53
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: build/ui_menuEdit.h:209 po/rc.cpp:243 rc.cpp:243
+msgid "Background picture"
+msgstr "Obrázek na pozadí"
+
+#. i18n: file: src/import/menuEdit.ui:85
+#. i18n: ectx: property (text), widget (KPushButton, bFont)
+#. i18n: file: src/main/prefAuthor.ui:201
+#. i18n: ectx: property (text), widget (KPushButton, bButtonFont)
+#. i18n: file: src/import/menuEdit.ui:85
+#. i18n: ectx: property (text), widget (KPushButton, bFont)
+#. i18n: file: src/main/prefAuthor.ui:201
+#. i18n: ectx: property (text), widget (KPushButton, bButtonFont)
+#: build/ui_menuEdit.h:211 build/ui_prefAuthor.h:205 po/rc.cpp:246
+#: po/rc.cpp:822 rc.cpp:246 rc.cpp:822
+msgid "Font"
+msgstr "Písmo"
+
+#. i18n: file: src/import/menuEdit.ui:99
+#. i18n: ectx: property (text), item, widget (QComboBox, cbPosTitle)
+#. i18n: file: src/main/prefMPEG4.ui:537
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: file: src/main/viewmpeg2.ui:156
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/import/menuEdit.ui:99
+#. i18n: ectx: property (text), item, widget (QComboBox, cbPosTitle)
+#. i18n: file: src/main/prefMPEG4.ui:537
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: file: src/main/viewmpeg2.ui:156
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: build/ui_menuEdit.h:214 build/ui_prefMPEG4.h:579 build/ui_viewmpeg2.h:234
+#: po/rc.cpp:249 po/rc.cpp:1125 po/rc.cpp:1271 rc.cpp:249 rc.cpp:1125
+#: rc.cpp:1271
+msgid "Bottom"
+msgstr "Dole"
+
+#. i18n: file: src/import/menuEdit.ui:104
+#. i18n: ectx: property (text), item, widget (QComboBox, cbPosTitle)
+#. i18n: file: src/main/prefMPEG4.ui:563
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: src/main/viewmpeg2.ui:170
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: file: src/import/menuEdit.ui:104
+#. i18n: ectx: property (text), item, widget (QComboBox, cbPosTitle)
+#. i18n: file: src/main/prefMPEG4.ui:563
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: src/main/viewmpeg2.ui:170
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: build/ui_menuEdit.h:215 build/ui_prefMPEG4.h:580 build/ui_viewmpeg2.h:235
+#: po/rc.cpp:252 po/rc.cpp:1128 po/rc.cpp:1274 rc.cpp:252 rc.cpp:1128
+#: rc.cpp:1274
+msgid "Right"
+msgstr "Vpravo"
+
+#. i18n: file: src/import/menuEdit.ui:171
+#. i18n: ectx: property (text), widget (QLabel, lTitle)
+#: build/ui_menuEdit.h:219 po/rc.cpp:255 src/import/k9import.cpp:70
+#: src/import/k9menuedit.cpp:283 rc.cpp:255
+msgid "Root Menu"
+msgstr "Kořenové menu"
+
+#. i18n: file: src/import/menuEdit.ui:181
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: build/ui_menuEdit.h:220 po/rc.cpp:258 rc.cpp:258
+msgid "At start"
+msgstr "Na začátek"
+
+#. i18n: file: src/import/menuEdit.ui:192
+#. i18n: ectx: property (text), item, widget (QComboBox, cbStart)
+#: build/ui_menuEdit.h:223 po/rc.cpp:261 rc.cpp:261
+msgid "Play menu"
+msgstr "Přehrát menu"
+
+#. i18n: file: src/import/menuEdit.ui:197
+#. i18n: ectx: property (text), item, widget (QComboBox, cbStart)
+#. i18n: file: src/import/menuEdit.ui:226
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEnd)
+#. i18n: file: src/import/menuEdit.ui:197
+#. i18n: ectx: property (text), item, widget (QComboBox, cbStart)
+#. i18n: file: src/import/menuEdit.ui:226
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEnd)
+#: build/ui_menuEdit.h:224 build/ui_menuEdit.h:231 po/rc.cpp:264 po/rc.cpp:276
+#: rc.cpp:264 rc.cpp:276
+msgid "Play title 1"
+msgstr "Přehrát stopu s názvem 1"
+
+#. i18n: file: src/import/menuEdit.ui:205
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#: build/ui_menuEdit.h:226 po/rc.cpp:267 rc.cpp:267
+msgid "At End"
+msgstr "Na konec"
+
+#. i18n: file: src/import/menuEdit.ui:216
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEnd)
+#: build/ui_menuEdit.h:229 po/rc.cpp:270 rc.cpp:270
+msgid "Play root menu"
+msgstr "Přehrát kořenové menu"
+
+#. i18n: file: src/import/menuEdit.ui:221
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEnd)
+#: build/ui_menuEdit.h:230 po/rc.cpp:273 rc.cpp:273
+msgid "Play title menu"
+msgstr "Přehrát menu s názvy stop"
+
+#. i18n: file: src/backup/mp4dlg.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget, MP4Dlg)
+#. i18n: file: src/backup/mp4dlg.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lblTitle)
+#. i18n: file: src/backup/mp4dlg.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget, MP4Dlg)
+#. i18n: file: src/backup/mp4dlg.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lblTitle)
+#: build/ui_mp4dlg.h:263 build/ui_mp4dlg.h:264 po/rc.cpp:114 po/rc.cpp:117
+#: src/backup/k9execcopy.cpp:215 src/backup/k9execcopy.cpp:378
+#: src/backup/k9execcopy.cpp:438 src/backup/k9mp4dlg.cpp:30 rc.cpp:114
+#: rc.cpp:117
+msgid "Encoding"
+msgstr "Kódování"
+
+#. i18n: file: src/backup/mp4dlg.ui:55
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: src/mplayer/mplayer.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget, MPlayer)
+#. i18n: file: src/backup/mp4dlg.ui:55
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: src/mplayer/mplayer.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget, MPlayer)
+#: build/ui_mp4dlg.h:265 build/ui_mplayer.h:232 po/rc.cpp:120 po/rc.cpp:1280
+#: src/main/k9copy.cpp:183 src/main/k9settings.cpp:57
+#: src/mplayer/k9mplayer.cpp:156 src/mplayer/k9xine.cpp:142 rc.cpp:120
+#: rc.cpp:1280
+msgid "Preview"
+msgstr "Náhled"
+
+#. i18n: file: src/backup/mp4dlg.ui:157
+#. i18n: ectx: attribute (title), widget (QWidget, tabLog)
+#: build/ui_mp4dlg.h:266 po/rc.cpp:123 rc.cpp:123
+msgid "Status"
+msgstr "Stav"
+
+#. i18n: file: src/backup/mp4dlg.ui:261
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: build/ui_mp4dlg.h:271 po/rc.cpp:126 src/import/k9newdvd.cpp:443 rc.cpp:126
+msgid "fps"
+msgstr "fps"
+
+#. i18n: file: src/backup/mp4dlg.ui:287
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/prefAuthor.ui:94
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: src/main/prefMPEG4.ui:354
+#. i18n: ectx: property (text), widget (QRadioButton, rbBitrate)
+#. i18n: file: src/main/prefMPEG4.ui:694
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
+#. i18n: file: src/backup/mp4dlg.ui:287
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/prefAuthor.ui:94
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: src/main/prefMPEG4.ui:354
+#. i18n: ectx: property (text), widget (QRadioButton, rbBitrate)
+#. i18n: file: src/main/prefMPEG4.ui:694
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
+#: build/ui_mp4dlg.h:273 build/ui_prefAuthor.h:201 build/ui_prefMPEG4.h:571
+#: build/ui_prefMPEG4.h:592 po/rc.cpp:132 po/rc.cpp:810 po/rc.cpp:1104
+#: po/rc.cpp:1155 rc.cpp:132 rc.cpp:810 rc.cpp:1104 rc.cpp:1155
+msgid "Bitrate"
+msgstr "Datový tok"
+
+#. i18n: file: src/main/playbackoptionsw.ui:191
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
+#. i18n: file: src/main/prefAuthor.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: src/main/prefDVD.ui:219
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/prefMPEG4.ui:631
+#. i18n: ectx: attribute (title), widget (QWidget, tabAudio)
+#. i18n: file: src/mplayer/mplayer.ui:28
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/mplayer/phonon.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: src/main/playbackoptionsw.ui:191
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
+#. i18n: file: src/main/prefAuthor.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: src/main/prefDVD.ui:219
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/prefMPEG4.ui:631
+#. i18n: ectx: attribute (title), widget (QWidget, tabAudio)
+#. i18n: file: src/mplayer/mplayer.ui:28
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/mplayer/phonon.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: build/ui_mplayer.h:233 build/ui_phonon.h:123
+#: build/ui_playbackoptionsw.h:199 build/ui_prefAuthor.h:183
+#: build/ui_prefDVD.h:286 build/ui_prefMPEG4.h:595 po/rc.cpp:768 po/rc.cpp:774
+#: po/rc.cpp:952 po/rc.cpp:1134 po/rc.cpp:1283 po/rc.cpp:1304
+#: src/main/k9langselect.cpp:89 rc.cpp:768 rc.cpp:774 rc.cpp:952 rc.cpp:1134
+#: rc.cpp:1283 rc.cpp:1304
+msgid "Audio"
+msgstr "Zvuk"
+
+#. i18n: file: src/mplayer/mplayer.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: build/ui_mplayer.h:234 po/rc.cpp:1286 rc.cpp:1286
+msgid "Subpicture"
+msgstr "Obrazový podklad %1 "
+
+#. i18n: file: src/mplayer/mplayer.ui:258
+#. i18n: ectx: property (text), widget (QToolButton, bDown)
+#: build/ui_mplayer.h:239 po/rc.cpp:1289 rc.cpp:1289
+msgid "-"
+msgstr "-"
+
+#. i18n: file: src/mplayer/mplayer.ui:378
+#. i18n: ectx: property (text), widget (QToolButton, bUp)
+#: build/ui_mplayer.h:241 po/rc.cpp:1292 rc.cpp:1292
+msgid "+"
+msgstr "+"
+
+#. i18n: file: src/import/newTitle.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, newTitle)
+#: build/ui_newTitle.h:193 po/rc.cpp:279 src/import/k9newtitle.cpp:89
+#: rc.cpp:279
+msgid "Add title"
+msgstr "Přidat název stopy"
+
+#. i18n: file: src/import/newTitle.ui:28
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: build/ui_newTitle.h:194 po/rc.cpp:282 rc.cpp:282
+msgid "Video file"
+msgstr "Videosoubor"
+
+#. i18n: file: src/import/newTitle.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, rbNumber)
+#: build/ui_newTitle.h:197 po/rc.cpp:288 rc.cpp:288
+msgid "number of chapters"
+msgstr "Počet kapitol"
+
+#. i18n: file: src/import/newTitle.ui:97
+#. i18n: ectx: property (text), widget (QRadioButton, rbLength)
+#: build/ui_newTitle.h:198 po/rc.cpp:291 rc.cpp:291
+msgid "chapter length"
+msgstr "Délka kapitol"
+
+#. i18n: file: src/import/newTitle.ui:136
+#. i18n: ectx: property (text), widget (QCheckBox, ckReencode)
+#: build/ui_newTitle.h:200 po/rc.cpp:297 rc.cpp:297
+msgid "Do not reencode"
+msgstr "Neprovádět opětovné zakódování"
+
+#. i18n: file: src/main/prefDVD.ui:251
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/mplayer/phonon.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: src/main/prefDVD.ui:251
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/mplayer/phonon.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: build/ui_phonon.h:124 build/ui_prefDVD.h:287 po/rc.cpp:955 po/rc.cpp:1307
+#: src/main/k9langselect.cpp:100 rc.cpp:955 rc.cpp:1307
+msgid "Subtitles"
+msgstr "Titulky"
+
+#. i18n: file: src/main/playbackoptionsw.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, PlaybackOptionsw)
+#: build/ui_playbackoptionsw.h:193 po/rc.cpp:750 src/main/k9copy.cpp:154
+#: rc.cpp:750
+msgid "DVD playback options"
+msgstr "Možnosti přehrávání DVD"
+
+#. i18n: file: src/main/playbackoptionsw.ui:28
+#. i18n: ectx: property (text), widget (QCheckBox, ckMenu)
+#: build/ui_playbackoptionsw.h:194 po/rc.cpp:753 rc.cpp:753
+msgid "&Keep original menus"
+msgstr "&Zachovat původní menu"
+
+#. i18n: file: src/main/playbackoptionsw.ui:31
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMenu)
+#. i18n: file: src/main/prefMPEG4.ui:257
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMp4AspectRatio)
+#. i18n: file: src/main/playbackoptionsw.ui:31
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMenu)
+#. i18n: file: src/main/prefMPEG4.ui:257
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMp4AspectRatio)
+#: build/ui_playbackoptionsw.h:195 build/ui_prefMPEG4.h:566 po/rc.cpp:756
+#: po/rc.cpp:1092 rc.cpp:756 rc.cpp:1092
+msgid "Alt+K"
+msgstr "Alt+K"
+
+#. i18n: file: src/main/playbackoptionsw.ui:87
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: build/ui_playbackoptionsw.h:196 po/rc.cpp:759 rc.cpp:759
+msgid "Selected Titles"
+msgstr "Vybrané názvy stop"
+
+#. i18n: file: src/main/playbackoptionsw.ui:139
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: build/ui_playbackoptionsw.h:197 po/rc.cpp:762 rc.cpp:762
+msgid "Default language"
+msgstr "Výchozí jazyk"
+
+#. i18n: file: src/main/playbackoptionsw.ui:165
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: build/ui_playbackoptionsw.h:198 po/rc.cpp:765 rc.cpp:765
+msgid "Subtitle"
+msgstr "Titulky"
+
+#. i18n: file: src/main/prefAuthor.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefAuthor)
+#: build/ui_prefAuthor.h:182 po/rc.cpp:771 rc.cpp:771
+msgid "Authoring options"
+msgstr "Možnosti tvorby DVD"
+
+#. i18n: file: src/main/prefAuthor.ui:27
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioFormat)
+#: build/ui_prefAuthor.h:186 po/rc.cpp:777 rc.cpp:777
+msgid "AC3"
+msgstr "AC3"
+
+#. i18n: file: src/main/prefAuthor.ui:32
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioFormat)
+#: build/ui_prefAuthor.h:187 po/rc.cpp:780 rc.cpp:780
+msgid "MP2"
+msgstr "MP2"
+
+#. i18n: file: src/main/prefAuthor.ui:41
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: build/ui_prefAuthor.h:191 po/rc.cpp:783 rc.cpp:783
+msgid "128"
+msgstr "128"
+
+#. i18n: file: src/main/prefAuthor.ui:46
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: build/ui_prefAuthor.h:192 po/rc.cpp:786 rc.cpp:786
+msgid "160"
+msgstr "160"
+
+#. i18n: file: src/main/prefAuthor.ui:51
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: build/ui_prefAuthor.h:193 po/rc.cpp:789 rc.cpp:789
+msgid "192"
+msgstr "192"
+
+#. i18n: file: src/main/prefAuthor.ui:56
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: build/ui_prefAuthor.h:194 po/rc.cpp:792 rc.cpp:792
+msgid "224"
+msgstr "224"
+
+#. i18n: file: src/main/prefAuthor.ui:61
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: build/ui_prefAuthor.h:195 po/rc.cpp:795 rc.cpp:795
+msgid "256"
+msgstr "256"
+
+#. i18n: file: src/main/prefAuthor.ui:66
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: build/ui_prefAuthor.h:196 po/rc.cpp:798 rc.cpp:798
+msgid "320"
+msgstr "320"
+
+#. i18n: file: src/main/prefAuthor.ui:71
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: build/ui_prefAuthor.h:197 po/rc.cpp:801 rc.cpp:801
+msgid "384"
+msgstr "384"
+
+#. i18n: file: src/main/prefAuthor.ui:76
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: build/ui_prefAuthor.h:198 po/rc.cpp:804 rc.cpp:804
+msgid "448"
+msgstr "448"
+
+#. i18n: file: src/main/prefAuthor.ui:84
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: build/ui_prefAuthor.h:200 po/rc.cpp:807 rc.cpp:807
+msgid "Format"
+msgstr "Formát"
+
+#. i18n: file: src/main/prefAuthor.ui:139
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: build/ui_prefAuthor.h:202 po/rc.cpp:813 rc.cpp:813
+msgid "Buttons"
+msgstr "Tlačítka"
+
+#. i18n: file: src/main/prefAuthor.ui:145
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/prefMPEG4.ui:160
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. i18n: file: src/main/prefAuthor.ui:145
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/prefMPEG4.ui:160
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: build/ui_prefAuthor.h:203 build/ui_prefMPEG4.h:560 po/rc.cpp:816
+#: po/rc.cpp:1080 rc.cpp:816 rc.cpp:1080
+msgid "Width"
+msgstr "Šířka"
+
+#. i18n: file: src/main/prefAuthor.ui:171
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: file: src/main/prefMPEG4.ui:207
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
+#. i18n: file: src/main/prefAuthor.ui:171
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: file: src/main/prefMPEG4.ui:207
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
+#: build/ui_prefAuthor.h:204 build/ui_prefMPEG4.h:563 po/rc.cpp:819
+#: po/rc.cpp:1086 rc.cpp:819 rc.cpp:1086
+msgid "Height"
+msgstr "Výška"
+
+#. i18n: file: src/main/prefAuthor.ui:208
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: build/ui_prefAuthor.h:206 po/rc.cpp:825 rc.cpp:825
+msgid "Hilite color"
+msgstr "Barva zvýraznění"
+
+#. i18n: file: src/main/prefAuthor.ui:225
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
+#: build/ui_prefAuthor.h:208 po/rc.cpp:828 rc.cpp:828
+msgid "Text color"
+msgstr "Barva textu"
+
+#. i18n: file: src/main/prefDirs.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefDirs)
+#: build/ui_prefDirs.h:295 po/rc.cpp:831 rc.cpp:831
+msgid "prefDirs"
+msgstr "prefDirs"
+
+#. i18n: file: src/main/prefDirs.ui:47
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirDVD)
+#: build/ui_prefDirs.h:299 po/rc.cpp:840 rc.cpp:840
+msgid "default output directory for DVD backups"
+msgstr "Výchozí výstupní adresář pro zálohování DVD"
+
+#. i18n: file: src/main/prefDirs.ui:60
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_2)
+#: build/ui_prefDirs.h:301 po/rc.cpp:843 src/main/k9settings.cpp:51 rc.cpp:843
+msgid "MPEG-4"
+msgstr "MPEG-4"
+
+#. i18n: file: src/main/prefDirs.ui:76
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirMPEG4)
+#: build/ui_prefDirs.h:303 po/rc.cpp:846 rc.cpp:846
+msgid "default output directory for MPEG-4 backups"
+msgstr "Výchozí výstupní adresář pro zálohování MPEG-4"
+
+#. i18n: file: src/main/prefDirs.ui:89
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_3)
+#: build/ui_prefDirs.h:305 po/rc.cpp:849 rc.cpp:849
+msgid "MPEG-2"
+msgstr "MPEG-2"
+
+#. i18n: file: src/main/prefDirs.ui:105
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirMPEG2)
+#: build/ui_prefDirs.h:307 po/rc.cpp:852 rc.cpp:852
+msgid "default output directory for MPEG-1/MPEG-2 backups"
+msgstr "Výchozí výstupní adresář pro zálohování MPEG-1/MPEG-2"
+
+#. i18n: file: src/main/prefDirs.ui:118
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_4)
+#: build/ui_prefDirs.h:309 po/rc.cpp:855 rc.cpp:855
+msgid "ISO Images"
+msgstr "ISO obrazy"
+
+#. i18n: file: src/main/prefDirs.ui:134
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirISO)
+#. i18n: file: src/main/prefDirs.ui:163
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirAudio)
+#. i18n: file: src/main/prefDirs.ui:134
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirISO)
+#. i18n: file: src/main/prefDirs.ui:163
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirAudio)
+#: build/ui_prefDirs.h:311 build/ui_prefDirs.h:315 po/rc.cpp:858 po/rc.cpp:864
+#: rc.cpp:858 rc.cpp:864
+msgid "default output directory for ISO image backups"
+msgstr "Výchozí výstupní adresář pro zálohování ISO obrazů"
+
+#. i18n: file: src/main/prefDirs.ui:147
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_6)
+#: build/ui_prefDirs.h:313 po/rc.cpp:861 rc.cpp:861
+msgid "Audio files"
+msgstr "Zvukové soubory"
+
+#. i18n: file: src/main/prefDirs.ui:186
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: build/ui_prefDirs.h:317 po/rc.cpp:867 rc.cpp:867
+msgid "Programs"
+msgstr "Programy"
+
+#. i18n: file: src/main/prefDirs.ui:198
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_5)
+#: build/ui_prefDirs.h:318 po/rc.cpp:870 rc.cpp:870
+msgid "MEncoder"
+msgstr "MEncoder"
+
+#. i18n: file: src/main/prefDirs.ui:224
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_7)
+#. i18n: file: src/main/prefpreview.ui:39
+#. i18n: ectx: property (text), widget (QRadioButton, rbMplayer)
+#. i18n: file: src/main/prefDirs.ui:224
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_7)
+#. i18n: file: src/main/prefpreview.ui:39
+#. i18n: ectx: property (text), widget (QRadioButton, rbMplayer)
+#: build/ui_prefDirs.h:319 build/ui_prefpreview.h:261 po/rc.cpp:873
+#: po/rc.cpp:1173 rc.cpp:873 rc.cpp:1173
+msgid "MPlayer"
+msgstr "MPlayer"
+
+#. i18n: file: src/main/prefDirs.ui:250
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_8)
+#: build/ui_prefDirs.h:320 po/rc.cpp:876 rc.cpp:876
+msgid "k3b"
+msgstr "k3b"
+
+#. i18n: file: src/main/prefDirs.ui:276
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_9)
+#: build/ui_prefDirs.h:321 po/rc.cpp:879 rc.cpp:879
+msgid "dvdauthor"
+msgstr "dvdauthor"
+
+#. i18n: file: src/main/prefDirs.ui:302
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_10)
+#. i18n: file: src/main/prefMencoder.ui:199
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderV)
+#. i18n: file: src/main/prefMencoder.ui:469
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderA)
+#. i18n: file: src/main/prefDirs.ui:302
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_10)
+#. i18n: file: src/main/prefMencoder.ui:199
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderV)
+#. i18n: file: src/main/prefMencoder.ui:469
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderA)
+#: build/ui_prefDirs.h:322 build/ui_prefMencoder.h:518
+#: build/ui_prefMencoder.h:534 po/rc.cpp:882 po/rc.cpp:1017 po/rc.cpp:1041
+#: rc.cpp:882 rc.cpp:1017 rc.cpp:1041
+msgid "ffmpeg"
+msgstr "ffmpeg"
+
+#. i18n: file: src/main/prefDirs.ui:328
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_11)
+#: build/ui_prefDirs.h:323 po/rc.cpp:885 rc.cpp:885
+msgid "wodim"
+msgstr "wodim"
+
+#. i18n: file: src/main/prefDirs.ui:354
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_12)
+#: build/ui_prefDirs.h:324 po/rc.cpp:888 rc.cpp:888
+msgid "genisoimage"
+msgstr "genisoimage"
+
+#. i18n: file: src/main/prefDVD.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefDVD)
+#: build/ui_prefDVD.h:262 po/rc.cpp:891 rc.cpp:891
+msgid "prefDVD"
+msgstr "prefDVD"
+
+#. i18n: file: src/main/prefDVD.ui:48
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir)
+#: build/ui_prefDVD.h:264 po/rc.cpp:897 rc.cpp:897
+msgid "Output directory"
+msgstr "Výstupní adresář"
+
+#. i18n: file: src/main/prefDVD.ui:68
+#. i18n: ectx: property (text), widget (QCheckBox, ckDelTmpFiles)
+#: build/ui_prefDVD.h:265 po/rc.cpp:900 rc.cpp:900
+msgid "Clear output directory on exit"
+msgstr "Smazat výstupní adresář při ukončení"
+
+#. i18n: file: src/main/prefDVD.ui:71
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckDelTmpFiles)
+#: build/ui_prefDVD.h:266 po/rc.cpp:903 rc.cpp:903
+msgid "Alt+Y"
+msgstr "Alt+Y"
+
+#. i18n: file: src/main/prefDVD.ui:78
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: build/ui_prefDVD.h:267 po/rc.cpp:906 rc.cpp:906
+msgid "DVD size"
+msgstr "Velikost DVD"
+
+#. i18n: file: src/main/prefDVD.ui:113
+#. i18n: ectx: property (text), widget (QCheckBox, ckMpegChapter)
+#: build/ui_prefDVD.h:268 po/rc.cpp:909 rc.cpp:909
+msgid "one file/chapter (MPEG extraction)"
+msgstr "Jeden soubor/kapitola (získání MPEG)"
+
+#. i18n: file: src/main/prefDVD.ui:116
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMpegChapter)
+#. i18n: file: src/main/prefDVD.ui:126
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckDvdAuthor)
+#. i18n: file: src/main/prefDVD.ui:116
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMpegChapter)
+#. i18n: file: src/main/prefDVD.ui:126
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckDvdAuthor)
+#: build/ui_prefDVD.h:269 build/ui_prefDVD.h:271 po/rc.cpp:912 po/rc.cpp:918
+#: rc.cpp:912 rc.cpp:918
+msgid "Alt+D"
+msgstr "Alt+D"
+
+#. i18n: file: src/main/prefDVD.ui:123
+#. i18n: ectx: property (text), widget (QCheckBox, ckDvdAuthor)
+#: build/ui_prefDVD.h:270 po/rc.cpp:915 rc.cpp:915
+msgid "use dvdAuthor for copy without menus"
+msgstr "Pro kopírování bez menu použít dvdAuthor"
+
+#. i18n: file: src/main/prefDVD.ui:133
+#. i18n: ectx: property (text), widget (QCheckBox, ckUserOps)
+#: build/ui_prefDVD.h:272 po/rc.cpp:921 rc.cpp:921
+msgid "Enable prohibited user operations"
+msgstr "Povolit uživatelům zakázané operace"
+
+#. i18n: file: src/main/prefDVD.ui:143
+#. i18n: ectx: property (title), widget (QGroupBox, gbPerformances)
+#: build/ui_prefDVD.h:273 po/rc.cpp:924 rc.cpp:924
+msgid "Performances"
+msgstr "Provádění"
+
+#. i18n: file: src/main/prefDVD.ui:149
+#. i18n: ectx: property (text), widget (QCheckBox, ckQuickScan)
+#: build/ui_prefDVD.h:274 po/rc.cpp:927 rc.cpp:927
+msgid "Quick scan"
+msgstr "Rychlé hledání"
+
+#. i18n: file: src/main/prefDVD.ui:152
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckQuickScan)
+#: build/ui_prefDVD.h:275 po/rc.cpp:930 rc.cpp:930
+msgid "Alt+Q"
+msgstr "Alt+Q"
+
+#. i18n: file: src/main/prefDVD.ui:165
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: build/ui_prefDVD.h:276 po/rc.cpp:933 rc.cpp:933
+msgid "DVD read ahead"
+msgstr "Čtení DVD napřed"
+
+#. i18n: file: src/main/prefDVD.ui:178
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadAhead)
+#: build/ui_prefDVD.h:280 po/rc.cpp:939 rc.cpp:939
+msgid "skip bad sectors (slow)"
+msgstr "Přeskočit špatné sektory (pomalé)"
+
+#. i18n: file: src/main/prefDVD.ui:183
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadAhead)
+#: build/ui_prefDVD.h:281 po/rc.cpp:942 rc.cpp:942
+msgid "skip bad sectors (faster)"
+msgstr "Přeskočit špatné sektory (rychlé)"
+
+#. i18n: file: src/main/prefDVD.ui:197
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: build/ui_prefDVD.h:283 po/rc.cpp:945 rc.cpp:945
+msgid ""
+"this option can improve reading of DVD having bad sectors.\n"
+"It will require root privileges when opening the DVD."
+msgstr ""
+"Tato volby může zlepšit čtení DVD, které má špatné sektory.\n"
+"Vyžaduje při otevření DVD oprávnění superuživatele (roota)."
+
+#. i18n: file: src/main/prefDVD.ui:207
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: build/ui_prefDVD.h:285 po/rc.cpp:949 rc.cpp:949
+msgid "Prefered languages"
+msgstr "Upřednostňované jazyky"
+
+#. i18n: file: src/main/prefDVD.ui:277
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: build/ui_prefDVD.h:288 po/rc.cpp:958 rc.cpp:958
+msgid "Burning"
+msgstr "Vypalování"
+
+#. i18n: file: src/main/prefDVD.ui:283
+#. i18n: ectx: property (text), widget (QCheckBox, ckK3b)
+#: build/ui_prefDVD.h:289 po/rc.cpp:961 rc.cpp:961
+msgid "Burn with k3b"
+msgstr "Vypálit pomocí K3b"
+
+#. i18n: file: src/main/prefDVD.ui:286
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckK3b)
+#. i18n: file: src/main/prefMPEG4.ui:357
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbBitrate)
+#. i18n: file: src/main/prefDVD.ui:286
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckK3b)
+#. i18n: file: src/main/prefMPEG4.ui:357
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbBitrate)
+#: build/ui_prefDVD.h:290 build/ui_prefMPEG4.h:572 po/rc.cpp:964
+#: po/rc.cpp:1107 rc.cpp:964 rc.cpp:1107
+msgid "Alt+B"
+msgstr "Alt+B"
+
+#. i18n: file: src/main/prefDVD.ui:299
+#. i18n: ectx: property (text), widget (QCheckBox, ckAutoBurn)
+#: build/ui_prefDVD.h:291 po/rc.cpp:967 rc.cpp:967
+msgid "Auto burn"
+msgstr "Automaticky vypálit"
+
+#. i18n: file: src/main/prefDVD.ui:302
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckAutoBurn)
+#: build/ui_prefDVD.h:292 po/rc.cpp:970 rc.cpp:970
+msgid "Alt+T"
+msgstr "Alt+T"
+
+#. i18n: file: src/main/prefMencoder.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefMencoder)
+#. i18n: file: src/main/prefMPEG4.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefMPEG4)
+#. i18n: file: src/main/prefpreview.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefPreview)
+#. i18n: file: src/main/prefMencoder.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefMencoder)
+#. i18n: file: src/main/prefMPEG4.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefMPEG4)
+#. i18n: file: src/main/prefpreview.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefPreview)
+#: build/ui_prefMencoder.h:489 build/ui_prefMPEG4.h:548
+#: build/ui_prefpreview.h:257 po/rc.cpp:973 po/rc.cpp:1053 po/rc.cpp:1164
+#: rc.cpp:973 rc.cpp:1053 rc.cpp:1164
+msgid "Form1"
+msgstr "Form1"
+
+#. i18n: file: src/main/prefMencoder.ui:32
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: build/ui_prefMencoder.h:490 po/rc.cpp:976 rc.cpp:976
+msgid "Available variables"
+msgstr "Dostupné proměnné"
+
+#. i18n: file: src/main/prefMencoder.ui:77
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: build/ui_prefMencoder.h:491 po/rc.cpp:979 rc.cpp:979
+msgid ""
+"$PASS\n"
+"$WIDTH\n"
+"$HEIGHT\n"
+"$VIDBR\n"
+"$AUDBR\n"
+"$ASPECT"
+msgstr ""
+"$PASS\n"
+"$WIDTH\n"
+"$HEIGHT\n"
+"$VIDBR\n"
+"$AUDBR\n"
+"$ASPECT"
+
+#. i18n: file: src/main/prefMencoder.ui:98
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: build/ui_prefMencoder.h:497 po/rc.cpp:987 rc.cpp:987
+msgid ""
+"pass number\n"
+"video width\n"
+"video height\n"
+"video bitrate\n"
+"audio bitrate\n"
+"aspect ratio"
+msgstr ""
+"Počet průchodů\n"
+"Šířka videa\n"
+"Výška videa\n"
+"Datový tok videa\n"
+"Datový tok zvuku\n"
+"Poměr stran"
+
+#. i18n: file: src/main/prefMencoder.ui:129
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_4)
+#: build/ui_prefMencoder.h:503 po/rc.cpp:995 rc.cpp:995
+msgid ""
+"$CROPLEFT\n"
+"$CROPTOP\n"
+"$CROPRIGHT\n"
+"$CROPBOTTOM\n"
+"$CROPWIDTH\n"
+"$CROPHEIGHT"
+msgstr ""
+"$CROPLEFT\n"
+"$CROPTOP\n"
+"$CROPRIGHT\n"
+"$CROPBOTTOM\n"
+"$CROPWIDTH\n"
+"$CROPHEIGHT"
+
+#. i18n: file: src/main/prefMencoder.ui:150
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_5)
+#: build/ui_prefMencoder.h:509 po/rc.cpp:1003 rc.cpp:1003
+msgid ""
+"left crop coord\n"
+"top crop coord\n"
+"size of right crop\n"
+"size of bottom crop\n"
+"crop width\n"
+"crop height"
+msgstr ""
+"Velikost ořezu vlevo\n"
+"Velikost ořezu nahoře\n"
+"Velikost ořezu vpravo\n"
+"Velikost dolního ořezu\n"
+"Šířka ořezu\n"
+"Výška ořezu"
+
+#. i18n: file: src/main/prefMencoder.ui:194
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderV)
+#. i18n: file: src/main/prefMencoder.ui:464
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderA)
+#. i18n: file: src/main/prefMencoder.ui:194
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderV)
+#. i18n: file: src/main/prefMencoder.ui:464
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderA)
+#: build/ui_prefMencoder.h:517 build/ui_prefMencoder.h:533 po/rc.cpp:1014
+#: po/rc.cpp:1038 rc.cpp:1014 rc.cpp:1038
+msgid "mencoder"
+msgstr "mencoder"
+
+#. i18n: file: src/main/prefMencoder.ui:261
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
+#: build/ui_prefMencoder.h:522 po/rc.cpp:1023 rc.cpp:1023
+msgid "fourcc"
+msgstr "fourcc"
+
+#. i18n: file: src/main/prefMencoder.ui:274
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: build/ui_prefMencoder.h:523 po/rc.cpp:1026 rc.cpp:1026
+msgid "one pass"
+msgstr "jeden průchod"
+
+#. i18n: file: src/main/prefMencoder.ui:339
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
+#: build/ui_prefMencoder.h:526 po/rc.cpp:1029 rc.cpp:1029
+msgid "first pass"
+msgstr "první průchod"
+
+#. i18n: file: src/main/prefMencoder.ui:395
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3_2)
+#: build/ui_prefMencoder.h:528 po/rc.cpp:1032 rc.cpp:1032
+msgid "second pass"
+msgstr "druhý průchod"
+
+#. i18n: file: src/main/prefMencoder.ui:182
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: build/ui_prefMencoder.h:530 po/rc.cpp:1011 rc.cpp:1011
+msgid "Video codecs"
+msgstr "Video kodeky"
+
+#. i18n: file: src/main/prefMencoder.ui:578
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2_2)
+#: build/ui_prefMencoder.h:538 po/rc.cpp:1047 rc.cpp:1047
+msgid "options"
+msgstr "Volby"
+
+#. i18n: file: src/main/prefMencoder.ui:588
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: build/ui_prefMencoder.h:539 po/rc.cpp:1050 rc.cpp:1050
+msgid "extension"
+msgstr "Přípona"
+
+#. i18n: file: src/main/prefMencoder.ui:452
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: build/ui_prefMencoder.h:540 po/rc.cpp:1035 rc.cpp:1035
+msgid "Audio codecs"
+msgstr "Zvukové kodeky"
+
+#. i18n: file: src/main/prefMPEG4.ui:66
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: build/ui_prefMPEG4.h:550 po/rc.cpp:1056 rc.cpp:1056
+msgid "Encoder"
+msgstr "Kodér"
+
+#. i18n: file: src/main/prefMPEG4.ui:102
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. i18n: file: src/main/prefMPEG4.ui:643
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#. i18n: file: src/main/prefMPEG4.ui:102
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. i18n: file: src/main/prefMPEG4.ui:643
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: build/ui_prefMPEG4.h:551 build/ui_prefMPEG4.h:583 po/rc.cpp:1062
+#: po/rc.cpp:1137 rc.cpp:1062 rc.cpp:1137
+msgid "Codec"
+msgstr "Kodek"
+
+#. i18n: file: src/main/prefMPEG4.ui:124
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4Codec)
+#: build/ui_prefMPEG4.h:554 po/rc.cpp:1065 rc.cpp:1065
+msgid "XviD"
+msgstr "XviD"
+
+#. i18n: file: src/main/prefMPEG4.ui:129
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4Codec)
+#: build/ui_prefMPEG4.h:555 po/rc.cpp:1068 rc.cpp:1068
+msgid "lavc MPEG4"
+msgstr "lavc MPEG4"
+
+#. i18n: file: src/main/prefMPEG4.ui:134
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4Codec)
+#: build/ui_prefMPEG4.h:556 po/rc.cpp:1071 rc.cpp:1071
+msgid "x264"
+msgstr "x264"
+
+#. i18n: file: src/main/prefMPEG4.ui:142
+#. i18n: ectx: property (text), widget (QCheckBox, ck2passes)
+#: build/ui_prefMPEG4.h:558 po/rc.cpp:1074 rc.cpp:1074
+msgid "2 pass"
+msgstr "2 průchody"
+
+#. i18n: file: src/main/prefMPEG4.ui:145
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ck2passes)
+#: build/ui_prefMPEG4.h:559 po/rc.cpp:1077 rc.cpp:1077
+msgid "Alt+2"
+msgstr "Alt+2"
+
+#. i18n: file: src/main/prefMPEG4.ui:191
+#. i18n: ectx: property (text), widget (QLineEdit, leMp4Width)
+#: build/ui_prefMPEG4.h:562 po/rc.cpp:1083 rc.cpp:1083
+msgid "720"
+msgstr "720"
+
+#. i18n: file: src/main/prefMPEG4.ui:254
+#. i18n: ectx: property (text), widget (QCheckBox, ckMp4AspectRatio)
+#: build/ui_prefMPEG4.h:565 po/rc.cpp:1089 rc.cpp:1089
+msgid "&keep aspect ratio"
+msgstr "Zachovat poměr stran"
+
+#. i18n: file: src/main/prefMPEG4.ui:300
+#. i18n: ectx: property (text), widget (QRadioButton, rbSize)
+#: build/ui_prefMPEG4.h:568 po/rc.cpp:1095 rc.cpp:1095
+msgid "File size"
+msgstr "Velikost souboru"
+
+#. i18n: file: src/main/prefMPEG4.ui:303
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbSize)
+#: build/ui_prefMPEG4.h:569 po/rc.cpp:1098 rc.cpp:1098
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#. i18n: file: src/main/prefMPEG4.ui:325
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbMp4Size)
+#: build/ui_prefMPEG4.h:570 po/rc.cpp:1101 rc.cpp:1101
+msgid " MB"
+msgstr " MB"
+
+#. i18n: file: src/main/prefMPEG4.ui:376
+#. i18n: ectx: property (inputMask), widget (QLineEdit, leMp4VideoBitrate)
+#: build/ui_prefMPEG4.h:573 po/rc.cpp:1110 rc.cpp:1110
+msgid "00000; "
+msgstr "00000; "
+
+#. i18n: file: src/main/prefMPEG4.ui:470
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: build/ui_prefMPEG4.h:576 po/rc.cpp:1116 rc.cpp:1116
+msgid "Cropping"
+msgstr "Oříznutí"
+
+#. i18n: file: src/main/prefMPEG4.ui:485
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/viewmpeg2.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: src/main/prefMPEG4.ui:485
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/viewmpeg2.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: build/ui_prefMPEG4.h:577 build/ui_viewmpeg2.h:232 po/rc.cpp:1119
+#: po/rc.cpp:1265 rc.cpp:1119 rc.cpp:1265
+msgid "Top"
+msgstr "Nahoře"
+
+#. i18n: file: src/main/prefMPEG4.ui:511
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/main/viewmpeg2.ui:142
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/prefMPEG4.ui:511
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/main/viewmpeg2.ui:142
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: build/ui_prefMPEG4.h:578 build/ui_viewmpeg2.h:233 po/rc.cpp:1122
+#: po/rc.cpp:1268 rc.cpp:1122 rc.cpp:1268
+msgid "Left"
+msgstr "Vlevo"
+
+#. i18n: file: src/main/prefMPEG4.ui:605
+#. i18n: ectx: property (text), widget (QPushButton, bCropDetect)
+#. i18n: file: src/main/viewmpeg2.ui:203
+#. i18n: ectx: property (text), widget (QPushButton, bCropDetect)
+#. i18n: file: src/main/prefMPEG4.ui:605
+#. i18n: ectx: property (text), widget (QPushButton, bCropDetect)
+#. i18n: file: src/main/viewmpeg2.ui:203
+#. i18n: ectx: property (text), widget (QPushButton, bCropDetect)
+#: build/ui_prefMPEG4.h:581 build/ui_viewmpeg2.h:236 po/rc.cpp:1131
+#: po/rc.cpp:1277 rc.cpp:1131 rc.cpp:1277
+msgid "detect"
+msgstr "Zjistit"
+
+#. i18n: file: src/main/prefMPEG4.ui:90
+#. i18n: ectx: attribute (title), widget (QWidget, tabVideo)
+#: build/ui_prefMPEG4.h:582 po/rc.cpp:1059 rc.cpp:1059
+msgid "Video"
+msgstr "Video"
+
+#. i18n: file: src/main/prefMPEG4.ui:660
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: build/ui_prefMPEG4.h:586 po/rc.cpp:1140 rc.cpp:1140
+msgid "mp3"
+msgstr "mp3"
+
+#. i18n: file: src/main/prefMPEG4.ui:665
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: build/ui_prefMPEG4.h:587 po/rc.cpp:1143 rc.cpp:1143
+msgid "faac"
+msgstr "faac"
+
+#. i18n: file: src/main/prefMPEG4.ui:670
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: build/ui_prefMPEG4.h:588 po/rc.cpp:1146 rc.cpp:1146
+msgid "mp2"
+msgstr "mp2"
+
+#. i18n: file: src/main/prefMPEG4.ui:675
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: build/ui_prefMPEG4.h:589 po/rc.cpp:1149 rc.cpp:1149
+msgid "ac3"
+msgstr "ac3"
+
+#. i18n: file: src/main/prefMPEG4.ui:680
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: build/ui_prefMPEG4.h:590 po/rc.cpp:1152 rc.cpp:1152
+msgid "adpcm ima"
+msgstr "adpcm ima"
+
+#. i18n: file: src/main/prefMPEG4.ui:764
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: build/ui_prefMPEG4.h:594 po/rc.cpp:1158 rc.cpp:1158
+msgid "Gain"
+msgstr "Zesílení signálu"
+
+#. i18n: file: src/main/prefMPEG4.ui:816
+#. i18n: ectx: property (text), widget (QCheckBox, ckUseCache)
+#: build/ui_prefMPEG4.h:596 po/rc.cpp:1161 rc.cpp:1161
+msgid "use cell cache"
+msgstr "použít vyrovnávací paměť buňky"
+
+#. i18n: file: src/main/prefpreview.ui:29
+#. i18n: ectx: property (text), widget (QRadioButton, rbInternal)
+#: build/ui_prefpreview.h:259 po/rc.cpp:1167 rc.cpp:1167
+msgid "&Internal Player"
+msgstr "&Vnitřní přehrávací zařízení"
+
+#. i18n: file: src/main/prefpreview.ui:32
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbInternal)
+#: build/ui_prefpreview.h:260 po/rc.cpp:1170 rc.cpp:1170
+msgid "Alt+I"
+msgstr "Alt+I"
+
+#. i18n: file: src/main/prefpreview.ui:42
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbMplayer)
+#: build/ui_prefpreview.h:262 po/rc.cpp:1176 rc.cpp:1176
+msgid "Alt+M"
+msgstr "Alt+M"
+
+#. i18n: file: src/main/prefpreview.ui:49
+#. i18n: ectx: property (text), widget (QRadioButton, rbXine)
+#: build/ui_prefpreview.h:263 po/rc.cpp:1179 rc.cpp:1179
+msgid "Xine Player"
+msgstr "Přehrávač Xine"
+
+#. i18n: file: src/main/prefpreview.ui:56
+#. i18n: ectx: property (text), widget (QRadioButton, rbPhonon)
+#: build/ui_prefpreview.h:264 po/rc.cpp:1182 rc.cpp:1182
+msgid "Phonon"
+msgstr "Phonon"
+
+#. i18n: file: src/main/prefpreview.ui:124
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/prefpreview.ui:264
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. i18n: file: src/main/prefpreview.ui:124
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/prefpreview.ui:264
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: build/ui_prefpreview.h:265 build/ui_prefpreview.h:282 po/rc.cpp:1185
+#: po/rc.cpp:1218 rc.cpp:1185 rc.cpp:1218
+msgid "Video output"
+msgstr "Video výstup"
+
+#. i18n: file: src/main/prefpreview.ui:140
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: file: src/main/prefpreview.ui:320
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#. i18n: file: src/main/prefpreview.ui:140
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: file: src/main/prefpreview.ui:320
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: build/ui_prefpreview.h:266 build/ui_prefpreview.h:290 po/rc.cpp:1188
+#: po/rc.cpp:1233 rc.cpp:1188 rc.cpp:1233
+msgid "Audio output"
+msgstr "Výstupní datový tok zvuku"
+
+#. i18n: file: src/main/prefpreview.ui:151
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:275
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#. i18n: file: src/main/prefpreview.ui:151
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:275
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#: build/ui_prefpreview.h:269 build/ui_prefpreview.h:285 po/rc.cpp:1191
+#: po/rc.cpp:1221 rc.cpp:1191 rc.cpp:1221
+msgid "X11"
+msgstr "X11"
+
+#. i18n: file: src/main/prefpreview.ui:156
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:280
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#. i18n: file: src/main/prefpreview.ui:156
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:280
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#: build/ui_prefpreview.h:270 build/ui_prefpreview.h:286 po/rc.cpp:1194
+#: po/rc.cpp:1224 rc.cpp:1194 rc.cpp:1224
+msgid "Xv"
+msgstr "Xv"
+
+#. i18n: file: src/main/prefpreview.ui:161
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:285
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#. i18n: file: src/main/prefpreview.ui:161
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:285
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#: build/ui_prefpreview.h:271 build/ui_prefpreview.h:287 po/rc.cpp:1197
+#: po/rc.cpp:1227 rc.cpp:1197 rc.cpp:1227
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#. i18n: file: src/main/prefpreview.ui:166
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:191
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:290
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#. i18n: file: src/main/prefpreview.ui:166
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:191
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:290
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#: build/ui_prefpreview.h:272 build/ui_prefpreview.h:278
+#: build/ui_prefpreview.h:288 po/rc.cpp:1200 po/rc.cpp:1209 po/rc.cpp:1230
+#: rc.cpp:1200 rc.cpp:1209 rc.cpp:1230
+msgid "SDL"
+msgstr "SDL"
+
+#. i18n: file: src/main/prefpreview.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:337
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXAout)
+#. i18n: file: src/main/prefpreview.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:337
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXAout)
+#: build/ui_prefpreview.h:276 build/ui_prefpreview.h:293 po/rc.cpp:1203
+#: po/rc.cpp:1236 rc.cpp:1203 rc.cpp:1236
+msgid "ALSA"
+msgstr "ALSA"
+
+#. i18n: file: src/main/prefpreview.ui:186
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:342
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXAout)
+#. i18n: file: src/main/prefpreview.ui:186
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:342
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXAout)
+#: build/ui_prefpreview.h:277 build/ui_prefpreview.h:294 po/rc.cpp:1206
+#: po/rc.cpp:1239 rc.cpp:1206 rc.cpp:1239
+msgid "OSS"
+msgstr "OSS"
+
+#. i18n: file: src/main/prefpreview.ui:237
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: build/ui_prefpreview.h:280 po/rc.cpp:1212 rc.cpp:1212
+msgid "MPlayer options"
+msgstr "Volby pro MPlayer"
+
+#. i18n: file: src/main/prefpreview.ui:257
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: build/ui_prefpreview.h:281 po/rc.cpp:1215 rc.cpp:1215
+msgid "Xine player options"
+msgstr "Volby pro přehrávač Xine"
+
+#. i18n: file: src/core/processList.ui:16
+#. i18n: ectx: property (caption), widget (QWidget)
+#. i18n: file: src/import/processList.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, processList)
+#. i18n: file: src/core/processList.ui:16
+#. i18n: ectx: property (caption), widget (QWidget)
+#. i18n: file: src/import/processList.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, processList)
+#: build/ui_processList.h:78 po/rc.cpp:144 po/rc.cpp:303 rc.cpp:144 rc.cpp:303
+msgid "Process List"
+msgstr "Seznam procesů"
+
+#. i18n: file: src/core/processList.ui:36
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/processList.ui:36
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#. i18n: file: src/core/processList.ui:36
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/processList.ui:36
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#: build/ui_processList.h:81 po/rc.cpp:150 po/rc.cpp:312 rc.cpp:150 rc.cpp:312
+msgid "Elapsed"
+msgstr "Uplynulý čas"
+
+#. i18n: file: src/core/processList.ui:25
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/processList.ui:31
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#. i18n: file: src/core/processList.ui:25
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/processList.ui:31
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#: build/ui_processList.h:82 po/rc.cpp:147 po/rc.cpp:309 rc.cpp:147 rc.cpp:309
+msgid "Processes"
+msgstr "Procesy"
+
+#. i18n: file: src/import/processList.ui:26
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#: build/ui_processList.h:83 po/rc.cpp:306 rc.cpp:306
+msgid "Progression"
+msgstr "Postup"
+
+#. i18n: file: src/core/processList.ui:73
+#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: src/import/processList.ui:55
+#. i18n: ectx: property (text), widget (KPushButton, bCancel)
+#. i18n: file: src/core/processList.ui:73
+#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: src/import/processList.ui:55
+#. i18n: ectx: property (text), widget (KPushButton, bCancel)
+#: build/ui_processList.h:84 po/rc.cpp:156 po/rc.cpp:318 rc.cpp:156 rc.cpp:318
+msgid "&Cancel"
+msgstr "&Zrušit"
+
+#. i18n: file: src/core/processList.ui:76
+#. i18n: ectx: property (accel), widget (KPushButton)
+#. i18n: file: src/import/processList.ui:58
+#. i18n: ectx: property (shortcut), widget (KPushButton, bCancel)
+#. i18n: file: src/core/processList.ui:76
+#. i18n: ectx: property (accel), widget (KPushButton)
+#. i18n: file: src/import/processList.ui:58
+#. i18n: ectx: property (shortcut), widget (KPushButton, bCancel)
+#: build/ui_processList.h:85 po/rc.cpp:159 po/rc.cpp:321 rc.cpp:159 rc.cpp:321
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#. i18n: file: src/core/progress.ui:26
+#. i18n: ectx: property (windowTitle), widget (QWidget, Progress)
+#: build/ui_progress.h:198 po/rc.cpp:162 rc.cpp:162
+msgid "k9Copy"
+msgstr "k9copy"
+
+#. i18n: file: src/core/progress.ui:47
+#. i18n: ectx: property (text), widget (QLabel, lblTitle)
+#: build/ui_progress.h:199 po/rc.cpp:165 rc.cpp:165
+msgid "--"
+msgstr "--"
+
+#. i18n: file: src/main/titlefactor.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, titleFactor)
+#: build/ui_titlefactor.h:115 po/rc.cpp:1242 rc.cpp:1242
+msgid "Shrink Factors"
+msgstr "Faktory zmenšení"
+
+#. i18n: file: src/main/titlefactor.ui:28
+#. i18n: ectx: property (text), widget (QLabel, lbTitle)
+#: build/ui_titlefactor.h:116 po/rc.cpp:1246 rc.cpp:1246
+#, no-c-format
+msgid "Shrink Factor for Title %1"
+msgstr "Faktor zmenšení pro stopu s názvem %1"
+
+#. i18n: file: src/main/titlefactor.ui:44
+#. i18n: ectx: property (title), widget (QGroupBox, gbTitle)
+#: build/ui_titlefactor.h:117 po/rc.cpp:1249 rc.cpp:1249
+msgid "Change Factor"
+msgstr "Změnit faktor"
+
+#. i18n: file: src/main/titlefactor.ui:78
+#. i18n: ectx: property (text), widget (QLabel, tFactor)
+#: build/ui_titlefactor.h:118 po/rc.cpp:1252 rc.cpp:1252
+msgid "0.00"
+msgstr "0.00"
+
+#. i18n: file: src/main/titlefactor.ui:88
+#. i18n: ectx: property (text), widget (QLabel, lTargetSize)
+#: build/ui_titlefactor.h:119 po/rc.cpp:1256 src/backup/k9mp4enc.cpp:193
+#: src/main/k9titlefactor.cpp:63 src/main/k9titlefactor.cpp:100
+#: src/main/k9titlefactor.cpp:134 rc.cpp:1256
+#, no-c-format
+msgid "size : %1 MB"
+msgstr "velikost: %1 MB"
+
+#. i18n: file: src/main/viewmpeg2.ui:31
+#. i18n: ectx: property (windowTitle), widget (QWidget, ViewMPEG2)
+#: build/ui_viewmpeg2.h:230 po/rc.cpp:1259 rc.cpp:1259
+msgid "k9Copy - Title Preview"
+msgstr "k9Copy - Náhled stopy"
+
+#. i18n: file: src/main/viewmpeg2.ui:122
+#. i18n: ectx: property (title), widget (QGroupBox, gbCrop)
+#: build/ui_viewmpeg2.h:231 po/rc.cpp:1262 rc.cpp:1262
+msgid "Crop"
+msgstr "Oříznout"
+
+#: main.cpp:38
+msgid "A DVD Backup software for KDE"
+msgstr "Zálohovací program pro DVD pro prostředí KDE"
+
+#: main.cpp:43 src/player/main.cpp:40 src/xine/main.cpp:40
+msgid "k9copy"
+msgstr "k9copy"
+
+#: main.cpp:44
+msgid "(C) 2009 Jean-Michel PETIT"
+msgstr "(C) 2009 Jean-Michel PETIT"
+
+#: main.cpp:45
+msgid "Jean-Michel PETIT"
+msgstr "Jean-Michel PETIT"
+
+#: main.cpp:46 src/player/main.cpp:43 src/xine/main.cpp:43
+msgid "_: NAME OF TRANSLATORS\\nYour names"
+msgstr "Zdeněk Štěpánek, Pavel Fric"
+
+#: main.cpp:47 src/player/main.cpp:44 src/xine/main.cpp:44
+msgid "_: EMAIL OF TRANSLATORS\\nYour emails"
+msgstr "zdenek@gavanet.org, pavelfric@seznam.cz"
+
+#: main.cpp:51 src/player/main.cpp:48
+msgid "input device"
+msgstr "Vstupní zařízení"
+
+#: main.cpp:52 src/player/main.cpp:49
+msgid "output device"
+msgstr "Výstupní zařízení"
+
+#: main.cpp:53 src/player/main.cpp:50
+msgid "title to play"
+msgstr "Stopa k přehrání"
+
+#: main.cpp:54
+msgid "the k9copy backup assistant"
+msgstr "Pomocník se zálohou k9copy"
+
+#. i18n: file: k9copyui.rc:4
+#. i18n: ectx: Menu (file)
+#: po/rc.cpp:3 src/main/k9copy.cpp:246 rc.cpp:3
+msgid "&File"
+msgstr "&Soubor"
+
+#. i18n: file: k9copyui.rc:10
+#. i18n: ectx: Menu (Actions)
+#: po/rc.cpp:6 src/main/k9copy.cpp:250 rc.cpp:6
+msgid "A&ctions"
+msgstr "A&kce"
+
+#. i18n: file: k9copyui.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#: po/rc.cpp:9 rc.cpp:9
+msgid "Actions ToolBar"
+msgstr "Nástrojová lišta akcí"
+
+#: po/rc.cpp:1308 rc.cpp:1308
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Pavel Fric"
+
+#: po/rc.cpp:1309 rc.cpp:1309
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pavelfric@seznam.cz"
+
+#: src/assistant/k9assistant.cpp:43
+msgid "DVD backup assistant"
+msgstr "Pomocník se zálohou DVD"
+
+#: src/assistant/k9assistant.cpp:47
+msgid "source"
+msgstr "Zdroj"
+
+#: src/assistant/k9assistant.cpp:48
+msgid "Select the source of the backup"
+msgstr "Vybrat zdroj zálohy"
+
+#: src/assistant/k9assistant.cpp:54
+msgid "destination"
+msgstr "Cíl"
+
+#: src/assistant/k9assistant.cpp:55
+msgid "Select the destination of the backup"
+msgstr "Vybrat cíl zálohy"
+
+#: src/assistant/k9assistant.cpp:61
+msgid "Select the titles you want to copy"
+msgstr "Vyberte stopy, které chcete kopírovat"
+
+#: src/assistant/k9assistant.cpp:68
+msgid "streams"
+msgstr "Proudy"
+
+#: src/assistant/k9assistant.cpp:69
+msgid "Select the streams you want to keep"
+msgstr "Vyberte proudy, které chcete zachovat"
+
+#: src/assistant/k9assistant.cpp:75
+msgid "mp4"
+msgstr "mp4"
+
+#: src/assistant/k9assistant.cpp:76
+msgid "Set mp4 options for each title"
+msgstr "Nastavit volby pro mp4 u každé stopy"
+
+#: src/assistant/k9assistant.cpp:82
+msgid "DVDOption"
+msgstr "Volby pro DVD"
+
+#: src/assistant/k9assistant.cpp:83
+msgid "Set DVD playback options"
+msgstr "Nastavit volby pro přehrávání DVD"
+
+#: src/assistant/k9assistant.cpp:89
+msgid "mpeg"
+msgstr "mpeg"
+
+#: src/assistant/k9assistant.cpp:90
+msgid "Set mpeg options for each title"
+msgstr "Nastavit volby pro mpeg u každé stopy"
+
+#: src/assistant/k9assistant.cpp:109 src/assistant/k9assistant.cpp:208
+#: src/import/k9importfiles.cpp:200 src/main/k9copy.cpp:263
+#: src/main/k9copy.cpp:386 src/main/k9settings.cpp:28
+msgid "Settings"
+msgstr "Nastavení"
+
+#: src/assistant/k9assistant.cpp:110
+msgid "k9copy settings"
+msgstr "Nastavení k9copy"
+
+#: src/assistant/k9assistant.cpp:148
+msgid "The destination of the copy isn't valid"
+msgstr "Cíl pro kopii není platný"
+
+#: src/assistant/k9assistant.cpp:165
+msgid "You must select at least on title !"
+msgstr "Musíte zvolit alespoň jednu stopu!"
+
+#: src/assistant/k9assistant.cpp:203
+msgid "cannot continue"
+msgstr "Nelze pokračovat"
+
+#: src/assistant/k9astdestination.cpp:36
+msgid "Save iso image"
+msgstr "Uložit obraz ISO"
+
+#: src/assistant/k9astdestination.cpp:78 src/core/k9dvd.cpp:214
+#: src/core/k9dvd.cpp:222 src/core/k9dvd.cpp:230 src/core/k9dvd.cpp:401
+#: src/main/k9main.cpp:498 src/main/k9main.cpp:1503
+msgid "unknown"
+msgstr "Není známo"
+
+#: src/assistant/k9astsource.cpp:33
+msgid "Open ISO image"
+msgstr "Otevřít obraz ISO"
+
+#: src/assistant/k9aststreams.cpp:52
+msgid "%4 - %1 %2 %3 ch"
+msgstr "%4 - %1 %2 %3 kanál"
+
+#: src/assistant/k9aststreams.cpp:63
+msgid "%3 - %1 %2"
+msgstr "%3 - %1 %2"
+
+#: src/assistant/k9asttitles.cpp:262 src/backup/k9mp4enc.cpp:304
+#: src/backup/k9mp4enc.cpp:306 src/backup/k9mp4enc.cpp:366
+#: src/backup/k9mp4enc.cpp:794 src/main/k9main.cpp:522 src/main/k9main.cpp:652
+#: src/main/k9main.cpp:676 src/main/k9main.cpp:697 src/main/k9main.cpp:718
+#: src/main/k9mp4title.cpp:98 src/main/k9prefdvd.cpp:42
+#: src/main/k9prefmpeg4.cpp:37
+msgid "MB"
+msgstr "MB"
+
+#: src/assistant/k9asttitles.cpp:283 src/assistant/k9asttitles.cpp:294
+#: src/import/k9import.cpp:180 src/import/k9import.cpp:195
+#: src/import/k9newtitle.cpp:151 src/import/k9newtitle.cpp:173
+#: src/main/k9main.cpp:593 src/main/k9main.cpp:611
+msgid "chapter %1"
+msgstr "Kapitola %1"
+
+#: src/assistant/k9asttitles.cpp:288 src/assistant/k9asttitles.cpp:298
+#: src/main/k9main.cpp:597 src/main/k9main.cpp:617 src/main/k9main.cpp:1450
+msgid "%1 MB"
+msgstr "%1 MB"
+
+#: src/backup/k9backupdlg.cpp:65 src/backup/k9mp4dlg.cpp:44
+#: src/core/k9burnprogress.cpp:39 src/core/k9progress.cpp:36
+msgid "Stop"
+msgstr "Zastavit"
+
+#: src/backup/k9dvdauthor.cpp:146 src/backup/k9dvdauthor.cpp:394
+msgid "'%1' not selected"
+msgstr "'%1' není vybrán"
+
+#: src/backup/k9dvdauthor.cpp:147 src/backup/k9dvdauthor.cpp:395
+#: src/backup/k9dvdauthor.cpp:418 src/backup/k9dvdauthor.cpp:472
+#: src/backup/k9dvdauthor.cpp:481 src/backup/k9dvdauthor.cpp:483
+#: src/import/k9newdvd.cpp:130
+msgid "authoring"
+msgstr "Tvorba DVD"
+
+#: src/backup/k9dvdauthor.cpp:418 src/backup/k9execcopy.cpp:194
+#: src/backup/k9mp4enc.cpp:145 src/backup/k9mp4enc.cpp:146
+#: src/backup/k9mp4enc.cpp:156 src/backup/k9mp4enc.cpp:157
+#: src/core/k9burndvd.cpp:255 src/core/k9burndvd.cpp:351
+#: src/mplayer/k9mplayer.cpp:156 src/mplayer/k9xine.cpp:142
+msgid "Unable to run %1"
+msgstr "Otevření %1 se nezdařilo"
+
+#: src/backup/k9dvdauthor.cpp:435 src/backup/k9dvdauthor.cpp:512
+#: src/backup/k9dvdauthor.cpp:550 src/import/k9newdvd.cpp:151
+#: src/main/k9settings.cpp:63 src/main/k9settings.cpp:64
+msgid "Authoring"
+msgstr "Tvorba DVD"
+
+#: src/backup/k9dvdauthor.cpp:472
+msgid "Dvdauthor error :\n"
+msgstr "Chyba dvdauthor :\n"
+
+#: src/backup/k9dvdauthor.cpp:481
+msgid "Authoring cancelled"
+msgstr "Tvorba DVD zrušena"
+
+#: src/backup/k9dvdauthor.cpp:483 src/import/k9newdvd.cpp:144
+msgid "An error occured while running DVDAuthor:\n"
+msgstr "Ve spuštěném DVDAuthor se vyskytla chyba:\n"
+
+#: src/backup/k9dvdauthor.cpp:551
+msgid "Fixing VOBUS"
+msgstr "Opravuje se VOBUS"
+
+#: src/backup/k9dvdbackup.cpp:152 src/backup/k9dvdbackup.cpp:166
+#: src/backup/k9dvdbackup.cpp:528 src/backup/k9dvdbackup.cpp:614
+msgid "DVD backup cancelled"
+msgstr "Zálohování DVD zrušeno"
+
+#: src/backup/k9dvdbackup.cpp:179
+msgid "unable to open VIDEO_TS.IFO"
+msgstr "Nelze otevřít VIDEO_TS.IFO"
+
+#: src/backup/k9dvdbackup.cpp:201 src/backup/k9dvdbackup.cpp:382
+#: src/backup/k9dvdbackup.cpp:452
+msgid "Unable to open file "
+msgstr "Soubor nelze otevřít"
+
+#: src/backup/k9dvdbackup.cpp:280
+msgid "Unable to open titleset %1"
+msgstr "Seznam stop %1 nelze otevřít"
+
+#: src/backup/k9dvdbackup.cpp:286 src/backup/k9dvdbackup.cpp:586
+msgid "Extracting titleset %1"
+msgstr "Načítá se seznam stop %1"
+
+#: src/backup/k9dvdbackup.cpp:459
+msgid "Unable to open menu for titleset %1"
+msgstr "Menu seznamu stop %1 nelze otevřít"
+
+#: src/backup/k9dvdbackup.cpp:485
+msgid "Extracting menu for titleset %1"
+msgstr "Načítá se menu seznamu stop %1"
+
+#: src/backup/k9dvdbackup.cpp:578
+msgid "Unable to open ifo file for titleset %1"
+msgstr " \"ifo\" soubor seznamu stop %1 nelze otevřít"
+
+#: src/backup/k9dvdbackup.cpp:590 src/backup/k9dvdbackup.cpp:1740
+msgid "Unable to open DVD"
+msgstr "Nelze otevřít DVD"
+
+#: src/backup/k9dvdbackup.cpp:600
+msgid "Unable to open vobs for titleset %1"
+msgstr "Soubory vob seznamu stop %1 nelze otevřít"
+
+#: src/backup/k9dvdbackup.cpp:1427
+msgid "Updating vob %1"
+msgstr "Aktualizuji vob %1"
+
+#: src/backup/k9dvdbackup.cpp:1444
+msgid "DVD backup canceled"
+msgstr "Zálohování DVD zrušeno"
+
+#: src/backup/k9execcopy.cpp:44 src/backup/k9execcopy.cpp:140
+#: src/backup/k9execcopy.cpp:331 src/backup/k9execcopy.cpp:387
+msgid "DVD is not opened"
+msgstr "DVD není otevřeno"
+
+#: src/backup/k9execcopy.cpp:44 src/backup/k9execcopy.cpp:76
+#: src/backup/k9execcopy.cpp:130
+msgid "DVD Copy"
+msgstr "Kopírování DVD"
+
+#: src/backup/k9execcopy.cpp:76
+msgid ""
+"Insufficient disk space on %1\n"
+"%2 MB expected."
+msgstr ""
+"Nedostatek místa na disku %1\n"
+"Je potřeba %2 MB."
+
+#: src/backup/k9execcopy.cpp:83
+msgid ""
+"Directory already exists.\n"
+"Please choose another location or rename the DVD title."
+msgstr ""
+"Adresář již existuje.\n"
+"Vyberte, prosím, jiné umístění nebo změňte název DVD."
+
+#: src/backup/k9execcopy.cpp:83
+msgid "Warning!"
+msgstr "Varování!"
+
+#: src/backup/k9execcopy.cpp:130 src/backup/k9execcopy.cpp:378
+#: src/backup/k9execcopy.cpp:438
+msgid "Selected titles have been successfully extracted"
+msgstr "Vybrané stopy byly úspěšně získány"
+
+#: src/backup/k9execcopy.cpp:140 src/backup/k9execcopy.cpp:331
+#: src/main/k9settings.cpp:52 src/player/k9play.cpp:80
+msgid "MPEG-4 Encoding"
+msgstr "MPEG-4 kódování"
+
+#: src/backup/k9execcopy.cpp:158 src/backup/k9execcopy.cpp:349
+#: src/backup/k9execcopy.cpp:405 src/backup/k9mp4enc.cpp:293
+msgid "Save file to disk"
+msgstr "Uložit soubor na disk"
+
+#: src/backup/k9execcopy.cpp:194 src/backup/k9mp4enc.cpp:130
+#: src/backup/k9mp4enc.cpp:139 src/backup/k9mp4enc.cpp:146
+#: src/backup/k9mp4enc.cpp:157 src/backup/k9mp4enc.cpp:443
+msgid "Encoding error"
+msgstr "Chyba při kódování"
+
+#: src/backup/k9execcopy.cpp:215
+msgid "Selected titles have been successfully encoded"
+msgstr "Vybrané stopy byly úspěšně zakódovány"
+
+#: src/backup/k9execcopy.cpp:310
+msgid "Muxing Matroska file"
+msgstr "Muxing soubor Matroska"
+
+#: src/backup/k9execcopy.cpp:323
+msgid "An error occured while running mkvmerge"
+msgstr "Ve spuštěném mkvmerge se vyskytla chyba"
+
+#: src/backup/k9execcopy.cpp:323
+msgid "Muxing Matroska"
+msgstr "Muxing Matroska"
+
+#: src/backup/k9execcopy.cpp:387
+msgid "Audio Extraction"
+msgstr "Získání zvuku"
+
+#: src/backup/k9execcopy.h:24
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: src/backup/k9mp4enc.cpp:129 src/backup/k9mp4enc.cpp:130
+msgid "Audio extraction can only be done with ffmpeg"
+msgstr "Získání zvuku může být provedeno pouze s ffmpeg"
+
+#: src/backup/k9mp4enc.cpp:138 src/backup/k9mp4enc.cpp:139
+msgid "Matroska encoding can only be done with ffmpeg"
+msgstr "Matroska zakódování může být provedeno pouze s ffmpeg"
+
+#: src/backup/k9mp4enc.cpp:169
+msgid "Starting extraction of %1, chapters %2"
+msgstr "Začíná se získání %1, kapitoly %2"
+
+#: src/backup/k9mp4enc.cpp:171
+msgid "Starting encoding of %1, chapters %2"
+msgstr "Začíná se kódování %1, kapitoly %2"
+
+#: src/backup/k9mp4enc.cpp:172
+msgid "source : %1"
+msgstr "Zdroj: %1"
+
+#: src/backup/k9mp4enc.cpp:173
+msgid "destination : %1"
+msgstr "Cíl: %1"
+
+#: src/backup/k9mp4enc.cpp:174
+msgid "disk cache : %1"
+msgstr "Disková vyrovnávací paměť : %1"
+
+#: src/backup/k9mp4enc.cpp:174
+msgid "activated"
+msgstr "Zapnuto"
+
+#: src/backup/k9mp4enc.cpp:174
+msgid "disabled"
+msgstr "Zakázáno"
+
+#: src/backup/k9mp4enc.cpp:195
+msgid "audio bitrate : %1"
+msgstr "Zvukový datový tok: %1"
+
+#: src/backup/k9mp4enc.cpp:198
+msgid "user defined video bitrate : %1"
+msgstr "Uživatelsky stanovený datový tok videa: %1"
+
+#: src/backup/k9mp4enc.cpp:200
+msgid "calculated video bitrate : %1"
+msgstr "Vypočítaný datový tok videa: %1"
+
+#: src/backup/k9mp4enc.cpp:227
+msgid "starting pass %1 of %2"
+msgstr "Začíná se průchod %1 ze %2"
+
+#: src/backup/k9mp4enc.cpp:494 src/backup/k9mp4enc.cpp:558
+#: src/backup/k9mp4enc.cpp:560 src/backup/k9mp4enc.cpp:677
+#: src/backup/k9mp4enc.cpp:679 src/import/k9newdvd.cpp:275
+msgid "Encoding %1"
+msgstr "Kóduje se %1"
+
+#: src/backup/k9mp4enc.cpp:506 src/backup/k9mp4enc.cpp:627
+#: src/backup/k9mp4enc.cpp:734 src/core/k9burndvd.cpp:230
+#: src/core/k9burndvd.cpp:250 src/core/k9burndvd.cpp:345
+msgid "starting thread : %1"
+msgstr "Začíná se vlákno: %1"
+
+#: src/backup/k9mp4enc.cpp:558 src/backup/k9mp4enc.cpp:677
+msgid "pass %1"
+msgstr "Průběh %1"
+
+#: src/backup/k9mp4enc.cpp:742
+msgid "cancel requested"
+msgstr "Požadováno zrušení"
+
+#: src/backup/k9mp4enc.cpp:884 src/backup/k9mp4enc.cpp:909
+msgid "An error occured while encoding the %1 stream"
+msgstr "Při zakódování proudu %1 se vyskytla následující chyba"
+
+#: src/backup/k9mp4enc.cpp:884
+msgid "audio"
+msgstr "Zvuk"
+
+#: src/core/k9burndvd.cpp:148
+msgid "image size : %1"
+msgstr "Velikost obrázku: %1"
+
+#: src/core/k9burndvd.cpp:200 src/core/k9burndvd.cpp:201
+#: src/core/k9burndvd.cpp:288 src/core/k9burndvd.cpp:289
+#: src/core/k9burndvd.cpp:407
+msgid "Burning DVD"
+msgstr "Vypalování DVD"
+
+#: src/core/k9burndvd.cpp:212 src/core/k9burndvd.cpp:317
+#: src/import/k9import.cpp:297
+msgid "Save image to disk"
+msgstr "Uložit obraz na disk"
+
+#: src/core/k9burndvd.cpp:228
+msgid "computing image size"
+msgstr "Počítá se velikost obrázku"
+
+#: src/core/k9burndvd.cpp:239 src/core/k9burndvd.cpp:241
+#: src/core/k9burndvd.cpp:255 src/core/k9burndvd.cpp:263
+#: src/core/k9burndvd.cpp:273 src/core/k9burndvd.cpp:275
+#: src/core/k9burndvd.cpp:337 src/core/k9burndvd.cpp:339
+#: src/core/k9burndvd.cpp:351 src/core/k9burndvd.cpp:360
+#: src/core/k9burndvd.cpp:369 src/core/k9burndvd.cpp:371
+msgid "DVD burning"
+msgstr "Vypalování DVD"
+
+#: src/core/k9burndvd.cpp:239 src/core/k9burndvd.cpp:241
+#: src/core/k9burndvd.cpp:335
+msgid "Insert a recordable DVD"
+msgstr "Vložte zapisovatelné DVD"
+
+#: src/core/k9burndvd.cpp:249 src/core/k9burndvd.cpp:344
+msgid "start burning"
+msgstr "Spustit vypalování"
+
+#: src/core/k9burndvd.cpp:254 src/core/k9burndvd.cpp:266
+#: src/core/k9burndvd.cpp:349 src/core/k9burndvd.cpp:364
+msgid "Error"
+msgstr "Chyba"
+
+#: src/core/k9burndvd.cpp:255 src/core/k9burndvd.cpp:351
+msgid "Error burning DVD :\n"
+msgstr "Chyba při vypalování DVD :\n"
+
+#: src/core/k9burndvd.cpp:261 src/core/k9burndvd.cpp:356
+msgid "Success"
+msgstr "Úspěch"
+
+#: src/core/k9burndvd.cpp:263 src/core/k9burndvd.cpp:360
+msgid "DVD Burning finished"
+msgstr "Vypalování DVD dokončeno"
+
+#: src/core/k9burndvd.cpp:271 src/core/k9burndvd.cpp:367
+msgid "An error occured while Burning DVD"
+msgstr "Při vypalování DVD se vyskytla chyba"
+
+#: src/core/k9burndvd.cpp:271 src/core/k9burndvd.cpp:367
+msgid "Insert an other DVD"
+msgstr "Vložte jiné DVD"
+
+#: src/core/k9burndvd.cpp:408
+msgid "Current write speed :%1 x"
+msgstr "Nynější rychlost zápisu: %1 x"
+
+#: src/core/k9burndvd.cpp:428
+msgid "%1"
+msgstr "%1"
+
+#: src/core/k9dialogs.cpp:66
+msgid "select a directory"
+msgstr "Vyberte adresář"
+
+#: src/core/k9dvd.cpp:142
+msgid "for visually impaired"
+msgstr "Pro zrakově postižené osoby"
+
+#: src/core/k9dvd.cpp:143
+msgid "director's comments"
+msgstr "Zvukový režisérův komentář"
+
+#: src/core/k9dvd.cpp:144
+msgid "alternate director's comments"
+msgstr "Zvláštní režisérův zvukový komentář"
+
+#: src/core/k9dvd.cpp:148
+msgid "Large"
+msgstr "Dlouhý"
+
+#: src/core/k9dvd.cpp:149
+msgid "Children"
+msgstr "Děti"
+
+#: src/core/k9dvd.cpp:150 src/core/k9dvd.cpp:156 src/core/k9dvd.cpp:157
+#: src/core/k9dvd.cpp:158
+msgid "reserved"
+msgstr "Zamluveno"
+
+#: src/core/k9dvd.cpp:151
+msgid "Normal captions"
+msgstr "Obvyklé podtitulky"
+
+#: src/core/k9dvd.cpp:152
+msgid "Large captions"
+msgstr "Dlouhé podtitulky"
+
+#: src/core/k9dvd.cpp:153
+msgid "Children captions"
+msgstr "Podtitulky pro děti"
+
+#: src/core/k9dvd.cpp:155
+msgid "Forced"
+msgstr "Vynuceno"
+
+#: src/core/k9dvd.cpp:159
+msgid "Director's comments"
+msgstr "Režisérův komentář"
+
+#: src/core/k9dvd.cpp:160
+msgid "Large director's comments"
+msgstr "Dlouhý režisérův komentář"
+
+#: src/core/k9dvd.cpp:161
+msgid "Director's comments for children"
+msgstr "Režisérův komentář určený dětem"
+
+#: src/core/k9dvd.cpp:212
+msgid "Couldn't open %1 for title\n"
+msgstr "Nelze otevřít %1 kvůli názvu\n"
+
+#: src/core/k9dvd.cpp:220
+msgid "Couldn't seek in %1 for title\n"
+msgstr "Nelze vyhledat název v %1\n"
+
+#: src/core/k9dvd.cpp:246
+msgid "Not Specified"
+msgstr "Nestanoveno"
+
+#: src/core/k9dvd.cpp:246
+msgid "Afar"
+msgstr "afar"
+
+#: src/core/k9dvd.cpp:246
+msgid "Abkhazian"
+msgstr "abcházština"
+
+#: src/core/k9dvd.cpp:246
+msgid "Afrikaans"
+msgstr "afrikánština"
+
+#: src/core/k9dvd.cpp:246
+msgid "Amharic"
+msgstr "amharština"
+
+#: src/core/k9dvd.cpp:247
+msgid "Arabic"
+msgstr "arabština"
+
+#: src/core/k9dvd.cpp:247
+msgid "Assamese"
+msgstr "assamština"
+
+#: src/core/k9dvd.cpp:247
+msgid "Aymara"
+msgstr "aymarština"
+
+#: src/core/k9dvd.cpp:247
+msgid "Azerbaijani"
+msgstr "ázerbájdžánština"
+
+#: src/core/k9dvd.cpp:247
+msgid "Bashkir"
+msgstr "baškirština"
+
+#: src/core/k9dvd.cpp:248
+msgid "Byelorussian"
+msgstr "běloruština"
+
+#: src/core/k9dvd.cpp:248
+msgid "Bulgarian"
+msgstr "bulharština"
+
+#: src/core/k9dvd.cpp:248
+msgid "Bihari"
+msgstr "bihárština"
+
+#: src/core/k9dvd.cpp:248
+msgid "Bislama"
+msgstr "bislámština"
+
+#: src/core/k9dvd.cpp:248
+msgid "Bengali; Bangla"
+msgstr "bengálština; bangladéšština"
+
+#: src/core/k9dvd.cpp:249
+msgid "Tibetan"
+msgstr "tibetština"
+
+#: src/core/k9dvd.cpp:249
+msgid "Breton"
+msgstr "bretonština"
+
+#: src/core/k9dvd.cpp:249
+msgid "Catalan"
+msgstr "katalánština"
+
+#: src/core/k9dvd.cpp:249
+msgid "Corsican"
+msgstr "korsičtina"
+
+#: src/core/k9dvd.cpp:249
+msgid "Czech"
+msgstr "čeština"
+
+#: src/core/k9dvd.cpp:250
+msgid "Welsh"
+msgstr "welština"
+
+#: src/core/k9dvd.cpp:250
+msgid "Dansk"
+msgstr "dánština"
+
+#: src/core/k9dvd.cpp:250
+msgid "Deutsch"
+msgstr "němčina"
+
+#: src/core/k9dvd.cpp:250
+msgid "Bhutani"
+msgstr "bhutánština"
+
+#: src/core/k9dvd.cpp:250
+msgid "Greek"
+msgstr "řečtina"
+
+#: src/core/k9dvd.cpp:250
+msgid "English"
+msgstr "angličtina"
+
+#: src/core/k9dvd.cpp:251
+msgid "Esperanto"
+msgstr "esperanto"
+
+#: src/core/k9dvd.cpp:251
+msgid "Espanol"
+msgstr "španělština"
+
+#: src/core/k9dvd.cpp:251
+msgid "Estonian"
+msgstr "estonština"
+
+#: src/core/k9dvd.cpp:251
+msgid "Basque"
+msgstr "baskičtina"
+
+#: src/core/k9dvd.cpp:251
+msgid "Persian"
+msgstr "perština"
+
+#: src/core/k9dvd.cpp:252
+msgid "Suomi"
+msgstr "suomi"
+
+#: src/core/k9dvd.cpp:252
+msgid "Fiji"
+msgstr "fidžština"
+
+#: src/core/k9dvd.cpp:252
+msgid "Faroese"
+msgstr "faerština"
+
+#: src/core/k9dvd.cpp:252
+msgid "Francais"
+msgstr "francoužština"
+
+#: src/core/k9dvd.cpp:252
+msgid "Frisian"
+msgstr "frízsština"
+
+#: src/core/k9dvd.cpp:252
+msgid "Gaelic"
+msgstr "gaelština"
+
+#: src/core/k9dvd.cpp:253
+msgid "Scots Gaelic"
+msgstr "skotská gaelština"
+
+#: src/core/k9dvd.cpp:253
+msgid "Galician"
+msgstr "galicijština"
+
+#: src/core/k9dvd.cpp:253
+msgid "Guarani"
+msgstr "guaraní"
+
+#: src/core/k9dvd.cpp:253
+msgid "Gujarati"
+msgstr "gujarati"
+
+#: src/core/k9dvd.cpp:253
+msgid "Hausa"
+msgstr "hausa"
+
+#: src/core/k9dvd.cpp:254 src/core/k9dvd.cpp:256
+msgid "Hebrew"
+msgstr "hebrejština"
+
+#: src/core/k9dvd.cpp:254
+msgid "Hindi"
+msgstr "hindština"
+
+#: src/core/k9dvd.cpp:254
+msgid "Hrvatski"
+msgstr "chorvatština"
+
+#: src/core/k9dvd.cpp:254
+msgid "Magyar"
+msgstr "maďarština"
+
+#: src/core/k9dvd.cpp:254
+msgid "Armenian"
+msgstr "arménština"
+
+#: src/core/k9dvd.cpp:255
+msgid "Interlingua"
+msgstr "interlingva"
+
+#: src/core/k9dvd.cpp:255
+msgid "Indonesian"
+msgstr "indonézština"
+
+#: src/core/k9dvd.cpp:255
+msgid "Interlingue"
+msgstr "interlingva"
+
+#: src/core/k9dvd.cpp:255
+msgid "Inupiak"
+msgstr "inupiak"
+
+#: src/core/k9dvd.cpp:256
+msgid "Islenska"
+msgstr "islenska"
+
+#: src/core/k9dvd.cpp:256
+msgid "Italiano"
+msgstr "Italština"
+
+#: src/core/k9dvd.cpp:256
+msgid "Inuktitut"
+msgstr "inuktitut"
+
+#: src/core/k9dvd.cpp:256
+msgid "Japanese"
+msgstr "Japonština"
+
+#: src/core/k9dvd.cpp:257 src/core/k9dvd.cpp:272
+msgid "Yiddish"
+msgstr "jidiš"
+
+#: src/core/k9dvd.cpp:257
+msgid "Javanese"
+msgstr "jávština"
+
+#: src/core/k9dvd.cpp:257
+msgid "Georgian"
+msgstr "gruzínština"
+
+#: src/core/k9dvd.cpp:257
+msgid "Kazakh"
+msgstr "kazachština"
+
+#: src/core/k9dvd.cpp:257
+msgid "Greenlandic"
+msgstr "grónština"
+
+#: src/core/k9dvd.cpp:258
+msgid "Cambodian"
+msgstr "kambodžština"
+
+#: src/core/k9dvd.cpp:258
+msgid "Kannada"
+msgstr "kannadština"
+
+#: src/core/k9dvd.cpp:258
+msgid "Korean"
+msgstr "korejština"
+
+#: src/core/k9dvd.cpp:258
+msgid "Kashmiri"
+msgstr "kašmírština"
+
+#: src/core/k9dvd.cpp:258
+msgid "Kurdish"
+msgstr "kurdština"
+
+#: src/core/k9dvd.cpp:259
+msgid "Kirghiz"
+msgstr "kyrgyzština"
+
+#: src/core/k9dvd.cpp:259
+msgid "Latin"
+msgstr "románština"
+
+#: src/core/k9dvd.cpp:259
+msgid "Lingala"
+msgstr "lingala"
+
+#: src/core/k9dvd.cpp:259
+msgid "Laothian"
+msgstr "laoština"
+
+#: src/core/k9dvd.cpp:259
+msgid "Lithuanian"
+msgstr "litevština"
+
+#: src/core/k9dvd.cpp:260
+msgid "Latvian, Lettish"
+msgstr "lotyšština"
+
+#: src/core/k9dvd.cpp:260
+msgid "Malagasy"
+msgstr "malagasy (Madagaskar)"
+
+#: src/core/k9dvd.cpp:260
+msgid "Maori"
+msgstr "maorština"
+
+#: src/core/k9dvd.cpp:260
+msgid "Macedonian"
+msgstr "makedonština"
+
+#: src/core/k9dvd.cpp:260
+msgid "Malayalam"
+msgstr "malayalamština"
+
+#: src/core/k9dvd.cpp:261
+msgid "Mongolian"
+msgstr "mongolština"
+
+#: src/core/k9dvd.cpp:261
+msgid "Moldavian"
+msgstr "moldavština"
+
+#: src/core/k9dvd.cpp:261
+msgid "Marathi"
+msgstr "marathiština"
+
+#: src/core/k9dvd.cpp:261
+msgid "Malay"
+msgstr "malajština"
+
+#: src/core/k9dvd.cpp:261
+msgid "Maltese"
+msgstr "maltština"
+
+#: src/core/k9dvd.cpp:262
+msgid "Burmese"
+msgstr "barmština"
+
+#: src/core/k9dvd.cpp:262
+msgid "Nauru"
+msgstr "naurština"
+
+#: src/core/k9dvd.cpp:262
+msgid "Nepali"
+msgstr "nepálština"
+
+#: src/core/k9dvd.cpp:262
+msgid "Nederlands"
+msgstr "nizozemština (holandština)"
+
+#: src/core/k9dvd.cpp:262
+msgid "Norsk"
+msgstr "norština"
+
+#: src/core/k9dvd.cpp:262
+msgid "Occitan"
+msgstr "occitánština"
+
+#: src/core/k9dvd.cpp:263
+msgid "Oromo"
+msgstr "oromoština"
+
+#: src/core/k9dvd.cpp:263
+msgid "Oriya"
+msgstr "oriyanština"
+
+#: src/core/k9dvd.cpp:263
+msgid "Punjabi"
+msgstr "paňdžábština"
+
+#: src/core/k9dvd.cpp:263
+msgid "Polish"
+msgstr "polština"
+
+#: src/core/k9dvd.cpp:263
+msgid "Pashto, Pushto"
+msgstr "afghánština"
+
+#: src/core/k9dvd.cpp:264
+msgid "Portugues"
+msgstr "portugalština"
+
+#: src/core/k9dvd.cpp:264
+msgid "Quechua"
+msgstr "kečuánština"
+
+#: src/core/k9dvd.cpp:264
+msgid "Rhaeto-Romance"
+msgstr "rétorománština"
+
+#: src/core/k9dvd.cpp:264
+msgid "Kirundi"
+msgstr "kirundština"
+
+#: src/core/k9dvd.cpp:264
+msgid "Romanian"
+msgstr "rumunština"
+
+#: src/core/k9dvd.cpp:265
+msgid "Russian"
+msgstr "ruština"
+
+#: src/core/k9dvd.cpp:265
+msgid "Kinyarwanda"
+msgstr "kinyarwandština"
+
+#: src/core/k9dvd.cpp:265
+msgid "Sanskrit"
+msgstr "sanskrt"
+
+#: src/core/k9dvd.cpp:265
+msgid "Sindhi"
+msgstr "sindhština"
+
+#: src/core/k9dvd.cpp:265
+msgid "Sangho"
+msgstr "sanghoština"
+
+#: src/core/k9dvd.cpp:266
+msgid "Serbo-Croatian"
+msgstr "srbochorvatština"
+
+#: src/core/k9dvd.cpp:266
+msgid "Sinhalese"
+msgstr "sinhálština"
+
+#: src/core/k9dvd.cpp:266
+msgid "Slovak"
+msgstr "slovenština"
+
+#: src/core/k9dvd.cpp:266
+msgid "Slovenian"
+msgstr "slovinština"
+
+#: src/core/k9dvd.cpp:266
+msgid "Samoan"
+msgstr "samojština"
+
+#: src/core/k9dvd.cpp:267
+msgid "Shona"
+msgstr "shonština"
+
+#: src/core/k9dvd.cpp:267
+msgid "Somali"
+msgstr "somálština"
+
+#: src/core/k9dvd.cpp:267
+msgid "Albanian"
+msgstr "albánština"
+
+#: src/core/k9dvd.cpp:267
+msgid "Serbian"
+msgstr "srbština"
+
+#: src/core/k9dvd.cpp:267
+msgid "Siswati"
+msgstr "siswatština"
+
+#: src/core/k9dvd.cpp:268
+msgid "Sesotho"
+msgstr "sesotština"
+
+#: src/core/k9dvd.cpp:268
+msgid "Sundanese"
+msgstr "sundština"
+
+#: src/core/k9dvd.cpp:268
+msgid "Svenska"
+msgstr "svenska"
+
+#: src/core/k9dvd.cpp:268
+msgid "Swahili"
+msgstr "svahilština"
+
+#: src/core/k9dvd.cpp:268
+msgid "Tamil"
+msgstr "tamilština"
+
+#: src/core/k9dvd.cpp:269
+msgid "Telugu"
+msgstr "telugština"
+
+#: src/core/k9dvd.cpp:269
+msgid "Tajik"
+msgstr "tádžičtina"
+
+#: src/core/k9dvd.cpp:269
+msgid "Thai"
+msgstr "thajština"
+
+#: src/core/k9dvd.cpp:269
+msgid "Tigrinya"
+msgstr "tigrinyaština"
+
+#: src/core/k9dvd.cpp:269
+msgid "Turkmen"
+msgstr "turkmenština"
+
+#: src/core/k9dvd.cpp:269
+msgid "Tagalog"
+msgstr "filipínština"
+
+#: src/core/k9dvd.cpp:270
+msgid "Setswana"
+msgstr "setswanština"
+
+#: src/core/k9dvd.cpp:270
+msgid "Tonga"
+msgstr "tonžština"
+
+#: src/core/k9dvd.cpp:270
+msgid "Turkish"
+msgstr "turečtina"
+
+#: src/core/k9dvd.cpp:270
+msgid "Tsonga"
+msgstr "tsonžština"
+
+#: src/core/k9dvd.cpp:270
+msgid "Tatar"
+msgstr "tatarština"
+
+#: src/core/k9dvd.cpp:270
+msgid "Twi"
+msgstr "twijština"
+
+#: src/core/k9dvd.cpp:271
+msgid "Uighur"
+msgstr "ujgurština"
+
+#: src/core/k9dvd.cpp:271
+msgid "Ukrainian"
+msgstr "ukrajinština"
+
+#: src/core/k9dvd.cpp:271
+msgid "Urdu"
+msgstr "urdština"
+
+#: src/core/k9dvd.cpp:271
+msgid "Uzbek"
+msgstr "uzbečtina"
+
+#: src/core/k9dvd.cpp:271
+msgid "Vietnamese"
+msgstr "vietnamština"
+
+#: src/core/k9dvd.cpp:272
+msgid "Volapuk"
+msgstr "volapukština"
+
+#: src/core/k9dvd.cpp:272
+msgid "Wolof"
+msgstr "wolofština"
+
+#: src/core/k9dvd.cpp:272
+msgid "Xhosa"
+msgstr "xhosština"
+
+#: src/core/k9dvd.cpp:272
+msgid "Yoruba"
+msgstr "jorubština"
+
+#: src/core/k9dvd.cpp:272
+msgid "Zhuang"
+msgstr "zhuangština"
+
+#: src/core/k9dvd.cpp:273
+msgid "Chinese"
+msgstr "čínština"
+
+#: src/core/k9dvd.cpp:273
+msgid "Zulu"
+msgstr "zulština"
+
+#: src/core/k9dvd.cpp:273 src/core/k9dvd.cpp:285 src/core/k9dvd.cpp:507
+msgid "Unknown"
+msgstr "neznámý"
+
+#: src/core/k9dvd.cpp:375
+msgid "Can't open disc %1!\n"
+msgstr "Disk %1 nelze otevřít!\n"
+
+#: src/core/k9dvd.cpp:387
+msgid "Can't open main ifo!\n"
+msgstr "Hlavní \"ifo\" nelze otevřít!\n"
+
+#: src/core/k9dvd.cpp:429 src/core/k9dvd.cpp:719
+msgid "Title %1"
+msgstr "Název stopy %1"
+
+#: src/core/k9dvd.cpp:772
+msgid "reading title"
+msgstr "čtení názvu stopy"
+
+#: src/core/k9dvd.cpp:889
+msgid "Error opening vobs for title %1\n"
+msgstr "Chyba při otevírání souborů vob pro název stopy %1\n"
+
+#: src/core/k9dvd.cpp:900
+msgid "ERROR reading block %1\n"
+msgstr "Chyba při čtení bloku %1\n"
+
+#: src/core/k9process.cpp:141 src/core/k9tools.cpp:78
+#: src/import/k9menu.cpp:165
+msgid "Error starting program %1"
+msgstr "Při spuštění programu došlo k chybě %1"
+
+#: src/core/k9process.cpp:141 src/core/k9tools.cpp:78 src/core/k9tools.cpp:102
+#: src/import/k9menu.cpp:165
+msgid "Running program"
+msgstr "Spouští se program"
+
+#: src/core/k9tools.cpp:93
+msgid "Enter the root password"
+msgstr "Zadejte heslo superuživatele (root)"
+
+#: src/core/k9tools.cpp:102
+msgid "The root password is not valid"
+msgstr "Heslo superuživatele (root) není platné"
+
+#: src/devices/k9cddrive.cpp:213
+msgid ""
+"The root password is needed to change the read ahead property of the dvd "
+"drive"
+msgstr ""
+"Heslo superuživatele (root) je potřeba pro změnu vlastnosti čtení dopředu "
+"dvd mechaniky"
+
+#: src/import/k9avidecode.cpp:52 src/import/k9avidecode.cpp:55
+#: src/import/k9avidecode.cpp:59 src/vamps/k9ffmpeg.cpp:33
+#: src/vamps/k9ffmpeg.cpp:37 src/vamps/k9ffmpeg.cpp:46
+msgid "Cannot open the library %1"
+msgstr "Knihovnu %1 nelze otevřít"
+
+#: src/import/k9avidecode.cpp:130
+msgid "Couldn't open the file %1"
+msgstr "Soubor %1 nelze otevřít"
+
+#: src/import/k9avidecode.cpp:135
+msgid "Couldn't find stream information"
+msgstr "Informaci o datovém proudu nelze najít"
+
+#: src/import/k9avidecode.cpp:148
+msgid "The file doesn't contain any video stream"
+msgstr "Soubor neobsahuje žádný video datový proud"
+
+#: src/import/k9avidecode.cpp:159
+msgid "Unsupported codec"
+msgstr "Nepodporovaný kodek"
+
+#: src/import/k9avidecode.cpp:164
+msgid "Couldn't open the codec"
+msgstr "Kodek nelze otevřít"
+
+#: src/import/k9avidecode.cpp:175
+msgid "Unable to allocate memory for frames"
+msgstr "Nelze vyčlenit žádnou paměť pro snímky %1"
+
+#: src/import/k9import.cpp:240 src/import/k9import.cpp:255
+msgid "remove"
+msgstr "Odstranit"
+
+#: src/import/k9import.cpp:243
+msgid "add chapter"
+msgstr "Přidat kapitolu"
+
+#: src/import/k9importfiles.cpp:88
+msgid "Add Title"
+msgstr "Přidat název"
+
+#: src/import/k9importfiles.cpp:109
+msgid "Edit menu"
+msgstr "Upravit menu"
+
+#: src/import/k9importfiles.cpp:158
+msgid "Create DVD"
+msgstr "Vytvořit DVD"
+
+#: src/import/k9menuedit.cpp:242
+msgid "Title %1 Menu"
+msgstr "Název %1 menu"
+
+#: src/import/k9menuedit.cpp:251 src/import/k9menuedit.cpp:288
+msgid "Play Menu"
+msgstr "Přehrát menu"
+
+#: src/import/k9menuedit.cpp:253
+msgid "Play Title"
+msgstr "Přehrát stopu s názvem"
+
+#: src/import/k9menuedit.cpp:259
+msgid "Play Root Menu"
+msgstr "Přehrát kořenové menu"
+
+#: src/import/k9menuedit.cpp:261
+msgid "Play Title Menu"
+msgstr "Přehrát menu s názvy stop"
+
+#: src/import/k9menuedit.cpp:266 src/import/k9menuedit.cpp:292
+msgid "Play Title %1"
+msgstr "Přehrát stopu s názvem %1"
+
+#: src/import/k9newdvd.cpp:97
+msgid "Creating root menu"
+msgstr "Vytváří se kořenové menu"
+
+#: src/import/k9newdvd.cpp:142
+msgid "The dvd authoring was canceled"
+msgstr "Tvorba DVD byla zrušena"
+
+#: src/import/k9newdvd.cpp:168
+msgid "Creating menu for title %1"
+msgstr "Vytváří se menu pro seznam stop %1"
+
+#: src/import/k9newdvd.cpp:480 src/import/k9newtitle.cpp:97
+msgid "title %1"
+msgstr "Název stopy %1"
+
+#: src/main/k9copy.cpp:70 src/main/k9main.cpp:417 src/main/k9main.cpp:541
+#: src/main/k9main.cpp:1187 src/main/k9main.cpp:1196 src/main/k9main.cpp:1206
+msgid "Ready"
+msgstr "Hotovo"
+
+#: src/main/k9copy.cpp:120
+msgid "Shrink Factor"
+msgstr "Faktor zmenšení"
+
+#: src/main/k9copy.cpp:131
+msgid "MPEG4 Encoding Options"
+msgstr "Volby MPEG-4 kódování"
+
+#: src/main/k9copy.cpp:229
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: src/main/k9copy.cpp:233
+msgid "Eject"
+msgstr "Vysunout"
+
+#: src/main/k9copy.cpp:237
+msgid "Wizard"
+msgstr "Kouzelník"
+
+#: src/main/k9copy.cpp:241
+msgid "DVD Author"
+msgstr "DVD Author"
+
+#: src/main/k9copy.cpp:251
+msgid "&Options"
+msgstr "&Volby"
+
+#: src/main/k9copy.cpp:252
+msgid "&Help"
+msgstr "&Nápověda"
+
+#: src/main/k9copy.cpp:253
+msgid "&Open"
+msgstr "&Otevřít"
+
+#: src/main/k9copy.cpp:258
+msgid "&Quit"
+msgstr "&Ukončit"
+
+#: src/main/k9copy.cpp:273
+msgid "Style"
+msgstr "Styl"
+
+#: src/main/k9copy.cpp:291
+msgid "About backlite"
+msgstr "O backlite"
+
+#: src/main/k9cropselect.cpp:47
+msgid "Crop selection"
+msgstr "Výběr ořezu"
+
+#: src/main/k9ffmpegcmdgen.cpp:130
+msgid "ffmpeg command generator"
+msgstr "Generátor příkazů pro ffmpeg"
+
+#: src/main/k9main.cpp:493
+msgid "Open DVD"
+msgstr "Otevřít DVD"
+
+#: src/main/k9main.cpp:516
+msgid "Titleset %1"
+msgstr "Seznam s názvy stop %1"
+
+#: src/main/k9main.cpp:586
+msgid "chapters"
+msgstr "Kapitoly"
+
+#: src/main/k9main.cpp:670
+msgid "video %1 "
+msgstr "Video %1 "
+
+#: src/main/k9main.cpp:683
+msgid "audio %1 "
+msgstr "Zvuk %1 "
+
+#: src/main/k9main.cpp:707
+msgid "subpicture %1 "
+msgstr "Obrazový podklad %1 "
+
+#: src/main/k9main.cpp:1361
+msgid "Open ISO Image"
+msgstr "Otevřít ISO obraz"
+
+#: src/main/k9mencodercmdgen.cpp:78
+msgid "Audio Codec"
+msgstr "Audio kodek"
+
+#: src/main/k9mencodercmdgen.cpp:94
+msgid "Video Codec"
+msgstr "Video kodek"
+
+#: src/main/k9mencodercmdgen.cpp:113
+msgid "Filters"
+msgstr "Filtry"
+
+#: src/main/k9mp4title.cpp:42 src/main/k9mp4title.cpp:177
+#: src/main/k9titlefactor.cpp:110
+msgid "Select a Title in the treeview..."
+msgstr "Vybrat název stopy ze stromového pohledu..."
+
+#: src/main/k9mp4title.cpp:73
+msgid "Crop detection"
+msgstr "Zjištění ořezu"
+
+#: src/main/k9playbackoptions.cpp:131
+msgid "none"
+msgstr "Žádný"
+
+#: src/main/k9prefmencoder.cpp:171 src/main/k9prefmencoder.cpp:181
+#: src/main/k9prefmencoder.cpp:201 src/main/k9prefmencoder.cpp:209
+msgid "new profile"
+msgstr "Nový profil"
+
+#: src/main/k9settings.cpp:36
+msgid "Devices not detected by k9copy"
+msgstr "Zařízení nebyla programem k9copy rozpoznána"
+
+#: src/main/k9settings.cpp:46
+msgid "Encoders"
+msgstr "Kodéry"
+
+#: src/main/k9settings.cpp:47
+msgid "MPEG-4 Codecs"
+msgstr "MPEG-4 kodeky"
+
+#: src/main/k9settings.cpp:58
+msgid "Title preview"
+msgstr "Náhled stopy"
+
+#: src/main/k9settings.cpp:68
+msgid "Paths"
+msgstr "Cesty"
+
+#: src/main/k9settings.cpp:69
+msgid "Default paths"
+msgstr "Výchozí cesty"
+
+#: src/main/k9titlefactor.cpp:121
+msgid "Shrink Factor for %1"
+msgstr "Faktor zmenšení pro %1"
+
+#: src/main/kviewmpeg2.cpp:82
+msgid "Title Preview"
+msgstr "Náhled stopy"
+
+#: src/player/k9play.cpp:80
+msgid "MPEG-4 Encoding cancelled"
+msgstr "Kódování MPEG-4 zrušeno"
+
+#: src/player/k9play.cpp:341
+msgid "Error opening the DVD"
+msgstr "Chyba při otevření DVD"
+
+#: src/player/k9play.cpp:348
+msgid "Error on dvdnav_set_readahead_flag: %1"
+msgstr "Chyba ve vlajce_dvdnav_nastavení_čtení_dopředu: %1"
+
+#: src/player/k9play.cpp:357
+msgid "Error on setting languages: %1"
+msgstr "Chyba při nastavení jazyků: %1"
+
+#: src/player/k9play.cpp:365
+msgid "Error on dvdnav_set_PGC_positioning_flag: %1"
+msgstr "Chyba ve vlajce_dvdnav_set_PGC_positioning: %1"
+
+#: src/player/k9play.cpp:399
+msgid "Error getting next block: %1"
+msgstr "Chyba při získávání dalšího bloku: %1"
+
+#: src/player/main.cpp:35 src/xine/main.cpp:34
+msgid "A KDE 4 Application"
+msgstr "Aplikace prostředí KDE 4"
+
+#: src/player/main.cpp:41 src/xine/main.cpp:41
+msgid "(C) 2007 Jean-Michel"
+msgstr "(C) 2007 Jean-Michel"
+
+#: src/player/main.cpp:42 src/xine/main.cpp:42
+msgid "Jean-Michel"
+msgstr "Jean-Michel"
+
+#: src/player/main.cpp:51
+msgid "play title to stdout"
+msgstr "Přehrát stopu na stdout"
+
+#: src/player/main.cpp:52
+msgid "start sector"
+msgstr "Počáteční sektor"
+
+#: src/player/main.cpp:53
+msgid "end sector"
+msgstr "Koncový sektor"
+
+#: src/player/main.cpp:54
+msgid "list of audio streams"
+msgstr "Seznam audio datových proudů"
+
+#: src/player/main.cpp:55
+msgid "list of spu streams"
+msgstr "Seznam spu datových proudů"
+
+#: src/player/main.cpp:56
+msgid "shrink factor"
+msgstr "Faktor zmenšení"
+
+#: src/player/main.cpp:57
+msgid "shrink factor forced"
+msgstr "Vynucený faktor zmenšení"
+
+#: src/player/main.cpp:58
+msgid "size of the cell to be copied"
+msgstr "Velikost buňky ke kopírování"
+
+#: src/player/main.cpp:59
+msgid "total size of selected titles"
+msgstr "Celková velikost vybraných stop"
+
+#: src/player/main.cpp:60
+msgid "size of the chapters being copied"
+msgstr "Velikost kapitol ke kopírování"
+
+#: src/player/main.cpp:61
+msgid "selected chapters"
+msgstr "Vybrané kapitoly"
+
+#: src/player/main.cpp:62
+msgid "new dvd size"
+msgstr "Velikost nového DVD"
+
+#: src/player/main.cpp:63
+msgid "selected chapter"
+msgstr "Vybraná kapitola"
+
+#: src/player/main.cpp:64
+msgid "cell number in selected chapter"
+msgstr "Číslo buňky ve vybrané kapitole"
+
+#: src/player/main.cpp:65
+msgid "status file name"
+msgstr "Stavový souborový název"
+
+#: src/player/main.cpp:66
+msgid "initialize status file"
+msgstr "Inicializovat stavový soubor"
+
+#: src/player/main.cpp:67
+msgid "continue playing from last sector"
+msgstr "Pokračovat v přehrávání od posledního sektoru"
+
+#: src/player/main.cpp:68
+msgid "don't save status at end"
+msgstr "Neukládat stav při ukončení"
+
+#: src/player/main.cpp:69
+msgid "save cell in a temporary file before encoding"
+msgstr "Uložit buňku v dočasném souboru před kódováním"
+
+#: src/xine/main.cpp:50
+msgid "wid"
+msgstr "wid"
+
+#: src/xine/main.cpp:51
+msgid "vo"
+msgstr "vo"
+
+#: src/xine/main.cpp:52
+msgid "ao"
+msgstr "ao"
+
+#~ msgid "use GTK file dialogs"
+#~ msgstr "Použít souborové dialogy GTK"
+
+#~ msgid "encoder"
+#~ msgstr "Kodér"
+
+#~ msgid "transcoding"
+#~ msgstr "Překódování"
+
+#~ msgid "Error while running mencoder :"
+#~ msgstr "Chyba ve spuštěném mencoderu:"
+
+#~ msgid "Play title"
+#~ msgstr "Přehrát stopu s názvem"
+
+#~ msgid "Create MPEG-4"
+#~ msgstr "Vytvořit MPEG-4"
+
+#~ msgid "Backup in progress"
+#~ msgstr "Probíhá zálohování"
+
+#~ msgid "Open DVD folder"
+#~ msgstr "Otevřít adresář DVD"
+
+#~ msgid "Output device "
+#~ msgstr "Výstupní zařízení"
+
+#~ msgid "Input device "
+#~ msgstr "Vstupní zařízení"
+
+#~ msgid "D&VD"
+#~ msgstr "DVD"
+
+#~ msgid "Open a folder"
+#~ msgstr "Otevřít adresář s DVD"
+
+#~ msgid "Internal viewer options"
+#~ msgstr "Volby vnitřního přehrávacího zařízení"
+
+#~ msgid "use OpenGL"
+#~ msgstr "použít OpenGL"
+
+#~ msgid "Background color:"
+#~ msgstr "Barva pozadí:"
+
+#~ msgid "Choose a new background color"
+#~ msgstr "Zvolit barvu pozadí"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style="
+#~ "\" font-weight:600;\">background</span> color by clicking here and choose "
+#~ "the new <span style=\" color:#ff0000;\">color</span> in the <span style="
+#~ "\" font-style:italic;\">color dialog</span>.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Změňte <span style=\" "
+#~ "font-weight:600;\">barvu pozadí</span> klepnutím sem a vyberte si novou "
+#~ "<span style=\" color:#ff0000;\">barvu</span> v <span style=\" font-style:"
+#~ "italic;\">dialogu s barvami</span>.</p></body></html>"
+
+#~ msgid "Project age:"
+#~ msgstr "Stáří projektu:"
+
+#~ msgid "Foreground color:"
+#~ msgstr "Barva popředí:"
+
+#~ msgid "Choose a new foreground color"
+#~ msgstr "Zvolit novou barvu popředí"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style="
+#~ "\" font-weight:600;\">foreground</span> color by clicking here and choose "
+#~ "the new <span style=\" color:#ff0000;\">color</span> in the <span style="
+#~ "\" font-style:italic;\">color dialog</span>.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Změňte <span style=\" "
+#~ "font-weight:600;\">barvu popředí</span> klepnutím sem a vyberte si novou "
+#~ "<span style=\" color:#ff0000;\">barvu</span> v <span style=\" font-style:"
+#~ "italic;\">dialogu s barvami</span>.</p></body></html>"
+
+#~ msgid "Set the project age (in days)"
+#~ msgstr "Nastavit stáří projektu (počet dnů)"
+
+#~ msgid "Change the project age (in days) by choosing a new number of days."
+#~ msgstr "Nastavit stáří projektu (počet dnů) volbou nového počtu dní."
+
+#~ msgid "CD-R"
+#~ msgstr "CD-R"
+
+#~ msgid "CD-RW"
+#~ msgstr "CD-RW"
+
+#~ msgid "CD-ROM"
+#~ msgstr "CD-ROM"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "DVD-RAM"
+#~ msgstr "DVD-RAM"
+
+#~ msgid "DVD-R"
+#~ msgstr "DVD-R"
+
+#~ msgid "DVD-RW"
+#~ msgstr "DVD-RW"
+
+#~ msgid "DVD-R DL"
+#~ msgstr "DVD-R DL"
+
+#~ msgid "DVD+R"
+#~ msgstr "DVD+R"
+
+#~ msgid "DVD+RW"
+#~ msgstr "DVD+RW"
+
+#~ msgid "DVD+R DL"
+#~ msgstr "DVD+R DL"
+
+#~ msgid "SAO"
+#~ msgstr "SAO"
+
+#~ msgid "TAO"
+#~ msgstr "TAO"
+
+#~ msgid "RAW"
+#~ msgstr "RAW"
+
+#~ msgid "SAO/R96P"
+#~ msgstr "SAO/R96P"
+
+#~ msgid "SAO/R96R"
+#~ msgstr "SAO/R96R"
+
+#~ msgid "RAW/R16"
+#~ msgstr "RAW/R16"
+
+#~ msgid "RAW/R96P"
+#~ msgstr "RAW/R96P"
+
+#~ msgid "RAW/R96R"
+#~ msgstr "RAW/R96R"
+
+#~ msgid "Incremental Sequential"
+#~ msgstr "Postupně sekvenční"
+
+#~ msgid "Restricted Overwrite"
+#~ msgstr "Omezený přepis"
+
+#~ msgid "Layer Jump"
+#~ msgstr "Skok na vrstvu"
+
+#~ msgid "None"
+#~ msgstr "Žádný"
+
+#~ msgid "No media"
+#~ msgstr "Žádné médium"
+
+#~ msgid "DVD-R Sequential"
+#~ msgstr "DVD-R sekvenční"
+
+#~ msgid "DVD-R Dual Layer"
+#~ msgstr "DVD-R dvouvrstvé"
+
+#~ msgid "DVD-R Dual Layer Sequential"
+#~ msgstr "DVD-R dvouvrstvé sekvenční"
+
+#~ msgid "DVD-R Dual Layer Jump"
+#~ msgstr "DVD-R dvouvrstvé skokové"
+
+#~ msgid "DVD-RW Restricted Overwrite"
+#~ msgstr "DVD-RW omezený zápis"
+
+#~ msgid "DVD-RW Sequential"
+#~ msgstr "DVD-RW sekvenční"
+
+#~ msgid "DVD+R Double Layer"
+#~ msgstr "DVD+R dvouvrstvé"
+
+#~ msgid "Can't find device %1\n"
+#~ msgstr "Nelze nalézt zařízení %1\n"
+
+#~ msgid "kDecMPEG2"
+#~ msgstr "kDecMPEG2"
+
+#~ msgid "A&bort"
+#~ msgstr "Zrušit"
+
+#~ msgid "Annu&ler"
+#~ msgstr "Zrušit"
+
+#~ msgid "Alt+L"
+#~ msgstr "Alt+L"
+
+#~ msgid "k9DVDSize"
+#~ msgstr "k9DVDSize"
+
+#~ msgid "k9ChapterCell"
+#~ msgstr "k9ChapterCell"
+
+#~ msgid "k9DVDVideoStream"
+#~ msgstr "k9DVDVideoStream"
+
+#~ msgid "k9DVDAudioStream"
+#~ msgstr "k9DVDAudioStream"
+
+#~ msgid "k9DVDSubtitle"
+#~ msgstr "k9DVDSubtitle"
+
+#~ msgid "k9DVDTitle"
+#~ msgstr "k9DVDTitle"
+
+#~ msgid "k9DVDTitleset"
+#~ msgstr "k9DVDTitleset"
+
+#~ msgid "k9DVD"
+#~ msgstr "k9DVD"
+
+#~ msgid "k9BurnDVD"
+#~ msgstr "k9BurnDVD"
+
+#~ msgid " mb"
+#~ msgstr " mb"
+
+#~ msgid "k9DVDListItem"
+#~ msgstr "k9DVDListItem"
+
+#~ msgid "k9Main"
+#~ msgstr "k9Main"
+
+#~ msgid "kCDDrive"
+#~ msgstr "kCDDrive"
+
+#~ msgid "kCDDrives"
+#~ msgstr "kCDDrives"
+
+#~ msgid "kViewMPEG2"
+#~ msgstr "kViewMPEG2"

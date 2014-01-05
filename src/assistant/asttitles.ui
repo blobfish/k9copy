@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>astTitles</class>
+ <widget class="QWidget" name="astTitles">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTreeWidget" name="twSource">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="indentation">
+      <number>10</number>
+     </property>
+     <property name="animated">
+      <bool>true</bool>
+     </property>
+     <property name="headerHidden">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string/>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>titles</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Length</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>size</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QWidget" name="wPreview" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>twSource</sender>
+   <signal>itemActivated(QTreeWidgetItem*,int)</signal>
+   <receiver>astTitles</receiver>
+   <slot>itemActivated(QTreeWidgetItem*,int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>308</x>
+     <y>129</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>514</x>
+     <y>129</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>twSource</sender>
+   <signal>currentItemChanged(QTreeWidgetItem*,QTreeWidgetItem*)</signal>
+   <receiver>astTitles</receiver>
+   <slot>CurrentItemChanged(QTreeWidgetItem*,QTreeWidgetItem*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>158</x>
+     <y>149</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>twSource</sender>
+   <signal>itemExpanded(QTreeWidgetItem*)</signal>
+   <receiver>astTitles</receiver>
+   <slot>ItemExpanded(QTreeWidgetItem*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>64</x>
+     <y>51</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>itemActivated(QTreeWidgetItem*,int)</slot>
+  <slot>CurrentItemChanged(QTreeWidgetItem*,QTreeWidgetItem*)</slot>
+  <slot>ItemExpanded(QTreeWidgetItem*)</slot>
+ </slots>
+</ui>

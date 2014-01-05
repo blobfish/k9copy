@@ -1,0 +1,54 @@
+<ui version="4.0" >
+ <class>astStreams</class>
+ <widget class="QWidget" name="astStreams" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" >
+   <item row="0" column="0" >
+    <widget class="QTreeWidget" name="lstreams" >
+     <column>
+      <property name="text" >
+       <string>Selected titles</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>default</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>lstreams</sender>
+   <signal>itemChanged(QTreeWidgetItem*,int)</signal>
+   <receiver>astStreams</receiver>
+   <slot>itemChanged(QTreeWidgetItem*,int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>199</x>
+     <y>149</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>itemChanged(QTreeWidgetItem*,int)</slot>
+ </slots>
+</ui>

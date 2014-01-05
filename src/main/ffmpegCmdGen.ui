@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ffmpegCmdGen</class>
+ <widget class="QWidget" name="ffmpegCmdGen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_6">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stkOptions">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="0">
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOn</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>-278</y>
+            <width>449</width>
+            <height>596</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="1" column="0">
+              <widget class="QCheckBox" name="ckb">
+               <property name="toolTip">
+                <string>Set the video bitrate in bit/s (default = 200 kb/s)</string>
+               </property>
+               <property name="text">
+                <string>b</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="b">
+               <property name="specialValueText">
+                <string>$VIDBRk</string>
+               </property>
+               <property name="suffix">
+                <string>k</string>
+               </property>
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QCheckBox" name="ckvframes">
+               <property name="toolTip">
+                <string>Set the number of video frames to record</string>
+               </property>
+               <property name="text">
+                <string>vframes</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QSpinBox" name="vframes">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QCheckBox" name="checkBox_3">
+               <property name="toolTip">
+                <string>Set frame rate (Hz value, fraction or abbreviation), (default = 25)</string>
+               </property>
+               <property name="text">
+                <string>r</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QSpinBox" name="r">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QCheckBox" name="checkBox_4">
+               <property name="toolTip">
+                <string>Set frame size. The format is `wxh' (ffserver default = 160x128, ffmpeg default = same as source)</string>
+               </property>
+               <property name="text">
+                <string>s</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QComboBox" name="s">
+               <property name="editable">
+                <bool>true</bool>
+               </property>
+               <item>
+                <property name="text">
+                 <string>$WIDTHx$HEIGHT</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>sqcif</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>qcif</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>cif</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>4cif</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>qqvga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>qvga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>vga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>svga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>xga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>uxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>qxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>sxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>qsxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>hsxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>wvga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>wsxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>wuxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>woxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>wqsxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>wquxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>whuxga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>cga</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ega</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>hd480</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>hd720</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>hd1080</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QCheckBox" name="checkBox_5">
+               <property name="toolTip">
+                <string>Set aspect ratio (4:3, 16:9 or 1.3333, 1.7777)</string>
+               </property>
+               <property name="text">
+                <string>aspect</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QComboBox" name="aspect">
+               <property name="editable">
+                <bool>true</bool>
+               </property>
+               <item>
+                <property name="text">
+                 <string>$ASPECT</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>4:3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>16:9</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QCheckBox" name="checkBox_6">
+               <property name="toolTip">
+                <string>Set top crop band size (in pixels)</string>
+               </property>
+               <property name="text">
+                <string>croptop</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QSpinBox" name="croptop">
+               <property name="specialValueText">
+                <string>$CROPTOP</string>
+               </property>
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QCheckBox" name="checkBox_7">
+               <property name="toolTip">
+                <string>Set bottom crop band size (in pixels)</string>
+               </property>
+               <property name="text">
+                <string>cropbottom</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QSpinBox" name="cropbottom">
+               <property name="specialValueText">
+                <string>$CROPBOTTOM</string>
+               </property>
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QCheckBox" name="checkBox_8">
+               <property name="toolTip">
+                <string>Set left crop band size (in pixels)</string>
+               </property>
+               <property name="text">
+                <string>cropleft</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="QSpinBox" name="cropleft">
+               <property name="specialValueText">
+                <string>$CROPLEFT</string>
+               </property>
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="0">
+              <widget class="QCheckBox" name="checkBox_9">
+               <property name="toolTip">
+                <string>Set right crop band size (in pixels).</string>
+               </property>
+               <property name="text">
+                <string>cropright</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="1">
+              <widget class="QSpinBox" name="cropright">
+               <property name="toolTip">
+                <string>Set right crop band size (in pixels)</string>
+               </property>
+               <property name="specialValueText">
+                <string>$CROPRIGHT</string>
+               </property>
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0">
+              <widget class="QCheckBox" name="checkBox_12">
+               <property name="toolTip">
+                <string>Set top pad band size (in pixels)</string>
+               </property>
+               <property name="text">
+                <string>padtop</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="1">
+              <widget class="QSpinBox" name="padtop">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="0">
+              <widget class="QCheckBox" name="checkBox_11">
+               <property name="toolTip">
+                <string>Set bottom pad band size (in pixels)</string>
+               </property>
+               <property name="text">
+                <string>padbottom</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="1">
+              <widget class="QSpinBox" name="padbottom">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="2">
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>100</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="12" column="0">
+              <widget class="QCheckBox" name="checkBox_10">
+               <property name="toolTip">
+                <string>Set left pad band size (in pixels)</string>
+               </property>
+               <property name="text">
+                <string>padleft</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="1">
+              <widget class="QSpinBox" name="padleft">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="0">
+              <widget class="QCheckBox" name="checkBox_13">
+               <property name="toolTip">
+                <string>Set right pad band size (in pixels).</string>
+               </property>
+               <property name="text">
+                <string>padright</string>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="1">
+              <widget class="QSpinBox" name="padright">
+               <property name="toolTip">
+                <string>Set right crop band size (in pixels)</string>
+               </property>
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="0">
+              <widget class="QCheckBox" name="checkBox_14">
+               <property name="toolTip">
+                <string>Set color of padded bands. The value for padcolor is expressed as a six digit hexadecimal number where the first two digits represent red, the middle two digits green and last two digits blue (default = 000000 (black))</string>
+               </property>
+               <property name="text">
+                <string>padcolor</string>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="1">
+              <widget class="QLineEdit" name="padcolor">
+               <property name="inputMask">
+                <string>HHHHHH; </string>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="0">
+              <widget class="QCheckBox" name="checkBox_15">
+               <property name="toolTip">
+                <string>Set video bitrate tolerance (in bit/s)</string>
+               </property>
+               <property name="text">
+                <string>bt</string>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="1">
+              <widget class="QSpinBox" name="bt">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="0">
+              <widget class="QCheckBox" name="checkBox_16">
+               <property name="toolTip">
+                <string>Set max video bitrate (in bit/s)</string>
+               </property>
+               <property name="text">
+                <string>maxrate</string>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="1">
+              <widget class="QSpinBox" name="maxrate">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="0">
+              <widget class="QCheckBox" name="checkBox_17">
+               <property name="toolTip">
+                <string>Set min video bitrate (in bit/s)</string>
+               </property>
+               <property name="text">
+                <string>minrate</string>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="1">
+              <widget class="QSpinBox" name="minrate">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="0">
+              <widget class="QCheckBox" name="checkBox_18">
+               <property name="toolTip">
+                <string>Set video buffer verifier buffer size (in bits)</string>
+               </property>
+               <property name="text">
+                <string>bufsize</string>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="1">
+              <widget class="QSpinBox" name="bufsize">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="0">
+              <widget class="QCheckBox" name="checkBox_19">
+               <property name="toolTip">
+                <string>Force video codec to codec. Use the copy special value to tell that the raw codec data must be copied as is</string>
+               </property>
+               <property name="text">
+                <string>vcodec</string>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="1">
+              <widget class="QComboBox" name="vcodec">
+               <property name="editable">
+                <bool>true</bool>
+               </property>
+               <item>
+                <property name="text">
+                 <string>copy</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="20" column="0">
+              <widget class="QCheckBox" name="sameq">
+               <property name="toolTip">
+                <string>Use same video quality as source (implies VBR)</string>
+               </property>
+               <property name="text">
+                <string>sameq</string>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="0">
+              <widget class="QCheckBox" name="checkBox_21">
+               <property name="text">
+                <string>pass</string>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="1">
+              <widget class="QLineEdit" name="pass">
+               <property name="text">
+                <string>$PASS</string>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="22" column="0">
+              <widget class="QCheckBox" name="checkBox_22">
+               <property name="text">
+                <string>passlogfile</string>
+               </property>
+              </widget>
+             </item>
+             <item row="22" column="1">
+              <widget class="QLineEdit" name="passlogfile">
+               <property name="text">
+                <string>$PASSLOGFILE</string>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="0">
+              <widget class="QCheckBox" name="checkBox">
+               <property name="text">
+                <string>threads</string>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="1">
+              <widget class="QSpinBox" name="threads">
+               <property name="maximum">
+                <number>16</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="0">
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>18</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>FFMpeg Video options </string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="0">
+        <widget class="QScrollArea" name="scrollArea_2">
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAsNeeded</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents_2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>309</width>
+            <height>195</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>111</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_7">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="1" column="0">
+              <widget class="QCheckBox" name="checkBox_23">
+               <property name="toolTip">
+                <string>Set the number of audio frames to record</string>
+               </property>
+               <property name="text">
+                <string>aframes</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="aframes">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QCheckBox" name="checkBox_24">
+               <property name="toolTip">
+                <string>Set the audio sampling frequency (default = 44100 Hz)</string>
+               </property>
+               <property name="text">
+                <string>ar</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QSpinBox" name="ar">
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+               <property name="value">
+                <number>44100</number>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QCheckBox" name="checkBox_25">
+               <property name="toolTip">
+                <string>Set the audio bitrate in bit/s (default = 64k)</string>
+               </property>
+               <property name="text">
+                <string>ab</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QSpinBox" name="ab">
+               <property name="specialValueText">
+                <string>$AUDBRk</string>
+               </property>
+               <property name="suffix">
+                <string>k</string>
+               </property>
+               <property name="minimum">
+                <number>0</number>
+               </property>
+               <property name="maximum">
+                <number>100000</number>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QCheckBox" name="checkBox_26">
+               <property name="toolTip">
+                <string>Set the number of audio channels (default = 1)</string>
+               </property>
+               <property name="text">
+                <string>ac</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QSpinBox" name="ac">
+               <property name="minimum">
+                <number>1</number>
+               </property>
+               <property name="maximum">
+                <number>7</number>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="2" rowspan="2">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>100</width>
+                 <height>37</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="5" column="0">
+              <widget class="QCheckBox" name="checkBox_27">
+               <property name="toolTip">
+                <string>Force audio codec to codec. Use the copy special value to specify that the raw codec data must be copied as is</string>
+               </property>
+               <property name="text">
+                <string>acodec</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QComboBox" name="acodec">
+               <property name="editable">
+                <bool>true</bool>
+               </property>
+               <item>
+                <property name="text">
+                 <string>COPY</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QCheckBox" name="checkBox_28">
+               <property name="toolTip">
+                <string>Force audio tag/fourcc</string>
+               </property>
+               <property name="text">
+                <string>atag</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="atag">
+               <property name="inputMask">
+                <string>nnnnn; </string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QCheckBox" name="checkBox_29">
+               <property name="toolTip">
+                <string>Bitstream filters</string>
+               </property>
+               <property name="text">
+                <string>absf</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QComboBox" name="absf">
+               <item>
+                <property name="text">
+                 <string>dump_extra</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>remove_extra</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>noise</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>mp3comp</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>mp3decomp</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <spacer name="verticalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>105</width>
+                 <height>13</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>FFMpeg Audio options</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,4171 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://sourceforge."
+"net/tracker/?group_id=50231&atid=459007\n"
+"POT-Creation-Date: 2011-07-23 15:43+0300\n"
+"PO-Revision-Date: 2011-07-24 12:18+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: main.cpp:39
+msgid "A DVD Backup software for KDE"
+msgstr "Програма для створення резервних копій DVD у KDE"
+
+#: main.cpp:48 src/player/main.cpp:40 src/xine/main.cpp:40
+msgid "k9copy"
+msgstr "k9copy"
+
+#: main.cpp:49
+msgid "(C) 2004-2010 Jean-Michel PETIT"
+msgstr "©Jean-Michel PETIT, 2004–2010"
+
+#: main.cpp:50
+msgid "Jean-Michel PETIT"
+msgstr "Jean-Michel PETIT"
+
+#: main.cpp:51 src/player/main.cpp:43 src/xine/main.cpp:43
+msgid "_: NAME OF TRANSLATORS\\nYour names"
+msgstr "Юрій Чорноіван"
+
+#: main.cpp:52 src/player/main.cpp:44 src/xine/main.cpp:44
+msgid "_: EMAIL OF TRANSLATORS\\nYour emails"
+msgstr "yurchor@ukr.net"
+
+#: main.cpp:56 src/player/main.cpp:50
+msgid "input device"
+msgstr "пристрій введення даних"
+
+#: main.cpp:57 src/player/main.cpp:51
+msgid "output device"
+msgstr "пристрій виведення даних"
+
+#: main.cpp:58 src/player/main.cpp:52
+msgid "title to play"
+msgstr "частина, яку слід відтворити"
+
+#: main.cpp:59
+msgid "the k9copy backup assistant"
+msgstr "допоміжна програма створення резервних копій k9copy"
+
+#. i18n: file: k9copyui.rc:4
+#. i18n: ectx: Menu (file)
+#: po/rc.cpp:3 src/import/k9importfiles.cpp:165 src/main/k9copy.cpp:285
+#: rc.cpp:3
+msgid "&File"
+msgstr "&Файл"
+
+#. i18n: file: k9copyui.rc:14
+#. i18n: ectx: Menu (Actions)
+#: po/rc.cpp:6 src/import/k9importfiles.cpp:172 src/main/k9copy.cpp:293
+#: rc.cpp:6
+msgid "A&ctions"
+msgstr "&Дії"
+
+#. i18n: file: k9copyui.rc:31
+#. i18n: ectx: ToolBar (mainToolBar)
+#: po/rc.cpp:9 rc.cpp:9
+msgid "Actions ToolBar"
+msgstr "Панель дій"
+
+#. i18n: file: src/assistant/astdestination.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astDestination)
+#. i18n: file: src/assistant/astdvdoption.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astDVDOption)
+#. i18n: file: src/assistant/astmp4.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astMp4)
+#. i18n: file: src/assistant/astmpeg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astMpeg)
+#. i18n: file: src/assistant/astsource.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astSource)
+#. i18n: file: src/assistant/aststreams.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astStreams)
+#. i18n: file: src/assistant/asttitles.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astTitles)
+#. i18n: file: src/core/k9logview.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, k9LogView)
+#. i18n: file: src/main/ffmpegCmdGen.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ffmpegCmdGen)
+#. i18n: file: src/mplayer/phonon.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, phonon)
+#. i18n: file: src/assistant/astdestination.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astDestination)
+#. i18n: file: src/assistant/astdvdoption.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astDVDOption)
+#. i18n: file: src/assistant/astmp4.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astMp4)
+#. i18n: file: src/assistant/astmpeg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astMpeg)
+#. i18n: file: src/assistant/astsource.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astSource)
+#. i18n: file: src/assistant/aststreams.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, astStreams)
+#. i18n: file: src/assistant/asttitles.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, astTitles)
+#. i18n: file: src/core/k9logview.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, k9LogView)
+#. i18n: file: src/main/ffmpegCmdGen.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ffmpegCmdGen)
+#. i18n: file: src/mplayer/phonon.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, phonon)
+#: po/rc.cpp:12 po/rc.cpp:36 po/rc.cpp:48 po/rc.cpp:54 po/rc.cpp:60
+#: po/rc.cpp:72 po/rc.cpp:81 po/rc.cpp:141 po/rc.cpp:345 po/rc.cpp:1289
+#: rc.cpp:12 rc.cpp:36 rc.cpp:48 rc.cpp:54 rc.cpp:60 rc.cpp:72 rc.cpp:81
+#: rc.cpp:141 rc.cpp:345 rc.cpp:1289
+msgid "Form"
+msgstr "Форма"
+
+#. i18n: file: src/assistant/astdestination.ui:26
+#. i18n: ectx: property (text), widget (QRadioButton, rbDVD)
+#: po/rc.cpp:15 src/import/k9importfiles.cpp:161 src/main/k9settings.cpp:37
+#: rc.cpp:15
+msgid "DVD Backup"
+msgstr "Резервна копія DVD"
+
+#. i18n: file: src/assistant/astdestination.ui:60
+#. i18n: ectx: property (text), widget (QRadioButton, rbDVDDisc)
+#: po/rc.cpp:18 rc.cpp:18
+msgid "to Disc"
+msgstr "на диску"
+
+#. i18n: file: src/assistant/astdestination.ui:82
+#. i18n: ectx: property (text), widget (QRadioButton, rbDVDFolder)
+#: po/rc.cpp:21 rc.cpp:21
+msgid "to Folder"
+msgstr "у теці"
+
+#. i18n: file: src/assistant/astdestination.ui:98
+#. i18n: ectx: property (text), widget (QRadioButton, rbDVDIso)
+#: po/rc.cpp:24 rc.cpp:24
+msgid "to Iso image"
+msgstr "у образі ISO"
+
+#. i18n: file: src/assistant/astdestination.ui:117
+#. i18n: ectx: property (text), widget (QRadioButton, rbAvi)
+#: po/rc.cpp:27 rc.cpp:27
+msgid "Rip and encode DVD"
+msgstr "Видобути і закодувати дані DVD"
+
+#. i18n: file: src/assistant/astdestination.ui:136
+#. i18n: ectx: property (text), widget (QRadioButton, rbMpeg)
+#: po/rc.cpp:30 rc.cpp:30
+msgid "Rip DVD without encoding"
+msgstr "Видобути дані DVD без кодування"
+
+#. i18n: file: src/assistant/astdestination.ui:155
+#. i18n: ectx: property (text), widget (QRadioButton, rbAudio)
+#: po/rc.cpp:33 rc.cpp:33
+msgid "Extract audio"
+msgstr "Видобути звук"
+
+#. i18n: file: src/assistant/astdvdoption.ui:26
+#. i18n: ectx: property (text), widget (QRadioButton, rbMenu)
+#: po/rc.cpp:39 rc.cpp:39
+msgid "Copy original menus"
+msgstr "Копіювати оригінальні меню"
+
+#. i18n: file: src/assistant/astdvdoption.ui:33
+#. i18n: ectx: property (text), widget (QRadioButton, rbDvdauthor)
+#: po/rc.cpp:42 rc.cpp:42
+msgid "Don't copy menus."
+msgstr "Не копіювати меню"
+
+#. i18n: file: src/assistant/astdvdoption.ui:40
+#. i18n: ectx: property (title), widget (QGroupBox, gbTitles)
+#: po/rc.cpp:45 rc.cpp:45
+msgid "Drag items to set title playing sequence"
+msgstr "Встановіть послідовність відтворення перетягуванням пунктів"
+
+#. i18n: file: src/assistant/astmp4.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: po/rc.cpp:51 rc.cpp:51
+msgid "Encoding options for title "
+msgstr "Параметри кодування для частини "
+
+#. i18n: file: src/assistant/astmpeg.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: po/rc.cpp:57 rc.cpp:57
+msgid "Select options for title"
+msgstr "Виберіть параметри кодування частини"
+
+#. i18n: file: src/assistant/astsource.ui:31
+#. i18n: ectx: property (text), widget (QRadioButton, rbDrive)
+#: po/rc.cpp:63 rc.cpp:63
+msgid "DVD Drive"
+msgstr "Пристрій читання DVD"
+
+#. i18n: file: src/assistant/astsource.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, rbFolder)
+#. i18n: file: src/main/k9mainw.ui:65
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:126
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#. i18n: file: src/assistant/astsource.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, rbFolder)
+#. i18n: file: src/main/k9mainw.ui:65
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:126
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: po/rc.cpp:66 po/rc.cpp:690 po/rc.cpp:702 src/import/k9import.cpp:89
+#: rc.cpp:66 rc.cpp:690 rc.cpp:702
+msgid "Folder"
+msgstr "Тека"
+
+#. i18n: file: src/assistant/astsource.ui:66
+#. i18n: ectx: property (text), widget (QRadioButton, rbIso)
+#. i18n: file: src/main/k9mainw.ui:60
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:121
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#. i18n: file: src/assistant/astsource.ui:66
+#. i18n: ectx: property (text), widget (QRadioButton, rbIso)
+#. i18n: file: src/main/k9mainw.ui:60
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:121
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: po/rc.cpp:69 po/rc.cpp:687 po/rc.cpp:699 src/import/k9import.cpp:88
+#: src/main/k9main.cpp:436 rc.cpp:69 rc.cpp:687 rc.cpp:699
+msgid "ISO Image"
+msgstr "Образ ISO"
+
+#. i18n: file: src/assistant/aststreams.ui:20
+#. i18n: ectx: property (text), widget (QTreeWidget, lstreams)
+#: po/rc.cpp:75 rc.cpp:75
+msgid "Selected titles"
+msgstr "Позначені частини"
+
+#. i18n: file: src/assistant/aststreams.ui:25
+#. i18n: ectx: property (text), widget (QTreeWidget, lstreams)
+#. i18n: file: src/main/k9mainw.ui:205
+#. i18n: ectx: property (text), item, widget (QComboBox, cbBurnSpeed)
+#. i18n: file: src/main/prefDVD.ui:222
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadAhead)
+#. i18n: file: src/assistant/aststreams.ui:25
+#. i18n: ectx: property (text), widget (QTreeWidget, lstreams)
+#. i18n: file: src/main/k9mainw.ui:205
+#. i18n: ectx: property (text), item, widget (QComboBox, cbBurnSpeed)
+#. i18n: file: src/main/prefDVD.ui:222
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadAhead)
+#: po/rc.cpp:78 po/rc.cpp:717 po/rc.cpp:945 src/backup/k9execcopy.cpp:36
+#: src/core/k9burndvd.cpp:189 src/core/k9burndvd.cpp:311
+#: src/import/k9import.cpp:324 src/main/k9copy.cpp:318
+#: src/main/k9main.cpp:1344 src/main/k9playbackoptions.cpp:128 rc.cpp:78
+#: rc.cpp:717 rc.cpp:945
+msgid "default"
+msgstr "типовий"
+
+#. i18n: file: src/assistant/asttitles.ui:44
+#. i18n: ectx: property (text), widget (QTreeWidget, twSource)
+#: po/rc.cpp:84 src/assistant/k9assistant.cpp:60 rc.cpp:84
+msgid "titles"
+msgstr "частини"
+
+#. i18n: file: src/assistant/asttitles.ui:49
+#. i18n: ectx: property (text), widget (QTreeWidget, twSource)
+#. i18n: file: src/main/k9mainw.ui:269
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#. i18n: file: src/assistant/asttitles.ui:49
+#. i18n: ectx: property (text), widget (QTreeWidget, twSource)
+#. i18n: file: src/main/k9mainw.ui:269
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#: po/rc.cpp:87 po/rc.cpp:732 rc.cpp:87 rc.cpp:732
+msgid "Length"
+msgstr "Тривалість"
+
+#. i18n: file: src/assistant/asttitles.ui:54
+#. i18n: ectx: property (text), widget (QTreeWidget, twSource)
+#: po/rc.cpp:90 rc.cpp:90
+msgid "size"
+msgstr "розмір"
+
+#. i18n: file: src/backup/backupdlg.ui:41
+#. i18n: ectx: property (windowTitle), widget (QWidget, backupDlg)
+#: po/rc.cpp:93 src/backup/k9backupdlg.cpp:43 src/backup/k9dvdauthor.cpp:449
+#: rc.cpp:93
+msgid "Backup progression"
+msgstr "Поступ створення копії"
+
+#. i18n: file: src/backup/backupdlg.ui:62
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: po/rc.cpp:96 rc.cpp:96
+msgid "<p align=\"left\"><b>DVD Backup</b></p>"
+msgstr "<p align=\"left\"><b>Резервне копіювання DVD</b></p>"
+
+#. i18n: file: src/backup/backupdlg.ui:96
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: file: src/backup/mp4dlg.ui:274
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. i18n: file: src/core/progress.ui:226
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/backup/backupdlg.ui:96
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: file: src/backup/mp4dlg.ui:274
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. i18n: file: src/core/progress.ui:226
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: po/rc.cpp:99 po/rc.cpp:129 po/rc.cpp:171 rc.cpp:99 rc.cpp:129 rc.cpp:171
+msgid "Elapsed Time"
+msgstr "Витрачений час"
+
+#. i18n: file: src/backup/backupdlg.ui:115
+#. i18n: ectx: property (text), widget (QLabel, lblTime)
+#: po/rc.cpp:102 rc.cpp:102
+msgid "--:--:-- / --:--:--"
+msgstr "--:--:-- / --:--:--"
+
+#. i18n: file: src/backup/backupdlg.ui:128
+#. i18n: ectx: property (text), widget (QLabel, lblFactor)
+#: po/rc.cpp:105 rc.cpp:105
+msgid "0.0"
+msgstr "0.0"
+
+#. i18n: file: src/backup/backupdlg.ui:152
+#. i18n: ectx: property (text), widget (QLabel, lblStep)
+#: po/rc.cpp:108 rc.cpp:108
+msgid "Current step"
+msgstr "Поточний крок"
+
+#. i18n: file: src/backup/backupdlg.ui:242
+#. i18n: ectx: property (title), widget (QGroupBox, gbOutput)
+#. i18n: file: src/core/progress.ui:95
+#. i18n: ectx: property (title), widget (QGroupBox, gbOutput)
+#. i18n: file: src/import/import.ui:26
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/configDlg.ui:113
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/k9mainw.ui:99
+#. i18n: ectx: property (text), widget (QLabel, lblInput_2)
+#. i18n: file: src/main/prefDirs.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: src/main/prefDVD.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: src/backup/backupdlg.ui:242
+#. i18n: ectx: property (title), widget (QGroupBox, gbOutput)
+#. i18n: file: src/core/progress.ui:95
+#. i18n: ectx: property (title), widget (QGroupBox, gbOutput)
+#. i18n: file: src/import/import.ui:26
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/configDlg.ui:113
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/k9mainw.ui:99
+#. i18n: ectx: property (text), widget (QLabel, lblInput_2)
+#. i18n: file: src/main/prefDirs.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: src/main/prefDVD.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: po/rc.cpp:111 po/rc.cpp:168 po/rc.cpp:219 po/rc.cpp:336 po/rc.cpp:693
+#: po/rc.cpp:834 po/rc.cpp:888 rc.cpp:111 rc.cpp:168 rc.cpp:219 rc.cpp:336
+#: rc.cpp:693 rc.cpp:834 rc.cpp:888
+msgid "Output"
+msgstr "Результат"
+
+#. i18n: file: src/backup/mp4dlg.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget, MP4Dlg)
+#. i18n: file: src/backup/mp4dlg.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lblTitle)
+#. i18n: file: src/backup/mp4dlg.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget, MP4Dlg)
+#. i18n: file: src/backup/mp4dlg.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lblTitle)
+#: po/rc.cpp:114 po/rc.cpp:117 src/backup/k9execcopy.cpp:217
+#: src/backup/k9execcopy.cpp:380 src/backup/k9execcopy.cpp:440
+#: src/backup/k9mp4dlg.cpp:30 rc.cpp:114 rc.cpp:117
+msgid "Encoding"
+msgstr "Кодування"
+
+#. i18n: file: src/backup/mp4dlg.ui:55
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: src/mplayer/mplayer.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget, MPlayer)
+#. i18n: file: src/backup/mp4dlg.ui:55
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: src/mplayer/mplayer.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget, MPlayer)
+#: po/rc.cpp:120 po/rc.cpp:1274 src/main/k9copy.cpp:223
+#: src/main/k9settings.cpp:52 src/mplayer/k9mplayer.cpp:156
+#: src/mplayer/k9xine.cpp:143 rc.cpp:120 rc.cpp:1274
+msgid "Preview"
+msgstr "Перегляд"
+
+#. i18n: file: src/backup/mp4dlg.ui:157
+#. i18n: ectx: attribute (title), widget (QWidget, tabLog)
+#: po/rc.cpp:123 rc.cpp:123
+msgid "Status"
+msgstr "Стан"
+
+#. i18n: file: src/backup/mp4dlg.ui:261
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: po/rc.cpp:126 src/import/k9newdvd.cpp:445 rc.cpp:126
+msgid "fps"
+msgstr "кд/с"
+
+#. i18n: file: src/backup/mp4dlg.ui:287
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/prefAuthor.ui:100
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: src/main/prefMPEG4.ui:354
+#. i18n: ectx: property (text), widget (QRadioButton, rbBitrate)
+#. i18n: file: src/main/prefMPEG4.ui:694
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
+#. i18n: file: src/backup/mp4dlg.ui:287
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/prefAuthor.ui:100
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: src/main/prefMPEG4.ui:354
+#. i18n: ectx: property (text), widget (QRadioButton, rbBitrate)
+#. i18n: file: src/main/prefMPEG4.ui:694
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
+#: po/rc.cpp:132 po/rc.cpp:810 po/rc.cpp:1098 po/rc.cpp:1149 rc.cpp:132
+#: rc.cpp:810 rc.cpp:1098 rc.cpp:1149
+msgid "Bitrate"
+msgstr "Бітова швидкість"
+
+#. i18n: file: src/backup/mp4dlg.ui:300
+#. i18n: ectx: property (text), widget (QLabel, lbllabelSize)
+#. i18n: file: src/main/k9mainw.ui:264
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#. i18n: file: src/backup/mp4dlg.ui:300
+#. i18n: ectx: property (text), widget (QLabel, lbllabelSize)
+#. i18n: file: src/main/k9mainw.ui:264
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#: po/rc.cpp:135 po/rc.cpp:729 rc.cpp:135 rc.cpp:729
+msgid "Size"
+msgstr "Розмір"
+
+#. i18n: file: src/core/dvdprogress.ui:35
+#. i18n: ectx: property (windowTitle), widget (QDialog, DVDProgress)
+#: po/rc.cpp:138 src/core/k9dvdprogress.cpp:30 rc.cpp:138
+msgid "DVD Analyze"
+msgstr "Аналіз DVD"
+
+#. i18n: file: src/core/processList.ui:16
+#. i18n: ectx: property (caption), widget (QWidget)
+#. i18n: file: src/import/processList.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, processList)
+#. i18n: file: src/core/processList.ui:16
+#. i18n: ectx: property (caption), widget (QWidget)
+#. i18n: file: src/import/processList.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, processList)
+#: po/rc.cpp:144 po/rc.cpp:303 rc.cpp:144 rc.cpp:303
+msgid "Process List"
+msgstr "Список процесів"
+
+#. i18n: file: src/core/processList.ui:25
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/processList.ui:31
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#. i18n: file: src/core/processList.ui:25
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/processList.ui:31
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#: po/rc.cpp:147 po/rc.cpp:309 rc.cpp:147 rc.cpp:309
+msgid "Processes"
+msgstr "Процеси"
+
+#. i18n: file: src/core/processList.ui:36
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/processList.ui:36
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#. i18n: file: src/core/processList.ui:36
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/processList.ui:36
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#: po/rc.cpp:150 po/rc.cpp:312 rc.cpp:150 rc.cpp:312
+msgid "Elapsed"
+msgstr "Минуло"
+
+#. i18n: file: src/core/processList.ui:47
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/import.ui:62
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDVD)
+#. i18n: file: src/import/processList.ui:41
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#. i18n: file: src/mplayer/phonon.ui:43
+#. i18n: ectx: property (text), widget (QToolButton, bStop)
+#. i18n: file: src/mplayer/phonon.ui:56
+#. i18n: ectx: property (text), widget (QToolButton, bPlay)
+#. i18n: file: src/core/processList.ui:47
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: file: src/import/import.ui:62
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDVD)
+#. i18n: file: src/import/processList.ui:41
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#. i18n: file: src/mplayer/phonon.ui:43
+#. i18n: ectx: property (text), widget (QToolButton, bStop)
+#. i18n: file: src/mplayer/phonon.ui:56
+#. i18n: ectx: property (text), widget (QToolButton, bPlay)
+#: po/rc.cpp:153 po/rc.cpp:225 po/rc.cpp:315 po/rc.cpp:1292 po/rc.cpp:1295
+#: rc.cpp:153 rc.cpp:225 rc.cpp:315 rc.cpp:1292 rc.cpp:1295
+msgid "..."
+msgstr "…"
+
+#. i18n: file: src/core/processList.ui:73
+#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: src/import/processList.ui:55
+#. i18n: ectx: property (text), widget (KPushButton, bCancel)
+#. i18n: file: src/core/processList.ui:73
+#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: src/import/processList.ui:55
+#. i18n: ectx: property (text), widget (KPushButton, bCancel)
+#: po/rc.cpp:156 po/rc.cpp:318 rc.cpp:156 rc.cpp:318
+msgid "&Cancel"
+msgstr "&Скасувати"
+
+#. i18n: file: src/core/processList.ui:76
+#. i18n: ectx: property (accel), widget (KPushButton)
+#. i18n: file: src/import/processList.ui:58
+#. i18n: ectx: property (shortcut), widget (KPushButton, bCancel)
+#. i18n: file: src/core/processList.ui:76
+#. i18n: ectx: property (accel), widget (KPushButton)
+#. i18n: file: src/import/processList.ui:58
+#. i18n: ectx: property (shortcut), widget (KPushButton, bCancel)
+#: po/rc.cpp:159 po/rc.cpp:321 rc.cpp:159 rc.cpp:321
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#. i18n: file: src/core/progress.ui:26
+#. i18n: ectx: property (windowTitle), widget (QWidget, Progress)
+#: po/rc.cpp:162 rc.cpp:162
+msgid "k9Copy"
+msgstr "k9Copy"
+
+#. i18n: file: src/core/progress.ui:47
+#. i18n: ectx: property (text), widget (QLabel, lblTitle)
+#: po/rc.cpp:165 rc.cpp:165
+msgid "--"
+msgstr "--"
+
+#. i18n: file: src/import/chapterEdit.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, chapterEdit)
+#: po/rc.cpp:174 src/import/k9importfiles.cpp:106 rc.cpp:174
+msgid "Chapter properties"
+msgstr "Властивості розділу"
+
+#. i18n: file: src/import/chapterEdit.ui:118
+#. i18n: ectx: property (text), widget (QLabel, lPosition)
+#. i18n: file: src/import/import.ui:101
+#. i18n: ectx: property (text), widget (QLabel, lTotal)
+#. i18n: file: src/import/newTitle.ui:47
+#. i18n: ectx: property (text), widget (QLabel, lTotalTime)
+#. i18n: file: src/import/chapterEdit.ui:118
+#. i18n: ectx: property (text), widget (QLabel, lPosition)
+#. i18n: file: src/import/import.ui:101
+#. i18n: ectx: property (text), widget (QLabel, lTotal)
+#. i18n: file: src/import/newTitle.ui:47
+#. i18n: ectx: property (text), widget (QLabel, lTotalTime)
+#: po/rc.cpp:177 po/rc.cpp:234 po/rc.cpp:285 rc.cpp:177 rc.cpp:234 rc.cpp:285
+msgid "--:--:--"
+msgstr "--:--:--"
+
+#. i18n: file: src/import/chapterEdit.ui:130
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: po/rc.cpp:180 src/backup/k9mp4enc.cpp:908 rc.cpp:180
+msgid "video"
+msgstr "відео"
+
+#. i18n: file: src/import/chapterEdit.ui:155
+#. i18n: ectx: property (filter), widget (KUrlRequester, urFile)
+#: po/rc.cpp:183 rc.cpp:183
+msgid ""
+"*.avi\n"
+"*.mpeg\n"
+"*.mpg\n"
+"*.*"
+msgstr ""
+"*.avi\n"
+"*.mpeg\n"
+"*.mpg\n"
+"*.*"
+
+#. i18n: file: src/import/chapterEdit.ui:162
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: po/rc.cpp:189 rc.cpp:189
+msgid "start"
+msgstr "початок"
+
+#. i18n: file: src/import/chapterEdit.ui:178
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twstart)
+#. i18n: file: src/import/chapterEdit.ui:253
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twend)
+#. i18n: file: src/import/newTitle.ui:158
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twLength)
+#. i18n: file: src/import/chapterEdit.ui:178
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twstart)
+#. i18n: file: src/import/chapterEdit.ui:253
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twend)
+#. i18n: file: src/import/newTitle.ui:158
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, twLength)
+#: po/rc.cpp:192 po/rc.cpp:204 po/rc.cpp:297 rc.cpp:192 rc.cpp:204 rc.cpp:297
+msgid "HH:mm:ss"
+msgstr "HH:mm:ss"
+
+#. i18n: file: src/import/chapterEdit.ui:191
+#. i18n: ectx: property (text), widget (KPushButton, bStart)
+#. i18n: file: src/import/chapterEdit.ui:266
+#. i18n: ectx: property (text), widget (KPushButton, bEnd)
+#. i18n: file: src/import/chapterEdit.ui:191
+#. i18n: ectx: property (text), widget (KPushButton, bStart)
+#. i18n: file: src/import/chapterEdit.ui:266
+#. i18n: ectx: property (text), widget (KPushButton, bEnd)
+#: po/rc.cpp:195 po/rc.cpp:207 rc.cpp:195 rc.cpp:207
+msgid "set Current Frame"
+msgstr "з поточного кадру"
+
+#. i18n: file: src/import/chapterEdit.ui:214
+#. i18n: ectx: property (text), widget (QCheckBox, ckBreakStart)
+#. i18n: file: src/import/chapterEdit.ui:273
+#. i18n: ectx: property (text), widget (QCheckBox, ckBreakEnd)
+#. i18n: file: src/import/chapterEdit.ui:214
+#. i18n: ectx: property (text), widget (QCheckBox, ckBreakStart)
+#. i18n: file: src/import/chapterEdit.ui:273
+#. i18n: ectx: property (text), widget (QCheckBox, ckBreakEnd)
+#: po/rc.cpp:198 po/rc.cpp:210 rc.cpp:198 rc.cpp:210
+msgid "break continuity"
+msgstr "не зберігати послідовність"
+
+#. i18n: file: src/import/chapterEdit.ui:237
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: po/rc.cpp:201 rc.cpp:201
+msgid "end"
+msgstr "кінець"
+
+#. i18n: file: src/import/chapterEdit.ui:302
+#. i18n: ectx: property (text), widget (QPushButton, bTitleButton)
+#: po/rc.cpp:213 rc.cpp:213
+msgid "set Title button"
+msgstr "кнопка частини"
+
+#. i18n: file: src/import/import.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, import)
+#: po/rc.cpp:216 src/import/k9import.cpp:38 rc.cpp:216
+msgid "import"
+msgstr "імпорт"
+
+#. i18n: file: src/import/import.ui:57
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDVD)
+#: po/rc.cpp:222 rc.cpp:222
+msgid "Video files"
+msgstr "Відеофайли"
+
+#. i18n: file: src/import/import.ui:82
+#. i18n: ectx: property (text), item, widget (QComboBox, cbFormat)
+#: po/rc.cpp:228 rc.cpp:228
+msgid "PAL"
+msgstr "PAL"
+
+#. i18n: file: src/import/import.ui:87
+#. i18n: ectx: property (text), item, widget (QComboBox, cbFormat)
+#: po/rc.cpp:231 rc.cpp:231
+msgid "NTSC"
+msgstr "NTSC"
+
+#. i18n: file: src/import/menuEdit.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, menuEdit)
+#: po/rc.cpp:237 rc.cpp:237
+msgid "Edit Menu"
+msgstr "Редагування меню"
+
+#. i18n: file: src/import/menuEdit.ui:32
+#. i18n: ectx: property (text), widget (QLabel, lTitle)
+#: po/rc.cpp:240 src/import/k9import.cpp:70 src/import/k9menuedit.cpp:325
+#: rc.cpp:240
+msgid "Root Menu"
+msgstr "Кореневе меню"
+
+#. i18n: file: src/import/menuEdit.ui:77
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: po/rc.cpp:243 rc.cpp:243
+msgid "At start"
+msgstr "На початку"
+
+#. i18n: file: src/import/menuEdit.ui:88
+#. i18n: ectx: property (text), item, widget (QComboBox, cbStart)
+#: po/rc.cpp:246 rc.cpp:246
+msgid "Play menu"
+msgstr "Меню відтворення"
+
+#. i18n: file: src/import/menuEdit.ui:93
+#. i18n: ectx: property (text), item, widget (QComboBox, cbStart)
+#. i18n: file: src/import/menuEdit.ui:122
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEnd)
+#. i18n: file: src/import/menuEdit.ui:93
+#. i18n: ectx: property (text), item, widget (QComboBox, cbStart)
+#. i18n: file: src/import/menuEdit.ui:122
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEnd)
+#: po/rc.cpp:249 po/rc.cpp:261 rc.cpp:249 rc.cpp:261
+msgid "Play title 1"
+msgstr "Відтворити частину 1"
+
+#. i18n: file: src/import/menuEdit.ui:101
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#: po/rc.cpp:252 rc.cpp:252
+msgid "At End"
+msgstr "Наприкінці"
+
+#. i18n: file: src/import/menuEdit.ui:112
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEnd)
+#: po/rc.cpp:255 rc.cpp:255
+msgid "Play root menu"
+msgstr "Відтворити кореневе меню"
+
+#. i18n: file: src/import/menuEdit.ui:117
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEnd)
+#: po/rc.cpp:258 rc.cpp:258
+msgid "Play title menu"
+msgstr "Відтворити меню частини"
+
+#. i18n: file: src/import/menuEdit.ui:136
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: po/rc.cpp:264 rc.cpp:264
+msgid "Background picture"
+msgstr "Зображення тла"
+
+#. i18n: file: src/import/menuEdit.ui:155
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: po/rc.cpp:267 rc.cpp:267
+msgid "Text"
+msgstr "Текст"
+
+#. i18n: file: src/import/menuEdit.ui:219
+#. i18n: ectx: property (text), widget (KPushButton, bFont)
+#. i18n: file: src/main/prefAuthor.ui:213
+#. i18n: ectx: property (text), widget (KPushButton, bButtonFont)
+#. i18n: file: src/import/menuEdit.ui:219
+#. i18n: ectx: property (text), widget (KPushButton, bFont)
+#. i18n: file: src/main/prefAuthor.ui:213
+#. i18n: ectx: property (text), widget (KPushButton, bButtonFont)
+#: po/rc.cpp:270 po/rc.cpp:822 rc.cpp:270 rc.cpp:822
+msgid "Font"
+msgstr "Шрифт"
+
+#. i18n: file: src/import/menuEdit.ui:233
+#. i18n: ectx: property (text), item, widget (QComboBox, cbPosTitle)
+#. i18n: file: src/main/prefMPEG4.ui:537
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: file: src/main/viewmpeg2.ui:156
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/import/menuEdit.ui:233
+#. i18n: ectx: property (text), item, widget (QComboBox, cbPosTitle)
+#. i18n: file: src/main/prefMPEG4.ui:537
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: file: src/main/viewmpeg2.ui:156
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: po/rc.cpp:273 po/rc.cpp:1119 po/rc.cpp:1265 rc.cpp:273 rc.cpp:1119
+#: rc.cpp:1265
+msgid "Bottom"
+msgstr "Внизу"
+
+#. i18n: file: src/import/menuEdit.ui:238
+#. i18n: ectx: property (text), item, widget (QComboBox, cbPosTitle)
+#. i18n: file: src/main/prefMPEG4.ui:563
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: src/main/viewmpeg2.ui:170
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: file: src/import/menuEdit.ui:238
+#. i18n: ectx: property (text), item, widget (QComboBox, cbPosTitle)
+#. i18n: file: src/main/prefMPEG4.ui:563
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: src/main/viewmpeg2.ui:170
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: po/rc.cpp:276 po/rc.cpp:1122 po/rc.cpp:1268 rc.cpp:276 rc.cpp:1122
+#: rc.cpp:1268
+msgid "Right"
+msgstr "Праворуч"
+
+#. i18n: file: src/import/newTitle.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, newTitle)
+#: po/rc.cpp:279 src/import/k9newtitle.cpp:102 rc.cpp:279
+msgid "Add title"
+msgstr "Додавання частини"
+
+#. i18n: file: src/import/newTitle.ui:28
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: po/rc.cpp:282 rc.cpp:282
+msgid "Video file"
+msgstr "Відеофайл"
+
+#. i18n: file: src/import/newTitle.ui:100
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#. i18n: file: src/main/configDlg.ui:129
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#. i18n: file: src/import/newTitle.ui:100
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#. i18n: file: src/main/configDlg.ui:129
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#: po/rc.cpp:288 po/rc.cpp:339 rc.cpp:288 rc.cpp:339
+msgid "Add"
+msgstr "Додати"
+
+#. i18n: file: src/import/newTitle.ui:132
+#. i18n: ectx: property (text), widget (QRadioButton, rbNumber)
+#: po/rc.cpp:291 rc.cpp:291
+msgid "number of chapters"
+msgstr "кількість розділів"
+
+#. i18n: file: src/import/newTitle.ui:142
+#. i18n: ectx: property (text), widget (QRadioButton, rbLength)
+#: po/rc.cpp:294 rc.cpp:294
+msgid "chapter length"
+msgstr "тривалість розділу"
+
+#. i18n: file: src/import/newTitle.ui:181
+#. i18n: ectx: property (text), widget (QCheckBox, ckReencode)
+#: po/rc.cpp:300 rc.cpp:300
+msgid "Do not reencode"
+msgstr "Не перекодовувати"
+
+#. i18n: file: src/import/processList.ui:26
+#. i18n: ectx: property (text), widget (QTreeWidget, lProcess)
+#: po/rc.cpp:306 rc.cpp:306
+msgid "Progression"
+msgstr "Поступ"
+
+#. i18n: file: src/main/configDlg.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, configDlg)
+#: po/rc.cpp:324 src/main/k9settings.cpp:68 src/main/kconfigdlg.cpp:35
+#: rc.cpp:324
+msgid "Devices"
+msgstr "Пристрої"
+
+#. i18n: file: src/main/configDlg.ui:98
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#: po/rc.cpp:327 rc.cpp:327
+msgid "device"
+msgstr "пристрій"
+
+#. i18n: file: src/main/configDlg.ui:103
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/prefMencoder.ui:241
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. i18n: file: src/main/prefMencoder.ui:508
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/configDlg.ui:103
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/prefMencoder.ui:241
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. i18n: file: src/main/prefMencoder.ui:508
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: po/rc.cpp:330 po/rc.cpp:1014 po/rc.cpp:1038 rc.cpp:330 rc.cpp:1014
+#: rc.cpp:1038
+msgid "label"
+msgstr "мітка"
+
+#. i18n: file: src/main/configDlg.ui:108
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/k9mainw.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lblInput)
+#. i18n: file: src/main/configDlg.ui:108
+#. i18n: ectx: property (text), widget (QTableWidget, tblDevices)
+#. i18n: file: src/main/k9mainw.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lblInput)
+#: po/rc.cpp:333 po/rc.cpp:681 rc.cpp:333 rc.cpp:681
+msgid "Input"
+msgstr "Вхідні дані"
+
+#. i18n: file: src/main/configDlg.ui:148
+#. i18n: ectx: property (text), widget (KPushButton, bRemove)
+#: po/rc.cpp:342 rc.cpp:342
+msgid "Remove"
+msgstr "Вилучити"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:65
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ckb)
+#: po/rc.cpp:348 rc.cpp:348
+msgid "Set the video bitrate in bit/s (default = 200 kb/s)"
+msgstr "Встановіть бітову швидкість відео у бітах/с (типова = 200 кбіт/с)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:68
+#. i18n: ectx: property (text), widget (QCheckBox, ckb)
+#: po/rc.cpp:351 rc.cpp:351
+msgid "b"
+msgstr "b"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:75
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, b)
+#: po/rc.cpp:354 rc.cpp:354
+msgid "$VIDBRk"
+msgstr "$VIDBRk"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:78
+#. i18n: ectx: property (suffix), widget (QSpinBox, b)
+#. i18n: file: src/main/ffmpegCmdGen.ui:810
+#. i18n: ectx: property (suffix), widget (QSpinBox, ab)
+#. i18n: file: src/main/ffmpegCmdGen.ui:78
+#. i18n: ectx: property (suffix), widget (QSpinBox, b)
+#. i18n: file: src/main/ffmpegCmdGen.ui:810
+#. i18n: ectx: property (suffix), widget (QSpinBox, ab)
+#: po/rc.cpp:357 po/rc.cpp:627 rc.cpp:357 rc.cpp:627
+msgid "k"
+msgstr "k"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:91
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ckvframes)
+#: po/rc.cpp:360 rc.cpp:360
+msgid "Set the number of video frames to record"
+msgstr "Встановити кількість кадрів відео для запису"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:94
+#. i18n: ectx: property (text), widget (QCheckBox, ckvframes)
+#: po/rc.cpp:363 rc.cpp:363
+msgid "vframes"
+msgstr "vframes"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:111
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_3)
+#: po/rc.cpp:366 rc.cpp:366
+msgid "Set frame rate (Hz value, fraction or abbreviation), (default = 25)"
+msgstr ""
+"Встановити частоту кадрів (значення у Гц, дріб або скорочення), (типова = 25)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:114
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_3)
+#: po/rc.cpp:369 rc.cpp:369
+msgid "r"
+msgstr "r"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:131
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_4)
+#: po/rc.cpp:372 rc.cpp:372
+msgid ""
+"Set frame size. The format is `wxh' (ffserver default = 160x128, ffmpeg "
+"default = same as source)"
+msgstr ""
+"Встановити розміри кадру. Формат «шxв» (типові для ffserver = 160x128, типові "
+"для ffmpeg = ті самі, що і у джерелі даних)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:134
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_4)
+#: po/rc.cpp:375 rc.cpp:375
+msgid "s"
+msgstr "s"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:145
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:378 rc.cpp:378
+msgid "$WIDTHx$HEIGHT"
+msgstr "$WIDTH⨯$HEIGHT"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:150
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:381 rc.cpp:381
+msgid "sqcif"
+msgstr "sqcif"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:155
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:384 rc.cpp:384
+msgid "qcif"
+msgstr "qcif"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:160
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:387 rc.cpp:387
+msgid "cif"
+msgstr "cif"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:165
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:390 rc.cpp:390
+msgid "4cif"
+msgstr "4cif"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:170
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:393 rc.cpp:393
+msgid "qqvga"
+msgstr "qqvga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:175
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:396 rc.cpp:396
+msgid "qvga"
+msgstr "qvga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:180
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:399 rc.cpp:399
+msgid "vga"
+msgstr "vga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:185
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:402 rc.cpp:402
+msgid "svga"
+msgstr "svga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:190
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:405 rc.cpp:405
+msgid "xga"
+msgstr "xga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:195
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:408 rc.cpp:408
+msgid "uxga"
+msgstr "uxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:200
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:411 rc.cpp:411
+msgid "qxga"
+msgstr "qxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:205
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:414 rc.cpp:414
+msgid "sxga"
+msgstr "sxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:210
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:417 rc.cpp:417
+msgid "qsxga"
+msgstr "qsxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:215
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:420 rc.cpp:420
+msgid "hsxga"
+msgstr "hsxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:220
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:423 rc.cpp:423
+msgid "wvga"
+msgstr "wvga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:225
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:426 rc.cpp:426
+msgid "wsxga"
+msgstr "wsxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:230
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:429 rc.cpp:429
+msgid "wuxga"
+msgstr "wuxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:235
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:432 rc.cpp:432
+msgid "woxga"
+msgstr "woxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:240
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:435 rc.cpp:435
+msgid "wqsxga"
+msgstr "wqsxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:245
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:438 rc.cpp:438
+msgid "wquxga"
+msgstr "wquxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:250
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:441 rc.cpp:441
+msgid "whuxga"
+msgstr "whuxga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:255
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:444 rc.cpp:444
+msgid "cga"
+msgstr "cga"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:260
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:447 rc.cpp:447
+msgid "ega"
+msgstr "ega"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:265
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:450 rc.cpp:450
+msgid "hd480"
+msgstr "hd480"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:270
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:453 rc.cpp:453
+msgid "hd720"
+msgstr "hd720"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:275
+#. i18n: ectx: property (text), item, widget (QComboBox, s)
+#: po/rc.cpp:456 rc.cpp:456
+msgid "hd1080"
+msgstr "hd1080"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:283
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_5)
+#: po/rc.cpp:459 rc.cpp:459
+msgid "Set aspect ratio (4:3, 16:9 or 1.3333, 1.7777)"
+msgstr "Встановіть формат (4:3, 16:9 або 1,3333, 1,7777)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:286
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_5)
+#: po/rc.cpp:462 rc.cpp:462
+msgid "aspect"
+msgstr "формат"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:297
+#. i18n: ectx: property (text), item, widget (QComboBox, aspect)
+#: po/rc.cpp:465 rc.cpp:465
+msgid "$ASPECT"
+msgstr "$ASPECT"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:302
+#. i18n: ectx: property (text), item, widget (QComboBox, aspect)
+#: po/rc.cpp:468 rc.cpp:468
+msgid "4:3"
+msgstr "4:3"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:307
+#. i18n: ectx: property (text), item, widget (QComboBox, aspect)
+#: po/rc.cpp:471 rc.cpp:471
+msgid "16:9"
+msgstr "16:9"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:315
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_6)
+#: po/rc.cpp:474 rc.cpp:474
+msgid "Set top crop band size (in pixels)"
+msgstr "Встановити ширину верхньої смужки обрізання (у пікселях)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:318
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_6)
+#: po/rc.cpp:477 rc.cpp:477
+msgid "croptop"
+msgstr "croptop"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:325
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, croptop)
+#: po/rc.cpp:480 rc.cpp:480
+msgid "$CROPTOP"
+msgstr "$CROPTOP"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:338
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_7)
+#: po/rc.cpp:483 rc.cpp:483
+msgid "Set bottom crop band size (in pixels)"
+msgstr "Встановити ширину нижньої смужки обрізання (у пікселях)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:341
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_7)
+#: po/rc.cpp:486 rc.cpp:486
+msgid "cropbottom"
+msgstr "cropbottom"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:348
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, cropbottom)
+#: po/rc.cpp:489 rc.cpp:489
+msgid "$CROPBOTTOM"
+msgstr "$CROPBOTTOM"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:361
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_8)
+#: po/rc.cpp:492 rc.cpp:492
+msgid "Set left crop band size (in pixels)"
+msgstr "Встановити ширину лівої смужки обрізання (у пікселях)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:364
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_8)
+#: po/rc.cpp:495 rc.cpp:495
+msgid "cropleft"
+msgstr "cropleft"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:371
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, cropleft)
+#: po/rc.cpp:498 rc.cpp:498
+msgid "$CROPLEFT"
+msgstr "$CROPLEFT"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:384
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_9)
+#: po/rc.cpp:501 rc.cpp:501
+msgid "Set right crop band size (in pixels)."
+msgstr "Встановити ширину правої смужки обрізання (у пікселях)."
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:387
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_9)
+#: po/rc.cpp:504 rc.cpp:504
+msgid "cropright"
+msgstr "cropright"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:394
+#. i18n: ectx: property (toolTip), widget (QSpinBox, cropright)
+#. i18n: file: src/main/ffmpegCmdGen.ui:496
+#. i18n: ectx: property (toolTip), widget (QSpinBox, padright)
+#. i18n: file: src/main/ffmpegCmdGen.ui:394
+#. i18n: ectx: property (toolTip), widget (QSpinBox, cropright)
+#. i18n: file: src/main/ffmpegCmdGen.ui:496
+#. i18n: ectx: property (toolTip), widget (QSpinBox, padright)
+#: po/rc.cpp:507 po/rc.cpp:537 rc.cpp:507 rc.cpp:537
+msgid "Set right crop band size (in pixels)"
+msgstr "Встановити ширину правої смужки обрізання (у пікселях)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:397
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, cropright)
+#: po/rc.cpp:510 rc.cpp:510
+msgid "$CROPRIGHT"
+msgstr "$CROPRIGHT"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:410
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_12)
+#: po/rc.cpp:513 rc.cpp:513
+msgid "Set top pad band size (in pixels)"
+msgstr "Встановити ширину верхньої смужки доповнення (у пікселях)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:413
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_12)
+#: po/rc.cpp:516 rc.cpp:516
+msgid "padtop"
+msgstr "padtop"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:430
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_11)
+#: po/rc.cpp:519 rc.cpp:519
+msgid "Set bottom pad band size (in pixels)"
+msgstr "Встановити ширину нижньої смужки доповнення (у пікселях)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:433
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_11)
+#: po/rc.cpp:522 rc.cpp:522
+msgid "padbottom"
+msgstr "padbottom"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:466
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_10)
+#: po/rc.cpp:525 rc.cpp:525
+msgid "Set left pad band size (in pixels)"
+msgstr "Встановити ширину лівої смужки доповнення (у пікселях)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:469
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_10)
+#: po/rc.cpp:528 rc.cpp:528
+msgid "padleft"
+msgstr "padleft"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:486
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_13)
+#: po/rc.cpp:531 rc.cpp:531
+msgid "Set right pad band size (in pixels)."
+msgstr "Встановити ширину правої смужки доповнення (у пікселях)."
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:489
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_13)
+#: po/rc.cpp:534 rc.cpp:534
+msgid "padright"
+msgstr "padright"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:509
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_14)
+#: po/rc.cpp:540 rc.cpp:540
+msgid ""
+"Set color of padded bands. The value for padcolor is expressed as a six "
+"digit hexadecimal number where the first two digits represent red, the "
+"middle two digits green and last two digits blue (default = 000000 (black))"
+msgstr ""
+"Колір смужок доповнення. Значення параметра padcolor визначається "
+"шестицифровим шістнадцятковим числом, перші дві цифри визначають значення для "
+"каналу червоного, середні дві цифри — зеленого, а останні дві цифри — синього "
+"кольорів (типовий колір = 000000 (чорний))"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:512
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_14)
+#: po/rc.cpp:543 rc.cpp:543
+msgid "padcolor"
+msgstr "padcolor"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:519
+#. i18n: ectx: property (inputMask), widget (QLineEdit, padcolor)
+#: po/rc.cpp:546 rc.cpp:546
+msgid "HHHHHH; "
+msgstr "HHHHHH; "
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:526
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_15)
+#: po/rc.cpp:549 rc.cpp:549
+msgid "Set video bitrate tolerance (in bit/s)"
+msgstr "Встановити межу допуску бітової швидкості відео (у біт/с)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:529
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_15)
+#: po/rc.cpp:552 rc.cpp:552
+msgid "bt"
+msgstr "bt"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:546
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_16)
+#: po/rc.cpp:555 rc.cpp:555
+msgid "Set max video bitrate (in bit/s)"
+msgstr "Встановити максимальну бітову швидкість відео (у біт/с)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:549
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_16)
+#: po/rc.cpp:558 rc.cpp:558
+msgid "maxrate"
+msgstr "maxrate"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:566
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_17)
+#: po/rc.cpp:561 rc.cpp:561
+msgid "Set min video bitrate (in bit/s)"
+msgstr "Встановити мінімальну бітову швидкість відео (у біт/с)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:569
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_17)
+#: po/rc.cpp:564 rc.cpp:564
+msgid "minrate"
+msgstr "minrate"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:586
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_18)
+#: po/rc.cpp:567 rc.cpp:567
+msgid "Set video buffer verifier buffer size (in bits)"
+msgstr "Встановити розмір буфера для перевірки (у бітах)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:589
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_18)
+#: po/rc.cpp:570 rc.cpp:570
+msgid "bufsize"
+msgstr "bufsize"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:606
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_19)
+#: po/rc.cpp:573 rc.cpp:573
+msgid ""
+"Force video codec to codec. Use the copy special value to tell that the raw "
+"codec data must be copied as is"
+msgstr ""
+"Примусово встановити відеокодек. Значення «copy» визначає просте копіювання "
+"даних з джерела без внесення змін."
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:609
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_19)
+#: po/rc.cpp:576 rc.cpp:576
+msgid "vcodec"
+msgstr "vcodec"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:620
+#. i18n: ectx: property (text), item, widget (QComboBox, vcodec)
+#: po/rc.cpp:579 rc.cpp:579
+msgid "copy"
+msgstr "копіювання"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:628
+#. i18n: ectx: property (toolTip), widget (QCheckBox, sameq)
+#: po/rc.cpp:582 rc.cpp:582
+msgid "Use same video quality as source (implies VBR)"
+msgstr "Використовувати якість відео джерела (VBR)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:631
+#. i18n: ectx: property (text), widget (QCheckBox, sameq)
+#: po/rc.cpp:585 rc.cpp:585
+msgid "sameq"
+msgstr "sameq"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:638
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_21)
+#: po/rc.cpp:588 rc.cpp:588
+msgid "pass"
+msgstr "pass"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:645
+#. i18n: ectx: property (text), widget (QLineEdit, pass)
+#: po/rc.cpp:591 rc.cpp:591
+msgid "$PASS"
+msgstr "$PASS"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:655
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_22)
+#: po/rc.cpp:594 rc.cpp:594
+msgid "passlogfile"
+msgstr "passlogfile"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:662
+#. i18n: ectx: property (text), widget (QLineEdit, passlogfile)
+#: po/rc.cpp:597 rc.cpp:597
+msgid "$PASSLOGFILE"
+msgstr "$PASSLOGFILE"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:672
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: po/rc.cpp:600 rc.cpp:600
+msgid "threads"
+msgstr "threads"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:717
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: po/rc.cpp:603 rc.cpp:603
+msgid "FFMpeg Video options "
+msgstr "Параметри відео FFMpeg "
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:754
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_23)
+#: po/rc.cpp:606 rc.cpp:606
+msgid "Set the number of audio frames to record"
+msgstr "Встановити кількість звукових кадрів для запису"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:757
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_23)
+#: po/rc.cpp:609 rc.cpp:609
+msgid "aframes"
+msgstr "aframes"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:774
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_24)
+#: po/rc.cpp:612 rc.cpp:612
+msgid "Set the audio sampling frequency (default = 44100 Hz)"
+msgstr "Встановити частоту дискретизації звукових даних (типова = 44100 Гц)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:777
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_24)
+#: po/rc.cpp:615 rc.cpp:615
+msgid "ar"
+msgstr "ar"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:797
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_25)
+#: po/rc.cpp:618 rc.cpp:618
+msgid "Set the audio bitrate in bit/s (default = 64k)"
+msgstr ""
+"Встановити бітову швидкість звукових даних у біт/с (типова = 64 кбіт/с)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:800
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_25)
+#: po/rc.cpp:621 rc.cpp:621
+msgid "ab"
+msgstr "ab"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:807
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, ab)
+#: po/rc.cpp:624 rc.cpp:624
+msgid "$AUDBRk"
+msgstr "$AUDBRk"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:823
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_26)
+#: po/rc.cpp:630 rc.cpp:630
+msgid "Set the number of audio channels (default = 1)"
+msgstr "Встановити кількість каналів звукових даних (типова = 1)"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:826
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_26)
+#: po/rc.cpp:633 rc.cpp:633
+msgid "ac"
+msgstr "ac"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:859
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_27)
+#: po/rc.cpp:636 rc.cpp:636
+msgid ""
+"Force audio codec to codec. Use the copy special value to specify that the "
+"raw codec data must be copied as is"
+msgstr ""
+"Примусово встановити аудіокодек. Значення «copy» визначає просте копіювання "
+"даних з джерела без внесення змін."
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:862
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_27)
+#: po/rc.cpp:639 rc.cpp:639
+msgid "acodec"
+msgstr "acodec"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:873
+#. i18n: ectx: property (text), item, widget (QComboBox, acodec)
+#: po/rc.cpp:642 rc.cpp:642
+msgid "COPY"
+msgstr "КОПІЯ"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:881
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_28)
+#: po/rc.cpp:645 rc.cpp:645
+msgid "Force audio tag/fourcc"
+msgstr "Примусово встановити теґ звукових даних/fourcc"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:884
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_28)
+#: po/rc.cpp:648 rc.cpp:648
+msgid "atag"
+msgstr "atag"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:891
+#. i18n: ectx: property (inputMask), widget (QLineEdit, atag)
+#: po/rc.cpp:651 rc.cpp:651
+msgid "nnnnn; "
+msgstr "nnnnn; "
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:898
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_29)
+#: po/rc.cpp:654 rc.cpp:654
+msgid "Bitstream filters"
+msgstr "Фільтрування даних"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:901
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_29)
+#: po/rc.cpp:657 rc.cpp:657
+msgid "absf"
+msgstr "absf"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:909
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: po/rc.cpp:660 rc.cpp:660
+msgid "dump_extra"
+msgstr "dump_extra"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:914
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: po/rc.cpp:663 rc.cpp:663
+msgid "remove_extra"
+msgstr "remove_extra"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:919
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: po/rc.cpp:666 rc.cpp:666
+msgid "noise"
+msgstr "шум"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:924
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: po/rc.cpp:669 rc.cpp:669
+msgid "mp3comp"
+msgstr "mp3comp"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:929
+#. i18n: ectx: property (text), item, widget (QComboBox, absf)
+#: po/rc.cpp:672 rc.cpp:672
+msgid "mp3decomp"
+msgstr "mp3decomp"
+
+#. i18n: file: src/main/ffmpegCmdGen.ui:968
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: po/rc.cpp:675 rc.cpp:675
+msgid "FFMpeg Audio options"
+msgstr "Параметри звукових даних FFMpeg"
+
+#. i18n: file: src/main/k9mainw.ui:26
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainDlg)
+#: po/rc.cpp:678 rc.cpp:678
+msgid "MainDlg"
+msgstr "Головне вікно"
+
+#. i18n: file: src/main/k9mainw.ui:55
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:116
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#. i18n: file: src/main/k9mainw.ui:55
+#. i18n: ectx: property (text), item, widget (QComboBox, cbInput)
+#. i18n: file: src/main/k9mainw.ui:116
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: po/rc.cpp:684 po/rc.cpp:696 src/main/k9settings.cpp:36 rc.cpp:684
+#: rc.cpp:696
+msgid "DVD"
+msgstr "DVD"
+
+#. i18n: file: src/main/k9mainw.ui:131
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: po/rc.cpp:705 rc.cpp:705
+msgid "MPEG-4 encoding"
+msgstr "кодування MPEG-4"
+
+#. i18n: file: src/main/k9mainw.ui:136
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: po/rc.cpp:708 rc.cpp:708
+msgid "Audio extraction"
+msgstr "Видобування звукових даних"
+
+#. i18n: file: src/main/k9mainw.ui:141
+#. i18n: ectx: property (text), item, widget (QComboBox, cbOutput)
+#: po/rc.cpp:711 rc.cpp:711
+msgid "MPEG-2 extraction"
+msgstr "видобування MPEG-2"
+
+#. i18n: file: src/main/k9mainw.ui:185
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: po/rc.cpp:714 rc.cpp:714
+msgid "@"
+msgstr "@"
+
+#. i18n: file: src/main/k9mainw.ui:219
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. i18n: file: src/main/prefMPEG4.ui:407
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/main/k9mainw.ui:219
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. i18n: file: src/main/prefMPEG4.ui:407
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: po/rc.cpp:720 po/rc.cpp:1107 rc.cpp:720 rc.cpp:1107
+msgid "X"
+msgstr "X"
+
+#. i18n: file: src/main/k9mainw.ui:252
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, listView1)
+#: po/rc.cpp:723 rc.cpp:723
+msgid "dbl-click DVD title to edit"
+msgstr "двічі клацніть на позначці частини DVD для редагування"
+
+#. i18n: file: src/main/k9mainw.ui:259
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#: po/rc.cpp:726 rc.cpp:726
+msgid "Title"
+msgstr "Заголовок"
+
+#. i18n: file: src/main/k9mainw.ui:274
+#. i18n: ectx: property (text), widget (QTreeWidget, listView1)
+#: po/rc.cpp:735 rc.cpp:735
+msgid "Content"
+msgstr "Вміст"
+
+#. i18n: file: src/main/langselectw.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, langSelect)
+#: po/rc.cpp:738 src/main/k9copy.cpp:203 rc.cpp:738
+msgid "Selection"
+msgstr "Вибір"
+
+#. i18n: file: src/main/langselectw.ui:47
+#. i18n: ectx: property (text), widget (QTreeWidget, lvLanguages)
+#: po/rc.cpp:741 rc.cpp:741
+msgid "Languages"
+msgstr "Мови"
+
+#. i18n: file: src/main/mencoderCmdGen.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, mencoderCmdGen)
+#: po/rc.cpp:744 src/main/k9mencodercmdgen.cpp:60 rc.cpp:744
+msgid "MEncoder options"
+msgstr "Параметри MEncoder"
+
+#. i18n: file: src/main/mencoderCmdGen.ui:21
+#. i18n: ectx: property (text), widget (QTreeWidget, listView)
+#: po/rc.cpp:747 rc.cpp:747
+msgid "1"
+msgstr "1"
+
+#. i18n: file: src/main/playbackoptionsw.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, PlaybackOptionsw)
+#: po/rc.cpp:750 src/main/k9copy.cpp:194 rc.cpp:750
+msgid "DVD playback options"
+msgstr "Параметри відтворення DVD"
+
+#. i18n: file: src/main/playbackoptionsw.ui:28
+#. i18n: ectx: property (text), widget (QCheckBox, ckMenu)
+#: po/rc.cpp:753 rc.cpp:753
+msgid "&Keep original menus"
+msgstr "З&берегти оригінальні меню"
+
+#. i18n: file: src/main/playbackoptionsw.ui:31
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMenu)
+#. i18n: file: src/main/prefMPEG4.ui:257
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMp4AspectRatio)
+#. i18n: file: src/main/playbackoptionsw.ui:31
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMenu)
+#. i18n: file: src/main/prefMPEG4.ui:257
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMp4AspectRatio)
+#: po/rc.cpp:756 po/rc.cpp:1086 rc.cpp:756 rc.cpp:1086
+msgid "Alt+K"
+msgstr "Alt+K"
+
+#. i18n: file: src/main/playbackoptionsw.ui:87
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: po/rc.cpp:759 rc.cpp:759
+msgid "Selected Titles"
+msgstr "Позначені частини"
+
+#. i18n: file: src/main/playbackoptionsw.ui:139
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: po/rc.cpp:762 rc.cpp:762
+msgid "Default language"
+msgstr "Типова мова"
+
+#. i18n: file: src/main/playbackoptionsw.ui:165
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: po/rc.cpp:765 rc.cpp:765
+msgid "Subtitle"
+msgstr "Підзаголовок"
+
+#. i18n: file: src/main/playbackoptionsw.ui:191
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
+#. i18n: file: src/main/prefAuthor.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: src/main/prefDVD.ui:274
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/prefMPEG4.ui:631
+#. i18n: ectx: attribute (title), widget (QWidget, tabAudio)
+#. i18n: file: src/mplayer/mplayer.ui:28
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/mplayer/phonon.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: src/main/playbackoptionsw.ui:191
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
+#. i18n: file: src/main/prefAuthor.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: src/main/prefDVD.ui:274
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/prefMPEG4.ui:631
+#. i18n: ectx: attribute (title), widget (QWidget, tabAudio)
+#. i18n: file: src/mplayer/mplayer.ui:28
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: src/mplayer/phonon.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: po/rc.cpp:768 po/rc.cpp:774 po/rc.cpp:961 po/rc.cpp:1128 po/rc.cpp:1277
+#: po/rc.cpp:1298 src/main/k9langselect.cpp:89 rc.cpp:768 rc.cpp:774
+#: rc.cpp:961 rc.cpp:1128 rc.cpp:1277 rc.cpp:1298
+msgid "Audio"
+msgstr "Звук"
+
+#. i18n: file: src/main/prefAuthor.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefAuthor)
+#: po/rc.cpp:771 rc.cpp:771
+msgid "Authoring options"
+msgstr "Параметри обробки"
+
+#. i18n: file: src/main/prefAuthor.ui:33
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioFormat)
+#: po/rc.cpp:777 rc.cpp:777
+msgid "AC3"
+msgstr "AC3"
+
+#. i18n: file: src/main/prefAuthor.ui:38
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioFormat)
+#: po/rc.cpp:780 rc.cpp:780
+msgid "MP2"
+msgstr "MP2"
+
+#. i18n: file: src/main/prefAuthor.ui:47
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: po/rc.cpp:783 rc.cpp:783
+msgid "128"
+msgstr "128"
+
+#. i18n: file: src/main/prefAuthor.ui:52
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: po/rc.cpp:786 rc.cpp:786
+msgid "160"
+msgstr "160"
+
+#. i18n: file: src/main/prefAuthor.ui:57
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: po/rc.cpp:789 rc.cpp:789
+msgid "192"
+msgstr "192"
+
+#. i18n: file: src/main/prefAuthor.ui:62
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: po/rc.cpp:792 rc.cpp:792
+msgid "224"
+msgstr "224"
+
+#. i18n: file: src/main/prefAuthor.ui:67
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: po/rc.cpp:795 rc.cpp:795
+msgid "256"
+msgstr "256"
+
+#. i18n: file: src/main/prefAuthor.ui:72
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: po/rc.cpp:798 rc.cpp:798
+msgid "320"
+msgstr "320"
+
+#. i18n: file: src/main/prefAuthor.ui:77
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: po/rc.cpp:801 rc.cpp:801
+msgid "384"
+msgstr "384"
+
+#. i18n: file: src/main/prefAuthor.ui:82
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAudioBitrate)
+#: po/rc.cpp:804 rc.cpp:804
+msgid "448"
+msgstr "448"
+
+#. i18n: file: src/main/prefAuthor.ui:90
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: po/rc.cpp:807 rc.cpp:807
+msgid "Format"
+msgstr "Формат"
+
+#. i18n: file: src/main/prefAuthor.ui:145
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: po/rc.cpp:813 rc.cpp:813
+msgid "Buttons"
+msgstr "Кнопки"
+
+#. i18n: file: src/main/prefAuthor.ui:151
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/prefMPEG4.ui:160
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. i18n: file: src/main/prefAuthor.ui:151
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/prefMPEG4.ui:160
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: po/rc.cpp:816 po/rc.cpp:1074 rc.cpp:816 rc.cpp:1074
+msgid "Width"
+msgstr "Ширина"
+
+#. i18n: file: src/main/prefAuthor.ui:177
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: file: src/main/prefMPEG4.ui:207
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
+#. i18n: file: src/main/prefAuthor.ui:177
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: file: src/main/prefMPEG4.ui:207
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
+#: po/rc.cpp:819 po/rc.cpp:1080 rc.cpp:819 rc.cpp:1080
+msgid "Height"
+msgstr "Висота"
+
+#. i18n: file: src/main/prefAuthor.ui:220
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: po/rc.cpp:825 rc.cpp:825
+msgid "Hilite color"
+msgstr "Колір позначення"
+
+#. i18n: file: src/main/prefAuthor.ui:237
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
+#: po/rc.cpp:828 rc.cpp:828
+msgid "Text color"
+msgstr "Колір тексту"
+
+#. i18n: file: src/main/prefDirs.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefDirs)
+#: po/rc.cpp:831 rc.cpp:831
+msgid "prefDirs"
+msgstr "prefDirs"
+
+#. i18n: file: src/main/prefDirs.ui:32
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_2)
+#: po/rc.cpp:837 src/main/k9settings.cpp:46 rc.cpp:837
+msgid "MPEG-4"
+msgstr "MPEG-4"
+
+#. i18n: file: src/main/prefDirs.ui:48
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirMPEG4)
+#: po/rc.cpp:840 rc.cpp:840
+msgid "default output directory for MPEG-4 backups"
+msgstr "типовий каталог виведення даних для копій MPEG-4"
+
+#. i18n: file: src/main/prefDirs.ui:61
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_3)
+#: po/rc.cpp:843 rc.cpp:843
+msgid "MPEG-2"
+msgstr "MPEG-2"
+
+#. i18n: file: src/main/prefDirs.ui:77
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirMPEG2)
+#: po/rc.cpp:846 rc.cpp:846
+msgid "default output directory for MPEG-1/MPEG-2 backups"
+msgstr "типовий каталог виведення даних для копій MPEG-1/MPEG-2"
+
+#. i18n: file: src/main/prefDirs.ui:90
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_4)
+#: po/rc.cpp:849 rc.cpp:849
+msgid "ISO Images"
+msgstr "Образи ISO"
+
+#. i18n: file: src/main/prefDirs.ui:106
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirISO)
+#. i18n: file: src/main/prefDirs.ui:135
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirAudio)
+#. i18n: file: src/main/prefDirs.ui:106
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirISO)
+#. i18n: file: src/main/prefDirs.ui:135
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, urDirAudio)
+#: po/rc.cpp:852 po/rc.cpp:858 rc.cpp:852 rc.cpp:858
+msgid "default output directory for ISO image backups"
+msgstr "типовий каталог виведення даних для копій-образів ISO"
+
+#. i18n: file: src/main/prefDirs.ui:119
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_6)
+#: po/rc.cpp:855 rc.cpp:855
+msgid "Audio files"
+msgstr "Звукові файли"
+
+#. i18n: file: src/main/prefDirs.ui:158
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: po/rc.cpp:861 rc.cpp:861
+msgid "Programs"
+msgstr "Програми"
+
+#. i18n: file: src/main/prefDirs.ui:170
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_5)
+#: po/rc.cpp:864 rc.cpp:864
+msgid "MEncoder"
+msgstr "MEncoder"
+
+#. i18n: file: src/main/prefDirs.ui:196
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_7)
+#. i18n: file: src/main/prefpreview.ui:39
+#. i18n: ectx: property (text), widget (QRadioButton, rbMplayer)
+#. i18n: file: src/main/prefDirs.ui:196
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_7)
+#. i18n: file: src/main/prefpreview.ui:39
+#. i18n: ectx: property (text), widget (QRadioButton, rbMplayer)
+#: po/rc.cpp:867 po/rc.cpp:1167 rc.cpp:867 rc.cpp:1167
+msgid "MPlayer"
+msgstr "MPlayer"
+
+#. i18n: file: src/main/prefDirs.ui:222
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_8)
+#: po/rc.cpp:870 rc.cpp:870
+msgid "k3b"
+msgstr "k3b"
+
+#. i18n: file: src/main/prefDirs.ui:248
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_9)
+#: po/rc.cpp:873 rc.cpp:873
+msgid "dvdauthor"
+msgstr "dvdauthor"
+
+#. i18n: file: src/main/prefDirs.ui:274
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_10)
+#. i18n: file: src/main/prefMencoder.ui:199
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderV)
+#. i18n: file: src/main/prefMencoder.ui:469
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderA)
+#. i18n: file: src/main/prefDirs.ui:274
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_10)
+#. i18n: file: src/main/prefMencoder.ui:199
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderV)
+#. i18n: file: src/main/prefMencoder.ui:469
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderA)
+#: po/rc.cpp:876 po/rc.cpp:1011 po/rc.cpp:1035 rc.cpp:876 rc.cpp:1011
+#: rc.cpp:1035
+msgid "ffmpeg"
+msgstr "ffmpeg"
+
+#. i18n: file: src/main/prefDirs.ui:300
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_11)
+#: po/rc.cpp:879 rc.cpp:879
+msgid "wodim"
+msgstr "wodim"
+
+#. i18n: file: src/main/prefDirs.ui:326
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir_12)
+#: po/rc.cpp:882 rc.cpp:882
+msgid "genisoimage"
+msgstr "genisoimage"
+
+#. i18n: file: src/main/prefDVD.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefDVD)
+#: po/rc.cpp:885 rc.cpp:885
+msgid "prefDVD"
+msgstr "prefDVD"
+
+#. i18n: file: src/main/prefDVD.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lblworkDir)
+#: po/rc.cpp:891 rc.cpp:891
+msgid "Output directory"
+msgstr "Каталог виведених даних"
+
+#. i18n: file: src/main/prefDVD.ui:58
+#. i18n: ectx: property (text), widget (QCheckBox, ckDelTmpFiles)
+#: po/rc.cpp:894 rc.cpp:894
+msgid "Clear output directory on exit"
+msgstr "Спорожняти каталог виведених даних при виході"
+
+#. i18n: file: src/main/prefDVD.ui:61
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckDelTmpFiles)
+#: po/rc.cpp:897 rc.cpp:897
+msgid "Alt+Y"
+msgstr "Alt+Y"
+
+#. i18n: file: src/main/prefDVD.ui:74
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: po/rc.cpp:900 rc.cpp:900
+msgid "DVD size"
+msgstr "Розмір DVD"
+
+#. i18n: file: src/main/prefDVD.ui:109
+#. i18n: ectx: property (text), widget (QCheckBox, ckDvdAuthor)
+#: po/rc.cpp:903 rc.cpp:903
+msgid "use dvdAuthor for copy without menus"
+msgstr "скористатися dvdAuthor для копіювання без меню"
+
+#. i18n: file: src/main/prefDVD.ui:112
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckDvdAuthor)
+#. i18n: file: src/main/prefDVD.ui:122
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMpegChapter)
+#. i18n: file: src/main/prefDVD.ui:112
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckDvdAuthor)
+#. i18n: file: src/main/prefDVD.ui:122
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckMpegChapter)
+#: po/rc.cpp:906 po/rc.cpp:912 rc.cpp:906 rc.cpp:912
+msgid "Alt+D"
+msgstr "Alt+D"
+
+#. i18n: file: src/main/prefDVD.ui:119
+#. i18n: ectx: property (text), widget (QCheckBox, ckMpegChapter)
+#: po/rc.cpp:909 rc.cpp:909
+msgid "one file/chapter (MPEG extraction)"
+msgstr "один файл на розділ (MPEG-видобування)"
+
+#. i18n: file: src/main/prefDVD.ui:129
+#. i18n: ectx: property (text), widget (QCheckBox, ckUserOps)
+#: po/rc.cpp:915 rc.cpp:915
+msgid "Enable prohibited user operations"
+msgstr "Дозволити заборонені дії користувача"
+
+#. i18n: file: src/main/prefDVD.ui:145
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: po/rc.cpp:918 rc.cpp:918
+msgid "Burning"
+msgstr "Запис"
+
+#. i18n: file: src/main/prefDVD.ui:151
+#. i18n: ectx: property (text), widget (QCheckBox, ckK3b)
+#: po/rc.cpp:921 rc.cpp:921
+msgid "Burn with k3b"
+msgstr "Запис за допомогою k3b"
+
+#. i18n: file: src/main/prefDVD.ui:154
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckK3b)
+#. i18n: file: src/main/prefMPEG4.ui:357
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbBitrate)
+#. i18n: file: src/main/prefDVD.ui:154
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckK3b)
+#. i18n: file: src/main/prefMPEG4.ui:357
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbBitrate)
+#: po/rc.cpp:924 po/rc.cpp:1101 rc.cpp:924 rc.cpp:1101
+msgid "Alt+B"
+msgstr "Alt+B"
+
+#. i18n: file: src/main/prefDVD.ui:167
+#. i18n: ectx: property (text), widget (QCheckBox, ckAutoBurn)
+#: po/rc.cpp:927 rc.cpp:927
+msgid "Auto burn"
+msgstr "Автозапис"
+
+#. i18n: file: src/main/prefDVD.ui:170
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckAutoBurn)
+#: po/rc.cpp:930 rc.cpp:930
+msgid "Alt+T"
+msgstr "Alt+T"
+
+#. i18n: file: src/main/prefDVD.ui:186
+#. i18n: ectx: property (title), widget (QGroupBox, gbPerformances)
+#: po/rc.cpp:933 rc.cpp:933
+msgid "Performances"
+msgstr "Обробка"
+
+#. i18n: file: src/main/prefDVD.ui:192
+#. i18n: ectx: property (text), widget (QCheckBox, ckQuickScan)
+#: po/rc.cpp:936 rc.cpp:936
+msgid "Quick scan"
+msgstr "Швидке сканування"
+
+#. i18n: file: src/main/prefDVD.ui:195
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ckQuickScan)
+#: po/rc.cpp:939 rc.cpp:939
+msgid "Alt+Q"
+msgstr "Alt+Q"
+
+#. i18n: file: src/main/prefDVD.ui:208
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: po/rc.cpp:942 rc.cpp:942
+msgid "DVD read ahead"
+msgstr "Випереджене читання DVD"
+
+#. i18n: file: src/main/prefDVD.ui:227
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadAhead)
+#: po/rc.cpp:948 rc.cpp:948
+msgid "skip bad sectors (slow)"
+msgstr "пропускати сектори з помилками (повільно)"
+
+#. i18n: file: src/main/prefDVD.ui:232
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadAhead)
+#: po/rc.cpp:951 rc.cpp:951
+msgid "skip bad sectors (faster)"
+msgstr "пропускати сектори з помилками (швидше)"
+
+#. i18n: file: src/main/prefDVD.ui:246
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: po/rc.cpp:954 rc.cpp:954
+msgid ""
+"this option can improve reading of DVD having bad sectors.\n"
+"It will require root privileges when opening the DVD."
+msgstr ""
+"за допомогою цього пункту можна покращити читання DVD з помилковими секторами."
+"\n"
+"Якщо позначено пункт, для відкриття DVD потрібен буде адміністративний доступ."
+
+#. i18n: file: src/main/prefDVD.ui:262
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: po/rc.cpp:958 rc.cpp:958
+msgid "Prefered languages"
+msgstr "Бажані мови"
+
+#. i18n: file: src/main/prefDVD.ui:290
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/mplayer/phonon.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: src/main/prefDVD.ui:290
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/mplayer/phonon.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: po/rc.cpp:964 po/rc.cpp:1301 src/main/k9langselect.cpp:100 rc.cpp:964
+#: rc.cpp:1301
+msgid "Subtitles"
+msgstr "Субтитри"
+
+#. i18n: file: src/main/prefMencoder.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefMencoder)
+#. i18n: file: src/main/prefMPEG4.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefMPEG4)
+#. i18n: file: src/main/prefpreview.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefPreview)
+#. i18n: file: src/main/prefMencoder.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefMencoder)
+#. i18n: file: src/main/prefMPEG4.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefMPEG4)
+#. i18n: file: src/main/prefpreview.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefPreview)
+#: po/rc.cpp:967 po/rc.cpp:1047 po/rc.cpp:1158 rc.cpp:967 rc.cpp:1047
+#: rc.cpp:1158
+msgid "Form1"
+msgstr "Форма1"
+
+#. i18n: file: src/main/prefMencoder.ui:32
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: po/rc.cpp:970 rc.cpp:970
+msgid "Available variables"
+msgstr "Можливі змінні"
+
+#. i18n: file: src/main/prefMencoder.ui:77
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: po/rc.cpp:973 rc.cpp:973
+msgid ""
+"$PASS\n"
+"$WIDTH\n"
+"$HEIGHT\n"
+"$VIDBR\n"
+"$AUDBR\n"
+"$ASPECT"
+msgstr ""
+"$PASS\n"
+"$WIDTH\n"
+"$HEIGHT\n"
+"$VIDBR\n"
+"$AUDBR\n"
+"$ASPECT"
+
+#. i18n: file: src/main/prefMencoder.ui:98
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: po/rc.cpp:981 rc.cpp:981
+msgid ""
+"pass number\n"
+"video width\n"
+"video height\n"
+"video bitrate\n"
+"audio bitrate\n"
+"aspect ratio"
+msgstr ""
+"кількість проходів\n"
+"ширина кадру\n"
+"висота кадру\n"
+"біт. шв. відео\n"
+"біт. шв. звуку\n"
+"формат"
+
+#. i18n: file: src/main/prefMencoder.ui:129
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_4)
+#: po/rc.cpp:989 rc.cpp:989
+msgid ""
+"$CROPLEFT\n"
+"$CROPTOP\n"
+"$CROPRIGHT\n"
+"$CROPBOTTOM\n"
+"$CROPWIDTH\n"
+"$CROPHEIGHT"
+msgstr ""
+"$CROPLEFT\n"
+"$CROPTOP\n"
+"$CROPRIGHT\n"
+"$CROPBOTTOM\n"
+"$CROPWIDTH\n"
+"$CROPHEIGHT"
+
+#. i18n: file: src/main/prefMencoder.ui:150
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_5)
+#: po/rc.cpp:997 rc.cpp:997
+msgid ""
+"left crop coord\n"
+"top crop coord\n"
+"size of right crop\n"
+"size of bottom crop\n"
+"crop width\n"
+"crop height"
+msgstr ""
+"обрізання ліворуч\n"
+"обрізання згори\n"
+"обрізання праворуч\n"
+"обрізання знизу\n"
+"ширина обрізаного\n"
+"висота обрізаного"
+
+#. i18n: file: src/main/prefMencoder.ui:182
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: po/rc.cpp:1005 rc.cpp:1005
+msgid "Video codecs"
+msgstr "Відеокодеки"
+
+#. i18n: file: src/main/prefMencoder.ui:194
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderV)
+#. i18n: file: src/main/prefMencoder.ui:464
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderA)
+#. i18n: file: src/main/prefMencoder.ui:194
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderV)
+#. i18n: file: src/main/prefMencoder.ui:464
+#. i18n: ectx: property (text), item, widget (QComboBox, cbEncoderA)
+#: po/rc.cpp:1008 po/rc.cpp:1032 rc.cpp:1008 rc.cpp:1032
+msgid "mencoder"
+msgstr "mencoder"
+
+#. i18n: file: src/main/prefMencoder.ui:261
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
+#: po/rc.cpp:1017 rc.cpp:1017
+msgid "fourcc"
+msgstr "fourcc"
+
+#. i18n: file: src/main/prefMencoder.ui:274
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: po/rc.cpp:1020 rc.cpp:1020
+msgid "one pass"
+msgstr "один прохід"
+
+#. i18n: file: src/main/prefMencoder.ui:339
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
+#: po/rc.cpp:1023 rc.cpp:1023
+msgid "first pass"
+msgstr "перший прохід"
+
+#. i18n: file: src/main/prefMencoder.ui:395
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3_2)
+#: po/rc.cpp:1026 rc.cpp:1026
+msgid "second pass"
+msgstr "другий прохід"
+
+#. i18n: file: src/main/prefMencoder.ui:452
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: po/rc.cpp:1029 rc.cpp:1029
+msgid "Audio codecs"
+msgstr "Звукові кодеки"
+
+#. i18n: file: src/main/prefMencoder.ui:578
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2_2)
+#: po/rc.cpp:1041 rc.cpp:1041
+msgid "options"
+msgstr "параметри"
+
+#. i18n: file: src/main/prefMencoder.ui:588
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: po/rc.cpp:1044 rc.cpp:1044
+msgid "extension"
+msgstr "суфікс назви"
+
+#. i18n: file: src/main/prefMPEG4.ui:66
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: po/rc.cpp:1050 rc.cpp:1050
+msgid "Encoder"
+msgstr "Кодувальник"
+
+#. i18n: file: src/main/prefMPEG4.ui:90
+#. i18n: ectx: attribute (title), widget (QWidget, tabVideo)
+#: po/rc.cpp:1053 rc.cpp:1053
+msgid "Video"
+msgstr "Відео"
+
+#. i18n: file: src/main/prefMPEG4.ui:102
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. i18n: file: src/main/prefMPEG4.ui:643
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#. i18n: file: src/main/prefMPEG4.ui:102
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. i18n: file: src/main/prefMPEG4.ui:643
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: po/rc.cpp:1056 po/rc.cpp:1131 rc.cpp:1056 rc.cpp:1131
+msgid "Codec"
+msgstr "Кодек"
+
+#. i18n: file: src/main/prefMPEG4.ui:124
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4Codec)
+#: po/rc.cpp:1059 rc.cpp:1059
+msgid "XviD"
+msgstr "XviD"
+
+#. i18n: file: src/main/prefMPEG4.ui:129
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4Codec)
+#: po/rc.cpp:1062 rc.cpp:1062
+msgid "lavc MPEG4"
+msgstr "lavc MPEG4"
+
+#. i18n: file: src/main/prefMPEG4.ui:134
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4Codec)
+#: po/rc.cpp:1065 rc.cpp:1065
+msgid "x264"
+msgstr "x264"
+
+#. i18n: file: src/main/prefMPEG4.ui:142
+#. i18n: ectx: property (text), widget (QCheckBox, ck2passes)
+#: po/rc.cpp:1068 rc.cpp:1068
+msgid "2 pass"
+msgstr "2 проходи"
+
+#. i18n: file: src/main/prefMPEG4.ui:145
+#. i18n: ectx: property (shortcut), widget (QCheckBox, ck2passes)
+#: po/rc.cpp:1071 rc.cpp:1071
+msgid "Alt+2"
+msgstr "Alt+2"
+
+#. i18n: file: src/main/prefMPEG4.ui:191
+#. i18n: ectx: property (text), widget (QLineEdit, leMp4Width)
+#: po/rc.cpp:1077 rc.cpp:1077
+msgid "720"
+msgstr "720"
+
+#. i18n: file: src/main/prefMPEG4.ui:254
+#. i18n: ectx: property (text), widget (QCheckBox, ckMp4AspectRatio)
+#: po/rc.cpp:1083 rc.cpp:1083
+msgid "&keep aspect ratio"
+msgstr "з&берігати формат"
+
+#. i18n: file: src/main/prefMPEG4.ui:300
+#. i18n: ectx: property (text), widget (QRadioButton, rbSize)
+#: po/rc.cpp:1089 rc.cpp:1089
+msgid "File size"
+msgstr "Розмір файла"
+
+#. i18n: file: src/main/prefMPEG4.ui:303
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbSize)
+#: po/rc.cpp:1092 rc.cpp:1092
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#. i18n: file: src/main/prefMPEG4.ui:325
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbMp4Size)
+#: po/rc.cpp:1095 rc.cpp:1095
+msgid " MB"
+msgstr " МБ"
+
+#. i18n: file: src/main/prefMPEG4.ui:376
+#. i18n: ectx: property (inputMask), widget (QLineEdit, leMp4VideoBitrate)
+#: po/rc.cpp:1104 rc.cpp:1104
+msgid "00000; "
+msgstr "00000; "
+
+#. i18n: file: src/main/prefMPEG4.ui:470
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: po/rc.cpp:1110 rc.cpp:1110
+msgid "Cropping"
+msgstr "Обрізання"
+
+#. i18n: file: src/main/prefMPEG4.ui:485
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/viewmpeg2.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: src/main/prefMPEG4.ui:485
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/viewmpeg2.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: po/rc.cpp:1113 po/rc.cpp:1259 rc.cpp:1113 rc.cpp:1259
+msgid "Top"
+msgstr "Вгорі"
+
+#. i18n: file: src/main/prefMPEG4.ui:511
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/main/viewmpeg2.ui:142
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: src/main/prefMPEG4.ui:511
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: src/main/viewmpeg2.ui:142
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: po/rc.cpp:1116 po/rc.cpp:1262 rc.cpp:1116 rc.cpp:1262
+msgid "Left"
+msgstr "Ліворуч"
+
+#. i18n: file: src/main/prefMPEG4.ui:605
+#. i18n: ectx: property (text), widget (QPushButton, bCropDetect)
+#. i18n: file: src/main/viewmpeg2.ui:203
+#. i18n: ectx: property (text), widget (QPushButton, bCropDetect)
+#. i18n: file: src/main/prefMPEG4.ui:605
+#. i18n: ectx: property (text), widget (QPushButton, bCropDetect)
+#. i18n: file: src/main/viewmpeg2.ui:203
+#. i18n: ectx: property (text), widget (QPushButton, bCropDetect)
+#: po/rc.cpp:1125 po/rc.cpp:1271 rc.cpp:1125 rc.cpp:1271
+msgid "detect"
+msgstr "виявити"
+
+#. i18n: file: src/main/prefMPEG4.ui:660
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: po/rc.cpp:1134 rc.cpp:1134
+msgid "mp3"
+msgstr "mp3"
+
+#. i18n: file: src/main/prefMPEG4.ui:665
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: po/rc.cpp:1137 rc.cpp:1137
+msgid "faac"
+msgstr "faac"
+
+#. i18n: file: src/main/prefMPEG4.ui:670
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: po/rc.cpp:1140 rc.cpp:1140
+msgid "mp2"
+msgstr "mp2"
+
+#. i18n: file: src/main/prefMPEG4.ui:675
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: po/rc.cpp:1143 rc.cpp:1143
+msgid "ac3"
+msgstr "ac3"
+
+#. i18n: file: src/main/prefMPEG4.ui:680
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMp4AudioCodec)
+#: po/rc.cpp:1146 rc.cpp:1146
+msgid "adpcm ima"
+msgstr "adpcm ima"
+
+#. i18n: file: src/main/prefMPEG4.ui:764
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: po/rc.cpp:1152 rc.cpp:1152
+msgid "Gain"
+msgstr "Підсилення"
+
+#. i18n: file: src/main/prefMPEG4.ui:816
+#. i18n: ectx: property (text), widget (QCheckBox, ckUseCache)
+#: po/rc.cpp:1155 rc.cpp:1155
+msgid "use cell cache"
+msgstr "використовувати кеш комірок"
+
+#. i18n: file: src/main/prefpreview.ui:29
+#. i18n: ectx: property (text), widget (QRadioButton, rbInternal)
+#: po/rc.cpp:1161 rc.cpp:1161
+msgid "&Internal Player"
+msgstr "В&будований програвач"
+
+#. i18n: file: src/main/prefpreview.ui:32
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbInternal)
+#: po/rc.cpp:1164 rc.cpp:1164
+msgid "Alt+I"
+msgstr "Alt+I"
+
+#. i18n: file: src/main/prefpreview.ui:42
+#. i18n: ectx: property (shortcut), widget (QRadioButton, rbMplayer)
+#: po/rc.cpp:1170 rc.cpp:1170
+msgid "Alt+M"
+msgstr "Alt+M"
+
+#. i18n: file: src/main/prefpreview.ui:49
+#. i18n: ectx: property (text), widget (QRadioButton, rbPhonon)
+#: po/rc.cpp:1173 rc.cpp:1173
+msgid "Phonon"
+msgstr "Phonon"
+
+#. i18n: file: src/main/prefpreview.ui:56
+#. i18n: ectx: property (text), widget (QRadioButton, rbXine)
+#: po/rc.cpp:1176 rc.cpp:1176
+msgid "Xine Player"
+msgstr "Програвач Xine"
+
+#. i18n: file: src/main/prefpreview.ui:124
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/prefpreview.ui:264
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. i18n: file: src/main/prefpreview.ui:124
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: src/main/prefpreview.ui:264
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: po/rc.cpp:1179 po/rc.cpp:1212 rc.cpp:1179 rc.cpp:1212
+msgid "Video output"
+msgstr "Виведення відео"
+
+#. i18n: file: src/main/prefpreview.ui:140
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: file: src/main/prefpreview.ui:320
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#. i18n: file: src/main/prefpreview.ui:140
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: file: src/main/prefpreview.ui:320
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: po/rc.cpp:1182 po/rc.cpp:1227 rc.cpp:1182 rc.cpp:1227
+msgid "Audio output"
+msgstr "Виведення звуку"
+
+#. i18n: file: src/main/prefpreview.ui:151
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:275
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#. i18n: file: src/main/prefpreview.ui:151
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:275
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#: po/rc.cpp:1185 po/rc.cpp:1215 rc.cpp:1185 rc.cpp:1215
+msgid "X11"
+msgstr "X11"
+
+#. i18n: file: src/main/prefpreview.ui:156
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:280
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#. i18n: file: src/main/prefpreview.ui:156
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:280
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#: po/rc.cpp:1188 po/rc.cpp:1218 rc.cpp:1188 rc.cpp:1218
+msgid "Xv"
+msgstr "Xv"
+
+#. i18n: file: src/main/prefpreview.ui:161
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:285
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#. i18n: file: src/main/prefpreview.ui:161
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:285
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#: po/rc.cpp:1191 po/rc.cpp:1221 rc.cpp:1191 rc.cpp:1221
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#. i18n: file: src/main/prefpreview.ui:166
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:191
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:290
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#. i18n: file: src/main/prefpreview.ui:166
+#. i18n: ectx: property (text), item, widget (QComboBox, cbVout)
+#. i18n: file: src/main/prefpreview.ui:191
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:290
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXVout)
+#: po/rc.cpp:1194 po/rc.cpp:1203 po/rc.cpp:1224 rc.cpp:1194 rc.cpp:1203
+#: rc.cpp:1224
+msgid "SDL"
+msgstr "SDL"
+
+#. i18n: file: src/main/prefpreview.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:337
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXAout)
+#. i18n: file: src/main/prefpreview.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:337
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXAout)
+#: po/rc.cpp:1197 po/rc.cpp:1230 rc.cpp:1197 rc.cpp:1230
+msgid "ALSA"
+msgstr "ALSA"
+
+#. i18n: file: src/main/prefpreview.ui:186
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:342
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXAout)
+#. i18n: file: src/main/prefpreview.ui:186
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAout)
+#. i18n: file: src/main/prefpreview.ui:342
+#. i18n: ectx: property (text), item, widget (QComboBox, cbXAout)
+#: po/rc.cpp:1200 po/rc.cpp:1233 rc.cpp:1200 rc.cpp:1233
+msgid "OSS"
+msgstr "OSS"
+
+#. i18n: file: src/main/prefpreview.ui:237
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: po/rc.cpp:1206 rc.cpp:1206
+msgid "MPlayer options"
+msgstr "Параметри MPlayer"
+
+#. i18n: file: src/main/prefpreview.ui:257
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: po/rc.cpp:1209 rc.cpp:1209
+msgid "Xine player options"
+msgstr "Параметри відтворення у Xine"
+
+#. i18n: file: src/main/titlefactor.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, titleFactor)
+#: po/rc.cpp:1236 rc.cpp:1236
+msgid "Shrink Factors"
+msgstr "Коефіцієнти стискання"
+
+#. i18n: file: src/main/titlefactor.ui:28
+#. i18n: ectx: property (text), widget (QLabel, lbTitle)
+#: po/rc.cpp:1240 rc.cpp:1240
+#, no-c-format
+msgid "Shrink Factor for Title %1"
+msgstr "Коефіцієнт стискання частини %1"
+
+#. i18n: file: src/main/titlefactor.ui:44
+#. i18n: ectx: property (title), widget (QGroupBox, gbTitle)
+#: po/rc.cpp:1243 rc.cpp:1243
+msgid "Change Factor"
+msgstr "Змінити коефіцієнт"
+
+#. i18n: file: src/main/titlefactor.ui:78
+#. i18n: ectx: property (text), widget (QLabel, tFactor)
+#: po/rc.cpp:1246 rc.cpp:1246
+msgid "0.00"
+msgstr "0,00"
+
+#. i18n: file: src/main/titlefactor.ui:88
+#. i18n: ectx: property (text), widget (QLabel, lTargetSize)
+#: po/rc.cpp:1250 src/backup/k9mp4enc.cpp:191 src/main/k9titlefactor.cpp:63
+#: src/main/k9titlefactor.cpp:100 src/main/k9titlefactor.cpp:134 rc.cpp:1250
+#, no-c-format
+msgid "size : %1 MB"
+msgstr "розмір: %1 МБ"
+
+#. i18n: file: src/main/viewmpeg2.ui:31
+#. i18n: ectx: property (windowTitle), widget (QWidget, ViewMPEG2)
+#: po/rc.cpp:1253 rc.cpp:1253
+msgid "k9Copy - Title Preview"
+msgstr "k9Copy — попередній перегляд частини"
+
+#. i18n: file: src/main/viewmpeg2.ui:122
+#. i18n: ectx: property (title), widget (QGroupBox, gbCrop)
+#: po/rc.cpp:1256 rc.cpp:1256
+msgid "Crop"
+msgstr "Обрізання"
+
+#. i18n: file: src/mplayer/mplayer.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: po/rc.cpp:1280 rc.cpp:1280
+msgid "Subpicture"
+msgstr "Фрагмент зображення"
+
+#. i18n: file: src/mplayer/mplayer.ui:252
+#. i18n: ectx: property (text), widget (QToolButton, bDown)
+#: po/rc.cpp:1283 rc.cpp:1283
+msgid "-"
+msgstr "-"
+
+#. i18n: file: src/mplayer/mplayer.ui:369
+#. i18n: ectx: property (text), widget (QToolButton, bUp)
+#: po/rc.cpp:1286 rc.cpp:1286
+msgid "+"
+msgstr "+"
+
+#: po/rc.cpp:1302 rc.cpp:1302
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#: po/rc.cpp:1303 rc.cpp:1303
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: src/assistant/k9assistant.cpp:43
+msgid "DVD backup assistant"
+msgstr "Помічник створення резервних копій DVD"
+
+#: src/assistant/k9assistant.cpp:47
+msgid "source"
+msgstr "джерело"
+
+#: src/assistant/k9assistant.cpp:48
+msgid "Select the source of the backup"
+msgstr "Виберіть джерело даних резервного копіювання"
+
+#: src/assistant/k9assistant.cpp:54
+msgid "destination"
+msgstr "призначення"
+
+#: src/assistant/k9assistant.cpp:55
+msgid "Select the destination of the backup"
+msgstr "Виберіть адресу призначення резервної копії"
+
+#: src/assistant/k9assistant.cpp:61
+msgid "Select the titles you want to copy"
+msgstr "Виберіть частини, які слід скопіювати"
+
+#: src/assistant/k9assistant.cpp:68
+msgid "streams"
+msgstr "дані"
+
+#: src/assistant/k9assistant.cpp:69
+msgid "Select the streams you want to keep"
+msgstr "Вкажіть дані, які слід зберегти"
+
+#: src/assistant/k9assistant.cpp:75
+msgid "mp4"
+msgstr "mp4"
+
+#: src/assistant/k9assistant.cpp:76
+msgid "Set mp4 options for each title"
+msgstr "Вкажіть параметри mp4 для всіх частин"
+
+#: src/assistant/k9assistant.cpp:82
+msgid "DVDOption"
+msgstr "DVDOption"
+
+#: src/assistant/k9assistant.cpp:83
+msgid "Set DVD playback options"
+msgstr "Вкажіть параметри відтворення DVD"
+
+#: src/assistant/k9assistant.cpp:89
+msgid "mpeg"
+msgstr "mpeg"
+
+#: src/assistant/k9assistant.cpp:90
+msgid "Set mpeg options for each title"
+msgstr "Вкажіть параметри mpeg для всіх частин"
+
+#: src/assistant/k9assistant.cpp:109 src/assistant/k9assistant.cpp:208
+#: src/import/k9importfiles.cpp:181 src/import/k9importfiles.cpp:249
+#: src/main/k9copy.cpp:306 src/main/k9copy.cpp:446 src/main/k9settings.cpp:28
+msgid "Settings"
+msgstr "Параметри"
+
+#: src/assistant/k9assistant.cpp:110
+msgid "k9copy settings"
+msgstr "Параметри k9copy"
+
+#: src/assistant/k9assistant.cpp:148
+msgid "The destination of the copy isn't valid"
+msgstr "Вказано помилкову адресу призначення даних"
+
+#: src/assistant/k9assistant.cpp:165
+msgid "You must select at least on title !"
+msgstr "Вам слід позначити принаймні одну частину!"
+
+#: src/assistant/k9assistant.cpp:203
+msgid "cannot continue"
+msgstr "продовження неможливе"
+
+#: src/assistant/k9astdestination.cpp:36
+msgid "Save iso image"
+msgstr "Зберегти образ ISO"
+
+#: src/assistant/k9astdestination.cpp:83 src/core/k9dvd.cpp:219
+#: src/core/k9dvd.cpp:227 src/core/k9dvd.cpp:235 src/core/k9dvd.cpp:406
+#: src/main/k9main.cpp:496 src/main/k9main.cpp:1502
+msgid "unknown"
+msgstr "невідомо"
+
+#: src/assistant/k9astsource.cpp:33
+msgid "Open ISO image"
+msgstr "Відкрити образ ISO"
+
+#: src/assistant/k9aststreams.cpp:52
+msgid "%4 - %1 %2 %3 ch"
+msgstr "%4 — %1 %2 %3-канальний"
+
+#: src/assistant/k9aststreams.cpp:63
+msgid "%3 - %1 %2"
+msgstr "%3 — %1 %2"
+
+#: src/assistant/k9asttitles.cpp:258 src/backup/k9mp4enc.cpp:302
+#: src/backup/k9mp4enc.cpp:304 src/backup/k9mp4enc.cpp:364
+#: src/backup/k9mp4enc.cpp:793 src/main/k9main.cpp:521 src/main/k9main.cpp:651
+#: src/main/k9main.cpp:675 src/main/k9main.cpp:696 src/main/k9main.cpp:717
+#: src/main/k9mp4title.cpp:97 src/main/k9prefdvd.cpp:43
+#: src/main/k9prefmpeg4.cpp:36
+msgid "MB"
+msgstr "МБ"
+
+#: src/assistant/k9asttitles.cpp:279 src/assistant/k9asttitles.cpp:290
+#: src/import/k9import.cpp:180 src/import/k9import.cpp:195
+#: src/import/k9newtitle.cpp:164 src/import/k9newtitle.cpp:186
+#: src/main/k9main.cpp:592 src/main/k9main.cpp:610
+msgid "chapter %1"
+msgstr "розділ %1"
+
+#: src/assistant/k9asttitles.cpp:284 src/assistant/k9asttitles.cpp:294
+#: src/main/k9main.cpp:596 src/main/k9main.cpp:616 src/main/k9main.cpp:1449
+msgid "%1 MB"
+msgstr "%1 МБ"
+
+#: src/backup/k9backupdlg.cpp:69 src/backup/k9mp4dlg.cpp:44
+#: src/core/k9burnprogress.cpp:43 src/core/k9progress.cpp:40
+#: src/import/k9processlist.cpp:76
+msgid "Stop"
+msgstr "Зупинити"
+
+#: src/backup/k9dvdauthor.cpp:149 src/backup/k9dvdauthor.cpp:406
+msgid "'%1' not selected"
+msgstr "«%1» не позначено"
+
+#: src/backup/k9dvdauthor.cpp:150 src/backup/k9dvdauthor.cpp:407
+#: src/backup/k9dvdauthor.cpp:430 src/backup/k9dvdauthor.cpp:492
+#: src/backup/k9dvdauthor.cpp:501 src/backup/k9dvdauthor.cpp:506
+#: src/import/k9newdvd.cpp:132
+msgid "authoring"
+msgstr "обробка"
+
+#: src/backup/k9dvdauthor.cpp:430 src/backup/k9execcopy.cpp:196
+#: src/backup/k9mp4enc.cpp:143 src/backup/k9mp4enc.cpp:144
+#: src/backup/k9mp4enc.cpp:154 src/backup/k9mp4enc.cpp:155
+#: src/core/k9burndvd.cpp:255 src/core/k9burndvd.cpp:351
+#: src/mplayer/k9mplayer.cpp:156 src/mplayer/k9xine.cpp:143
+msgid "Unable to run %1"
+msgstr "Не вдалося виконати %1"
+
+#: src/backup/k9dvdauthor.cpp:448 src/backup/k9dvdauthor.cpp:535
+#: src/backup/k9dvdauthor.cpp:575 src/import/k9newdvd.cpp:153
+#: src/main/k9settings.cpp:57 src/main/k9settings.cpp:58
+msgid "Authoring"
+msgstr "Обробка"
+
+#: src/backup/k9dvdauthor.cpp:492
+msgid "Dvdauthor error :\n"
+msgstr "Помилка dvdauthor:\n"
+
+#: src/backup/k9dvdauthor.cpp:501
+msgid "Authoring cancelled"
+msgstr "Обробку скасовано"
+
+#: src/backup/k9dvdauthor.cpp:506 src/import/k9newdvd.cpp:146
+msgid "An error occured while running DVDAuthor:\n"
+msgstr "Під час спроби запуску DVDAuthor сталася помилка:\n"
+
+#: src/backup/k9dvdauthor.cpp:576
+msgid "Fixing VOBUS"
+msgstr "Виправлення VOBUS"
+
+#: src/backup/k9dvdbackup.cpp:160 src/backup/k9dvdbackup.cpp:174
+#: src/backup/k9dvdbackup.cpp:540 src/backup/k9dvdbackup.cpp:627
+msgid "DVD backup cancelled"
+msgstr "Створення резервної копії DVD скасовано"
+
+#: src/backup/k9dvdbackup.cpp:187
+msgid "unable to open VIDEO_TS.IFO"
+msgstr "не вдалося відкрити VIDEO_TS.IFO"
+
+#: src/backup/k9dvdbackup.cpp:209 src/backup/k9dvdbackup.cpp:392
+#: src/backup/k9dvdbackup.cpp:463
+msgid "Unable to open file "
+msgstr "Не вдалося відкрити файл "
+
+#: src/backup/k9dvdbackup.cpp:288
+msgid "Unable to open titleset %1"
+msgstr "Не вдалося відкрити набір частин %1"
+
+#: src/backup/k9dvdbackup.cpp:294 src/backup/k9dvdbackup.cpp:598
+msgid "Extracting titleset %1"
+msgstr "Видобування набору частин %1"
+
+#: src/backup/k9dvdbackup.cpp:470
+msgid "Unable to open menu for titleset %1"
+msgstr "Не вдалося відкрити меню набору частин %1"
+
+#: src/backup/k9dvdbackup.cpp:496
+msgid "Extracting menu for titleset %1"
+msgstr "Видобування меню набору частин %1"
+
+#: src/backup/k9dvdbackup.cpp:590
+msgid "Unable to open ifo file for titleset %1"
+msgstr "Не вдалося відкрити файл ifo набору частин %1"
+
+#: src/backup/k9dvdbackup.cpp:603 src/backup/k9dvdbackup.cpp:1748
+msgid "Unable to open DVD"
+msgstr "Не вдалося відкрити DVD"
+
+#: src/backup/k9dvdbackup.cpp:613
+msgid "Unable to open vobs for titleset %1"
+msgstr "Не вдалося відкрити файли VOB набору частин %1"
+
+#: src/backup/k9dvdbackup.cpp:1442
+msgid "Updating vob %1"
+msgstr "Оновлення vob %1"
+
+#: src/backup/k9dvdbackup.cpp:1459
+msgid "DVD backup canceled"
+msgstr "Резервне копіювання DVD скасовано"
+
+#: src/backup/k9execcopy.cpp:45 src/backup/k9execcopy.cpp:142
+#: src/backup/k9execcopy.cpp:333 src/backup/k9execcopy.cpp:389
+msgid "DVD is not opened"
+msgstr "DVD не відкрито"
+
+#: src/backup/k9execcopy.cpp:45 src/backup/k9execcopy.cpp:78
+#: src/backup/k9execcopy.cpp:132
+msgid "DVD Copy"
+msgstr "Копіювання DVD"
+
+#: src/backup/k9execcopy.cpp:78
+msgid ""
+"Insufficient disk space on %1\n"
+"%2 MB expected."
+msgstr ""
+"На диску %1 недостатньо місця\n"
+"Потрібно %2 МБ."
+
+#: src/backup/k9execcopy.cpp:85
+msgid ""
+"Directory already exists.\n"
+"Please choose another location or rename the DVD title."
+msgstr ""
+"Каталог вже існує.\n"
+"Будь ласка, виберіть іншу адресу або іншу назву частини DVD."
+
+#: src/backup/k9execcopy.cpp:85
+msgid "Warning!"
+msgstr "Попередження!"
+
+#: src/backup/k9execcopy.cpp:132 src/backup/k9execcopy.cpp:380
+#: src/backup/k9execcopy.cpp:440
+msgid "Selected titles have been successfully extracted"
+msgstr "Позначені частини було успішно видобуто"
+
+#: src/backup/k9execcopy.cpp:142 src/backup/k9execcopy.cpp:333
+#: src/main/k9settings.cpp:47 src/player/k9play.cpp:86
+msgid "MPEG-4 Encoding"
+msgstr "Кодування MPEG-4"
+
+#: src/backup/k9execcopy.cpp:160 src/backup/k9execcopy.cpp:351
+#: src/backup/k9execcopy.cpp:407 src/backup/k9mp4enc.cpp:291
+msgid "Save file to disk"
+msgstr "Зберегти файл на диск"
+
+#: src/backup/k9execcopy.cpp:196 src/backup/k9mp4enc.cpp:128
+#: src/backup/k9mp4enc.cpp:137 src/backup/k9mp4enc.cpp:144
+#: src/backup/k9mp4enc.cpp:155 src/backup/k9mp4enc.cpp:442
+msgid "Encoding error"
+msgstr "Помилка кодування"
+
+#: src/backup/k9execcopy.cpp:217
+msgid "Selected titles have been successfully encoded"
+msgstr "Позначені частини було успішно закодовано"
+
+#: src/backup/k9execcopy.cpp:312
+msgid "Muxing Matroska file"
+msgstr "Створення файла Matroska"
+
+#: src/backup/k9execcopy.cpp:325
+msgid "An error occured while running mkvmerge"
+msgstr "Під час спроби запуску mkvmerge сталася помилка"
+
+#: src/backup/k9execcopy.cpp:325
+msgid "Muxing Matroska"
+msgstr "Створення Matroska"
+
+#: src/backup/k9execcopy.cpp:389
+msgid "Audio Extraction"
+msgstr "Видобування звукових даних"
+
+#: src/backup/k9execcopy.h:24
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: src/backup/k9mp4enc.cpp:127 src/backup/k9mp4enc.cpp:128
+msgid "Audio extraction can only be done with ffmpeg"
+msgstr "Видобування звукових даних можна виконувати лише за допомогою ffmpeg"
+
+#: src/backup/k9mp4enc.cpp:136 src/backup/k9mp4enc.cpp:137
+msgid "Matroska encoding can only be done with ffmpeg"
+msgstr "Кодування у форматі Matroska можна виконувати лише за допомогою ffmpeg"
+
+#: src/backup/k9mp4enc.cpp:167
+msgid "Starting extraction of %1, chapters %2"
+msgstr "Розпочинаємо видобування %1, розділів: %2"
+
+#: src/backup/k9mp4enc.cpp:169
+msgid "Starting encoding of %1, chapters %2"
+msgstr "Розпочинаємо кодування %1, розділів: %2"
+
+#: src/backup/k9mp4enc.cpp:170
+msgid "source : %1"
+msgstr "джерело: %1"
+
+#: src/backup/k9mp4enc.cpp:171
+msgid "destination : %1"
+msgstr "призначення: %1"
+
+#: src/backup/k9mp4enc.cpp:172
+msgid "disk cache : %1"
+msgstr "дисковий кеш: %1"
+
+#: src/backup/k9mp4enc.cpp:172
+msgid "activated"
+msgstr "увімкнено"
+
+#: src/backup/k9mp4enc.cpp:172
+msgid "disabled"
+msgstr "вимкнено"
+
+#: src/backup/k9mp4enc.cpp:193
+msgid "audio bitrate : %1"
+msgstr "бітова швидкість аудіо: %1"
+
+#: src/backup/k9mp4enc.cpp:196
+msgid "user defined video bitrate : %1"
+msgstr "визначена користувачем бітова швидкість відео: %1"
+
+#: src/backup/k9mp4enc.cpp:198
+msgid "calculated video bitrate : %1"
+msgstr "обчислена бітова швидкість відео: %1"
+
+#: src/backup/k9mp4enc.cpp:225
+msgid "starting pass %1 of %2"
+msgstr "початковий прохід %1 з %2"
+
+#: src/backup/k9mp4enc.cpp:493 src/backup/k9mp4enc.cpp:557
+#: src/backup/k9mp4enc.cpp:559 src/backup/k9mp4enc.cpp:676
+#: src/backup/k9mp4enc.cpp:678 src/import/k9newdvd.cpp:277
+msgid "Encoding %1"
+msgstr "Кодування %1"
+
+#: src/backup/k9mp4enc.cpp:505 src/backup/k9mp4enc.cpp:626
+#: src/backup/k9mp4enc.cpp:733 src/core/k9burndvd.cpp:230
+#: src/core/k9burndvd.cpp:250 src/core/k9burndvd.cpp:345
+msgid "starting thread : %1"
+msgstr "розпочато гілку: %1"
+
+#: src/backup/k9mp4enc.cpp:557 src/backup/k9mp4enc.cpp:676
+msgid "pass %1"
+msgstr "прохід %1"
+
+#: src/backup/k9mp4enc.cpp:741
+msgid "cancel requested"
+msgstr "надійшов запит щодо скасування"
+
+#: src/backup/k9mp4enc.cpp:883 src/backup/k9mp4enc.cpp:908
+msgid "An error occured while encoding the %1 stream"
+msgstr "Під час кодування даних %1 сталася помилка"
+
+#: src/backup/k9mp4enc.cpp:883
+msgid "audio"
+msgstr "звук"
+
+#: src/core/k9burndvd.cpp:148
+msgid "image size : %1"
+msgstr "розмір образу: %1"
+
+#: src/core/k9burndvd.cpp:200 src/core/k9burndvd.cpp:201
+#: src/core/k9burndvd.cpp:288 src/core/k9burndvd.cpp:289
+#: src/core/k9burndvd.cpp:407
+msgid "Burning DVD"
+msgstr "Запис DVD"
+
+#: src/core/k9burndvd.cpp:212 src/core/k9burndvd.cpp:317
+#: src/import/k9import.cpp:297
+msgid "Save image to disk"
+msgstr "Збереження образу на диск"
+
+#: src/core/k9burndvd.cpp:228
+msgid "computing image size"
+msgstr "обчислення розміру образу"
+
+#: src/core/k9burndvd.cpp:239 src/core/k9burndvd.cpp:241
+#: src/core/k9burndvd.cpp:255 src/core/k9burndvd.cpp:263
+#: src/core/k9burndvd.cpp:273 src/core/k9burndvd.cpp:275
+#: src/core/k9burndvd.cpp:337 src/core/k9burndvd.cpp:339
+#: src/core/k9burndvd.cpp:351 src/core/k9burndvd.cpp:360
+#: src/core/k9burndvd.cpp:369 src/core/k9burndvd.cpp:371
+msgid "DVD burning"
+msgstr "Запис DVD"
+
+#: src/core/k9burndvd.cpp:239 src/core/k9burndvd.cpp:241
+#: src/core/k9burndvd.cpp:335
+msgid "Insert a recordable DVD"
+msgstr "Вставте придатний до запису DVD"
+
+#: src/core/k9burndvd.cpp:249 src/core/k9burndvd.cpp:344
+msgid "start burning"
+msgstr "почати запис"
+
+#: src/core/k9burndvd.cpp:254 src/core/k9burndvd.cpp:266
+#: src/core/k9burndvd.cpp:349 src/core/k9burndvd.cpp:364
+msgid "Error"
+msgstr "Помилка"
+
+#: src/core/k9burndvd.cpp:255 src/core/k9burndvd.cpp:351
+msgid "Error burning DVD :\n"
+msgstr "Помилка запису DVD:\n"
+
+#: src/core/k9burndvd.cpp:261 src/core/k9burndvd.cpp:356
+msgid "Success"
+msgstr "Успіх"
+
+#: src/core/k9burndvd.cpp:263 src/core/k9burndvd.cpp:360
+msgid "DVD Burning finished"
+msgstr "Запис DVD завершено"
+
+#: src/core/k9burndvd.cpp:271 src/core/k9burndvd.cpp:367
+msgid "An error occured while Burning DVD"
+msgstr "Під час спроби запису DVD сталася помилка"
+
+#: src/core/k9burndvd.cpp:271 src/core/k9burndvd.cpp:367
+msgid "Insert an other DVD"
+msgstr "Вставте інший DVD"
+
+#: src/core/k9burndvd.cpp:408
+msgid "Current write speed :%1 x"
+msgstr "Поточна швидкість запису :%1x"
+
+#: src/core/k9burndvd.cpp:428
+msgid "%1"
+msgstr "%1"
+
+#: src/core/k9dialogs.cpp:68
+msgid "select a directory"
+msgstr "вкажіть каталог"
+
+#: src/core/k9dvd.cpp:147
+msgid "for visually impaired"
+msgstr "для тих, що мають вади зору"
+
+#: src/core/k9dvd.cpp:148
+msgid "director's comments"
+msgstr "коментарі режисера"
+
+#: src/core/k9dvd.cpp:149
+msgid "alternate director's comments"
+msgstr "альтернативні коментарі режисера"
+
+#: src/core/k9dvd.cpp:153
+msgid "Large"
+msgstr "Для дорослих"
+
+#: src/core/k9dvd.cpp:154
+msgid "Children"
+msgstr "Для дітей"
+
+#: src/core/k9dvd.cpp:155 src/core/k9dvd.cpp:161 src/core/k9dvd.cpp:162
+#: src/core/k9dvd.cpp:163
+msgid "reserved"
+msgstr "зарезервовано"
+
+#: src/core/k9dvd.cpp:156
+msgid "Normal captions"
+msgstr "Звичайні підписи"
+
+#: src/core/k9dvd.cpp:157
+msgid "Large captions"
+msgstr "Великі підписи"
+
+#: src/core/k9dvd.cpp:158
+msgid "Children captions"
+msgstr "Підписи для дітей"
+
+#: src/core/k9dvd.cpp:160
+msgid "Forced"
+msgstr "Примусово"
+
+#: src/core/k9dvd.cpp:164
+msgid "Director's comments"
+msgstr "Коментарі режисера"
+
+#: src/core/k9dvd.cpp:165
+msgid "Large director's comments"
+msgstr "Великі коментарі режисера"
+
+#: src/core/k9dvd.cpp:166
+msgid "Director's comments for children"
+msgstr "Коментарі режисера для дітей"
+
+#: src/core/k9dvd.cpp:217
+msgid "Couldn't open %1 for title\n"
+msgstr "Не вдалося відкрити %1 для частини\n"
+
+#: src/core/k9dvd.cpp:225
+msgid "Couldn't seek in %1 for title\n"
+msgstr "Не вдалося виконати позиціювання на %1 для частини\n"
+
+#: src/core/k9dvd.cpp:251
+msgid "Not Specified"
+msgstr "не вказано"
+
+#: src/core/k9dvd.cpp:251
+msgid "Afar"
+msgstr "афар"
+
+#: src/core/k9dvd.cpp:251
+msgid "Abkhazian"
+msgstr "абхазька"
+
+#: src/core/k9dvd.cpp:251
+msgid "Afrikaans"
+msgstr "африкаанс"
+
+#: src/core/k9dvd.cpp:251
+msgid "Amharic"
+msgstr "амхарська"
+
+#: src/core/k9dvd.cpp:252
+msgid "Arabic"
+msgstr "арабська"
+
+#: src/core/k9dvd.cpp:252
+msgid "Assamese"
+msgstr "ассамська"
+
+#: src/core/k9dvd.cpp:252
+msgid "Aymara"
+msgstr "аймарська"
+
+#: src/core/k9dvd.cpp:252
+msgid "Azerbaijani"
+msgstr "азербайджанська"
+
+#: src/core/k9dvd.cpp:252
+msgid "Bashkir"
+msgstr "башкирська"
+
+#: src/core/k9dvd.cpp:253
+msgid "Byelorussian"
+msgstr "білоруська"
+
+#: src/core/k9dvd.cpp:253
+msgid "Bulgarian"
+msgstr "болгарська"
+
+#: src/core/k9dvd.cpp:253
+msgid "Bihari"
+msgstr "біхарі"
+
+#: src/core/k9dvd.cpp:253
+msgid "Bislama"
+msgstr "біслама"
+
+#: src/core/k9dvd.cpp:253
+msgid "Bengali; Bangla"
+msgstr "бенгалі (бангла)"
+
+#: src/core/k9dvd.cpp:254
+msgid "Tibetan"
+msgstr "тибетська"
+
+#: src/core/k9dvd.cpp:254
+msgid "Breton"
+msgstr "бретонська"
+
+#: src/core/k9dvd.cpp:254
+msgid "Catalan"
+msgstr "каталонська"
+
+#: src/core/k9dvd.cpp:254
+msgid "Corsican"
+msgstr "корсиканська"
+
+#: src/core/k9dvd.cpp:254
+msgid "Czech"
+msgstr "чеська"
+
+#: src/core/k9dvd.cpp:255
+msgid "Welsh"
+msgstr "валійська"
+
+#: src/core/k9dvd.cpp:255
+msgid "Dansk"
+msgstr "данська"
+
+#: src/core/k9dvd.cpp:255
+msgid "Deutsch"
+msgstr "німецька"
+
+#: src/core/k9dvd.cpp:255
+msgid "Bhutani"
+msgstr "бутанська"
+
+#: src/core/k9dvd.cpp:255
+msgid "Greek"
+msgstr "грецька"
+
+#: src/core/k9dvd.cpp:255
+msgid "English"
+msgstr "англійська"
+
+#: src/core/k9dvd.cpp:256
+msgid "Esperanto"
+msgstr "есперанто"
+
+#: src/core/k9dvd.cpp:256
+msgid "Espanol"
+msgstr "іспанська"
+
+#: src/core/k9dvd.cpp:256
+msgid "Estonian"
+msgstr "естонська"
+
+#: src/core/k9dvd.cpp:256
+msgid "Basque"
+msgstr "баскська"
+
+#: src/core/k9dvd.cpp:256
+msgid "Persian"
+msgstr "перська"
+
+#: src/core/k9dvd.cpp:257
+msgid "Suomi"
+msgstr "фінська"
+
+#: src/core/k9dvd.cpp:257
+msgid "Fiji"
+msgstr "фіджийська"
+
+#: src/core/k9dvd.cpp:257
+msgid "Faroese"
+msgstr "фарерська"
+
+#: src/core/k9dvd.cpp:257
+msgid "Francais"
+msgstr "французька"
+
+#: src/core/k9dvd.cpp:257
+msgid "Frisian"
+msgstr "фризька"
+
+#: src/core/k9dvd.cpp:257
+msgid "Gaelic"
+msgstr "гаельська"
+
+#: src/core/k9dvd.cpp:258
+msgid "Scots Gaelic"
+msgstr "шотландська гаельська"
+
+#: src/core/k9dvd.cpp:258
+msgid "Galician"
+msgstr "галісійська"
+
+#: src/core/k9dvd.cpp:258
+msgid "Guarani"
+msgstr "гуарані"
+
+#: src/core/k9dvd.cpp:258
+msgid "Gujarati"
+msgstr "гуджараті"
+
+#: src/core/k9dvd.cpp:258
+msgid "Hausa"
+msgstr "хауса"
+
+#: src/core/k9dvd.cpp:259 src/core/k9dvd.cpp:261
+msgid "Hebrew"
+msgstr "іврит"
+
+#: src/core/k9dvd.cpp:259
+msgid "Hindi"
+msgstr "хінді"
+
+#: src/core/k9dvd.cpp:259
+msgid "Hrvatski"
+msgstr "хорватська"
+
+#: src/core/k9dvd.cpp:259
+msgid "Magyar"
+msgstr "угорська"
+
+#: src/core/k9dvd.cpp:259
+msgid "Armenian"
+msgstr "вірменська"
+
+#: src/core/k9dvd.cpp:260
+msgid "Interlingua"
+msgstr "інтерлінгва"
+
+#: src/core/k9dvd.cpp:260
+msgid "Indonesian"
+msgstr "індонезійська"
+
+#: src/core/k9dvd.cpp:260
+msgid "Interlingue"
+msgstr "окциденталь"
+
+#: src/core/k9dvd.cpp:260
+msgid "Inupiak"
+msgstr "інупіак"
+
+#: src/core/k9dvd.cpp:261
+msgid "Islenska"
+msgstr "ісландська"
+
+#: src/core/k9dvd.cpp:261
+msgid "Italiano"
+msgstr "італійська"
+
+#: src/core/k9dvd.cpp:261
+msgid "Inuktitut"
+msgstr "інуктітут"
+
+#: src/core/k9dvd.cpp:261
+msgid "Japanese"
+msgstr "японська"
+
+#: src/core/k9dvd.cpp:262 src/core/k9dvd.cpp:277
+msgid "Yiddish"
+msgstr "ідиш"
+
+#: src/core/k9dvd.cpp:262
+msgid "Javanese"
+msgstr "яванська"
+
+#: src/core/k9dvd.cpp:262
+msgid "Georgian"
+msgstr "грузинська"
+
+#: src/core/k9dvd.cpp:262
+msgid "Kazakh"
+msgstr "казахська"
+
+#: src/core/k9dvd.cpp:262
+msgid "Greenlandic"
+msgstr "гренландська"
+
+#: src/core/k9dvd.cpp:263
+msgid "Cambodian"
+msgstr "камбоджийська"
+
+#: src/core/k9dvd.cpp:263
+msgid "Kannada"
+msgstr "каннада"
+
+#: src/core/k9dvd.cpp:263
+msgid "Korean"
+msgstr "корейська"
+
+#: src/core/k9dvd.cpp:263
+msgid "Kashmiri"
+msgstr "кашмірська"
+
+#: src/core/k9dvd.cpp:263
+msgid "Kurdish"
+msgstr "курдська"
+
+#: src/core/k9dvd.cpp:264
+msgid "Kirghiz"
+msgstr "киргизька"
+
+#: src/core/k9dvd.cpp:264
+msgid "Latin"
+msgstr "латинська"
+
+#: src/core/k9dvd.cpp:264
+msgid "Lingala"
+msgstr "лінгала"
+
+#: src/core/k9dvd.cpp:264
+msgid "Laothian"
+msgstr "лаоська"
+
+#: src/core/k9dvd.cpp:264
+msgid "Lithuanian"
+msgstr "литовська"
+
+#: src/core/k9dvd.cpp:265
+msgid "Latvian, Lettish"
+msgstr "латвійська"
+
+#: src/core/k9dvd.cpp:265
+msgid "Malagasy"
+msgstr "малагасійська"
+
+#: src/core/k9dvd.cpp:265
+msgid "Maori"
+msgstr "маорійська"
+
+#: src/core/k9dvd.cpp:265
+msgid "Macedonian"
+msgstr "македонська"
+
+#: src/core/k9dvd.cpp:265
+msgid "Malayalam"
+msgstr "малаялам"
+
+#: src/core/k9dvd.cpp:266
+msgid "Mongolian"
+msgstr "монгольська"
+
+#: src/core/k9dvd.cpp:266
+msgid "Moldavian"
+msgstr "молдавська"
+
+#: src/core/k9dvd.cpp:266
+msgid "Marathi"
+msgstr "мараті"
+
+#: src/core/k9dvd.cpp:266
+msgid "Malay"
+msgstr "малайська"
+
+#: src/core/k9dvd.cpp:266
+msgid "Maltese"
+msgstr "мальтійська"
+
+#: src/core/k9dvd.cpp:267
+msgid "Burmese"
+msgstr "бірманська"
+
+#: src/core/k9dvd.cpp:267
+msgid "Nauru"
+msgstr "науру"
+
+#: src/core/k9dvd.cpp:267
+msgid "Nepali"
+msgstr "непальська"
+
+#: src/core/k9dvd.cpp:267
+msgid "Nederlands"
+msgstr "голландська"
+
+#: src/core/k9dvd.cpp:267
+msgid "Norsk"
+msgstr "норвезька"
+
+#: src/core/k9dvd.cpp:267
+msgid "Occitan"
+msgstr "окситанська"
+
+#: src/core/k9dvd.cpp:268
+msgid "Oromo"
+msgstr "оромо"
+
+#: src/core/k9dvd.cpp:268
+msgid "Oriya"
+msgstr "орія"
+
+#: src/core/k9dvd.cpp:268
+msgid "Punjabi"
+msgstr "пенджабі"
+
+#: src/core/k9dvd.cpp:268
+msgid "Polish"
+msgstr "польська"
+
+#: src/core/k9dvd.cpp:268
+msgid "Pashto, Pushto"
+msgstr "пушту"
+
+#: src/core/k9dvd.cpp:269
+msgid "Portugues"
+msgstr "португальська"
+
+#: src/core/k9dvd.cpp:269
+msgid "Quechua"
+msgstr "кечуа"
+
+#: src/core/k9dvd.cpp:269
+msgid "Rhaeto-Romance"
+msgstr "ретороманська"
+
+#: src/core/k9dvd.cpp:269
+msgid "Kirundi"
+msgstr "кірунді"
+
+#: src/core/k9dvd.cpp:269
+msgid "Romanian"
+msgstr "румунська"
+
+#: src/core/k9dvd.cpp:270
+msgid "Russian"
+msgstr "російська"
+
+#: src/core/k9dvd.cpp:270
+msgid "Kinyarwanda"
+msgstr "кіньяруанда"
+
+#: src/core/k9dvd.cpp:270
+msgid "Sanskrit"
+msgstr "санскрит"
+
+#: src/core/k9dvd.cpp:270
+msgid "Sindhi"
+msgstr "синдхі"
+
+#: src/core/k9dvd.cpp:270
+msgid "Sangho"
+msgstr "сангхо"
+
+#: src/core/k9dvd.cpp:271
+msgid "Serbo-Croatian"
+msgstr "сербо-хорватська"
+
+#: src/core/k9dvd.cpp:271
+msgid "Sinhalese"
+msgstr "сингальська"
+
+#: src/core/k9dvd.cpp:271
+msgid "Slovak"
+msgstr "словацька"
+
+#: src/core/k9dvd.cpp:271
+msgid "Slovenian"
+msgstr "словенська"
+
+#: src/core/k9dvd.cpp:271
+msgid "Samoan"
+msgstr "самоанська"
+
+#: src/core/k9dvd.cpp:272
+msgid "Shona"
+msgstr "шона"
+
+#: src/core/k9dvd.cpp:272
+msgid "Somali"
+msgstr "сомалійська"
+
+#: src/core/k9dvd.cpp:272
+msgid "Albanian"
+msgstr "албанська"
+
+#: src/core/k9dvd.cpp:272
+msgid "Serbian"
+msgstr "сербська"
+
+#: src/core/k9dvd.cpp:272
+msgid "Siswati"
+msgstr "сісваті"
+
+#: src/core/k9dvd.cpp:273
+msgid "Sesotho"
+msgstr "сесото"
+
+#: src/core/k9dvd.cpp:273
+msgid "Sundanese"
+msgstr "сунданська"
+
+#: src/core/k9dvd.cpp:273
+msgid "Svenska"
+msgstr "шведська"
+
+#: src/core/k9dvd.cpp:273
+msgid "Swahili"
+msgstr "суахілі"
+
+#: src/core/k9dvd.cpp:273
+msgid "Tamil"
+msgstr "тамільська"
+
+#: src/core/k9dvd.cpp:274
+msgid "Telugu"
+msgstr "телугу"
+
+#: src/core/k9dvd.cpp:274
+msgid "Tajik"
+msgstr "таджицька"
+
+#: src/core/k9dvd.cpp:274
+msgid "Thai"
+msgstr "таїландська"
+
+#: src/core/k9dvd.cpp:274
+msgid "Tigrinya"
+msgstr "тигринійська"
+
+#: src/core/k9dvd.cpp:274
+msgid "Turkmen"
+msgstr "туркменська"
+
+#: src/core/k9dvd.cpp:274
+msgid "Tagalog"
+msgstr "тагалог"
+
+#: src/core/k9dvd.cpp:275
+msgid "Setswana"
+msgstr "сетсвана"
+
+#: src/core/k9dvd.cpp:275
+msgid "Tonga"
+msgstr "тонга"
+
+#: src/core/k9dvd.cpp:275
+msgid "Turkish"
+msgstr "турецька"
+
+#: src/core/k9dvd.cpp:275
+msgid "Tsonga"
+msgstr "цонга"
+
+#: src/core/k9dvd.cpp:275
+msgid "Tatar"
+msgstr "татарська"
+
+#: src/core/k9dvd.cpp:275
+msgid "Twi"
+msgstr "тві"
+
+#: src/core/k9dvd.cpp:276
+msgid "Uighur"
+msgstr "уйгурська"
+
+#: src/core/k9dvd.cpp:276
+msgid "Ukrainian"
+msgstr "українська"
+
+#: src/core/k9dvd.cpp:276
+msgid "Urdu"
+msgstr "урду"
+
+#: src/core/k9dvd.cpp:276
+msgid "Uzbek"
+msgstr "узбецька"
+
+#: src/core/k9dvd.cpp:276
+msgid "Vietnamese"
+msgstr "в'єтнамська"
+
+#: src/core/k9dvd.cpp:277
+msgid "Volapuk"
+msgstr "воляпюк"
+
+#: src/core/k9dvd.cpp:277
+msgid "Wolof"
+msgstr "волоф"
+
+#: src/core/k9dvd.cpp:277
+msgid "Xhosa"
+msgstr "хоза"
+
+#: src/core/k9dvd.cpp:277
+msgid "Yoruba"
+msgstr "йоруба"
+
+#: src/core/k9dvd.cpp:277
+msgid "Zhuang"
+msgstr "чжуань"
+
+#: src/core/k9dvd.cpp:278
+msgid "Chinese"
+msgstr "китайська"
+
+#: src/core/k9dvd.cpp:278
+msgid "Zulu"
+msgstr "зулуська"
+
+#: src/core/k9dvd.cpp:278 src/core/k9dvd.cpp:290 src/core/k9dvd.cpp:516
+msgid "Unknown"
+msgstr "невідомий"
+
+#: src/core/k9dvd.cpp:380 src/core/k9dvd.cpp:414
+msgid "Can't open disc %1!\n"
+msgstr "Не вдалося відкрити диск %1!\n"
+
+#: src/core/k9dvd.cpp:392
+msgid "Can't open main ifo!\n"
+msgstr "Не вдалося відкрити основний файл ifo!\n"
+
+#: src/core/k9dvd.cpp:438 src/core/k9dvd.cpp:728
+msgid "Title %1"
+msgstr "частина %1"
+
+#: src/core/k9dvd.cpp:781
+msgid "reading title"
+msgstr "читання частини"
+
+#: src/core/k9dvd.cpp:898
+msgid "Error opening vobs for title %1\n"
+msgstr "Помилка під час спроби відкриття файлів VOB частини %1\n"
+
+#: src/core/k9dvd.cpp:909
+msgid "ERROR reading block %1\n"
+msgstr "ПОМИЛКА читання блоку %1\n"
+
+#: src/core/k9process.cpp:141 src/core/k9tools.cpp:88 src/core/k9tools.cpp:93
+#: src/import/k9menu.cpp:148
+msgid "Error starting program %1"
+msgstr "Помилка під час спроби запуску програми %1"
+
+#: src/core/k9process.cpp:141 src/core/k9tools.cpp:88 src/core/k9tools.cpp:93
+#: src/core/k9tools.cpp:117 src/import/k9menu.cpp:148
+msgid "Running program"
+msgstr "Виконання програми"
+
+#: src/core/k9tools.cpp:108
+msgid "Enter the root password"
+msgstr "Введіть пароль адміністратора"
+
+#: src/core/k9tools.cpp:117
+msgid "The root password is not valid"
+msgstr "Вказано помилковий пароль адміністратора"
+
+#: src/devices/k9cddrive.cpp:213
+msgid ""
+"The root password is needed to change the read ahead property of the dvd "
+"drive"
+msgstr ""
+"Для зміни параметрів читання DVD з випередженням потрібні адміністративні "
+"права доступу"
+
+#: src/import/k9avidecode.cpp:52 src/import/k9avidecode.cpp:55
+#: src/import/k9avidecode.cpp:59 src/import/k9avidecode.cpp:78
+#: src/vamps/k9ffmpeg.cpp:33 src/vamps/k9ffmpeg.cpp:37
+#: src/vamps/k9ffmpeg.cpp:46
+msgid "Cannot open then library %1"
+msgstr "Не вдалося відкрити бібліотеку %1"
+
+#: src/import/k9avidecode.cpp:135
+msgid "Couldn't open the file %1"
+msgstr "Не вдалося відкрити файл %1"
+
+#: src/import/k9avidecode.cpp:140
+msgid "Couldn't find stream information"
+msgstr "Не вдалося знайти дані"
+
+#: src/import/k9avidecode.cpp:153
+msgid "The file doesn't contain any video stream"
+msgstr "У файлі не міститься відеоданих"
+
+#: src/import/k9avidecode.cpp:164
+msgid "Unsupported codec"
+msgstr "Непідтримуваний кодек"
+
+#: src/import/k9avidecode.cpp:169
+msgid "Could'nt open the codec"
+msgstr "Не вдалося відкрити кодек"
+
+#: src/import/k9avidecode.cpp:180
+msgid "Unable to allocate memory for frames"
+msgstr "Не вдалося розмістити кадри у пам’яті"
+
+#: src/import/k9import.cpp:240 src/import/k9import.cpp:255
+msgid "remove"
+msgstr "вилучити"
+
+#: src/import/k9import.cpp:243
+msgid "add chapter"
+msgstr "додати розділ"
+
+#: src/import/k9importfiles.cpp:76 src/main/k9copy.cpp:280
+msgid "DVD Author"
+msgstr "DVD Author"
+
+#: src/import/k9importfiles.cpp:98
+msgid "Add Title"
+msgstr "Додати частину"
+
+#: src/import/k9importfiles.cpp:119
+msgid "Edit menu"
+msgstr "Редагувати меню"
+
+#: src/import/k9importfiles.cpp:160
+msgid "Create DVD"
+msgstr "Створити DVD"
+
+#: src/import/k9importfiles.cpp:173 src/main/k9copy.cpp:294
+msgid "&Options"
+msgstr "&Параметри"
+
+#: src/import/k9importfiles.cpp:175 src/main/k9copy.cpp:301
+msgid "&Quit"
+msgstr "Ви&йти"
+
+#: src/import/k9menuedit.cpp:284
+msgid "Title %1 Menu"
+msgstr "Меню частини %1"
+
+#: src/import/k9menuedit.cpp:293 src/import/k9menuedit.cpp:330
+msgid "Play Menu"
+msgstr "Меню відтворення"
+
+#: src/import/k9menuedit.cpp:295
+msgid "Play Title"
+msgstr "Відтворення частини"
+
+#: src/import/k9menuedit.cpp:301
+msgid "Play Root Menu"
+msgstr "Відтворення кореневого меню"
+
+#: src/import/k9menuedit.cpp:303
+msgid "Play Title Menu"
+msgstr "Відтворення меню частини"
+
+#: src/import/k9menuedit.cpp:308 src/import/k9menuedit.cpp:334
+msgid "Play Title %1"
+msgstr "Відтворення частини %1"
+
+#: src/import/k9newdvd.cpp:99
+msgid "Creating root menu"
+msgstr "Створення кореневого меню"
+
+#: src/import/k9newdvd.cpp:144
+msgid "The dvd authoring was canceled"
+msgstr "Створення DVD було скасовано"
+
+#: src/import/k9newdvd.cpp:170
+msgid "Creating menu for title %1"
+msgstr "Створення меню для частини %1"
+
+#: src/import/k9newdvd.cpp:482 src/import/k9newtitle.cpp:110
+msgid "title %1"
+msgstr "частина %1"
+
+#: src/main/k9copy.cpp:87 src/main/k9main.cpp:415 src/main/k9main.cpp:540
+#: src/main/k9main.cpp:1186 src/main/k9main.cpp:1195 src/main/k9main.cpp:1205
+msgid "Ready"
+msgstr "Готово"
+
+#: src/main/k9copy.cpp:160
+msgid "Shrink Factor"
+msgstr "Коефіцієнт стискання"
+
+#: src/main/k9copy.cpp:171
+msgid "MPEG4 Encoding Options"
+msgstr "Параметри кодування MPEG4"
+
+#: src/main/k9copy.cpp:268
+msgid "Copy"
+msgstr "Копіювати"
+
+#: src/main/k9copy.cpp:272
+msgid "Eject"
+msgstr "Виштовхнути"
+
+#: src/main/k9copy.cpp:276
+msgid "Wizard"
+msgstr "Майстер"
+
+#: src/main/k9copy.cpp:295
+msgid "&Help"
+msgstr "&Довідка"
+
+#: src/main/k9copy.cpp:296
+msgid "&Open"
+msgstr "&Відкрити"
+
+#: src/main/k9copy.cpp:315
+msgid "Style"
+msgstr "Стиль"
+
+#: src/main/k9copy.cpp:333
+msgid "About backlite"
+msgstr "Про backlite"
+
+#: src/main/k9copy.cpp:371
+msgid "Use Gtk Style"
+msgstr "Використовувати стиль Gtk"
+
+#: src/main/k9cropselect.cpp:47
+msgid "Crop selection"
+msgstr "Обрізати позначене"
+
+#: src/main/k9ffmpegcmdgen.cpp:130
+msgid "ffmpeg command generator"
+msgstr "Інструмент створення команд ffmpeg"
+
+#: src/main/k9main.cpp:491
+msgid "Open DVD"
+msgstr "Відкрити DVD"
+
+#: src/main/k9main.cpp:514
+msgid "Titleset %1"
+msgstr "Набір частин %1"
+
+#: src/main/k9main.cpp:585
+msgid "chapters"
+msgstr "розділи"
+
+#: src/main/k9main.cpp:669
+msgid "video %1 "
+msgstr "відео %1 "
+
+#: src/main/k9main.cpp:682
+msgid "audio %1 "
+msgstr "звук %1 "
+
+#: src/main/k9main.cpp:706
+msgid "subpicture %1 "
+msgstr "підзображення %1 "
+
+#: src/main/k9main.cpp:1360
+msgid "Open ISO Image"
+msgstr "Відкрити образ ISO"
+
+#: src/main/k9mencodercmdgen.cpp:78
+msgid "Audio Codec"
+msgstr "Аудіокодек"
+
+#: src/main/k9mencodercmdgen.cpp:94
+msgid "Video Codec"
+msgstr "Відеокодек"
+
+#: src/main/k9mencodercmdgen.cpp:113
+msgid "Filters"
+msgstr "Фільтри"
+
+#: src/main/k9mp4title.cpp:41 src/main/k9mp4title.cpp:176
+#: src/main/k9titlefactor.cpp:110
+msgid "Select a Title in the treeview..."
+msgstr "Виберіть частину у списку…"
+
+#: src/main/k9mp4title.cpp:72
+msgid "Crop detection"
+msgstr "Визначення обрізання"
+
+#: src/main/k9playbackoptions.cpp:130
+msgid "none"
+msgstr "немає"
+
+#: src/main/k9prefmencoder.cpp:171 src/main/k9prefmencoder.cpp:181
+#: src/main/k9prefmencoder.cpp:201 src/main/k9prefmencoder.cpp:209
+msgid "new profile"
+msgstr "новий профіль"
+
+#: src/main/k9settings.cpp:41
+msgid "Encoders"
+msgstr "Кодувальники"
+
+#: src/main/k9settings.cpp:42
+msgid "MPEG-4 Codecs"
+msgstr "Кодеки MPEG-4"
+
+#: src/main/k9settings.cpp:53
+msgid "Title preview"
+msgstr "Попередній перегляд частини"
+
+#: src/main/k9settings.cpp:62
+msgid "Paths"
+msgstr "Шляхи"
+
+#: src/main/k9settings.cpp:63
+msgid "Default paths"
+msgstr "Типові шляхи"
+
+#: src/main/k9settings.cpp:69
+msgid "Devices not detected by k9copy"
+msgstr "Пристрої, не виявлені k9copy"
+
+#: src/main/k9titlefactor.cpp:121
+msgid "Shrink Factor for %1"
+msgstr "Коефіцієнт стискання для %1"
+
+#: src/main/kviewmpeg2.cpp:82
+msgid "Title Preview"
+msgstr "Попередній перегляд частини"
+
+#: src/player/k9play.cpp:86
+msgid "MPEG-4 Encoding cancelled"
+msgstr "Кодування у MPEG-4 скасовано"
+
+#: src/player/k9play.cpp:356
+msgid "Error opening the DVD"
+msgstr "Помилка під час спроби відкриття DVD"
+
+#: src/player/k9play.cpp:364
+msgid "Error on dvdnav_set_readahead_flag: %1"
+msgstr "Помилка функції dvdnav_set_readahead_flag: %1"
+
+#: src/player/k9play.cpp:384
+msgid "Error on setting languages: %1"
+msgstr "Помилка під час спроби встановити мови: %1"
+
+#: src/player/k9play.cpp:393
+msgid "Error on dvdnav_set_PGC_positioning_flag: %1"
+msgstr "Помилка функції dvdnav_set_PGC_positioning_flag: %1"
+
+#: src/player/k9play.cpp:428
+msgid "Error getting next block: %1"
+msgstr "Помилка під час спроби отримання наступного блоку: %1"
+
+#: src/player/main.cpp:35 src/xine/main.cpp:34
+msgid "A KDE 4 Application"
+msgstr "Програма KDE 4"
+
+#: src/player/main.cpp:41 src/xine/main.cpp:41
+msgid "(C) 2007 Jean-Michel"
+msgstr "©Jean-Michel, 2007"
+
+#: src/player/main.cpp:42 src/xine/main.cpp:42
+msgid "Jean-Michel"
+msgstr "Jean-Michel"
+
+#: src/player/main.cpp:49
+msgid "no gui"
+msgstr "без графічного інтерфейсу"
+
+#: src/player/main.cpp:53
+msgid "play title to stdout"
+msgstr "відтворити частину до stdout"
+
+#: src/player/main.cpp:54
+msgid "start sector"
+msgstr "початковий сектор"
+
+#: src/player/main.cpp:55
+msgid "end sector"
+msgstr "кінцевий сектор"
+
+#: src/player/main.cpp:56
+msgid "list of audio streams"
+msgstr "список звукових потоків"
+
+#: src/player/main.cpp:57
+msgid "list of spu streams"
+msgstr "список потоків spu"
+
+#: src/player/main.cpp:58
+msgid "shrink factor"
+msgstr "коефіцієнт стискання"
+
+#: src/player/main.cpp:59
+msgid "shrink factor forced"
+msgstr "примусовий коефіцієнт стискання"
+
+#: src/player/main.cpp:60
+msgid "size of the cell to be copied"
+msgstr "розмір комірки, яку слід скопіювати"
+
+#: src/player/main.cpp:61
+msgid "total size of selected titles"
+msgstr "загальний розмір позначених частин"
+
+#: src/player/main.cpp:62
+msgid "size of the chapters being copied"
+msgstr "розмір розділів, які копіюються"
+
+#: src/player/main.cpp:63
+msgid "selected chapters"
+msgstr "позначені розділи"
+
+#: src/player/main.cpp:64
+msgid "new dvd size"
+msgstr "розмір нового DVD"
+
+#: src/player/main.cpp:65
+msgid "selected chapter"
+msgstr "позначений розділ"
+
+#: src/player/main.cpp:66
+msgid "cell number in selected chapter"
+msgstr "кількість комірок у позначеному розділі"
+
+#: src/player/main.cpp:67
+msgid "status file name"
+msgstr "назва файла стану"
+
+#: src/player/main.cpp:68
+msgid "initialize status file"
+msgstr "започаткувати файл стану"
+
+#: src/player/main.cpp:69
+msgid "continue playing from last sector"
+msgstr "продовжити відтворення з останнього сектора"
+
+#: src/player/main.cpp:70
+msgid "don't save status at end"
+msgstr "не зберігати дані щодо стану наприкінці"
+
+#: src/player/main.cpp:71
+msgid "save cell in a temporary file before encoding"
+msgstr "зберегти дані комірки у тимчасовому файлі до кодування"
+
+#: src/vamps/k9ffmpeg.cpp:41
+msgid "Cannot open the library %1"
+msgstr "Не вдалося відкрити бібліотеку %1"
+
+#: src/xine/main.cpp:50
+msgid "wid"
+msgstr "wid"
+
+#: src/xine/main.cpp:51
+msgid "vo"
+msgstr "vo"
+
+#: src/xine/main.cpp:52
+msgid "ao"
+msgstr "ao"
+
+

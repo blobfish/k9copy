@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>prefMencoder</class>
+ <widget class="QWidget" name="prefMencoder">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form1</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_6">
+   <item row="1" column="0">
+    <widget class="QLabel" name="textLabel1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Available variables</string>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <spacer>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>121</width>
+       <height>21</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0">
+    <layout class="QGridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="textLabel2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>$PASS
+$WIDTH
+$HEIGHT
+$VIDBR
+$AUDBR
+$ASPECT</string>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="textLabel2_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>pass number
+video width
+video height
+video bitrate
+audio bitrate
+aspect ratio</string>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="1">
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QLabel" name="textLabel2_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>$CROPLEFT
+$CROPTOP
+$CROPRIGHT
+$CROPBOTTOM
+$CROPWIDTH
+$CROPHEIGHT</string>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="textLabel2_5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>left crop coord
+top crop coord
+size of right crop
+size of bottom crop
+crop width
+crop height</string>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="2">
+    <widget class="KPushButton" name="bReset">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="stdItem" stdset="0">
+      <number>21</number>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QTabWidget" name="tabWidget2">
+     <property name="tabPosition">
+      <enum>QTabWidget::West</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Video codecs</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0" rowspan="5">
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0" colspan="2">
+          <widget class="QComboBox" name="cbEncoderV">
+           <property name="editable">
+            <bool>false</bool>
+           </property>
+           <item>
+            <property name="text">
+             <string>mencoder</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ffmpeg</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QListWidget" name="lbvCodecs"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="KPushButton" name="btnAddV">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="stdItem" stdset="0">
+            <number>27</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="KPushButton" name="btnDeleteV">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="shortcut">
+            <string/>
+           </property>
+           <property name="stdItem" stdset="0">
+            <number>28</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="textLabel1_3">
+         <property name="text">
+          <string>label</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+         <property name="buddy">
+          <cstring>leVLabel</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLineEdit" name="leVLabel">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="textLabel2_3">
+         <property name="text">
+          <string>fourcc</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="leFourcc"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="textLabel1_2">
+         <property name="text">
+          <string>one pass</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <layout class="QGridLayout">
+         <item row="1" column="1">
+          <spacer>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>90</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="0" rowspan="2">
+          <widget class="QTextEdit" name="teOpt1">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QToolButton" name="btnOpt1">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>22</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>22</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="textLabel1_2_3">
+         <property name="text">
+          <string>first pass</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <layout class="QGridLayout">
+         <item row="0" column="0" rowspan="2">
+          <widget class="QTextEdit" name="teOpt2">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <spacer>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>81</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="1">
+          <widget class="QToolButton" name="btnOpt2">
+           <property name="minimumSize">
+            <size>
+             <width>22</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>22</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLabel" name="textLabel1_2_3_2">
+         <property name="text">
+          <string>second pass</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <layout class="QGridLayout">
+         <item row="0" column="0" rowspan="2">
+          <widget class="QTextEdit" name="teOpt3">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QToolButton" name="btnOpt3">
+           <property name="minimumSize">
+            <size>
+             <width>22</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>22</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <spacer>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>60</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Audio codecs</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0" rowspan="4">
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0" colspan="2">
+          <widget class="QComboBox" name="cbEncoderA">
+           <property name="editable">
+            <bool>false</bool>
+           </property>
+           <item>
+            <property name="text">
+             <string>mencoder</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ffmpeg</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QListWidget" name="lbaCodecs"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="KPushButton" name="btnAddA">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="stdItem" stdset="0">
+            <number>27</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="KPushButton" name="btnDeleteA">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="stdItem" stdset="0">
+            <number>28</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="textLabel3">
+         <property name="text">
+          <string>label</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+         <property name="buddy">
+          <cstring>leALabel</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLineEdit" name="leALabel"/>
+       </item>
+       <item row="1" column="2">
+        <layout class="QGridLayout">
+         <item row="1" column="1">
+          <spacer>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>78</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="1">
+          <widget class="QToolButton" name="btnOptA">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>22</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>22</width>
+             <height>22</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" rowspan="2">
+          <widget class="QTextEdit" name="teOptA"/>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="textLabel1_2_2_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>options</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>extension</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="leExtension"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>KPushButton</class>
+   <extends>QPushButton</extends>
+   <header>kpushbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>tabWidget2</tabstop>
+  <tabstop>cbEncoderV</tabstop>
+  <tabstop>lbvCodecs</tabstop>
+  <tabstop>btnAddV</tabstop>
+  <tabstop>btnDeleteV</tabstop>
+  <tabstop>leVLabel</tabstop>
+  <tabstop>leFourcc</tabstop>
+  <tabstop>teOpt1</tabstop>
+  <tabstop>btnOpt1</tabstop>
+  <tabstop>teOpt2</tabstop>
+  <tabstop>btnOpt2</tabstop>
+  <tabstop>teOpt3</tabstop>
+  <tabstop>btnOpt3</tabstop>
+  <tabstop>cbEncoderA</tabstop>
+  <tabstop>lbaCodecs</tabstop>
+  <tabstop>btnAddA</tabstop>
+  <tabstop>btnDeleteA</tabstop>
+  <tabstop>leALabel</tabstop>
+  <tabstop>teOptA</tabstop>
+  <tabstop>btnOptA</tabstop>
+  <tabstop>leExtension</tabstop>
+  <tabstop>bReset</tabstop>
+ </tabstops>
+ <includes>
+  <include location="local">kpushbutton.h</include>
+  <include location="local">kpushbutton.h</include>
+  <include location="local">kpushbutton.h</include>
+  <include location="local">kpushbutton.h</include>
+  <include location="local">kpushbutton.h</include>
+  <include location="local">kpushbutton.h</include>
+  <include location="local">kpushbutton.h</include>
+  <include location="local">kpushbutton.h</include>
+  <include location="local">kpushbutton.h</include>
+ </includes>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>lbvCodecs</sender>
+   <signal>currentItemChanged(QListWidgetItem*,QListWidgetItem*)</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>lbvCodecsCurrentChanged(QListWidgetItem*,QListWidgetItem*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>32</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>teOpt1</sender>
+   <signal>textChanged()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>teOpt1TextChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>198</x>
+     <y>93</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>teOpt2</sender>
+   <signal>textChanged()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>teOpt2TextChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>198</x>
+     <y>217</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leVLabel</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>leVLabelTextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>197</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>teOpt3</sender>
+   <signal>textChanged()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>teOpt3TextChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>198</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lbaCodecs</sender>
+   <signal>currentItemChanged(QListWidgetItem*,QListWidgetItem*)</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>lbaCodecsCurrentChanged(QListWidgetItem*,QListWidgetItem*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>32</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>teOptA</sender>
+   <signal>textChanged()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>teOptATextChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>175</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leALabel</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>leALabelTextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>174</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnOpt1</sender>
+   <signal>clicked()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>btnOpt1Clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>93</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnOpt2</sender>
+   <signal>clicked()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>btnOpt2Clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>217</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnOpt3</sender>
+   <signal>clicked()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>btnOpt3Clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnOptA</sender>
+   <signal>clicked()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>btnOptAClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnAddA</sender>
+   <signal>clicked()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>btnAddAClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>32</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnAddV</sender>
+   <signal>clicked()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>btnAddVClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>32</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnDeleteA</sender>
+   <signal>clicked()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>btnDeleteAClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnDeleteV</sender>
+   <signal>clicked()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>btnDeleteVClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leFourcc</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>leFourccTextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>197</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bReset</sender>
+   <signal>clicked()</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>bResetClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>647</x>
+     <y>534</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbEncoderA</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>cbEncoderATextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>412</x>
+     <y>447</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>335</x>
+     <y>293</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leExtension</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>leExtensionTextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>416</x>
+     <y>447</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>335</x>
+     <y>293</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbEncoderV</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>prefMencoder</receiver>
+   <slot>cbEncoderVTextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>424</x>
+     <y>447</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>335</x>
+     <y>293</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>cbEncoderATextChanged(QString)</slot>
+  <slot>leExtensionTextChanged(QString)</slot>
+  <slot>cbEncoderVTextChanged(QString)</slot>
+ </slots>
+</ui>

@@ -1,0 +1,2459 @@
+# traduzione di it.po in italian
+# traduzione di it.po in
+# translation of it.po to
+# translation of k9copy.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2006.
+#
+# FiNeX <finex@finex.org>, 2006, 2007.
+# Leonardo Finetti <finex@finex.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: it\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/tracker/?group_id=50231&atid=459007\n"
+"POT-Creation-Date: 2007-12-22 09:01+0100\n"
+"PO-Revision-Date: 2008-03-25 18:47+0100\n"
+"Last-Translator: Leonardo Finetti <finex@finex.org>\n"
+"Language-Team: italian <kde-i18n-it@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: lib/backup/k9dvdauthor.cpp:148 lib/backup/k9dvdauthor.cpp:395
+msgid "'%1' not selected"
+msgstr "'%1' non selezionato"
+
+#: lib/backup/k9dvdauthor.cpp:149 lib/backup/k9dvdauthor.cpp:396
+#: lib/backup/k9dvdauthor.cpp:419 lib/backup/k9dvdauthor.cpp:473
+#: lib/backup/k9dvdauthor.cpp:482 lib/backup/k9dvdauthor.cpp:485
+#: lib/core/k9burndvd.cpp:242 lib/core/k9burndvd.cpp:326
+#: lib/import/k9newdvd.cpp:123
+msgid "authoring"
+msgstr ""
+"authoring\n"
+"(creazione menù)"
+
+#: lib/backup/k9dvdauthor.cpp:419 lib/backup/k9mp4enc.cpp:107
+#: lib/core/k9burndvd.cpp:230 lib/core/k9burndvd.cpp:314
+#: lib/mplayer/k9mplayer.cpp:99
+msgid "Unable to run %1"
+msgstr "Impossibile eseguire %1"
+
+#: lib/backup/k9dvdauthor.cpp:432 lib/backup/k9dvdauthor.cpp:513
+#: lib/backup/k9dvdauthor.cpp:551 lib/import/k9newdvd.cpp:144
+msgid "Authoring"
+msgstr ""
+"Authoring\n"
+"(Creazione menù)"
+
+#. i18n: file ./lib/backup/backupdlg.ui line 41
+#: lib/backup/k9dvdauthor.cpp:433 po/rc.cpp:12 ui_backupdlg.h:239 rc.cpp:12
+#, no-c-format
+msgid "Backup progression"
+msgstr "Backup in corso"
+
+#: lib/backup/k9dvdauthor.cpp:473
+msgid "Dvdauthor error :\n"
+msgstr "Errore di Dvdauthor:\n"
+
+#: lib/backup/k9dvdauthor.cpp:482
+msgid "Authoring cancelled"
+msgstr "Autoring (Creazione dei menù) annullata"
+
+#: lib/backup/k9dvdauthor.cpp:485 lib/import/k9newdvd.cpp:137
+msgid "An error occured while running DVDAuthor:\n"
+msgstr "C'è stato un errore durante l'esecuzione di DVDAutor\n"
+
+#: lib/backup/k9dvdauthor.cpp:552
+msgid "Fixing VOBUS"
+msgstr "Riparazione VOBUS"
+
+#: lib/backup/k9dvdbackup.cpp:152 lib/backup/k9dvdbackup.cpp:166
+#: lib/backup/k9dvdbackup.cpp:518 lib/backup/k9dvdbackup.cpp:604
+msgid "DVD backup cancelled"
+msgstr "Backup del DVD annullato"
+
+#: lib/backup/k9dvdbackup.cpp:179
+msgid "unable to open VIDEO_TS.IFO"
+msgstr "Impossibile aprire VIDEO_TS.IFO"
+
+#: lib/backup/k9dvdbackup.cpp:201 lib/backup/k9dvdbackup.cpp:384
+#: lib/backup/k9dvdbackup.cpp:449
+msgid "Unable to open file "
+msgstr "Impossibile aprire il file"
+
+#: lib/backup/k9dvdbackup.cpp:280
+msgid "Unable to open titleset %1"
+msgstr "Impossibile aprire il contenuto del capitolo %1"
+
+#: lib/backup/k9dvdbackup.cpp:286 lib/backup/k9dvdbackup.cpp:576
+msgid "Extracting titleset %1"
+msgstr "Estrazione contenuto del capitolo %1 in corso"
+
+#: lib/backup/k9dvdbackup.cpp:456
+msgid "Unable to open menu for titleset %1"
+msgstr "Impossibile aprire il menù per il capitolo %1"
+
+#: lib/backup/k9dvdbackup.cpp:482
+msgid "Extracting menu for titleset %1"
+msgstr "Estrazione del menù contenuto nel capitolo %1"
+
+#: lib/backup/k9dvdbackup.cpp:568
+msgid "Unable to open ifo file for titleset %1"
+msgstr "Impossibile aprire il file ifo del capitolo %1"
+
+#: lib/backup/k9dvdbackup.cpp:580 lib/backup/k9dvdbackup.cpp:1701
+msgid "Unable to open DVD"
+msgstr "Impossibile aprire il DVD"
+
+#: lib/backup/k9dvdbackup.cpp:590
+msgid "Unable to open vobs for titleset %1"
+msgstr "Impossibile aprire i vob del capitolo %1"
+
+#: lib/backup/k9dvdbackup.cpp:1388
+msgid "Updating vob %1"
+msgstr "Aggiornamento vob %1"
+
+#: lib/backup/k9dvdbackup.cpp:1405
+msgid "DVD backup canceled"
+msgstr "Backup del DVD annullato"
+
+#: lib/backup/k9mp4enc.cpp:107 lib/backup/k9mp4enc.cpp:325
+msgid "Encoding error"
+msgstr "Errore durante la codifica"
+
+#: lib/backup/k9mp4enc.cpp:163 lib/main/k9main.cpp:1160
+msgid "Save file to disk"
+msgstr "Salva file sul disco"
+
+#: lib/backup/k9mp4enc.cpp:172 lib/backup/k9mp4enc.cpp:363
+#: lib/main/k9main.cpp:565 lib/main/k9main.cpp:679 lib/main/k9main.cpp:695
+#: lib/main/k9mp4title.cpp:50 lib/main/k9prefdvd.cpp:36
+#: lib/main/k9prefmpeg4.cpp:35
+msgid "MB"
+msgstr "MB"
+
+#: lib/backup/k9mp4enc.cpp:244 lib/backup/k9mp4enc.cpp:246
+#: lib/import/k9newdvd.cpp:252
+msgid "Encoding %1"
+msgstr "Codifica %1"
+
+#: lib/backup/k9mp4enc.cpp:244
+msgid "pass %1"
+msgstr "passaggio %1"
+
+#: lib/backup/k9mp4enc.cpp:322
+msgid "MPEG-4 Encoding cancelled"
+msgstr "Codifica MPEG-4 annullata"
+
+#: lib/backup/k9mp4enc.cpp:322 lib/main/k9main.cpp:1146
+#: lib/main/k9settings.cpp:44
+msgid "MPEG-4 Encoding"
+msgstr "Codifica MPEG4"
+
+#: lib/backup/k9mp4enc.cpp:325
+msgid "Error while running mencoder :"
+msgstr "C'è stato un errore nella esecuzione di mencoder:"
+
+#. i18n: file ./lib/main/k9mainwsov.ui line 76
+#. i18n: file ./lib/main/k9mainw.ui line 173
+#. i18n: file ./lib/main/k9mainwsov.ui line 76
+#. i18n: file ./lib/main/k9mainw.ui line 173
+#: lib/core/k9burndvd.cpp:175 lib/core/k9burndvd.cpp:283
+#: lib/import/k9import.cpp:209 lib/main/k9main.cpp:1353
+#: lib/main/k9playbackoptions.cpp:147 po/rc.cpp:250 po/rc.cpp:291
+#: ui_k9mainw.h:190 rc.cpp:250 rc.cpp:291
+#, no-c-format
+msgid "default"
+msgstr "predefinito"
+
+#: lib/core/k9burndvd.cpp:185 lib/core/k9burndvd.cpp:260
+msgid "Burning DVD"
+msgstr "Masterizza DVD"
+
+#: lib/core/k9burndvd.cpp:197 lib/core/k9burndvd.cpp:289
+#: lib/import/k9import.cpp:181 lib/main/k9main.cpp:379
+msgid "Save image to disk"
+msgstr "Salva l'immagine sul disco"
+
+#: lib/core/k9burndvd.cpp:220 lib/core/k9burndvd.cpp:307
+msgid "Insert a recordable DVD"
+msgstr "Inserisci un DVD scrivibile"
+
+#: lib/core/k9burndvd.cpp:220 lib/core/k9burndvd.cpp:230
+#: lib/core/k9burndvd.cpp:235 lib/core/k9burndvd.cpp:308
+#: lib/core/k9burndvd.cpp:314 lib/core/k9burndvd.cpp:319
+msgid "DVD burning"
+msgstr "Masterizzazione DVD in corso"
+
+#: lib/core/k9burndvd.cpp:230 lib/core/k9burndvd.cpp:314
+msgid "Error burning DVD :\n"
+msgstr "Errore durante la masterizzazione del DVD:\n"
+
+#: lib/core/k9burndvd.cpp:235 lib/core/k9burndvd.cpp:319
+msgid "DVD Burning finished"
+msgstr "Scrittura del DVD terminata"
+
+#: lib/core/k9burndvd.cpp:241 lib/core/k9burndvd.cpp:325
+msgid "An error occured while Burning DVD: %1"
+msgstr "C'è stato un errore nella masterizzazione del DVD: %1"
+
+#: lib/core/k9burndvd.cpp:241 lib/core/k9burndvd.cpp:325
+msgid "Insert an other DVD"
+msgstr "Inserisci un'altro DVD"
+
+#: lib/core/k9burndvd.cpp:354
+msgid "Current write speed :%1 x"
+msgstr "Velocità di scrittura attuale: %1 x"
+
+#: lib/core/k9dvd.cpp:133
+msgid "for visually impaired"
+msgstr "per chi ha difficoltà visive"
+
+#: lib/core/k9dvd.cpp:134
+msgid "director's comments"
+msgstr "commenti del regista"
+
+#: lib/core/k9dvd.cpp:135
+msgid "alternate director's comments"
+msgstr "commenti del regista alternativi"
+
+#: lib/core/k9dvd.cpp:139
+msgid "Large"
+msgstr "Largo"
+
+#: lib/core/k9dvd.cpp:140
+msgid "Children"
+msgstr "Figli"
+
+#: lib/core/k9dvd.cpp:141 lib/core/k9dvd.cpp:147 lib/core/k9dvd.cpp:148
+#: lib/core/k9dvd.cpp:149
+msgid "reserved"
+msgstr "riservato"
+
+#: lib/core/k9dvd.cpp:142
+msgid "Normal captions"
+msgstr "Didascalia normale"
+
+#: lib/core/k9dvd.cpp:143
+msgid "Large captions"
+msgstr "Didascalia larga"
+
+#: lib/core/k9dvd.cpp:144
+msgid "Children captions"
+msgstr "Didascalia figli"
+
+#: lib/core/k9dvd.cpp:146
+msgid "Forced"
+msgstr "Forzato"
+
+#: lib/core/k9dvd.cpp:150
+msgid "Director's comments"
+msgstr "Commenti del regista"
+
+#: lib/core/k9dvd.cpp:151
+msgid "Large director's comments"
+msgstr "Commenti del regista, larghi"
+
+#: lib/core/k9dvd.cpp:152
+msgid "Director's comments for children"
+msgstr "Commenti del registra per i figli"
+
+#: lib/core/k9dvd.cpp:202
+msgid "Couldn't open %1 for title\n"
+msgstr "Non posso aprire %1 per il titolo\n"
+
+#: lib/core/k9dvd.cpp:204 lib/core/k9dvd.cpp:212 lib/core/k9dvd.cpp:220
+#: lib/core/k9dvd.cpp:381 lib/main/k9main.cpp:536
+msgid "unknown"
+msgstr "sconosciuto"
+
+#: lib/core/k9dvd.cpp:210
+msgid "Couldn't seek in %1 for title\n"
+msgstr "Non posso cercare it %1 per il titolo\n"
+
+#: lib/core/k9dvd.cpp:237
+msgid "Not Specified"
+msgstr "Non specificato"
+
+#: lib/core/k9dvd.cpp:237
+msgid "Afar"
+msgstr "Afar"
+
+#: lib/core/k9dvd.cpp:237
+msgid "Abkhazian"
+msgstr "Abkhazian"
+
+#: lib/core/k9dvd.cpp:237
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: lib/core/k9dvd.cpp:237
+msgid "Amharic"
+msgstr "Amharic"
+
+#: lib/core/k9dvd.cpp:238
+msgid "Arabic"
+msgstr "Arabic"
+
+#: lib/core/k9dvd.cpp:238
+msgid "Assamese"
+msgstr "Assamese"
+
+#: lib/core/k9dvd.cpp:238
+msgid "Aymara"
+msgstr "Aymara"
+
+#: lib/core/k9dvd.cpp:238
+msgid "Azerbaijani"
+msgstr "Azerbaijani"
+
+#: lib/core/k9dvd.cpp:238
+msgid "Bashkir"
+msgstr "Bashkir"
+
+#: lib/core/k9dvd.cpp:239
+msgid "Byelorussian"
+msgstr "Byelorussian"
+
+#: lib/core/k9dvd.cpp:239
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: lib/core/k9dvd.cpp:239
+msgid "Bihari"
+msgstr "Bihari"
+
+#: lib/core/k9dvd.cpp:239
+msgid "Bislama"
+msgstr "Bislama"
+
+#: lib/core/k9dvd.cpp:239
+msgid "Bengali; Bangla"
+msgstr "Bengali; Bangla"
+
+#: lib/core/k9dvd.cpp:240
+msgid "Tibetan"
+msgstr "Tibetan"
+
+#: lib/core/k9dvd.cpp:240
+msgid "Breton"
+msgstr "Breton"
+
+#: lib/core/k9dvd.cpp:240
+msgid "Catalan"
+msgstr "Catalan"
+
+#: lib/core/k9dvd.cpp:240
+msgid "Corsican"
+msgstr "Corsican"
+
+#: lib/core/k9dvd.cpp:240
+msgid "Czech"
+msgstr "Czech"
+
+#: lib/core/k9dvd.cpp:241
+msgid "Welsh"
+msgstr "Welsh"
+
+#: lib/core/k9dvd.cpp:241
+msgid "Dansk"
+msgstr "Dansk"
+
+#: lib/core/k9dvd.cpp:241
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: lib/core/k9dvd.cpp:241
+msgid "Bhutani"
+msgstr "Bhutani"
+
+#: lib/core/k9dvd.cpp:241
+msgid "Greek"
+msgstr "Greek"
+
+#: lib/core/k9dvd.cpp:241
+msgid "English"
+msgstr "English"
+
+#: lib/core/k9dvd.cpp:242
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: lib/core/k9dvd.cpp:242
+msgid "Espanol"
+msgstr "Espanol"
+
+#: lib/core/k9dvd.cpp:242
+msgid "Estonian"
+msgstr "Estonian"
+
+#: lib/core/k9dvd.cpp:242
+msgid "Basque"
+msgstr "Basque"
+
+#: lib/core/k9dvd.cpp:242
+msgid "Persian"
+msgstr "Persian"
+
+#: lib/core/k9dvd.cpp:243
+msgid "Suomi"
+msgstr "Suomi"
+
+#: lib/core/k9dvd.cpp:243
+msgid "Fiji"
+msgstr "Fiji"
+
+#: lib/core/k9dvd.cpp:243
+msgid "Faroese"
+msgstr "Faroese"
+
+#: lib/core/k9dvd.cpp:243
+msgid "Francais"
+msgstr "Francais"
+
+#: lib/core/k9dvd.cpp:243
+msgid "Frisian"
+msgstr "Frisian"
+
+#: lib/core/k9dvd.cpp:243
+msgid "Gaelic"
+msgstr "Gaelic"
+
+#: lib/core/k9dvd.cpp:244
+msgid "Scots Gaelic"
+msgstr "Scots Gaelic"
+
+#: lib/core/k9dvd.cpp:244
+msgid "Galician"
+msgstr "Galician"
+
+#: lib/core/k9dvd.cpp:244
+msgid "Guarani"
+msgstr "Guarani"
+
+#: lib/core/k9dvd.cpp:244
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: lib/core/k9dvd.cpp:244
+msgid "Hausa"
+msgstr "Hausa"
+
+#: lib/core/k9dvd.cpp:245 lib/core/k9dvd.cpp:247
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: lib/core/k9dvd.cpp:245
+msgid "Hindi"
+msgstr "Hindi"
+
+#: lib/core/k9dvd.cpp:245
+msgid "Hrvatski"
+msgstr "Hrvatski"
+
+#: lib/core/k9dvd.cpp:245
+msgid "Magyar"
+msgstr "Magyar"
+
+#: lib/core/k9dvd.cpp:245
+msgid "Armenian"
+msgstr "Armenian"
+
+#: lib/core/k9dvd.cpp:246
+msgid "Interlingua"
+msgstr "Interlingua"
+
+#: lib/core/k9dvd.cpp:246
+msgid "Indonesian"
+msgstr "Indonesian"
+
+#: lib/core/k9dvd.cpp:246
+msgid "Interlingue"
+msgstr "Interlingue"
+
+#: lib/core/k9dvd.cpp:246
+msgid "Inupiak"
+msgstr "Inupiak"
+
+#: lib/core/k9dvd.cpp:247
+msgid "Islenska"
+msgstr "Islenska"
+
+#: lib/core/k9dvd.cpp:247
+msgid "Italiano"
+msgstr "Italiano"
+
+#: lib/core/k9dvd.cpp:247
+msgid "Inuktitut"
+msgstr "Inuktitut"
+
+#: lib/core/k9dvd.cpp:247
+msgid "Japanese"
+msgstr "Japanese"
+
+#: lib/core/k9dvd.cpp:248 lib/core/k9dvd.cpp:263
+msgid "Yiddish"
+msgstr "Yiddish"
+
+#: lib/core/k9dvd.cpp:248
+msgid "Javanese"
+msgstr "Javanese"
+
+#: lib/core/k9dvd.cpp:248
+msgid "Georgian"
+msgstr "Georgian"
+
+#: lib/core/k9dvd.cpp:248
+msgid "Kazakh"
+msgstr "Kazakh"
+
+#: lib/core/k9dvd.cpp:248
+msgid "Greenlandic"
+msgstr "Greenlandic"
+
+#: lib/core/k9dvd.cpp:249
+msgid "Cambodian"
+msgstr "Cambodian"
+
+#: lib/core/k9dvd.cpp:249
+msgid "Kannada"
+msgstr "Kannada"
+
+#: lib/core/k9dvd.cpp:249
+msgid "Korean"
+msgstr "Korean"
+
+#: lib/core/k9dvd.cpp:249
+msgid "Kashmiri"
+msgstr "Kashmiri"
+
+#: lib/core/k9dvd.cpp:249
+msgid "Kurdish"
+msgstr "Kurdish"
+
+#: lib/core/k9dvd.cpp:250
+msgid "Kirghiz"
+msgstr "Kirghiz"
+
+#: lib/core/k9dvd.cpp:250
+msgid "Latin"
+msgstr "Latin"
+
+#: lib/core/k9dvd.cpp:250
+msgid "Lingala"
+msgstr "Lingala"
+
+#: lib/core/k9dvd.cpp:250
+msgid "Laothian"
+msgstr "Laothian"
+
+#: lib/core/k9dvd.cpp:250
+msgid "Lithuanian"
+msgstr "Lithuanian"
+
+#: lib/core/k9dvd.cpp:251
+msgid "Latvian, Lettish"
+msgstr "Latvian, Lettish"
+
+#: lib/core/k9dvd.cpp:251
+msgid "Malagasy"
+msgstr "Malagasy"
+
+#: lib/core/k9dvd.cpp:251
+msgid "Maori"
+msgstr "Maori"
+
+#: lib/core/k9dvd.cpp:251
+msgid "Macedonian"
+msgstr "Macedonian"
+
+#: lib/core/k9dvd.cpp:251
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: lib/core/k9dvd.cpp:252
+msgid "Mongolian"
+msgstr "Mongolian"
+
+#: lib/core/k9dvd.cpp:252
+msgid "Moldavian"
+msgstr "Moldavian"
+
+#: lib/core/k9dvd.cpp:252
+msgid "Marathi"
+msgstr "Marathi"
+
+#: lib/core/k9dvd.cpp:252
+msgid "Malay"
+msgstr "Malay"
+
+#: lib/core/k9dvd.cpp:252
+msgid "Maltese"
+msgstr "Maltese"
+
+#: lib/core/k9dvd.cpp:253
+msgid "Burmese"
+msgstr "Burmese"
+
+#: lib/core/k9dvd.cpp:253
+msgid "Nauru"
+msgstr "Nauru"
+
+#: lib/core/k9dvd.cpp:253
+msgid "Nepali"
+msgstr "Nepali"
+
+#: lib/core/k9dvd.cpp:253
+msgid "Nederlands"
+msgstr "Nederlands"
+
+#: lib/core/k9dvd.cpp:253
+msgid "Norsk"
+msgstr "Norsk"
+
+#: lib/core/k9dvd.cpp:253
+msgid "Occitan"
+msgstr "Occitan"
+
+#: lib/core/k9dvd.cpp:254
+msgid "Oromo"
+msgstr "Oromo"
+
+#: lib/core/k9dvd.cpp:254
+msgid "Oriya"
+msgstr "Oriya"
+
+#: lib/core/k9dvd.cpp:254
+msgid "Punjabi"
+msgstr "Punjabi"
+
+#: lib/core/k9dvd.cpp:254
+msgid "Polish"
+msgstr "Polish"
+
+#: lib/core/k9dvd.cpp:254
+msgid "Pashto, Pushto"
+msgstr "Pashto, Pushto"
+
+#: lib/core/k9dvd.cpp:255
+msgid "Portugues"
+msgstr "Portugues"
+
+#: lib/core/k9dvd.cpp:255
+msgid "Quechua"
+msgstr "Quechua"
+
+#: lib/core/k9dvd.cpp:255
+msgid "Rhaeto-Romance"
+msgstr "Rhaeto-Romance"
+
+#: lib/core/k9dvd.cpp:255
+msgid "Kirundi"
+msgstr "Kirundi"
+
+#: lib/core/k9dvd.cpp:255
+msgid "Romanian"
+msgstr "Romanian"
+
+#: lib/core/k9dvd.cpp:256
+msgid "Russian"
+msgstr "Russian"
+
+#: lib/core/k9dvd.cpp:256
+msgid "Kinyarwanda"
+msgstr "Kinyarwanda"
+
+#: lib/core/k9dvd.cpp:256
+msgid "Sanskrit"
+msgstr "Sanskrit"
+
+#: lib/core/k9dvd.cpp:256
+msgid "Sindhi"
+msgstr "Sindhi"
+
+#: lib/core/k9dvd.cpp:256
+msgid "Sangho"
+msgstr "Sangho"
+
+#: lib/core/k9dvd.cpp:257
+msgid "Serbo-Croatian"
+msgstr "Serbo-Croatian"
+
+#: lib/core/k9dvd.cpp:257
+msgid "Sinhalese"
+msgstr "Sinhalese"
+
+#: lib/core/k9dvd.cpp:257
+msgid "Slovak"
+msgstr "Slovak"
+
+#: lib/core/k9dvd.cpp:257
+msgid "Slovenian"
+msgstr "Slovenian"
+
+#: lib/core/k9dvd.cpp:257
+msgid "Samoan"
+msgstr "Samoan"
+
+#: lib/core/k9dvd.cpp:258
+msgid "Shona"
+msgstr "Shona"
+
+#: lib/core/k9dvd.cpp:258
+msgid "Somali"
+msgstr "Somali"
+
+#: lib/core/k9dvd.cpp:258
+msgid "Albanian"
+msgstr "Albanian"
+
+#: lib/core/k9dvd.cpp:258
+msgid "Serbian"
+msgstr "Serbian"
+
+#: lib/core/k9dvd.cpp:258
+msgid "Siswati"
+msgstr "Siswati"
+
+#: lib/core/k9dvd.cpp:259
+msgid "Sesotho"
+msgstr "Sesotho"
+
+#: lib/core/k9dvd.cpp:259
+msgid "Sundanese"
+msgstr "Sundanese"
+
+#: lib/core/k9dvd.cpp:259
+msgid "Svenska"
+msgstr "Svenska"
+
+#: lib/core/k9dvd.cpp:259
+msgid "Swahili"
+msgstr "Swahili"
+
+#: lib/core/k9dvd.cpp:259
+msgid "Tamil"
+msgstr "Tamil"
+
+#: lib/core/k9dvd.cpp:260
+msgid "Telugu"
+msgstr "Telugu"
+
+#: lib/core/k9dvd.cpp:260
+msgid "Tajik"
+msgstr "Tajik"
+
+#: lib/core/k9dvd.cpp:260
+msgid "Thai"
+msgstr "Thai"
+
+#: lib/core/k9dvd.cpp:260
+msgid "Tigrinya"
+msgstr "Tigrinya"
+
+#: lib/core/k9dvd.cpp:260
+msgid "Turkmen"
+msgstr "Turkmen"
+
+#: lib/core/k9dvd.cpp:260
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: lib/core/k9dvd.cpp:261
+msgid "Setswana"
+msgstr "Setswana"
+
+#: lib/core/k9dvd.cpp:261
+msgid "Tonga"
+msgstr "Tonga"
+
+#: lib/core/k9dvd.cpp:261
+msgid "Turkish"
+msgstr "Turkish"
+
+#: lib/core/k9dvd.cpp:261
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#: lib/core/k9dvd.cpp:261
+msgid "Tatar"
+msgstr "Tatar"
+
+#: lib/core/k9dvd.cpp:261
+msgid "Twi"
+msgstr "Twi"
+
+#: lib/core/k9dvd.cpp:262
+msgid "Uighur"
+msgstr "Uighur"
+
+#: lib/core/k9dvd.cpp:262
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: lib/core/k9dvd.cpp:262
+msgid "Urdu"
+msgstr "Urdu"
+
+#: lib/core/k9dvd.cpp:262
+msgid "Uzbek"
+msgstr "Uzbek"
+
+#: lib/core/k9dvd.cpp:262
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: lib/core/k9dvd.cpp:263
+msgid "Volapuk"
+msgstr "Volapuk"
+
+#: lib/core/k9dvd.cpp:263
+msgid "Wolof"
+msgstr "Wolof"
+
+#: lib/core/k9dvd.cpp:263
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: lib/core/k9dvd.cpp:263
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#: lib/core/k9dvd.cpp:263
+msgid "Zhuang"
+msgstr "Zhuang"
+
+#: lib/core/k9dvd.cpp:264
+msgid "Chinese"
+msgstr "Chinese"
+
+#: lib/core/k9dvd.cpp:264
+msgid "Zulu"
+msgstr "Zulu"
+
+#: lib/core/k9dvd.cpp:264 lib/core/k9dvd.cpp:265 lib/core/k9dvd.cpp:488
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: lib/core/k9dvd.cpp:355
+msgid "Can't open disc %1!\n"
+msgstr "Non posso aprire il disco %1!\n"
+
+#: lib/core/k9dvd.cpp:367
+msgid "Can't open main ifo!\n"
+msgstr "Non posso aprire l'ifo principale!\n"
+
+#: lib/core/k9dvd.cpp:409 lib/core/k9dvd.cpp:706
+msgid "Title %1"
+msgstr "Titolo %1"
+
+#: lib/core/k9dvd.cpp:757
+msgid "reading title"
+msgstr "lettura del titolo in corso"
+
+#: lib/core/k9dvd.cpp:874
+msgid "Error opening vobs for title %1\n"
+msgstr "Errore di apertura dei vob per il titolo %1\n"
+
+#: lib/core/k9dvd.cpp:885
+msgid "ERROR reading block %1\n"
+msgstr "ERRORE nella lettura del blocco %1\n"
+
+#: lib/import/k9avidecode.cpp:31 lib/import/k9avidecode.cpp:35
+msgid "Cannot open the library %1"
+msgstr "Impossibile aprire la libreria %1"
+
+#: lib/import/k9avidecode.cpp:88
+msgid "Couldn't open the file %1"
+msgstr "Non posso aprire il file %1"
+
+#: lib/import/k9avidecode.cpp:93
+msgid "Couldn't find stream information"
+msgstr "Impossibile trovare le informazioni del flusso"
+
+#: lib/import/k9avidecode.cpp:106
+msgid "The file doesn't contain any video stream"
+msgstr "Il file non contiene nessun flusso video"
+
+#: lib/import/k9avidecode.cpp:117
+msgid "Unsupported codec"
+msgstr "Codec non supportato"
+
+#: lib/import/k9avidecode.cpp:122
+msgid "Couldn't open the codec"
+msgstr "Non posso aprire il codec"
+
+#: lib/import/k9avidecode.cpp:133
+msgid "Unable to allocate memory for frames"
+msgstr "Impossibile allocare memoria per i fotogrammi"
+
+#. i18n: file ./lib/import/menuEdit.ui line 171
+#: lib/import/k9import.cpp:50 lib/import/k9menuedit.cpp:298 po/rc.cpp:151
+#: ui_menuEdit.h:216 rc.cpp:151
+#, no-c-format
+msgid "Root Menu"
+msgstr "Menu principale"
+
+#: lib/import/k9import.cpp:68 lib/main/k9main.cpp:474 lib/main/k9main.cpp:1253
+msgid "ISO Image"
+msgstr "Immagine ISO"
+
+#: lib/import/k9import.cpp:69 lib/main/k9main.cpp:1254
+msgid "Folder"
+msgstr "Cartella"
+
+#: lib/import/k9importfiles.cpp:86
+msgid "Add Title"
+msgstr "Aggiungi titolo"
+
+#. i18n: file ./lib/import/chapterEdit.ui line 20
+#: lib/import/k9importfiles.cpp:94 po/rc.cpp:72 ui_chapterEdit.h:217 rc.cpp:72
+#, no-c-format
+msgid "Chapter properties"
+msgstr "Proprietà capitolo"
+
+#: lib/import/k9importfiles.cpp:105
+msgid "Edit menu"
+msgstr "Modifica menu"
+
+#: lib/import/k9importfiles.cpp:148
+msgid "Create DVD"
+msgstr "Crea DVD"
+
+#: lib/import/k9importfiles.cpp:152 lib/main/k9settings.cpp:34
+msgid "DVD Backup"
+msgstr "Backup DVD"
+
+#: lib/import/k9importfiles.cpp:190 lib/main/k9copy.cpp:333
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: lib/import/k9menuedit.cpp:254
+msgid "Title %1 Menu"
+msgstr "Menu Titolo %1"
+
+#: lib/import/k9menuedit.cpp:263 lib/import/k9menuedit.cpp:303
+msgid "Play Menu"
+msgstr "Riproduci Menu"
+
+#: lib/import/k9menuedit.cpp:265
+msgid "Play Title"
+msgstr "Riproduci Titolo"
+
+#: lib/import/k9menuedit.cpp:271
+msgid "Play Root Menu"
+msgstr "Riproduci Menu Principale"
+
+#: lib/import/k9menuedit.cpp:273
+msgid "Play Title Menu"
+msgstr "Riproduci Menu Titolo"
+
+#: lib/import/k9menuedit.cpp:281 lib/import/k9menuedit.cpp:309
+msgid "Play Title %1"
+msgstr "Riproduci Titolo %1"
+
+#: lib/import/k9newdvd.cpp:95
+msgid "Creating root menu"
+msgstr "Creazione menu principale"
+
+#: lib/import/k9newdvd.cpp:135
+msgid "The dvd authoring was canceled"
+msgstr "Autoring (Creazione dei menù) annullata"
+
+#: lib/import/k9newdvd.cpp:163
+msgid "Creating menu for title %1"
+msgstr "Craezione del menù per il titolo %1"
+
+#. i18n: file ./lib/backup/mp4dlg.ui line 133
+#: lib/import/k9newdvd.cpp:350 po/rc.cpp:33 ui_mp4dlg.h:219 rc.cpp:33
+#, no-c-format
+msgid "fps"
+msgstr "fps"
+
+#: lib/import/k9newdvd.cpp:387 lib/import/k9newtitle.cpp:66
+msgid "title %1"
+msgstr "titolo %1"
+
+#. i18n: file ./lib/import/newTitle.ui line 13
+#: lib/import/k9newtitle.cpp:58 po/rc.cpp:175 ui_newTitle.h:183 rc.cpp:175
+#, no-c-format
+msgid "Add title"
+msgstr "Aggiungi titolo"
+
+#: lib/import/k9newtitle.cpp:119 lib/import/k9newtitle.cpp:141
+#: lib/main/k9main.cpp:629 lib/main/k9main.cpp:646
+msgid "chapter %1"
+msgstr "capitolo %1"
+
+#: lib/main/k9copy.cpp:109
+msgid "Shrink Factor"
+msgstr "Fattore di riduzione"
+
+#: lib/main/k9copy.cpp:119
+msgid "MPEG4 Encoding Options"
+msgstr "Opzioni codifica MPEG4"
+
+#. i18n: file ./lib/main/playbackoptionsw.ui line 13
+#: lib/main/k9copy.cpp:140 po/rc.cpp:318 ui_playbackoptionsw.h:225 rc.cpp:318
+#, no-c-format
+msgid "DVD playback options"
+msgstr "Opzioni riproduzione DVD"
+
+#. i18n: file ./lib/main/langselectw.ui line 13
+#: lib/main/k9copy.cpp:148 po/rc.cpp:306 ui_langselectw.h:60 rc.cpp:306
+#, no-c-format
+msgid "Selection"
+msgstr "Selezione"
+
+#. i18n: file ./lib/mplayer/mplayer.ui line 16
+#: lib/main/k9copy.cpp:160 lib/main/k9settings.cpp:49
+#: lib/mplayer/k9mplayer.cpp:99 po/rc.cpp:623 ui_mplayer.h:241 rc.cpp:623
+#, no-c-format
+msgid "Preview"
+msgstr "Anteprima"
+
+#: lib/main/k9copy.cpp:224
+msgid "Play title"
+msgstr "Riproduci titolo"
+
+#: lib/main/k9copy.cpp:230
+msgid "Copy"
+msgstr "Copia"
+
+#: lib/main/k9copy.cpp:236
+msgid "Create MPEG-4"
+msgstr "Crea MPEG-4 "
+
+#: lib/main/k9copy.cpp:245
+msgid "Eject"
+msgstr "Espelli"
+
+#: lib/main/k9copy.cpp:253
+msgid "DVD Author"
+msgstr "DVD Author"
+
+#. i18n: file ./lib/main/playbackoptionsw.ui line 297
+#. i18n: file ./lib/main/prefAuthor.ui line 19
+#. i18n: file ./lib/main/prefMPEG4.ui line 397
+#. i18n: file ./lib/mplayer/mplayer.ui line 25
+#. i18n: file ./lib/main/playbackoptionsw.ui line 297
+#. i18n: file ./lib/main/prefAuthor.ui line 19
+#. i18n: file ./lib/main/prefMPEG4.ui line 397
+#. i18n: file ./lib/mplayer/mplayer.ui line 25
+#: lib/main/k9langselect.cpp:89 po/rc.cpp:336 po/rc.cpp:342 po/rc.cpp:527
+#: po/rc.cpp:626 ui_mplayer.h:242 ui_playbackoptionsw.h:233
+#: ui_prefAuthor.h:190 ui_prefMPEG4.h:395 rc.cpp:336 rc.cpp:342 rc.cpp:527
+#: rc.cpp:626
+#, no-c-format
+msgid "Audio"
+msgstr "Audio"
+
+#: lib/main/k9langselect.cpp:100
+msgid "Subtitles"
+msgstr "Sottotitoli"
+
+#: lib/main/k9main.cpp:368 lib/main/k9main.cpp:1146
+msgid "DVD is not opened"
+msgstr "Il DVD non è stato aperto"
+
+#: lib/main/k9main.cpp:368
+msgid "DVD Copy"
+msgstr "Copia DVD"
+
+#: lib/main/k9main.cpp:395
+msgid "Backup in progress"
+msgstr "Backup in corso"
+
+#: lib/main/k9main.cpp:450 lib/main/k9main.cpp:586 lib/main/k9main.cpp:1197
+msgid "Ready"
+msgstr "Pronto"
+
+#: lib/main/k9main.cpp:533
+msgid "Open DVD"
+msgstr "Apri DVD"
+
+#: lib/main/k9main.cpp:559
+msgid "Titleset %1"
+msgstr "Titleset %1"
+
+#: lib/main/k9main.cpp:621
+msgid "chapters"
+msgstr "capitoli"
+
+#: lib/main/k9main.cpp:633 lib/main/k9main.cpp:649 lib/main/k9main.cpp:713
+#: lib/main/k9main.cpp:734
+msgid "%1 MB"
+msgstr "%1 Mb"
+
+#: lib/main/k9main.cpp:691
+msgid "video %1 "
+msgstr "video %1"
+
+#: lib/main/k9main.cpp:702
+msgid "audio %1 "
+msgstr "audio %1"
+
+#: lib/main/k9main.cpp:725
+msgid "subpicture %1 "
+msgstr "fotogramma %1"
+
+#: lib/main/k9main.cpp:1154
+msgid "Transcoding title : %1"
+msgstr "Transcodifica titolo : %1"
+
+#: lib/main/k9main.cpp:1373
+msgid "Open ISO Image"
+msgstr "Apri immagine ISO"
+
+#: lib/main/k9main.cpp:1384
+msgid "Open DVD folder"
+msgstr "Apri cartella DVD"
+
+#. i18n: file ./lib/main/mencoderCmdGen.ui line 13
+#: lib/main/k9mencodercmdgen.cpp:63 po/rc.cpp:312 ui_mencoderCmdGen.h:106
+#: rc.cpp:312
+#, no-c-format
+msgid "MEncoder options"
+msgstr "Opzioni di MEncoder"
+
+#: lib/main/k9mencodercmdgen.cpp:78
+msgid "Audio Codec"
+msgstr "Codec audio"
+
+#: lib/main/k9mencodercmdgen.cpp:94
+msgid "Video Codec"
+msgstr "Codec video"
+
+#: lib/main/k9mencodercmdgen.cpp:113
+msgid "Filters"
+msgstr "Filtri"
+
+#: lib/main/k9mp4title.cpp:37 lib/main/k9mp4title.cpp:110
+#: lib/main/k9titlefactor.cpp:100
+msgid "Select a Title in the treeview..."
+msgstr "Seleziona un Titolo nella vista ad albero"
+
+#: lib/main/k9playbackoptions.cpp:149
+msgid "none"
+msgstr "nessuno"
+
+#: lib/main/k9prefmencoder.cpp:110 lib/main/k9prefmencoder.cpp:114
+#: lib/main/k9prefmencoder.cpp:125 lib/main/k9prefmencoder.cpp:127
+msgid "new profile"
+msgstr "nuovo profilo"
+
+#: lib/main/k9settings.cpp:28
+msgid "Devices"
+msgstr "Periferiche"
+
+#: lib/main/k9settings.cpp:29
+msgid "Devices not detected by k9copy"
+msgstr "Periferiche non trovate da k9copy"
+
+#: lib/main/k9settings.cpp:33
+msgid "DVD"
+msgstr "DVD"
+
+#: lib/main/k9settings.cpp:38
+msgid "MEncoder"
+msgstr "MEncoder"
+
+#: lib/main/k9settings.cpp:39
+msgid "MPEG-4 Codecs"
+msgstr "MPEG-4 Codec"
+
+#: lib/main/k9settings.cpp:43
+msgid "MPEG-4"
+msgstr "MPEG-4"
+
+#: lib/main/k9settings.cpp:50
+msgid "Title preview"
+msgstr "Anteprima Titolo"
+
+#: lib/main/k9titlefactor.cpp:111
+msgid "Shrink Factor for %1"
+msgstr "Fattore di riduzione per %1"
+
+#: main.cpp:31
+msgid "A KDE 4 Application"
+msgstr "Una applicazione KDE 4"
+
+#: main.cpp:37
+msgid "k9copy"
+msgstr "k9copy"
+
+#: main.cpp:38
+msgid "(C) 2007 Jean-Michel"
+msgstr "(C) 2007 Jean-Michel"
+
+#: main.cpp:39
+msgid "Jean-Michel"
+msgstr "Jean-Michel"
+
+#: main.cpp:40
+msgid "_: NAME OF TRANSLATORS\\nYour names"
+msgstr ""
+"TRADUTTORI:\n"
+"       Leonardo Finetti\n"
+"       Paolo Rampino"
+
+#: main.cpp:41
+msgid "_: EMAIL OF TRANSLATORS\\nYour emails"
+msgstr ""
+"finex@finex.org\n"
+"paolo@clickma.it"
+
+#. i18n: file ./lib/main/k9mainw.ui line 49
+#: main.cpp:45 po/rc.cpp:270 ui_k9mainw.h:181 rc.cpp:270
+#, no-c-format
+msgid "input device"
+msgstr "Origine"
+
+#: main.cpp:46
+msgid "output device"
+msgstr "Destinazione"
+
+#: main.cpp:47
+msgid "title to play"
+msgstr "titolo da riprodurre"
+
+#: main.cpp:48
+msgid "play title to stdout"
+msgstr "riproduci titolo su stdout"
+
+#: main.cpp:49
+msgid "start sector"
+msgstr "inizio settore"
+
+#: main.cpp:50
+msgid "end sector"
+msgstr "fine settore"
+
+#: main.cpp:51
+msgid "list of audio streams"
+msgstr "lista dei flussi audio"
+
+#: main.cpp:52
+msgid "list of spu streams"
+msgstr "lista dei flussi spu"
+
+#: main.cpp:53
+msgid "shrink factor"
+msgstr "fattore di riduzione"
+
+#: main.cpp:54
+msgid "shrink factor forced"
+msgstr "fattore di riduzione forzato"
+
+#: main.cpp:55
+msgid "size of the cell to be copied"
+msgstr "dimensione della cella da copiare"
+
+#: main.cpp:56
+msgid "total size of selected titles"
+msgstr "dimensione totale dei titoli selezionati"
+
+#: main.cpp:57
+msgid "size of the chapters being copied"
+msgstr "dimensione dei capitoli in copia"
+
+#: main.cpp:58
+msgid "selected chapters"
+msgstr "capitoli selezionati"
+
+#: main.cpp:59
+msgid "new dvd size"
+msgstr "nuova dimensione del dvd"
+
+#: main.cpp:60
+msgid "selected chapter"
+msgstr "capitolo selezionato"
+
+#: main.cpp:61
+msgid "cell number in selected chapter"
+msgstr "numero celle nel capitolo selezionato"
+
+#: main.cpp:62
+msgid "status file name"
+msgstr "nome del file di stato"
+
+#: main.cpp:63
+msgid "initialize status file"
+msgstr "inizializza il file di stato"
+
+#: main.cpp:64
+msgid "continue playing from last sector"
+msgstr "continua la riproduzione dall'ultimo settore"
+
+#: main.cpp:65
+msgid "don't save status at end"
+msgstr "non salvare lo stato alla fine"
+
+#: main.cpp:66
+msgid "save cell in a temporary file before encoding"
+msgstr "salva la cella in un file temporaneo prima della codifica"
+
+#. i18n: file ./k9copyui.rc line 4
+#: po/rc.cpp:3 rc.cpp:3
+#, no-c-format
+msgid "&File"
+msgstr "&File"
+
+#. i18n: file ./k9copyui.rc line 10
+#: po/rc.cpp:6 rc.cpp:6
+#, no-c-format
+msgid "A&ctions"
+msgstr "A&zioni"
+
+#. i18n: file ./k9copyui.rc line 24
+#: po/rc.cpp:9 rc.cpp:9
+#, no-c-format
+msgid "Actions ToolBar"
+msgstr "Barra delle Azioni"
+
+#. i18n: file ./lib/backup/backupdlg.ui line 80
+#: po/rc.cpp:15 ui_backupdlg.h:240 rc.cpp:15
+#, no-c-format
+msgid "<p align=\"left\"><b>DVD Backup</b></p>"
+msgstr "<p align=\"left\"><b>DVD Backup</b></p>"
+
+#. i18n: file ./lib/backup/backupdlg.ui line 106
+#: po/rc.cpp:18 ui_backupdlg.h:241 rc.cpp:18
+#, no-c-format
+msgid "Current step"
+msgstr "Prossimo Passo"
+
+#. i18n: file ./lib/backup/backupdlg.ui line 147
+#. i18n: file ./lib/backup/mp4dlg.ui line 146
+#. i18n: file ./lib/core/progress.ui line 221
+#. i18n: file ./lib/backup/backupdlg.ui line 147
+#. i18n: file ./lib/backup/mp4dlg.ui line 146
+#. i18n: file ./lib/core/progress.ui line 221
+#: po/rc.cpp:21 po/rc.cpp:36 po/rc.cpp:69 ui_backupdlg.h:242 ui_mp4dlg.h:220
+#: ui_progress.h:171 rc.cpp:21 rc.cpp:36 rc.cpp:69
+#, no-c-format
+msgid "Elapsed Time"
+msgstr "Tempo trascorso"
+
+#. i18n: file ./lib/backup/backupdlg.ui line 166
+#. i18n: file ./lib/import/chapterEdit.ui line 118
+#. i18n: file ./lib/import/import.ui line 97
+#. i18n: file ./lib/import/newTitle.ui line 197
+#. i18n: file ./lib/backup/backupdlg.ui line 166
+#. i18n: file ./lib/import/chapterEdit.ui line 118
+#. i18n: file ./lib/import/import.ui line 97
+#. i18n: file ./lib/import/newTitle.ui line 197
+#: po/rc.cpp:24 po/rc.cpp:75 po/rc.cpp:130 po/rc.cpp:193 ui_backupdlg.h:243
+#: ui_chapterEdit.h:218 ui_import.h:136 ui_newTitle.h:191 rc.cpp:24 rc.cpp:75
+#: rc.cpp:130 rc.cpp:193
+#, no-c-format
+msgid "--:--:--"
+msgstr "-:-:-"
+
+#. i18n: file ./lib/backup/mp4dlg.ui line 16
+#: po/rc.cpp:27 ui_mp4dlg.h:213 rc.cpp:27
+#, no-c-format
+msgid "transcoding"
+msgstr "transcodifica"
+
+#. i18n: file ./lib/backup/mp4dlg.ui line 37
+#: po/rc.cpp:30 ui_mp4dlg.h:214 rc.cpp:30
+#, no-c-format
+msgid "Encoding"
+msgstr "Codifica"
+
+#. i18n: file ./lib/backup/mp4dlg.ui line 159
+#. i18n: file ./lib/main/prefAuthor.ui line 68
+#. i18n: file ./lib/main/prefMPEG4.ui line 341
+#. i18n: file ./lib/main/prefMPEG4.ui line 448
+#. i18n: file ./lib/backup/mp4dlg.ui line 159
+#. i18n: file ./lib/main/prefAuthor.ui line 68
+#. i18n: file ./lib/main/prefMPEG4.ui line 341
+#. i18n: file ./lib/main/prefMPEG4.ui line 448
+#: po/rc.cpp:39 po/rc.cpp:363 po/rc.cpp:521 po/rc.cpp:548 ui_mp4dlg.h:221
+#: ui_prefAuthor.h:203 ui_prefMPEG4.h:380 ui_prefMPEG4.h:392 rc.cpp:39
+#: rc.cpp:363 rc.cpp:521 rc.cpp:548
+#, no-c-format
+msgid "Bitrate"
+msgstr "Bitrate"
+
+#. i18n: file ./lib/backup/mp4dlg.ui line 172
+#. i18n: file ./lib/main/k9mainwsov.ui line 243
+#. i18n: file ./lib/main/k9mainw.ui line 218
+#. i18n: file ./lib/backup/mp4dlg.ui line 172
+#. i18n: file ./lib/main/k9mainwsov.ui line 243
+#. i18n: file ./lib/main/k9mainw.ui line 218
+#: po/rc.cpp:42 po/rc.cpp:262 po/rc.cpp:300 ui_k9mainw.h:194 ui_mp4dlg.h:222
+#: rc.cpp:42 rc.cpp:262 rc.cpp:300
+#, no-c-format
+msgid "Size"
+msgstr "Dimensione"
+
+#. i18n: file ./lib/core/dvdprogress.ui line 35
+#: po/rc.cpp:45 ui_dvdprogress.h:114 rc.cpp:45
+#, no-c-format
+msgid "DVD Analyze"
+msgstr "Esamina DVD "
+
+#. i18n: file ./lib/core/processList.ui line 16
+#. i18n: file ./lib/import/processList.ui line 13
+#. i18n: file ./lib/core/processList.ui line 16
+#. i18n: file ./lib/import/processList.ui line 13
+#: po/rc.cpp:48 po/rc.cpp:196 ui_processList.h:73 rc.cpp:48 rc.cpp:196
+#, no-c-format
+msgid "Process List"
+msgstr "Lista processi"
+
+#. i18n: file ./lib/core/processList.ui line 25
+#. i18n: file ./lib/import/processList.ui line 25
+#. i18n: file ./lib/core/processList.ui line 25
+#. i18n: file ./lib/import/processList.ui line 25
+#: po/rc.cpp:51 po/rc.cpp:202 ui_processList.h:75 rc.cpp:51 rc.cpp:202
+#, no-c-format
+msgid "Processes"
+msgstr "Processi"
+
+#. i18n: file ./lib/core/processList.ui line 36
+#. i18n: file ./lib/import/processList.ui line 30
+#. i18n: file ./lib/core/processList.ui line 36
+#. i18n: file ./lib/import/processList.ui line 30
+#: po/rc.cpp:54 po/rc.cpp:205 ui_processList.h:76 rc.cpp:54 rc.cpp:205
+#, no-c-format
+msgid "Elapsed"
+msgstr "Tempo trascorso"
+
+#. i18n: file ./lib/core/processList.ui line 47
+#. i18n: file ./lib/import/import.ui line 58
+#. i18n: file ./lib/import/processList.ui line 35
+#. i18n: file ./lib/main/k9mainw.ui line 80
+#. i18n: file ./lib/main/k9mainw.ui line 90
+#. i18n: file ./lib/core/processList.ui line 47
+#. i18n: file ./lib/import/import.ui line 58
+#. i18n: file ./lib/import/processList.ui line 35
+#. i18n: file ./lib/main/k9mainw.ui line 80
+#. i18n: file ./lib/main/k9mainw.ui line 90
+#: po/rc.cpp:57 po/rc.cpp:121 po/rc.cpp:208 po/rc.cpp:276 po/rc.cpp:282
+#: ui_import.h:130 ui_k9mainw.h:183 ui_k9mainw.h:185 ui_processList.h:77
+#: rc.cpp:57 rc.cpp:121 rc.cpp:208 rc.cpp:276 rc.cpp:282
+#, no-c-format
+msgid "..."
+msgstr "... "
+
+#. i18n: file ./lib/core/processList.ui line 73
+#. i18n: file ./lib/import/processList.ui line 49
+#. i18n: file ./lib/core/processList.ui line 73
+#. i18n: file ./lib/import/processList.ui line 49
+#: po/rc.cpp:60 po/rc.cpp:211 ui_processList.h:78 rc.cpp:60 rc.cpp:211
+#, no-c-format
+msgid "&Cancel"
+msgstr "&Annulla"
+
+#. i18n: file ./lib/core/processList.ui line 76
+#. i18n: file ./lib/import/processList.ui line 52
+#. i18n: file ./lib/core/processList.ui line 76
+#. i18n: file ./lib/import/processList.ui line 52
+#: po/rc.cpp:63 po/rc.cpp:214 ui_processList.h:79 rc.cpp:63 rc.cpp:214
+#, no-c-format
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#. i18n: file ./lib/core/progress.ui line 31
+#: po/rc.cpp:66 ui_progress.h:169 rc.cpp:66
+#, no-c-format
+msgid "k9Copy"
+msgstr "k9copy"
+
+#. i18n: file ./lib/import/chapterEdit.ui line 130
+#: po/rc.cpp:78 ui_chapterEdit.h:219 rc.cpp:78
+#, no-c-format
+msgid "video"
+msgstr "video"
+
+#. i18n: file ./lib/import/chapterEdit.ui line 153
+#: po/rc.cpp:81 ui_chapterEdit.h:220 rc.cpp:81
+#, no-c-format
+msgid ""
+"*.avi\n"
+"*.mpeg"
+msgstr ""
+"*.avi\n"
+"*.mpeg"
+
+#. i18n: file ./lib/import/chapterEdit.ui line 160
+#: po/rc.cpp:85 ui_chapterEdit.h:222 rc.cpp:85
+#, no-c-format
+msgid "start"
+msgstr "inizio"
+
+#. i18n: file ./lib/import/chapterEdit.ui line 176
+#. i18n: file ./lib/import/chapterEdit.ui line 251
+#. i18n: file ./lib/import/newTitle.ui line 56
+#. i18n: file ./lib/import/chapterEdit.ui line 176
+#. i18n: file ./lib/import/chapterEdit.ui line 251
+#. i18n: file ./lib/import/newTitle.ui line 56
+#: po/rc.cpp:88 po/rc.cpp:100 po/rc.cpp:178 ui_chapterEdit.h:223
+#: ui_chapterEdit.h:227 ui_newTitle.h:185 rc.cpp:88 rc.cpp:100 rc.cpp:178
+#, no-c-format
+msgid "HH:mm:ss"
+msgstr "HH:mm:ss"
+
+#. i18n: file ./lib/import/chapterEdit.ui line 189
+#. i18n: file ./lib/import/chapterEdit.ui line 264
+#. i18n: file ./lib/import/chapterEdit.ui line 189
+#. i18n: file ./lib/import/chapterEdit.ui line 264
+#: po/rc.cpp:91 po/rc.cpp:103 ui_chapterEdit.h:224 ui_chapterEdit.h:228
+#: rc.cpp:91 rc.cpp:103
+#, no-c-format
+msgid "set Current Frame"
+msgstr "imposta fotogramma corrente"
+
+#. i18n: file ./lib/import/chapterEdit.ui line 212
+#. i18n: file ./lib/import/chapterEdit.ui line 271
+#. i18n: file ./lib/import/chapterEdit.ui line 212
+#. i18n: file ./lib/import/chapterEdit.ui line 271
+#: po/rc.cpp:94 po/rc.cpp:106 ui_chapterEdit.h:225 ui_chapterEdit.h:229
+#: rc.cpp:94 rc.cpp:106
+#, no-c-format
+msgid "break continuity"
+msgstr "interrompi continuità"
+
+#. i18n: file ./lib/import/chapterEdit.ui line 235
+#: po/rc.cpp:97 ui_chapterEdit.h:226 rc.cpp:97
+#, no-c-format
+msgid "end"
+msgstr "fine"
+
+#. i18n: file ./lib/import/chapterEdit.ui line 300
+#: po/rc.cpp:109 ui_chapterEdit.h:230 rc.cpp:109
+#, no-c-format
+msgid "set Title button"
+msgstr "imposta Titolo pulsante "
+
+#. i18n: file ./lib/import/import.ui line 13
+#: po/rc.cpp:112 ui_import.h:127 rc.cpp:112
+#, no-c-format
+msgid "import"
+msgstr "importa"
+
+#. i18n: file ./lib/import/import.ui line 25
+#. i18n: file ./lib/main/configDlg.ui line 113
+#. i18n: file ./lib/import/import.ui line 25
+#. i18n: file ./lib/main/configDlg.ui line 113
+#: po/rc.cpp:115 po/rc.cpp:229 ui_configDlg.h:128 ui_import.h:128 rc.cpp:115
+#: rc.cpp:229
+#, no-c-format
+msgid "Output"
+msgstr "Uscita"
+
+#. i18n: file ./lib/import/import.ui line 53
+#: po/rc.cpp:118 ui_import.h:129 rc.cpp:118
+#, no-c-format
+msgid "Video files"
+msgstr "File video"
+
+#. i18n: file ./lib/import/import.ui line 78
+#: po/rc.cpp:124 ui_import.h:133 rc.cpp:124
+#, no-c-format
+msgid "PAL"
+msgstr "PAL"
+
+#. i18n: file ./lib/import/import.ui line 83
+#: po/rc.cpp:127 ui_import.h:134 rc.cpp:127
+#, no-c-format
+msgid "NTSC"
+msgstr "NTSC"
+
+#. i18n: file ./lib/import/menuEdit.ui line 13
+#: po/rc.cpp:133 ui_menuEdit.h:204 rc.cpp:133
+#, no-c-format
+msgid "Edit Menu"
+msgstr "Modifica Menu"
+
+#. i18n: file ./lib/import/menuEdit.ui line 37
+#: po/rc.cpp:136 ui_menuEdit.h:205 rc.cpp:136
+#, no-c-format
+msgid "Text"
+msgstr "Testo"
+
+#. i18n: file ./lib/import/menuEdit.ui line 53
+#: po/rc.cpp:139 ui_menuEdit.h:206 rc.cpp:139
+#, no-c-format
+msgid "Background picture"
+msgstr "Immagine di sfondo"
+
+#. i18n: file ./lib/import/menuEdit.ui line 85
+#. i18n: file ./lib/main/prefAuthor.ui line 175
+#. i18n: file ./lib/import/menuEdit.ui line 85
+#. i18n: file ./lib/main/prefAuthor.ui line 175
+#: po/rc.cpp:142 po/rc.cpp:375 ui_menuEdit.h:208 ui_prefAuthor.h:207
+#: rc.cpp:142 rc.cpp:375
+#, no-c-format
+msgid "Font"
+msgstr "Tipo di carattere"
+
+#. i18n: file ./lib/import/menuEdit.ui line 99
+#: po/rc.cpp:145 ui_menuEdit.h:211 rc.cpp:145
+#, no-c-format
+msgid "Bottom"
+msgstr "Basso"
+
+#. i18n: file ./lib/import/menuEdit.ui line 104
+#: po/rc.cpp:148 ui_menuEdit.h:212 rc.cpp:148
+#, no-c-format
+msgid "Right"
+msgstr "Destra"
+
+#. i18n: file ./lib/import/menuEdit.ui line 181
+#: po/rc.cpp:154 ui_menuEdit.h:217 rc.cpp:154
+#, no-c-format
+msgid "At start"
+msgstr "All'inizio"
+
+#. i18n: file ./lib/import/menuEdit.ui line 192
+#: po/rc.cpp:157 ui_menuEdit.h:220 rc.cpp:157
+#, no-c-format
+msgid "Play menu"
+msgstr "Riproduci menu"
+
+#. i18n: file ./lib/import/menuEdit.ui line 197
+#. i18n: file ./lib/import/menuEdit.ui line 226
+#. i18n: file ./lib/import/menuEdit.ui line 197
+#. i18n: file ./lib/import/menuEdit.ui line 226
+#: po/rc.cpp:160 po/rc.cpp:172 ui_menuEdit.h:221 ui_menuEdit.h:228 rc.cpp:160
+#: rc.cpp:172
+#, no-c-format
+msgid "Play title 1"
+msgstr "Riproduci Titolo 1"
+
+#. i18n: file ./lib/import/menuEdit.ui line 205
+#: po/rc.cpp:163 ui_menuEdit.h:223 rc.cpp:163
+#, no-c-format
+msgid "At End"
+msgstr "Alla fine"
+
+#. i18n: file ./lib/import/menuEdit.ui line 216
+#: po/rc.cpp:166 ui_menuEdit.h:226 rc.cpp:166
+#, no-c-format
+msgid "Play root menu"
+msgstr "Riproduci menu principale"
+
+#. i18n: file ./lib/import/menuEdit.ui line 221
+#: po/rc.cpp:169 ui_menuEdit.h:227 rc.cpp:169
+#, no-c-format
+msgid "Play title menu"
+msgstr "Riproducu menu del Titolo"
+
+#. i18n: file ./lib/import/newTitle.ui line 63
+#: po/rc.cpp:181 ui_newTitle.h:186 rc.cpp:181
+#, no-c-format
+msgid "number of chapters"
+msgstr "numero di capitoli"
+
+#. i18n: file ./lib/import/newTitle.ui line 73
+#: po/rc.cpp:184 ui_newTitle.h:187 rc.cpp:184
+#, no-c-format
+msgid "chapter length"
+msgstr "lunghezza capitolo"
+
+#. i18n: file ./lib/import/newTitle.ui line 140
+#. i18n: file ./lib/main/configDlg.ui line 129
+#. i18n: file ./lib/import/newTitle.ui line 140
+#. i18n: file ./lib/main/configDlg.ui line 129
+#: po/rc.cpp:187 po/rc.cpp:232 ui_configDlg.h:130 ui_newTitle.h:188 rc.cpp:187
+#: rc.cpp:232
+#, no-c-format
+msgid "Add"
+msgstr "Aggiungi"
+
+#. i18n: file ./lib/import/newTitle.ui line 174
+#: po/rc.cpp:190 ui_newTitle.h:190 rc.cpp:190
+#, no-c-format
+msgid "Video file"
+msgstr "File video"
+
+#. i18n: file ./lib/import/processList.ui line 20
+#: po/rc.cpp:199 ui_processList.h:74 rc.cpp:199
+#, no-c-format
+msgid "Progression"
+msgstr "Progressione"
+
+#. i18n: file ./lib/main/configDlg.ui line 20
+#: po/rc.cpp:217 ui_configDlg.h:111 rc.cpp:217
+#, no-c-format
+#msgid "Devices"
+#msgstr "Periferiche"
+#. i18n: file ./lib/main/configDlg.ui line 98
+#: po/rc.cpp:220 ui_configDlg.h:116 rc.cpp:220
+#, no-c-format
+msgid "device"
+msgstr "periferica"
+
+#. i18n: file ./lib/main/configDlg.ui line 103
+#. i18n: file ./lib/main/prefMencoder.ui line 108
+#. i18n: file ./lib/main/prefMencoder.ui line 360
+#. i18n: file ./lib/main/configDlg.ui line 103
+#. i18n: file ./lib/main/prefMencoder.ui line 108
+#. i18n: file ./lib/main/prefMencoder.ui line 360
+#: po/rc.cpp:223 po/rc.cpp:443 po/rc.cpp:461 ui_configDlg.h:120
+#: ui_prefMencoder.h:419 ui_prefMencoder.h:429 rc.cpp:223 rc.cpp:443
+#: rc.cpp:461
+#, no-c-format
+msgid "label"
+msgstr "nome"
+
+#. i18n: file ./lib/main/configDlg.ui line 108
+#: po/rc.cpp:226 ui_configDlg.h:124 rc.cpp:226
+#, no-c-format
+msgid "Input"
+msgstr "Ingresso"
+
+#. i18n: file ./lib/main/configDlg.ui line 148
+#: po/rc.cpp:235 ui_configDlg.h:132 rc.cpp:235
+#, no-c-format
+msgid "Remove"
+msgstr "Rimuovi"
+
+#. i18n: file ./lib/main/k9mainwsov.ui line 16
+#. i18n: file ./lib/main/k9mainw.ui line 25
+#. i18n: file ./lib/main/k9mainwsov.ui line 16
+#. i18n: file ./lib/main/k9mainw.ui line 25
+#: po/rc.cpp:238 po/rc.cpp:267 ui_k9mainw.h:180 rc.cpp:238 rc.cpp:267
+#, no-c-format
+msgid "MainDlg"
+msgstr "DlgPrincipale"
+
+#. i18n: file ./lib/main/k9mainwsov.ui line 38
+#. i18n: file ./lib/main/k9mainw.ui line 121
+#. i18n: file ./lib/main/k9mainwsov.ui line 38
+#. i18n: file ./lib/main/k9mainw.ui line 121
+#: po/rc.cpp:241 po/rc.cpp:285 ui_k9mainw.h:186 rc.cpp:241 rc.cpp:285
+#, no-c-format
+msgid "Output device "
+msgstr "Destinazione"
+
+#. i18n: file ./lib/main/k9mainwsov.ui line 54
+#. i18n: file ./lib/main/k9mainw.ui line 153
+#. i18n: file ./lib/main/k9mainwsov.ui line 54
+#. i18n: file ./lib/main/k9mainw.ui line 153
+#: po/rc.cpp:244 po/rc.cpp:288 ui_k9mainw.h:187 rc.cpp:244 rc.cpp:288
+#, no-c-format
+msgid "@"
+msgstr "@"
+
+#. i18n: file ./lib/main/k9mainwsov.ui line 70
+#: po/rc.cpp:247 rc.cpp:247
+#, no-c-format
+msgid "Input device "
+msgstr "Origine"
+
+#. i18n: file ./lib/main/k9mainwsov.ui line 145
+#. i18n: file ./lib/main/k9mainw.ui line 187
+#. i18n: file ./lib/main/prefMPEG4.ui line 266
+#. i18n: file ./lib/main/k9mainwsov.ui line 145
+#. i18n: file ./lib/main/k9mainw.ui line 187
+#. i18n: file ./lib/main/prefMPEG4.ui line 266
+#: po/rc.cpp:253 po/rc.cpp:294 po/rc.cpp:509 ui_k9mainw.h:192
+#: ui_prefMPEG4.h:375 rc.cpp:253 rc.cpp:294 rc.cpp:509
+#, no-c-format
+msgid "X"
+msgstr "X"
+
+#. i18n: file ./lib/main/k9mainwsov.ui line 165
+#: po/rc.cpp:256 rc.cpp:256
+#, no-c-format
+msgid "D&VD"
+msgstr "D&VD"
+
+#. i18n: file ./lib/main/k9mainwsov.ui line 232
+#. i18n: file ./lib/main/k9mainw.ui line 213
+#. i18n: file ./lib/main/k9mainwsov.ui line 232
+#. i18n: file ./lib/main/k9mainw.ui line 213
+#: po/rc.cpp:259 po/rc.cpp:297 ui_k9mainw.h:193 rc.cpp:259 rc.cpp:297
+#, no-c-format
+msgid "Title"
+msgstr "Titolo"
+
+#. i18n: file ./lib/main/k9mainw.ui line 77
+#: po/rc.cpp:273 ui_k9mainw.h:182 rc.cpp:273
+#, no-c-format
+msgid "Open a folder"
+msgstr "Apri cartella"
+
+#. i18n: file ./lib/main/k9mainw.ui line 87
+#: po/rc.cpp:279 ui_k9mainw.h:184 rc.cpp:279
+#, no-c-format
+msgid "Open an iso image"
+msgstr "Apri immagine ISO"
+
+#. i18n: file ./lib/main/k9mainw.ui line 223
+#: po/rc.cpp:303 ui_k9mainw.h:195 rc.cpp:303
+#, no-c-format
+msgid "Content"
+msgstr "Contenuto"
+
+#. i18n: file ./lib/main/langselectw.ui line 47
+#: po/rc.cpp:309 ui_langselectw.h:61 rc.cpp:309
+#, no-c-format
+msgid "Languages"
+msgstr "Lingue"
+
+#. i18n: file ./lib/main/mencoderCmdGen.ui line 23
+#: po/rc.cpp:315 ui_mencoderCmdGen.h:107 rc.cpp:315
+#, no-c-format
+msgid "1"
+msgstr "1"
+
+#. i18n: file ./lib/main/playbackoptionsw.ui line 34
+#: po/rc.cpp:321 ui_playbackoptionsw.h:226 rc.cpp:321
+#, no-c-format
+msgid "&Keep original menus"
+msgstr "&Mantieni i menù originali"
+
+#. i18n: file ./lib/main/playbackoptionsw.ui line 37
+#. i18n: file ./lib/main/prefMPEG4.ui line 171
+#. i18n: file ./lib/main/playbackoptionsw.ui line 37
+#. i18n: file ./lib/main/prefMPEG4.ui line 171
+#: po/rc.cpp:324 po/rc.cpp:506 ui_playbackoptionsw.h:227 ui_prefMPEG4.h:373
+#: rc.cpp:324 rc.cpp:506
+#, no-c-format
+msgid "Alt+K"
+msgstr "Alt+K"
+
+#. i18n: file ./lib/main/playbackoptionsw.ui line 184
+#: po/rc.cpp:327 ui_playbackoptionsw.h:230 rc.cpp:327
+#, no-c-format
+msgid "Selected Titles"
+msgstr "Titoli selezionati"
+
+#. i18n: file ./lib/main/playbackoptionsw.ui line 245
+#: po/rc.cpp:330 ui_playbackoptionsw.h:231 rc.cpp:330
+#, no-c-format
+msgid "Default language"
+msgstr "Lingua predefinita"
+
+#. i18n: file ./lib/main/playbackoptionsw.ui line 271
+#: po/rc.cpp:333 ui_playbackoptionsw.h:232 rc.cpp:333
+#, no-c-format
+msgid "Subtitle"
+msgstr "Sottotitolo"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 13
+#: po/rc.cpp:339 ui_prefAuthor.h:189 rc.cpp:339
+#, no-c-format
+msgid "Authoring options"
+msgstr ""
+"Opzioni authoring\n"
+"(Creazione menù)"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 26
+#: po/rc.cpp:345 ui_prefAuthor.h:193 rc.cpp:345
+#, no-c-format
+msgid "AC3"
+msgstr "AC3"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 31
+#: po/rc.cpp:348 ui_prefAuthor.h:194 rc.cpp:348
+#, no-c-format
+msgid "MP2"
+msgstr "MP2"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 40
+#: po/rc.cpp:351 ui_prefAuthor.h:198 rc.cpp:351
+#, no-c-format
+msgid "128"
+msgstr "128"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 45
+#: po/rc.cpp:354 ui_prefAuthor.h:199 rc.cpp:354
+#, no-c-format
+msgid "192"
+msgstr "192"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 50
+#: po/rc.cpp:357 ui_prefAuthor.h:200 rc.cpp:357
+#, no-c-format
+msgid "320"
+msgstr "320"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 58
+#: po/rc.cpp:360 ui_prefAuthor.h:202 rc.cpp:360
+#, no-c-format
+msgid "Format"
+msgstr "Formato"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 113
+#: po/rc.cpp:366 ui_prefAuthor.h:204 rc.cpp:366
+#, no-c-format
+msgid "Buttons"
+msgstr "Pulsanti"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 119
+#. i18n: file ./lib/main/prefMPEG4.ui line 111
+#. i18n: file ./lib/main/prefAuthor.ui line 119
+#. i18n: file ./lib/main/prefMPEG4.ui line 111
+#: po/rc.cpp:369 po/rc.cpp:494 ui_prefAuthor.h:205 ui_prefMPEG4.h:368
+#: rc.cpp:369 rc.cpp:494
+#, no-c-format
+msgid "Width"
+msgstr "Larghezza"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 145
+#. i18n: file ./lib/main/prefMPEG4.ui line 121
+#. i18n: file ./lib/main/prefAuthor.ui line 145
+#. i18n: file ./lib/main/prefMPEG4.ui line 121
+#: po/rc.cpp:372 po/rc.cpp:497 ui_prefAuthor.h:206 ui_prefMPEG4.h:369
+#: rc.cpp:372 rc.cpp:497
+#, no-c-format
+msgid "Height"
+msgstr "Altezza"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 182
+#: po/rc.cpp:378 ui_prefAuthor.h:208 rc.cpp:378
+#, no-c-format
+msgid "Hilite color"
+msgstr "Colore testo evidenziato"
+
+#. i18n: file ./lib/main/prefAuthor.ui line 199
+#: po/rc.cpp:381 ui_prefAuthor.h:210 rc.cpp:381
+#, no-c-format
+msgid "Text color"
+msgstr "Colore testo"
+
+#. i18n: file ./lib/main/prefDVD.ui line 13
+#: po/rc.cpp:384 ui_prefDVD.h:138 rc.cpp:384
+#, no-c-format
+msgid "prefDVD"
+msgstr "prefDVD"
+
+#. i18n: file ./lib/main/prefDVD.ui line 25
+#: po/rc.cpp:387 ui_prefDVD.h:139 rc.cpp:387
+#, no-c-format
+msgid "Output directory"
+msgstr "Cartella di lavoro"
+
+#. i18n: file ./lib/main/prefDVD.ui line 45
+#: po/rc.cpp:390 ui_prefDVD.h:140 rc.cpp:390
+#, no-c-format
+msgid "Burn with k3b"
+msgstr "Scrivi con k3b"
+
+#. i18n: file ./lib/main/prefDVD.ui line 48
+#. i18n: file ./lib/main/prefMPEG4.ui line 344
+#. i18n: file ./lib/main/prefDVD.ui line 48
+#. i18n: file ./lib/main/prefMPEG4.ui line 344
+#: po/rc.cpp:393 po/rc.cpp:524 ui_prefDVD.h:141 ui_prefMPEG4.h:381 rc.cpp:393
+#: rc.cpp:524
+#, no-c-format
+msgid "Alt+B"
+msgstr "Alt+B"
+
+#. i18n: file ./lib/main/prefDVD.ui line 61
+#: po/rc.cpp:396 ui_prefDVD.h:142 rc.cpp:396
+#, no-c-format
+msgid "Auto burn"
+msgstr "Masterizza al termine"
+
+#. i18n: file ./lib/main/prefDVD.ui line 64
+#: po/rc.cpp:399 ui_prefDVD.h:143 rc.cpp:399
+#, no-c-format
+msgid "Alt+T"
+msgstr "Alt+T"
+
+#. i18n: file ./lib/main/prefDVD.ui line 71
+#: po/rc.cpp:402 ui_prefDVD.h:144 rc.cpp:402
+#, no-c-format
+msgid "DVD size"
+msgstr "Dimensione DVD"
+
+#. i18n: file ./lib/main/prefDVD.ui line 106
+#: po/rc.cpp:405 ui_prefDVD.h:145 rc.cpp:405
+#, no-c-format
+msgid "Quick scan"
+msgstr "Scansione veloce"
+
+#. i18n: file ./lib/main/prefDVD.ui line 109
+#: po/rc.cpp:408 ui_prefDVD.h:146 rc.cpp:408
+#, no-c-format
+msgid "Alt+Q"
+msgstr "Alt+Q"
+
+#. i18n: file ./lib/main/prefDVD.ui line 132
+#: po/rc.cpp:411 ui_prefDVD.h:147 rc.cpp:411
+#, no-c-format
+msgid "use dvdAuthor for copy without menus"
+msgstr "usa dvdAuthor per copiare senza i menu"
+
+#. i18n: file ./lib/main/prefDVD.ui line 135
+#: po/rc.cpp:414 ui_prefDVD.h:148 rc.cpp:414
+#, no-c-format
+msgid "Alt+D"
+msgstr "Alt+D"
+
+#. i18n: file ./lib/main/prefDVD.ui line 142
+#: po/rc.cpp:417 ui_prefDVD.h:149 rc.cpp:417
+#, no-c-format
+msgid "Clear output directory on exit"
+msgstr "Svuota cartella di lavoro all'uscita"
+
+#. i18n: file ./lib/main/prefDVD.ui line 145
+#: po/rc.cpp:420 ui_prefDVD.h:150 rc.cpp:420
+#, no-c-format
+msgid "Alt+Y"
+msgstr "Alt+Y"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 13
+#. i18n: file ./lib/main/prefMPEG4.ui line 13
+#. i18n: file ./lib/main/prefpreview.ui line 13
+#. i18n: file ./lib/main/prefMencoder.ui line 13
+#. i18n: file ./lib/main/prefMPEG4.ui line 13
+#. i18n: file ./lib/main/prefpreview.ui line 13
+#: po/rc.cpp:423 po/rc.cpp:470 po/rc.cpp:557 ui_prefMencoder.h:407
+#: ui_prefMPEG4.h:357 ui_prefpreview.h:206 rc.cpp:423 rc.cpp:470 rc.cpp:557
+#, no-c-format
+msgid "Form1"
+msgstr "Form1"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 37
+#: po/rc.cpp:426 ui_prefMencoder.h:408 rc.cpp:426
+#, no-c-format
+msgid ""
+"$PASS\n"
+"$WIDTH\n"
+"$HEIGHT\n"
+"$VIDBR\n"
+"$AUDBR"
+msgstr ""
+"$PASS\n"
+"$WIDTH\n"
+"$HEIGHT\n"
+"$VIDBR\n"
+"$AUDBR"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 57
+#: po/rc.cpp:433 ui_prefMencoder.h:413 rc.cpp:433
+#, no-c-format
+msgid ""
+"pass number\n"
+"video width\n"
+"video height\n"
+"video bitrate\n"
+"audio bitrate"
+msgstr ""
+"numbero passaggi\n"
+"larghezza video\n"
+"altezza video\n"
+"bitrate video\n"
+"bitrate audio"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 70
+#: po/rc.cpp:440 ui_prefMencoder.h:428 rc.cpp:440
+#, no-c-format
+msgid "Video codecs"
+msgstr "Codec video"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 121
+#: po/rc.cpp:446 ui_prefMencoder.h:420 rc.cpp:446
+#, no-c-format
+msgid "fourcc"
+msgstr "fourcc"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 131
+#: po/rc.cpp:449 ui_prefMencoder.h:421 rc.cpp:449
+#, no-c-format
+msgid "first pass"
+msgstr "primo passaggio"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 233
+#: po/rc.cpp:452 ui_prefMencoder.h:424 rc.cpp:452
+#, no-c-format
+msgid "one pass"
+msgstr "un passaggio"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 301
+#: po/rc.cpp:455 ui_prefMencoder.h:427 rc.cpp:455
+#, no-c-format
+msgid "second pass"
+msgstr "secondo passaggio"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 322
+#: po/rc.cpp:458 ui_prefMencoder.h:432 rc.cpp:458
+#, no-c-format
+msgid "Audio codecs"
+msgstr "Codec audio"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 427
+#: po/rc.cpp:464 ui_prefMencoder.h:431 rc.cpp:464
+#, no-c-format
+msgid "options"
+msgstr "opzioni"
+
+#. i18n: file ./lib/main/prefMencoder.ui line 453
+#: po/rc.cpp:467 ui_prefMencoder.h:433 rc.cpp:467
+#, no-c-format
+msgid "Available variables"
+msgstr "Variabili disponibili"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 57
+#: po/rc.cpp:473 ui_prefMPEG4.h:382 rc.cpp:473
+#, no-c-format
+msgid "Video"
+msgstr "Video"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 63
+#: po/rc.cpp:476 ui_prefMPEG4.h:359 rc.cpp:476
+#, no-c-format
+msgid "2 pass"
+msgstr "2 passaggi"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 66
+#: po/rc.cpp:479 ui_prefMPEG4.h:360 rc.cpp:479
+#, no-c-format
+msgid "Alt+2"
+msgstr "Alt+2"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 73
+#. i18n: file ./lib/main/prefMPEG4.ui line 403
+#. i18n: file ./lib/main/prefMPEG4.ui line 73
+#. i18n: file ./lib/main/prefMPEG4.ui line 403
+#: po/rc.cpp:482 po/rc.cpp:530 ui_prefMPEG4.h:361 ui_prefMPEG4.h:383
+#: rc.cpp:482 rc.cpp:530
+#, no-c-format
+msgid "Codec"
+msgstr "Codec"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 93
+#: po/rc.cpp:485 ui_prefMPEG4.h:364 rc.cpp:485
+#, no-c-format
+msgid "XviD"
+msgstr "XviD"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 98
+#: po/rc.cpp:488 ui_prefMPEG4.h:365 rc.cpp:488
+#, no-c-format
+msgid "lavc MPEG4"
+msgstr "lavc MPEG4"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 103
+#: po/rc.cpp:491 ui_prefMPEG4.h:366 rc.cpp:491
+#, no-c-format
+msgid "x264"
+msgstr "x264"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 152
+#: po/rc.cpp:500 ui_prefMPEG4.h:371 rc.cpp:500
+#, no-c-format
+msgid "640"
+msgstr "640"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 168
+#: po/rc.cpp:503 ui_prefMPEG4.h:372 rc.cpp:503
+#, no-c-format
+msgid "&keep aspect ratio"
+msgstr "&mantieni le proporzioni"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 297
+#: po/rc.cpp:512 ui_prefMPEG4.h:377 rc.cpp:512
+#, no-c-format
+msgid "File size"
+msgstr "Dimensione file"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 300
+#: po/rc.cpp:515 ui_prefMPEG4.h:378 rc.cpp:515
+#, no-c-format
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 322
+#: po/rc.cpp:518 ui_prefMPEG4.h:379 rc.cpp:518
+#, no-c-format
+msgid " MB"
+msgstr "MB"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 420
+#: po/rc.cpp:533 ui_prefMPEG4.h:386 rc.cpp:533
+#, no-c-format
+msgid "mp3"
+msgstr "mp3"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 425
+#: po/rc.cpp:536 ui_prefMPEG4.h:387 rc.cpp:536
+#, no-c-format
+msgid "faac"
+msgstr "faac"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 430
+#: po/rc.cpp:539 ui_prefMPEG4.h:388 rc.cpp:539
+#, no-c-format
+msgid "mp2"
+msgstr "mp2"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 435
+#: po/rc.cpp:542 ui_prefMPEG4.h:389 rc.cpp:542
+#, no-c-format
+msgid "ac3"
+msgstr "ac3"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 440
+#: po/rc.cpp:545 ui_prefMPEG4.h:390 rc.cpp:545
+#, no-c-format
+msgid "adpcm ima"
+msgstr "adpcm ima"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 512
+#: po/rc.cpp:551 ui_prefMPEG4.h:394 rc.cpp:551
+#, no-c-format
+msgid "Gain"
+msgstr "Guadagno"
+
+#. i18n: file ./lib/main/prefMPEG4.ui line 542
+#: po/rc.cpp:554 ui_prefMPEG4.h:396 rc.cpp:554
+#, no-c-format
+msgid "use cell cache"
+msgstr "copia celle nel disco"
+
+#. i18n: file ./lib/main/prefpreview.ui line 34
+#: po/rc.cpp:560 ui_prefpreview.h:208 rc.cpp:560
+#, no-c-format
+msgid "&Internal Player"
+msgstr "Riproduttore &interno"
+
+#. i18n: file ./lib/main/prefpreview.ui line 37
+#: po/rc.cpp:563 ui_prefpreview.h:209 rc.cpp:563
+#, no-c-format
+msgid "Alt+I"
+msgstr "Alt+I"
+
+#. i18n: file ./lib/main/prefpreview.ui line 44
+#: po/rc.cpp:566 ui_prefpreview.h:210 rc.cpp:566
+#, no-c-format
+msgid "MPlayer"
+msgstr "MPlayer"
+
+#. i18n: file ./lib/main/prefpreview.ui line 47
+#: po/rc.cpp:569 ui_prefpreview.h:211 rc.cpp:569
+#, no-c-format
+msgid "Alt+M"
+msgstr "Alt+M"
+
+#. i18n: file ./lib/main/prefpreview.ui line 109
+#: po/rc.cpp:572 ui_prefpreview.h:212 rc.cpp:572
+#, no-c-format
+msgid "Internal viewer options"
+msgstr "Opzioni visualizzatore interno"
+
+#. i18n: file ./lib/main/prefpreview.ui line 119
+#: po/rc.cpp:575 ui_prefpreview.h:213 rc.cpp:575
+#, no-c-format
+msgid "use OpenGL"
+msgstr "usa OpenGL"
+
+#. i18n: file ./lib/main/prefpreview.ui line 154
+#: po/rc.cpp:578 ui_prefpreview.h:214 rc.cpp:578
+#, no-c-format
+msgid "Video output"
+msgstr "Uscita video"
+
+#. i18n: file ./lib/main/prefpreview.ui line 170
+#: po/rc.cpp:581 ui_prefpreview.h:215 rc.cpp:581
+#, no-c-format
+msgid "Audio output"
+msgstr "Uscita audio"
+
+#. i18n: file ./lib/main/prefpreview.ui line 181
+#: po/rc.cpp:584 ui_prefpreview.h:218 rc.cpp:584
+#, no-c-format
+msgid "X11"
+msgstr "X11"
+
+#. i18n: file ./lib/main/prefpreview.ui line 186
+#: po/rc.cpp:587 ui_prefpreview.h:219 rc.cpp:587
+#, no-c-format
+msgid "Xv"
+msgstr "XvX"
+
+#. i18n: file ./lib/main/prefpreview.ui line 191
+#: po/rc.cpp:590 ui_prefpreview.h:220 rc.cpp:590
+#, no-c-format
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#. i18n: file ./lib/main/prefpreview.ui line 196
+#. i18n: file ./lib/main/prefpreview.ui line 221
+#. i18n: file ./lib/main/prefpreview.ui line 196
+#. i18n: file ./lib/main/prefpreview.ui line 221
+#: po/rc.cpp:593 po/rc.cpp:602 ui_prefpreview.h:221 ui_prefpreview.h:227
+#: rc.cpp:593 rc.cpp:602
+#, no-c-format
+msgid "SDL"
+msgstr "SDL"
+
+#. i18n: file ./lib/main/prefpreview.ui line 211
+#: po/rc.cpp:596 ui_prefpreview.h:225 rc.cpp:596
+#, no-c-format
+msgid "ALSA"
+msgstr "ALSA"
+
+#. i18n: file ./lib/main/prefpreview.ui line 216
+#: po/rc.cpp:599 ui_prefpreview.h:226 rc.cpp:599
+#, no-c-format
+msgid "OSS"
+msgstr "OSS"
+
+#. i18n: file ./lib/main/prefpreview.ui line 267
+#: po/rc.cpp:605 ui_prefpreview.h:229 rc.cpp:605
+#, no-c-format
+msgid "MPlayer options"
+msgstr "Opzioni di MPlayer"
+
+#. i18n: file ./lib/main/titlefactor.ui line 13
+#: po/rc.cpp:608 ui_titlefactor.h:116 rc.cpp:608
+#, no-c-format
+msgid "Shrink Factors"
+msgstr "Fattori di riduzione"
+
+#. i18n: file ./lib/main/titlefactor.ui line 40
+#: po/rc.cpp:611 ui_titlefactor.h:117 rc.cpp:611
+#, no-c-format
+msgid "Shrink Factor for Title %1"
+msgstr "Fattore di riduzione per il Titolo %1"
+
+#. i18n: file ./lib/main/titlefactor.ui line 56
+#: po/rc.cpp:614 ui_titlefactor.h:118 rc.cpp:614
+#, no-c-format
+msgid "Change Factor"
+msgstr "Cambia fattore"
+
+#. i18n: file ./lib/main/titlefactor.ui line 92
+#: po/rc.cpp:617 ui_titlefactor.h:119 rc.cpp:617
+#, no-c-format
+msgid "0.00"
+msgstr "0.00"
+
+#. i18n: file ./lib/main/viewmpeg2.ui line 31
+#: po/rc.cpp:620 ui_viewmpeg2.h:133 rc.cpp:620
+#, no-c-format
+msgid "Title Preview"
+msgstr "Anteprima Titolo"
+
+#. i18n: file ./lib/mplayer/mplayer.ui line 54
+#: po/rc.cpp:629 ui_mplayer.h:244 rc.cpp:629
+#, no-c-format
+msgid "Subpicture"
+msgstr "fotogramma"
+
+#. i18n: file ./lib/mplayer/mplayer.ui line 271
+#: po/rc.cpp:632 ui_mplayer.h:249 rc.cpp:632
+#, no-c-format
+msgid "-"
+msgstr "-"
+
+#. i18n: file ./lib/mplayer/mplayer.ui line 391
+#: po/rc.cpp:635 ui_mplayer.h:251 rc.cpp:635
+#, no-c-format
+msgid "+"
+msgstr "+"
+
+#. i18n: file ./prefs_base.ui line 16
+#: po/rc.cpp:638 rc.cpp:638
+#, no-c-format
+msgid "Background color:"
+msgstr "Colore di sfondo:"
+
+#. i18n: file ./prefs_base.ui line 26
+#: po/rc.cpp:641 rc.cpp:641
+#, no-c-format
+msgid "Choose a new background color"
+msgstr "Scegli un nuovo colore di sfondo"
+
+#. i18n: file ./prefs_base.ui line 32
+#: po/rc.cpp:644 rc.cpp:644
+#, no-c-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style=\" "
+"font-weight:600;\">background</span> color by clicking here and choose the "
+"new <span style=\" color:#ff0000;\">color</span> in the <span style=\" font-"
+"style:italic;\">color dialog</span>.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Cambia il colore di <span style=\" "
+"font-weight:600;\">sfondo</span> cliccando qui e scegliendo il nuovo <span style=\" color:#ff0000;\">colore</span> nella finestra di dialogo <span style=\" font-"
+"style:italic;\">colore</span>.</p></body></html>"
+
+#. i18n: file ./prefs_base.ui line 42
+#: po/rc.cpp:650 rc.cpp:650
+#, no-c-format
+msgid "Project age:"
+msgstr "Età progetto:"
+
+#. i18n: file ./prefs_base.ui line 52
+#: po/rc.cpp:653 rc.cpp:653
+#, no-c-format
+msgid "Foreground color:"
+msgstr "Colore di primo piano:"
+
+#. i18n: file ./prefs_base.ui line 62
+#: po/rc.cpp:656 rc.cpp:656
+#, no-c-format
+msgid "Choose a new foreground color"
+msgstr "Scegli un nuovo colore di primo piano"
+
+#. i18n: file ./prefs_base.ui line 68
+#: po/rc.cpp:659 rc.cpp:659
+#, no-c-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style=\" "
+"font-weight:600;\">foreground</span> color by clicking here and choose the "
+"new <span style=\" color:#ff0000;\">color</span> in the <span style=\" font-"
+"style:italic;\">color dialog</span>.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Cambia il colore di <span style=\" "
+"font-weight:600;\">primo piano</span> cliccando qui e scegliendo il nuovo <span style=\" color:#ff0000;\">colore</span> nella finestra di dialogo <span style=\" font-"
+"style:italic;\">colore</span>.</p></body></html>"
+
+#. i18n: file ./prefs_base.ui line 110
+#: po/rc.cpp:665 rc.cpp:665
+#, no-c-format
+msgid "Set the project age (in days)"
+msgstr "Imposta l'età del progetto (in giorni)"
+
+#. i18n: file ./prefs_base.ui line 113
+#: po/rc.cpp:668 rc.cpp:668
+#, no-c-format
+msgid "Change the project age (in days) by choosing a new number of days."
+msgstr "Cambia l'età del progetto (in giorni) scegliendo il numero di giorni."
+
+#: po/rc.cpp:669 rc.cpp:669
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Leonardo Finetti"
+
+#: po/rc.cpp:670 rc.cpp:670
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "finex@finex.org"
+

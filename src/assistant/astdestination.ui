@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>astDestination</class>
+ <widget class="QWidget" name="astDestination">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>495</width>
+    <height>319</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="gbDestination">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0" colspan="2">
+       <widget class="QRadioButton" name="rbDVD">
+        <property name="text">
+         <string>DVD Backup</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QGroupBox" name="gbDVD">
+        <property name="styleSheet">
+         <string> QGroupBox { border: none }</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QRadioButton" name="rbDVDDisc">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>to Disc</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="autoRepeat">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="cbDrives"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QRadioButton" name="rbDVDFolder">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>to Folder</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="KUrlRequester" name="urFolder"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QRadioButton" name="rbDVDIso">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>to Iso image</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="KUrlRequester" name="urIso"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="rbAvi">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Rip and encode DVD</string>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="KUrlRequester" name="urAvi"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="rbMpeg">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Rip DVD without encoding</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="KUrlRequester" name="urMpeg"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QRadioButton" name="rbAudio">
+        <property name="text">
+         <string>Extract audio</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="KUrlRequester" name="urAudio"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KUrlRequester</class>
+   <extends>QFrame</extends>
+   <header>kurlrequester.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>rbDVD</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>astDestination</receiver>
+   <slot>rbDVDToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>239</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>246</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbMpeg</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>astDestination</receiver>
+   <slot>rbMpegToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>99</x>
+     <y>201</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>246</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbAvi</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>astDestination</receiver>
+   <slot>rbAviToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>99</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>246</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbDVDDisc</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>astDestination</receiver>
+   <slot>rbDVDDiscToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>246</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbDVDFolder</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>astDestination</receiver>
+   <slot>rbDVDFolderToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>246</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbDVDIso</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>astDestination</receiver>
+   <slot>rbDVDIsoToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>246</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbAudio</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>astDestination</receiver>
+   <slot>rbAudioToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>92</x>
+     <y>198</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>162</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>rbDVDToggled(bool)</slot>
+  <slot>rbMpegToggled(bool)</slot>
+  <slot>rbAviToggled(bool)</slot>
+  <slot>rbDVDDiscToggled(bool)</slot>
+  <slot>rbDVDFolderToggled(bool)</slot>
+  <slot>rbDVDIsoToggled(bool)</slot>
+  <slot>rbAudioToggled(bool)</slot>
+ </slots>
+</ui>

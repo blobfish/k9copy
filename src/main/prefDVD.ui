@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>prefDVD</class>
+ <widget class="QWidget" name="prefDVD">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>752</width>
+    <height>474</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>prefDVD</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_5">
+   <item row="0" column="0" rowspan="2">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Output</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="lblworkDir">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Output directory</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="KUrlRequester" name="urOutput">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QCheckBox" name="ckDelTmpFiles">
+        <property name="text">
+         <string>Clear output directory on exit</string>
+        </property>
+        <property name="shortcut">
+         <string>Alt+Y</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="textLabel1_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>DVD size</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QSpinBox" name="sbSize">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximum">
+         <number>9000</number>
+        </property>
+        <property name="singleStep">
+         <number>100</number>
+        </property>
+        <property name="value">
+         <number>4400</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QCheckBox" name="ckDvdAuthor">
+        <property name="text">
+         <string>use dvdAuthor for copy without menus</string>
+        </property>
+        <property name="shortcut">
+         <string>Alt+D</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <widget class="QCheckBox" name="ckMpegChapter">
+        <property name="text">
+         <string>one file/chapter (MPEG extraction)</string>
+        </property>
+        <property name="shortcut">
+         <string>Alt+D</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0" colspan="2">
+       <widget class="QCheckBox" name="ckUserOps">
+        <property name="text">
+         <string>Enable prohibited user operations</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Burning</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="ckK3b">
+        <property name="text">
+         <string>Burn with k3b</string>
+        </property>
+        <property name="shortcut">
+         <string>Alt+B</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="ckAutoBurn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Auto burn</string>
+        </property>
+        <property name="shortcut">
+         <string>Alt+T</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QGroupBox" name="gbPerformances">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Performances</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0" colspan="2">
+       <widget class="QCheckBox" name="ckQuickScan">
+        <property name="text">
+         <string>Quick scan</string>
+        </property>
+        <property name="shortcut">
+         <string>Alt+Q</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>DVD read ahead</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="cbReadAhead">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <item>
+         <property name="text">
+          <string>default</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>skip bad sectors (slow)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>skip bad sectors (faster)</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>this option can improve reading of DVD having bad sectors.
+It will require root privileges when opening the DVD.</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Prefered languages</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Audio</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Subtitles</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" rowspan="2">
+       <widget class="QListWidget" name="lwAudioLang">
+        <property name="dragEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="dragDropOverwriteMode">
+         <bool>true</bool>
+        </property>
+        <property name="dragDropMode">
+         <enum>QAbstractItemView::InternalMove</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4" rowspan="2">
+       <widget class="QListWidget" name="lwSubtitlesLang">
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="dragEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="dragDropMode">
+         <enum>QAbstractItemView::InternalMove</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>KUrlRequester</class>
+   <extends>QFrame</extends>
+   <header>kurlrequester.h</header>
+  </customwidget>
+ </customwidgets>
+ <includes>
+  <include location="local">kurlrequester.h</include>
+ </includes>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>lwAudioLang</sender>
+   <signal>itemChanged(QListWidgetItem*)</signal>
+   <receiver>prefDVD</receiver>
+   <slot>lwAudioLangChanged(QListWidgetItem*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>125</x>
+     <y>298</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>143</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lwSubtitlesLang</sender>
+   <signal>itemChanged(QListWidgetItem*)</signal>
+   <receiver>prefDVD</receiver>
+   <slot>lwSubtitleLangChanged(QListWidgetItem*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>576</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>565</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>lwAudioLangChanged(QListWidgetItem*)</slot>
+  <slot>lwSubtitleLangChanged(QListWidgetItem*)</slot>
+ </slots>
+</ui>

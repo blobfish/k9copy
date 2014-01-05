@@ -1,0 +1,181 @@
+<!DOCTYPE UI><ui version="4.0" >
+ <class>titleFactor</class>
+ <widget class="QWidget" name="titleFactor" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>551</width>
+    <height>164</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Shrink Factors</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset/>
+  </property>
+  <layout class="QGridLayout" >
+   <item row="0" column="0" >
+    <widget class="QLabel" name="lbTitle" >
+     <property name="font" >
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text" >
+      <string>Shrink Factor for Title %1</string>
+     </property>
+     <property name="wordWrap" >
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <widget class="QGroupBox" name="gbTitle" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title" >
+      <string>Change Factor</string>
+     </property>
+     <property name="alignment" >
+      <set>Qt::AlignVCenter</set>
+     </property>
+     <property name="flat" >
+      <bool>false</bool>
+     </property>
+     <property name="checkable" >
+      <bool>true</bool>
+     </property>
+     <property name="checked" >
+      <bool>false</bool>
+     </property>
+     <layout class="QGridLayout" >
+      <item row="0" column="0" >
+       <widget class="QSlider" name="slFactor" >
+        <property name="minimum" >
+         <number>100</number>
+        </property>
+        <property name="maximum" >
+         <number>250</number>
+        </property>
+        <property name="orientation" >
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="tickInterval" >
+         <number>10</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" >
+       <widget class="QLabel" name="tFactor" >
+        <property name="text" >
+         <string>0.00</string>
+        </property>
+        <property name="wordWrap" >
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="lTargetSize" >
+        <property name="text" >
+         <string>size : %1 MB</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType" >
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" >
+      <size>
+       <width>541</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections>
+  <connection>
+   <sender>slFactor</sender>
+   <signal>sliderPressed()</signal>
+   <receiver>titleFactor</receiver>
+   <slot>slFactorPressed()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slFactor</sender>
+   <signal>sliderReleased()</signal>
+   <receiver>titleFactor</receiver>
+   <slot>slFactorReleased()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slFactor</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>titleFactor</receiver>
+   <slot>slFactor_valueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>gbTitle</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>titleFactor</receiver>
+   <slot>ckAutoClicked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

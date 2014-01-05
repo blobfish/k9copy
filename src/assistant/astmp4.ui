@@ -1,0 +1,62 @@
+<ui version="4.0" >
+ <class>astMp4</class>
+ <widget class="QWidget" name="astMp4" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" >
+   <item row="0" column="0" >
+    <widget class="QLabel" name="label" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text" >
+      <string>Encoding options for title </string>
+     </property>
+     <property name="buddy" >
+      <cstring>cbTitle</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" >
+    <widget class="QComboBox" name="cbTitle" />
+   </item>
+   <item row="1" column="0" colspan="2" >
+    <widget class="QWidget" native="1" name="options" />
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cbTitle</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>astMp4</receiver>
+   <slot>cbTitleChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>270</x>
+     <y>8</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>402</x>
+     <y>38</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>cbTitleChanged(int)</slot>
+ </slots>
+</ui>

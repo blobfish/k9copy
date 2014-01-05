@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>prefPreview</class>
+ <widget class="QWidget" name="prefPreview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>532</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form1</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="rbInternal">
+        <property name="text">
+         <string>&amp;Internal Player</string>
+        </property>
+        <property name="shortcut">
+         <string>Alt+I</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="rbMplayer">
+        <property name="text">
+         <string>MPlayer</string>
+        </property>
+        <property name="shortcut">
+         <string>Alt+M</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="rbPhonon">
+        <property name="text">
+         <string>Phonon</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QRadioButton" name="rbXine">
+        <property name="text">
+         <string>Xine Player</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <spacer>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>230</width>
+       <height>21</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <widget class="QStackedWidget" name="wsOptions">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <property name="midLineWidth">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="wspInternal">
+      <layout class="QGridLayout">
+       <item row="0" column="0">
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>21</width>
+           <height>30</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="wspMplayer">
+      <layout class="QGridLayout">
+       <item row="1" column="0">
+        <widget class="QLabel" name="textLabel3">
+         <property name="text">
+          <string>Video output</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="textLabel4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Audio output</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="cbVout">
+         <item>
+          <property name="text">
+           <string>X11</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Xv</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OpenGL</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SDL</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="cbAout">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <item>
+          <property name="text">
+           <string>ALSA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OSS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SDL</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>81</width>
+           <height>21</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="1">
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>21</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0" colspan="3">
+        <widget class="QLabel" name="textLabel2">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>MPlayer options</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="wspXine">
+      <layout class="QGridLayout">
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Xine player options</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="textLabel3_2">
+         <property name="text">
+          <string>Video output</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="cbXVout">
+         <item>
+          <property name="text">
+           <string>X11</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Xv</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OpenGL</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SDL</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>81</width>
+           <height>21</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="textLabel4_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Audio output</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="cbXAout">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <item>
+          <property name="text">
+           <string>ALSA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OSS</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>21</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="wspInternal"/>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <spacer>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>246</width>
+       <height>101</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>rbInternal</sender>
+   <signal>clicked()</signal>
+   <receiver>prefPreview</receiver>
+   <slot>rbInternalClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>143</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbMplayer</sender>
+   <signal>clicked()</signal>
+   <receiver>prefPreview</receiver>
+   <slot>rbMplayerClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>143</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbPhonon</sender>
+   <signal>clicked()</signal>
+   <receiver>prefPreview</receiver>
+   <slot>rbPhononClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>143</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbXine</sender>
+   <signal>clicked()</signal>
+   <receiver>prefPreview</receiver>
+   <slot>rbXineClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>143</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>rbInternalClick()</slot>
+  <slot>rbPhononClick()</slot>
+  <slot>rbMplayerClick()</slot>
+  <slot>rbXineClick()</slot>
+ </slots>
+</ui>

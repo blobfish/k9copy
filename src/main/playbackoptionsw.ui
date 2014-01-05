@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlaybackOptionsw</class>
+ <widget class="QWidget" name="PlaybackOptionsw">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>324</width>
+    <height>487</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DVD playback options</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff/>
+   </iconset>
+  </property>
+  <layout class="QGridLayout">
+   <property name="margin">
+    <number>2</number>
+   </property>
+   <item row="1" column="0">
+    <widget class="QCheckBox" name="ckMenu">
+     <property name="text">
+      <string>&amp;Keep original menus</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+K</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frPlayback">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QGridLayout">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>2</number>
+      </property>
+      <item row="1" column="0" rowspan="2">
+       <widget class="QListWidget" name="lbSequence">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="dragDropMode">
+         <enum>QAbstractItemView::InternalMove</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="textLabel4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Selected Titles</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QFrame" name="frame4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>211</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <layout class="QGridLayout">
+         <property name="margin">
+          <number>0</number>
+         </property>
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="0" colspan="3">
+          <widget class="QLabel" name="textLabel1">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Default language</string>
+           </property>
+           <property name="wordWrap">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QComboBox" name="cbDefSub">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="textLabel3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Subtitle</string>
+           </property>
+           <property name="wordWrap">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QComboBox" name="cbDefAudio">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="textLabel2_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Audio</string>
+           </property>
+           <property name="wordWrap">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" rowspan="2">
+          <spacer>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>16</width>
+             <height>21</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="textLabelBytes">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>ckMenu</sender>
+   <signal>clicked()</signal>
+   <receiver>PlaybackOptionsw</receiver>
+   <slot>ckMenuClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbDefAudio</sender>
+   <signal>activated(int)</signal>
+   <receiver>PlaybackOptionsw</receiver>
+   <slot>cbDefAudioActivated(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbDefSub</sender>
+   <signal>activated(int)</signal>
+   <receiver>PlaybackOptionsw</receiver>
+   <slot>cbDefSubActivated(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lbSequence</sender>
+   <signal>currentItemChanged(QListWidgetItem*,QListWidgetItem*)</signal>
+   <receiver>PlaybackOptionsw</receiver>
+   <slot>lbSequenceChanged(QListWidgetItem*,QListWidgetItem*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
