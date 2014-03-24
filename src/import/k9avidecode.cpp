@@ -249,16 +249,17 @@ void k9AviDecode::readFrame(double _seconds) {
                                  packet.data, packet.size);
 
             // Did we get a video frame?
+            // example: http://blog.tomaka17.com/2012/03/libavcodeclibavformat-tutorial/
             if (frameFinished) {
 //            if (m_Frame->pts >=fspos)
 		int64_t cur_dts=fspos;
-		if (m_FormatCtx->cur_st)
-		    cur_dts=	m_FormatCtx->cur_st->cur_dts;
+                if (m_videoStream >= 0 && m_videoStream < static_cast<int>(m_FormatCtx->nb_streams)) //cast for compile warning.
+                  cur_dts = m_FormatCtx->streams[m_videoStream]->cur_dts;
                 if (cur_dts >=fspos) {
                     bFound=true;
 #ifndef HAVE_SWSCALE
                   // Convert the image from its native format to RGB
-                    img_convert((AVPicture *)m_FrameRGB, PIX_FMT_RGB24,
+                    img_convert((AVPicture *)m_FrameRGB, AV_PIX_FMT_RGB24,
                                 (AVPicture*)m_Frame, m_CodecCtx->pix_fmt,
                                 m_CodecCtx->width, m_CodecCtx->height);
                     SaveFrame(m_FrameRGB, m_CodecCtx->width,

@@ -29,7 +29,7 @@
 //typedef dvd_file_t * (*DVDOpenFile_t) ( dvd_reader_t *, int, dvd_read_domain_t );
 typedef void (*av_register_all_t) (void);
 typedef int64_t (*av_gettime_t) (void);
-typedef int (*av_open_input_file_t)(AVFormatContext **, const char *,AVInputFormat *,int, AVFormatParameters *);
+typedef int (*av_open_input_file_t)(AVFormatContext **, const char *,AVInputFormat *,int, AVDictionary *);
 typedef int (*av_find_stream_info_t)(AVFormatContext *);
 typedef AVCodec* (*avcodec_find_decoder_t)(enum CodecID);
 typedef int (*avcodec_open_t)(AVCodecContext *, AVCodec *);
